@@ -1,0 +1,33 @@
+
+### callers of PredictNextSkillByInputDir (0x1bb2560) : 6
+   0x00beec76 <- GamePlay_PlayerSkillChain_Wrap::M_PredictNextSkillByInputDir (+0x406)
+   0x00beeea1 <- GamePlay_PlayerSkillChain_Wrap::M_PredictNextSkillByInputDir (+0x631)
+   0x00bef02c <- GamePlay_PlayerSkillChain_Wrap::M_PredictNextSkillByInputDir (+0x7bc)
+   0x01cdb1ad <- VirtualButtonInherit::UpdateStatus (+0x8d)
+   0x01cdc732 <- VirtualButtonOmni::UpdateStatus (+0x3c2)
+   0x01cdd29c <- VirtualButtonOverload::UpdateStatus (+0x7c)
+
+### callers of FindAndStartSkillFromMidByOrder (0x1bb1ac0) : 2
+   0x00bee09c <- GamePlay_PlayerSkillChain_Wrap::M_FindAndStartSkillFromMidByOrder (+0xcc)
+   0x01734553 <- ActorJs_hz_HangAnimController.AnmAndTime::<initSpecFuncMap>b__12_4 (+0x1b3)
+
+### callers of predictNextSkill (0x1bb4000) : 5
+   0x01bb0f3d <- PlayerSkillChain::ClearCurSkill (+0x7d)
+   0x01bb15aa <- PlayerSkillChain::DoUpdate (+0x34a)
+   0x01bb250e <- PlayerSkillChain::Init (+0x32e)
+   0x01bb276c <- PlayerSkillChain::Reset (+0xdc)
+   0x01bb431a <- PlayerSkillChain::startSkill (+0x24a)
+
+### callers of RemoveInputCmdBlock (0x1b9a110) : 12
+   0x00bc3199 <- GamePlay_PlayerInput_Wrap::M_RemoveInputCmdBlock (+0x1c9)
+   0x01b9a037 <- PlayerInput::RemoveAllInputCmdBlock (+0x97)
+   0x01b9a049 <- PlayerInput::RemoveAllInputCmdBlock (+0xa9)
+   0x01b9a05b <- PlayerInput::RemoveAllInputCmdBlock (+0xbb)
+   0x01b9a06d <- PlayerInput::RemoveAllInputCmdBlock (+0xcd)
+   0x01b9a07f <- PlayerInput::RemoveAllInputCmdBlock (+0xdf)
+   0x01b9a091 <- PlayerInput::RemoveAllInputCmdBlock (+0xf1)
+   0x01b9a0a4 <- PlayerInput::RemoveAllInputCmdBlock (+0x104)
+   0x01b9a0b6 <- PlayerInput::RemoveAllInputCmdBlock (+0x116)
+   0x01b9a0c8 <- PlayerInput::RemoveAllInputCmdBlock (+0x128)
+   0x01b9a0da <- PlayerInput::RemoveAllInputCmdBlock (+0x13a)
+   0x01b9a0ec <- PlayerInput::RemoveAllInputCmdBlock (+0x14c)

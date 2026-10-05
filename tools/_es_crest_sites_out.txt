@@ -1,0 +1,94 @@
+es ActionLogicGroup raw = 1042540 bytes
+
+=== CreateBullet 指令 (26) ===
+  @39658    bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @47562    bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @55466    bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @60226    bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @63414    bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @66198    bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @84206    bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @134006   bullet_id:10340101,bullet_action:"DAA",pos_x:1.2,pos_y:1.5,dir_x:1,dir_y:0,bullet_action_new:"DAA2"
+  @173390   bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"
+  @241566   bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @245230   bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @248930   bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @251302   bullet_id:800002,bullet_action:"leibao",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @321694   bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"
+  @423198   bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @431614   bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @440166   bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @448244   bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1
+  @453312   bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1
+  @492254   bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"
+  @505038   bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"
+  @528490   bullet_id:10340101,bullet_action:"aup",pos_x:1,pos_y:1.6,dir_x:1,dir_y:0,bullet_action_new:"aup2"
+  @534510   bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"
+  @535986   bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"
+  @540878   bullet_id:10340101,bullet_action:"x3",pos_x:0.5,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x32"
+  @551702   bullet_id:10340101,bullet_action:"xup",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"xup2",tag:"es_rush"
+
+=== bullet_id 统计 ===
+  10340101: 25
+  800002: 1
+
+=== bullet_action 统计 ===
+  dashAir: 4
+  dash: 3
+  fallmdownend: 3
+  dashSkill: 3
+  attackAir: 2
+  AD_hit: 2
+  a3: 2
+  x1: 2
+  DAA: 1
+  leibao: 1
+  aup: 1
+  x3: 1
+  xup: 1
+
+=== 资源路径 Role/Es/*.ab 出现次数 (前 80) ===
+   724  Role/Es/es_stand_01
+    23  Role/Es/es_attack1_01
+    18  Role/Es/es_dodge_02
+    18  Role/Es/es_dodge_01
+    12  Role/Es/es_dashAtk22_03
+    10  Role/Es/es_dash_01
+     8  Role/Es/es_fallmdownend_01
+     7  Role/Es/es_dash_02
+     7  Role/Es/es_AH_02
+     6  Role/Es/es_holdatk1_01
+     4  Role/Es/es_atkhold_21_001
+     4  Role/Es/es_attackhlod_01
+     4  Role/Es/es_attackhlod_02
+     3  Role/Es/es_dashAtk22_01
+     3  Role/Es/es_dashAtk22_02
+     3  Role/Es/es_fallend_01
+     3  Role/Es/es_attackhlod_hit_01
+     3  Role/Es/es_attackhlod_hit_03
+     2  Role/Es/es_holdatk3_01
+     2  Role/Es/es_attack2_01
+     2  Role/Es/es_holdatk_Air_001
+     2  Role/Es/es_stand_02
+     2  Role/Es/es_attackhlod_hit_04
+     2  Role/Es/es_attackhlod_hit_02
+     2  Role/Es/es_energy_01
+     1  Role/Es/es_AirdashAtk21_002
+     1  Role/Es/es_AirdashAtk21_001
+     1  Role/Es/es_fallend_02
+     1  Role/Es/es_fallend_03
+     1  Role/Es/es_fall_01a
+     1  Role/Es/es_fall_02a
+     1  Role/Es/es_fall_03a
+     1  Role/Es/es_fall_04
+     1  Role/Es/es_atkAir12_001
+     1  Role/Es/es_atkAir12_003
+     1  Role/Es/es_atkAir12_002
+     1  Role/Es/es_atkAir12_004
+     1  Role/Es/es_holdatk_Air_003
+     1  Role/Es/es_holdatk_Air_004
+     1  Role/Es/es_holdatk_Air_002
+     1  Role/Es/es_atkhold_21_002
+     1  Role/Es/es_atkhold_21_004
+     1  Role/Es/es_holdRelease_01
+     1  Role/Es/es_standby_001

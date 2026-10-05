@@ -1,0 +1,54 @@
+标识符 6506, 生成点 26
+
+@39658    动作块≈dash3 < dash < sfx_es_dash < CreateBulletX
+          bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+@47562    动作块≈dash3 < dashAir3 < sfx_es_dash < CreateBulletX
+          bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+@55466    动作块≈dash3 < dash < sfx_es_dash < CreateBulletX
+          bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+@60226    动作块≈dashAirAtk0 < vo_es_dash < sfx_es_dash < CreateBulletX
+          bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+@63414    动作块≈dashAirAtk0 < vo_es_dash < sfx_es_dash < CreateBulletX
+          bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+@66198    动作块≈dashAirAtk0 < vo_es_dash < sfx_es_dash < CreateBulletX
+          bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+@84206    动作块≈dashAir2 < push_back < sfx_es_dash < CreateBulletX
+          bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+@134006   动作块≈dashAAhit < sfx_es_attack_hit < sfx_es_attack2 < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"DAA",pos_x:1.2,pos_y:1.5,dir_x:1,dir_y:0,bullet_action_new:"DAA2"
+@173390   动作块≈es_fall < sfx_es_attack_hit < sfx_es_fallm < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"
+@241566   动作块≈es_fall < sfx_es_attack_hit < sfx_es_falldown_end < vo_es_fallmdownend
+          bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+@245230   动作块≈es_fall < sfx_es_attack_hit < sfx_es_falldown_end < vo_es_fallmdownend
+          bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+@248930   动作块≈es_fall < sfx_es_attack_hit < sfx_es_falldown_end < vo_es_fallmdownend
+          bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+@251302   动作块≈jump < push_back < ExtraHitTargetByBox < CreateBulletU
+          bullet_id:800002,bullet_action:"leibao",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+@321694   动作块≈atkAirX < sfx_es_attack_hit < vo_es_atkAirX < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"
+@423198   动作块≈ChangeSkill < behit_middle < sfx_es_attack_hit < sfx_es_dash
+          bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+@431614   动作块≈ChangeSkill < behit_middle < sfx_es_attack_hit < sfx_es_dash
+          bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+@440166   动作块≈rush < behit_middle < sfx_es_attack_hit < sfx_es_dash
+          bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+@448244   动作块≈ChangeSkill < push_back < Splash < CreateBulletm
+          bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1
+@453312   动作块≈atkhold_2A_end < push_back < Splash < CreateBulletm
+          bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1
+@492254   动作块≈sfx_es_attack_hit < sfx_es_attack3 < vo_es_attack1 < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"
+@505038   动作块≈sfx_es_attack_hit < sfx_es_attack3 < vo_es_attack1 < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"
+@528490   动作块≈sfx_es_atkAir3 < vo_es_attackup < sfx_es_jump < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"aup",pos_x:1,pos_y:1.6,dir_x:1,dir_y:0,bullet_action_new:"aup2"
+@534510   动作块≈dead < vo_es_hold < ChangeSkill < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"
+@535986   动作块≈dead < vo_es_hold < ChangeSkill < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"
+@540878   动作块≈sfx_es_attack_hit < sfx_es_dash < vo_es_rush < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"x3",pos_x:0.5,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x32"
+@551702   动作块≈sfx_es_attack_hit < sfx_es_bullet_rush_x32 < sfx_es_jump < CreateBulletIfTriggerChange
+          bullet_id:10340101,bullet_action:"xup",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"xup2",tag:"es_rush"

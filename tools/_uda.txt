@@ -1,0 +1,52 @@
+
+########## UDA0 @55231 ##########
+  @333 | sfx_es_attack_hit | sfx_es_bullet_A1 | ChangeAction | action:"A1EX",trigger:56061 | 3003 | esbullet | UDA0 | dead | Hit/hit_019 | sfx_es_attack_hit | 3003 | esbullet | UDAA | dead | @333 | @333 | @333 | push_back | 3027_noboss | @333 | 3333 | es_UltraD | @333 | Hit/hit_106 | sfx_es_attack_hit | 3003 | 3006 | esbullet | UDA | dead | Role/Es/es_AH_0
+
+########## UDA @57443 ##########
+  @333 | Hit/hit_106 | sfx_es_attack_hit | 3003 | 3006 | esbullet | UDA | dead | Role/Es/es_AH_01 | ff& | @333 | @333 | @333 | push_back | 3027_noboss | @333 | 3333 | es_UltraD | @333 | ff& | @333 | @333 | @333 | push_back | 3333 | es_UltraD | @333 | Hit/hit_106 | sfx_es_attack_hit | sfx_es_bullet_UD | sfx_es_bullet_C1 | 3003 | 3006 | esbullet | dead | Role/Es/es_AH_01
+
+=== esbullet 里所有 Role/Es/* ===
+   Role/Es/es_fall_01a
+   Role/Es/es_fallmdownend_02
+   Role/Es/es_holdFull_01
+   Role/Es/es_attackAir_03
+   Role/Es/es_attackAir_01
+   Role/Es/es_attackAir_03a
+   Role/Es/es_attackAir_01a
+   Role/Es/es_attackAir_02a
+   Role/Es/es_attackAir_02
+   Role/Es/es_dashAtk1_02
+   Role/Es/es_dashAtk1_01
+   Role/Es/es_esbullet_dashA_001
+   Role/Es/es_esbullet_dashA_002
+   Role/Es/es_holdatk3_02a
+   Role/Es/es_holdatk3_02
+   Role/Es/es_holdatk1_02a
+   Role/Es/es_holdatk1_02
+   Role/Es/es_AH_01
+   Role/Es/es_AH_03
+   Role/Es/es_attackup_02
+   Role/Es/es_attackup_01
+   Role/Es/es_atkhold_21_006
+   Role/Es/es_attack3_02
+   Role/Es/es_atkhold_21_005
+   Role/Es/es_atkhold_21_003
+   Role/Es/es_attackD1_009
+   Role/Es/es_attack3_01
+   Role/Es/es_attackD1_008
+   Role/Es/es_attackD1_006
+   Role/Es/es_attackD1_005
+   Role/Es/es_attackD1_003
+   Role/Es/es_attackD1_002
+   Role/Es/es_attack1_02
+   Role/Es/es_attack1_01
+   Role/Es/es_attack1_03
+   Role/Es/es_attack2_02
+   Role/Es/es_attack2_01
+   Role/Es/es_attack2_03
+   Role/Es/es_attack4_02
+   Role/Es/es_attack4_03
+   Role/Es/es_atkAir12_005
+   Role/Es/es_atkAir12_006
+   Role/Es/es_holdRelease_02
+   Role/Es/es_holdRelease_01

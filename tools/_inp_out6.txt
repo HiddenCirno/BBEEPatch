@@ -1,0 +1,677 @@
+
+==============================================================================
+=== GameInputManager::Update   RVA 0x1c56bf0
+==============================================================================
+  0x0181c56bf0  push     rbx
+  0x0181c56bf2  sub      rsp, 0x20
+  0x0181c56bf6  xor      edx, edx
+  0x0181c56bf8  mov      rbx, rcx
+  0x0181c56bfb  call     0x181c527c0      ; -> GameInputManager::ProcessInput
+  0x0181c56c00  cmp      byte ptr [rip + 0x39aec92], 0
+  0x0181c56c07  jne      0x181c56c1c
+  0x0181c56c09  lea      rcx, [rip + 0x371c208]
+  0x0181c56c10  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c56c15  mov      byte ptr [rip + 0x39aec7d], 1
+  0x0181c56c1c  mov      rdx, qword ptr [rip + 0x371c1f5]
+  0x0181c56c23  mov      rcx, qword ptr [rbx + 0x138]
+  0x0181c56c2a  call     0x182145eb0      ; -> sub_2145EB0
+  0x0181c56c2f  test     rax, rax
+  0x0181c56c32  je       0x181c56c4e
+  0x0181c56c34  mov      ecx, dword ptr [rbx + 0x88]
+  0x0181c56c3a  or       ecx, dword ptr [rbx + 0x80]
+  0x0181c56c40  mov      rcx, rax
+  0x0181c56c43  seta     dl
+  0x0181c56c46  xor      r8d, r8d
+  0x0181c56c49  call     0x181c5b990      ; -> InputGroup::ProcessNavigation
+  0x0181c56c4e  cmp      byte ptr [rip + 0x39aec3f], 0
+  0x0181c56c55  jne      0x181c56c6a
+  0x0181c56c57  lea      rcx, [rip + 0x367dcd2]
+  0x0181c56c5e  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c56c63  mov      byte ptr [rip + 0x39aec2a], 1
+  0x0181c56c6a  mov      rcx, qword ptr [rip + 0x367dcbf]
+  0x0181c56c71  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c56c78  jne      0x181c56c7f
+  0x0181c56c7a  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c56c7f  xor      ecx, ecx
+  0x0181c56c81  mov      qword ptr [rsp + 0x30], rdi
+  0x0181c56c86  call     0x1837f9480      ; -> ReInput::get_controllers
+  0x0181c56c8b  test     rax, rax
+  0x0181c56c8e  je       0x181c56fe2
+  0x0181c56c94  xor      edx, edx
+  0x0181c56c96  mov      rcx, rax
+  0x0181c56c99  call     0x1835fcc00      ; -> ReInput.ControllerHelper::GetLastActiveControllerType
+  0x0181c56c9e  cmp      eax, 2
+  0x0181c56ca1  je       0x181c56d56
+  0x0181c56ca7  mov      rcx, qword ptr [rip + 0x367dc82]
+  0x0181c56cae  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c56cb5  jne      0x181c56cbc
+  0x0181c56cb7  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c56cbc  xor      ecx, ecx
+  0x0181c56cbe  call     0x1837f9480      ; -> ReInput::get_controllers
+  0x0181c56cc3  test     rax, rax
+  0x0181c56cc6  je       0x181c56fe2
+  0x0181c56ccc  xor      edx, edx
+  0x0181c56cce  mov      rcx, rax
+  0x0181c56cd1  call     0x1835fe320      ; -> ReInput.ControllerHelper::get_Mouse
+  0x0181c56cd6  test     rax, rax
+  0x0181c56cd9  je       0x181c56fe2
+  0x0181c56cdf  mov      rdx, qword ptr [rax]
+  0x0181c56ce2  mov      rcx, rax
+  0x0181c56ce5  mov      r8, qword ptr [rdx + 0x448]
+  0x0181c56cec  mov      rdx, qword ptr [rdx + 0x450]
+  0x0181c56cf3  call     r8
+  0x0181c56cf6  movsd    xmm1, qword ptr [rbx + 0x150]
+  0x0181c56cfe  ucomisd  xmm1, xmm0
+  0x0181c56d02  jp       0x181c56dfc
+  0x0181c56d08  jne      0x181c56dfc
+  0x0181c56d0e  mov      rcx, qword ptr [rip + 0x367dc1b]
+  0x0181c56d15  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c56d1c  jne      0x181c56d23
+  0x0181c56d1e  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c56d23  xor      ecx, ecx
+  0x0181c56d25  call     0x1837fa3c0      ; -> ReInput::get_time
+  0x0181c56d2a  test     rax, rax
+  0x0181c56d2d  je       0x181c56fe2
+  0x0181c56d33  xor      edx, edx
+  0x0181c56d35  mov      rcx, rax
+  0x0181c56d38  call     0x1836254b0      ; -> ReInput.TimeHelper::get_unscaledTime
+  0x0181c56d3d  movss    xmm1, dword ptr [rbx + 0xc4]
+  0x0181c56d45  subsd    xmm0, qword ptr [rbx + 0x150]
+  0x0181c56d4d  cvtps2pd xmm1, xmm1
+  0x0181c56d50  comisd   xmm0, xmm1
+  0x0181c56d54  jb       0x181c56d5d
+  0x0181c56d56  mov      byte ptr [rbx + 0x160], 1
+  0x0181c56d5d  cmp      byte ptr [rip + 0x39aeb31], 0
+  0x0181c56d64  jne      0x181c56d79
+  0x0181c56d66  lea      rcx, [rip + 0x367dbc3]
+  0x0181c56d6d  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c56d72  mov      byte ptr [rip + 0x39aeb1c], 1
+  0x0181c56d79  mov      rax, qword ptr [rbx + 0xf0]
+  0x0181c56d80  test     rax, rax
+  0x0181c56d83  je       0x181c56fe2
+  0x0181c56d89  cmp      byte ptr [rax + 0x24], 0
+  0x0181c56d8d  je       0x181c56e56
+  0x0181c56d93  cmp      byte ptr [rbx + 0x8d], 0
+  0x0181c56d9a  je       0x181c56e56
+  0x0181c56da0  mov      eax, dword ptr [rbx + 0x88]
+  0x0181c56da6  or       eax, dword ptr [rbx + 0x84]
+  0x0181c56dac  ja       0x181c56e56
+  0x0181c56db2  mov      rcx, qword ptr [rip + 0x367db77]
+  0x0181c56db9  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c56dc0  jne      0x181c56dc7
+  0x0181c56dc2  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c56dc7  xor      ecx, ecx
+  0x0181c56dc9  call     0x1837f9480      ; -> ReInput::get_controllers
+  0x0181c56dce  test     rax, rax
+  0x0181c56dd1  je       0x181c56fe2
+  0x0181c56dd7  xor      edx, edx
+  0x0181c56dd9  mov      rcx, rax
+  0x0181c56ddc  call     0x1835fe290      ; -> ReInput.ControllerHelper::get_Keyboard
+  0x0181c56de1  mov      rdi, rax
+  0x0181c56de4  test     rax, rax
+  0x0181c56de7  jne      0x181c56e10
+  0x0181c56de9  xor      r8d, r8d
+  0x0181c56dec  movzx    edx, al
+  0x0181c56def  mov      rcx, rbx
+  0x0181c56df2  call     0x181c55040      ; -> GameInputManager::SetCursorVisible
+  0x0181c56df7  jmp      0x181c56eb2
+  0x0181c56dfc  movsd    qword ptr [rbx + 0x150], xmm0
+  0x0181c56e04  mov      byte ptr [rbx + 0x160], 0
+  0x0181c56e0b  jmp      0x181c56d5d
+  0x0181c56e10  xor      r8d, r8d
+  0x0181c56e13  mov      edx, 0x134
+  0x0181c56e18  mov      rcx, rdi
+  0x0181c56e1b  call     0x1836f5ba0      ; -> Keyboard::GetKey
+  0x0181c56e20  test     al, al
+  0x0181c56e22  je       0x181c56e36
+  0x0181c56e24  mov      al, 1
+  0x0181c56e26  xor      r8d, r8d
+  0x0181c56e29  movzx    edx, al
+  0x0181c56e2c  mov      rcx, rbx
+  0x0181c56e2f  call     0x181c55040      ; -> GameInputManager::SetCursorVisible
+  0x0181c56e34  jmp      0x181c56eb2
+  0x0181c56e36  xor      r8d, r8d
+  0x0181c56e39  mov      edx, 0x133
+  0x0181c56e3e  mov      rcx, rdi
+  0x0181c56e41  call     0x1836f5ba0      ; -> Keyboard::GetKey
+  0x0181c56e46  xor      r8d, r8d
+  0x0181c56e49  movzx    edx, al
+  0x0181c56e4c  mov      rcx, rbx
+  0x0181c56e4f  call     0x181c55040      ; -> GameInputManager::SetCursorVisible
+  0x0181c56e54  jmp      0x181c56eb2
+  0x0181c56e56  cmp      byte ptr [rbx + 0x161], 0
+  0x0181c56e5d  jne      0x181c56e68
+  0x0181c56e5f  cmp      byte ptr [rbx + 0x160], 0
+  0x0181c56e66  jne      0x181c56eb2
+  0x0181c56e68  cmp      byte ptr [rbx + 0x160], 0
+  0x0181c56e6f  sete     dil
+  0x0181c56e73  xor      ecx, ecx
+  0x0181c56e75  call     0x1840b9e70      ; -> Cursor::get_visible
+  0x0181c56e7a  cmp      al, dil
+  0x0181c56e7d  je       0x181c56e8a
+  0x0181c56e7f  xor      edx, edx
+  0x0181c56e81  movzx    ecx, dil
+  0x0181c56e85  call     0x1840b9ee0      ; -> Cursor::set_visible
+  0x0181c56e8a  cmp      byte ptr [rbx + 0x8c], dil
+  0x0181c56e91  je       0x181c56eb2
+  0x0181c56e93  mov      rax, qword ptr [rbx + 0x50]
+  0x0181c56e97  mov      byte ptr [rbx + 0x8c], dil
+  0x0181c56e9e  test     rax, rax
+  0x0181c56ea1  je       0x181c56eb2
+  0x0181c56ea3  mov      r8, qword ptr [rax + 0x28]
+  0x0181c56ea7  movzx    edx, dil
+  0x0181c56eab  mov      rcx, qword ptr [rax + 0x40]
+  0x0181c56eaf  call     qword ptr [rax + 0x18]
+  0x0181c56eb2  xor      edx, edx
+  0x0181c56eb4  mov      rcx, rbx
+  0x0181c56eb7  call     0x181c56340      ; -> GameInputManager::UpdateLastActivePlayer
+  0x0181c56ebc  cmp      byte ptr [rip + 0x39ae9d4], 0
+  0x0181c56ec3  jne      0x181c56ee4
+  0x0181c56ec5  lea      rcx, [rip + 0x37503e4]
+  0x0181c56ecc  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c56ed1  lea      rcx, [rip + 0x367da58]
+  0x0181c56ed8  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c56edd  mov      byte ptr [rip + 0x39ae9b3], 1
+  0x0181c56ee4  xor      ecx, ecx
+  0x0181c56ee6  call     0x1841525f0      ; -> Input::get_touchCount
+  0x0181c56eeb  test     eax, eax
+  0x0181c56eed  jle      0x181c56f35
+  0x0181c56eef  xor      r8d, r8d
+  0x0181c56ef2  mov      rcx, rbx
+  0x0181c56ef5  lea      edx, [r8 + 3]
+  0x0181c56ef9  call     0x181c58970      ; -> GameInputManager::set_InputSource
+  0x0181c56efe  mov      rcx, qword ptr [rip + 0x367da2b]
+  0x0181c56f05  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c56f0c  jne      0x181c56f13
+  0x0181c56f0e  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c56f13  xor      ecx, ecx
+  0x0181c56f15  call     0x1837fa3c0      ; -> ReInput::get_time
+  0x0181c56f1a  test     rax, rax
+  0x0181c56f1d  je       0x181c56fe2
+  0x0181c56f23  xor      edx, edx
+  0x0181c56f25  mov      rcx, rax
+  0x0181c56f28  call     0x1836254b0      ; -> ReInput.TimeHelper::get_unscaledTime
+  0x0181c56f2d  movsd    qword ptr [rbx + 0x158], xmm0
+  0x0181c56f35  mov      rcx, qword ptr [rip + 0x367d9f4]
+  0x0181c56f3c  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c56f43  jne      0x181c56f4a
+  0x0181c56f45  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c56f4a  xor      ecx, ecx
+  0x0181c56f4c  call     0x1837f9480      ; -> ReInput::get_controllers
+  0x0181c56f51  test     rax, rax
+  0x0181c56f54  je       0x181c56fe2
+  0x0181c56f5a  xor      edx, edx
+  0x0181c56f5c  mov      rcx, rax
+  0x0181c56f5f  call     0x1835fcc90      ; -> ReInput.ControllerHelper::GetLastActiveController
+  0x0181c56f64  mov      rdi, rax
+  0x0181c56f67  test     rax, rax
+  0x0181c56f6a  je       0x181c56fd7
+  0x0181c56f6c  mov      rdx, qword ptr [rax]
+  0x0181c56f6f  mov      rcx, rax
+  0x0181c56f72  mov      r8, qword ptr [rdx + 0x448]
+  0x0181c56f79  mov      rdx, qword ptr [rdx + 0x450]
+  0x0181c56f80  call     r8
+  0x0181c56f83  comisd   xmm0, xmmword ptr [rbx + 0x158]
+  0x0181c56f8b  jbe      0x181c56fd7
+  0x0181c56f8d  mov      rcx, qword ptr [rip + 0x375031c]
+  0x0181c56f94  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c56f9b  jne      0x181c56fa2
+  0x0181c56f9d  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c56fa2  xor      ecx, ecx
+  0x0181c56fa4  call     0x18070e0a0      ; -> SdkManager::IsDemoPlayed
+  0x0181c56fa9  xor      edx, edx
+  0x0181c56fab  mov      rcx, rdi
+  0x0181c56fae  test     al, al
+  0x0181c56fb0  jne      0x181c56fc5
+  0x0181c56fb2  call     0x1835e9e90      ; -> Controller::get_type
+  0x0181c56fb7  cmp      eax, 1
+  0x0181c56fba  jne      0x181c56fc0
+  0x0181c56fbc  xor      eax, eax
+  0x0181c56fbe  jmp      0x181c56fca
+  0x0181c56fc0  xor      edx, edx
+  0x0181c56fc2  mov      rcx, rdi
+  0x0181c56fc5  call     0x1835e9e90      ; -> Controller::get_type
+  0x0181c56fca  xor      r8d, r8d
+  0x0181c56fcd  mov      edx, eax
+  0x0181c56fcf  mov      rcx, rbx
+  0x0181c56fd2  call     0x181c58970      ; -> GameInputManager::set_InputSource
+  0x0181c56fd7  mov      rdi, qword ptr [rsp + 0x30]
+  0x0181c56fdc  add      rsp, 0x20
+  0x0181c56fe0  pop      rbx
+  0x0181c56fe1  ret      
+
+==============================================================================
+=== GameInputManager::ResolveActorAxis   RVA 0x1c54650
+==============================================================================
+  0x0181c54650  mov      qword ptr [rsp + 8], rbx
+  0x0181c54655  mov      qword ptr [rsp + 0x10], rsi
+  0x0181c5465a  push     rdi
+  0x0181c5465b  sub      rsp, 0x90
+  0x0181c54662  cmp      byte ptr [rip + 0x39b1225], 0
+  0x0181c54669  movzx    edi, r9b
+  0x0181c5466d  movaps   xmmword ptr [rsp + 0x60], xmm8
+  0x0181c54673  mov      esi, edx
+  0x0181c54675  movq     xmm8, r8
+  0x0181c5467a  mov      rbx, rcx
+  0x0181c5467d  movsd    qword ptr [rsp + 0x40], xmm8
+  0x0181c54684  jne      0x181c546b1
+  0x0181c54686  lea      rcx, [rip + 0x36de4b3]
+  0x0181c5468d  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c54692  lea      rcx, [rip + 0x36b1dff]
+  0x0181c54699  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c5469e  lea      rcx, [rip + 0x36766fb]
+  0x0181c546a5  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c546aa  mov      byte ptr [rip + 0x39b11dd], 1
+  0x0181c546b1  mov      eax, dword ptr [rbx + 0x88]
+  0x0181c546b7  or       eax, dword ptr [rbx + 0x84]
+  0x0181c546bd  jbe      0x181c546c8
+  0x0181c546bf  test     dil, dil
+  0x0181c546c2  je       0x181c54829
+  0x0181c546c8  mov      rcx, qword ptr [rbx + 0x120]
+  0x0181c546cf  test     rcx, rcx
+  0x0181c546d2  je       0x181c54843
+  0x0181c546d8  mov      r8, qword ptr [rip + 0x36de461]
+  0x0181c546df  mov      edx, esi
+  0x0181c546e1  call     0x182c7e7f0      ; -> sub_2C7E7F0
+  0x0181c546e6  mov      rdi, rax
+  0x0181c546e9  test     rax, rax
+  0x0181c546ec  je       0x181c54843
+  0x0181c546f2  movss    xmm1, dword ptr [rsp + 0x44]
+  0x0181c546f8  lea      rcx, [rax + 0x30]
+  0x0181c546fc  movss    xmm0, dword ptr [rsp + 0x40]
+  0x0181c54702  xor      r9d, r9d
+  0x0181c54705  movss    dword ptr [rax + 0x30], xmm0
+  0x0181c5470a  movss    dword ptr [rax + 0x34], xmm1
+  0x0181c5470f  movss    xmm2, dword ptr [rbx + 0xcc]
+  0x0181c54717  movss    xmm1, dword ptr [rbx + 0xc8]
+  0x0181c5471f  call     0x181a8e7b0      ; -> MathUtility::Digitize
+  0x0181c54724  mov      rcx, qword ptr [rdi + 0x48]
+  0x0181c54728  test     rcx, rcx
+  0x0181c5472b  je       0x181c54843
+  0x0181c54731  mov      r8, qword ptr [rip + 0x36b1d60]
+  0x0181c54738  mov      edx, 0xf
+  0x0181c5473d  call     0x182cad2c0      ; -> sub_2CAD2C0
+  0x0181c54742  test     rax, rax
+  0x0181c54745  je       0x181c54843
+  0x0181c5474b  movss    xmm1, dword ptr [rdi + 0x34]
+  0x0181c54750  xor      r9d, r9d
+  0x0181c54753  movss    xmm0, dword ptr [rdi + 0x30]
+  0x0181c54758  mov      edx, esi
+  0x0181c5475a  movaps   xmmword ptr [rsp + 0x80], xmm6
+  0x0181c54762  mov      rcx, rbx
+  0x0181c54765  movss    xmm6, dword ptr [rax + 0x18]
+  0x0181c5476a  mov      qword ptr [rsp + 0x30], 0
+  0x0181c54773  lea      r8d, [r9 + 0xf]
+  0x0181c54777  unpcklps xmm0, xmm1
+  0x0181c5477a  movaps   xmmword ptr [rsp + 0x70], xmm7
+  0x0181c5477f  movss    xmm7, dword ptr [rax + 0x1c]
+  0x0181c54784  mov      byte ptr [rsp + 0x28], 0
+  0x0181c54789  movsd    qword ptr [rsp + 0x20], xmm0
+  0x0181c5478f  call     0x181c54850      ; -> GameInputManager::ResolveActorButton
+  0x0181c54794  movss    xmm0, dword ptr [rdi + 0x34]
+  0x0181c54799  mov      edx, esi
+  0x0181c5479b  movss    xmm1, dword ptr [rdi + 0x30]
+  0x0181c547a0  mov      rcx, rbx
+  0x0181c547a3  unpcklps xmm1, xmm0
+  0x0181c547a6  movaps   xmm0, xmm6
+  0x0181c547a9  unpcklps xmm0, xmm7
+  0x0181c547ac  movq     r9, xmm1
+  0x0181c547b1  movq     r8, xmm0
+  0x0181c547b6  mov      qword ptr [rsp + 0x20], 0
+  0x0181c547bf  call     0x181c55520      ; -> GameInputManager::TryDoubleMoveToDash
+  0x0181c547c4  mov      rbx, qword ptr [rbx + 0xa0]
+  0x0181c547cb  movaps   xmm7, xmmword ptr [rsp + 0x70]
+  0x0181c547d0  movaps   xmm6, xmmword ptr [rsp + 0x80]
+  0x0181c547d8  test     rbx, rbx
+  0x0181c547db  je       0x181c54829
+  0x0181c547dd  mov      rcx, qword ptr [rip + 0x36765bc]
+  0x0181c547e4  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c547eb  jne      0x181c547f2
+  0x0181c547ed  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c547f2  xor      r8d, r8d
+  0x0181c547f5  lea      rcx, [rsp + 0x50]
+  0x0181c547fa  movq     rdx, xmm8
+  0x0181c547ff  call     0x181555280      ; -> PvpDefine::GetFp2Safe
+  0x0181c54804  mov      rcx, qword ptr [rbx + 0x40]
+  0x0181c54808  lea      r9, [rsp + 0x50]
+  0x0181c5480d  mov      r8d, 0xf
+  0x0181c54813  mov      edx, esi
+  0x0181c54815  movups   xmm0, xmmword ptr [rax]
+  0x0181c54818  mov      rax, qword ptr [rbx + 0x28]
+  0x0181c5481c  mov      qword ptr [rsp + 0x20], rax
+  0x0181c54821  movaps   xmmword ptr [rsp + 0x50], xmm0
+  0x0181c54826  call     qword ptr [rbx + 0x18]
+  0x0181c54829  lea      r11, [rsp + 0x90]
+  0x0181c54831  mov      rbx, qword ptr [r11 + 0x10]
+  0x0181c54835  mov      rsi, qword ptr [r11 + 0x18]
+  0x0181c54839  movaps   xmm8, xmmword ptr [r11 - 0x30]
+  0x0181c5483e  mov      rsp, r11
+  0x0181c54841  pop      rdi
+  0x0181c54842  ret      
+
+==============================================================================
+=== GameInputManager::ResolveActorButton   RVA 0x1c54850
+==============================================================================
+  0x0181c54850  mov      qword ptr [rsp + 0x20], rbp
+  0x0181c54855  push     rsi
+  0x0181c54856  push     r14
+  0x0181c54858  push     r15
+  0x0181c5485a  sub      rsp, 0x40
+  0x0181c5485e  cmp      byte ptr [rip + 0x39b102a], 0
+  0x0181c54865  movzx    r14d, r9b
+  0x0181c54869  mov      ebp, r8d
+  0x0181c5486c  mov      r15d, edx
+  0x0181c5486f  mov      rsi, rcx
+  0x0181c54872  jne      0x181c548ab
+  0x0181c54874  lea      rcx, [rip + 0x36de2c5]
+  0x0181c5487b  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c54880  lea      rcx, [rip + 0x36b1c11]
+  0x0181c54887  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c5488c  lea      rcx, [rip + 0x370843d]
+  0x0181c54893  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c54898  lea      rcx, [rip + 0x3676501]
+  0x0181c5489f  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c548a4  mov      byte ptr [rip + 0x39b0fe4], 1
+  0x0181c548ab  mov      eax, dword ptr [rsi + 0x88]
+  0x0181c548b1  or       eax, dword ptr [rsi + 0x84]
+  0x0181c548b7  mov      qword ptr [rsp + 0x68], rbx
+  0x0181c548bc  mov      qword ptr [rsp + 0x70], rdi
+  0x0181c548c1  jbe      0x181c548e6
+  0x0181c548c3  cmp      byte ptr [rsp + 0x88], 0
+  0x0181c548cb  jne      0x181c54912
+  0x0181c548cd  mov      rdi, qword ptr [rsp + 0x70]
+  0x0181c548d2  mov      rbx, qword ptr [rsp + 0x68]
+  0x0181c548d7  mov      rbp, qword ptr [rsp + 0x78]
+  0x0181c548dc  add      rsp, 0x40
+  0x0181c548e0  pop      r15
+  0x0181c548e2  pop      r14
+  0x0181c548e4  pop      rsi
+  0x0181c548e5  ret      
+
+==============================================================================
+=== GameInputManager::NotifyCmdChange   RVA 0x1c51670
+==============================================================================
+  0x0181c51670  mov      qword ptr [rsp + 0x10], rbx
+  0x0181c51675  mov      qword ptr [rsp + 0x18], rbp
+  0x0181c5167a  push     rdi
+  0x0181c5167b  push     r14
+  0x0181c5167d  push     r15
+  0x0181c5167f  sub      rsp, 0x50
+  0x0181c51683  cmp      byte ptr [rip + 0x39b4206], 0
+  0x0181c5168a  mov      r14d, r8d
+  0x0181c5168d  movzx    ebp, r9b
+  0x0181c51691  mov      r15d, edx
+  0x0181c51694  mov      rdi, rcx
+  0x0181c51697  jne      0x181c516dc
+  0x0181c51699  lea      rcx, [rip + 0x36e14a0]
+  0x0181c516a0  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c516a5  lea      rcx, [rip + 0x36aa06c]
+  0x0181c516ac  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c516b1  lea      rcx, [rip + 0x374ff70]
+  0x0181c516b8  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c516bd  lea      rcx, [rip + 0x37437cc]
+  0x0181c516c4  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c516c9  lea      rcx, [rip + 0x37415a0]
+  0x0181c516d0  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c516d5  mov      byte ptr [rip + 0x39b41b4], 1
+  0x0181c516dc  mov      rax, qword ptr [rip + 0x374158d]
+  0x0181c516e3  mov      rax, qword ptr [rax + 0x20]
+  0x0181c516e7  test     byte ptr [rax + 0x135], 1
+  0x0181c516ee  jne      0x181c516f8
+  0x0181c516f0  mov      rcx, rax
+  0x0181c516f3  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0181c516f8  mov      rax, qword ptr [rax + 0xc0]
+  0x0181c516ff  mov      rax, qword ptr [rax + 0x10]
+  0x0181c51703  test     byte ptr [rax + 0x135], 1
+  0x0181c5170a  jne      0x181c51714
+  0x0181c5170c  mov      rcx, rax
+  0x0181c5170f  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0181c51714  mov      rcx, qword ptr [rip + 0x374ff0d]
+  0x0181c5171b  mov      rax, qword ptr [rax + 0xb8]
+  0x0181c51722  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c51729  mov      rbx, qword ptr [rax]
+  0x0181c5172c  jne      0x181c51733
+  0x0181c5172e  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c51733  xor      edx, edx
+  0x0181c51735  mov      qword ptr [rsp + 0x70], rsi
+  0x0181c5173a  mov      rcx, rbx
+  0x0181c5173d  call     0x1840db710      ; -> Object::op_Implicit
+  0x0181c51742  test     al, al
+  0x0181c51744  jne      0x181c51914
+  0x0181c5174a  mov      rax, qword ptr [rip + 0x374373f]
+  0x0181c51751  mov      rax, qword ptr [rax + 0x20]
+  0x0181c51755  test     byte ptr [rax + 0x135], 1
+  0x0181c5175c  jne      0x181c51766
+  0x0181c5175e  mov      rcx, rax
+  0x0181c51761  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0181c51766  mov      rax, qword ptr [rax + 0xc0]
+  0x0181c5176d  mov      rax, qword ptr [rax + 0x10]
+  0x0181c51771  test     byte ptr [rax + 0x135], 1
+  0x0181c51778  jne      0x181c51782
+  0x0181c5177a  mov      rcx, rax
+  0x0181c5177d  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0181c51782  mov      rcx, qword ptr [rip + 0x374fe9f]
+  0x0181c51789  mov      rax, qword ptr [rax + 0xb8]
+  0x0181c51790  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c51797  mov      rbx, qword ptr [rax]
+  0x0181c5179a  jne      0x181c517a1
+  0x0181c5179c  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c517a1  xor      edx, edx
+  0x0181c517a3  mov      rcx, rbx
+  0x0181c517a6  call     0x1840db710      ; -> Object::op_Implicit
+  0x0181c517ab  test     al, al
+  0x0181c517ad  jne      0x181c518d3
+  0x0181c517b3  mov      rax, qword ptr [rdi + 0xf0]
+  0x0181c517ba  test     rax, rax
+  0x0181c517bd  je       0x181c51993
+  0x0181c517c3  cmp      byte ptr [rax + 0x21], 0
+  0x0181c517c7  mov      rsi, qword ptr [rsp + 0x90]
+  0x0181c517cf  je       0x181c5187e
+  0x0181c517d5  movups   xmm0, xmmword ptr [rsi]
+  0x0181c517d8  xor      edx, edx
+  0x0181c517da  lea      rcx, [rsp + 0x40]
+  0x0181c517df  movaps   xmmword ptr [rsp + 0x40], xmm0
+  0x0181c517e4  call     0x183e28360      ; -> MathFp::maxabscomponent
+  0x0181c517e9  mov      rdx, qword ptr [rip + 0x36a9f28]
+  0x0181c517f0  mov      rbx, rax
+  0x0181c517f3  cmp      dword ptr [rdx + 0xe0], 0
+  0x0181c517fa  jne      0x181c5180b
+  0x0181c517fc  mov      rcx, rdx
+  0x0181c517ff  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c51804  mov      rdx, qword ptr [rip + 0x36a9f0d]
+  0x0181c5180b  mov      rdx, qword ptr [rdx + 0xb8]
+  0x0181c51812  xor      r8d, r8d
+  0x0181c51815  mov      rcx, rbx
+  0x0181c51818  mov      rdx, qword ptr [rdx + 0x54]
+  0x0181c5181c  call     0x183e25620      ; -> Fp::op_GreaterThan
+  0x0181c51821  test     al, al
+  0x0181c51823  je       0x181c5187e
+  0x0181c51825  mov      rcx, qword ptr [rdi + 0x120]
+  0x0181c5182c  test     rcx, rcx
+  0x0181c5182f  je       0x181c51993
+  0x0181c51835  mov      r8, qword ptr [rip + 0x36e1304]
+  0x0181c5183c  mov      edx, r15d
+  0x0181c5183f  call     0x182c7e7f0      ; -> sub_2C7E7F0
+  0x0181c51844  xor      ecx, ecx
+  0x0181c51846  mov      rbx, rax
+  0x0181c51849  call     0x180568800      ; -> MousePositionDebug::GetMouseClickPosition
+  0x0181c5184e  mov      qword ptr [rsp + 0x40], rax
+  0x0181c51853  test     rbx, rbx
+  0x0181c51856  je       0x181c51993
+  0x0181c5185c  movss    xmm0, dword ptr [rsp + 0x40]
+  0x0181c51862  xor      ecx, ecx
+  0x0181c51864  movss    xmm1, dword ptr [rsp + 0x44]
+  0x0181c5186a  movss    dword ptr [rbx + 0x14], xmm0
+  0x0181c5186f  movss    dword ptr [rbx + 0x18], xmm1
+  0x0181c51874  call     0x183529020      ; -> GameTime::get_time
+  0x0181c51879  movss    dword ptr [rbx + 0x1c], xmm0
+  0x0181c5187e  mov      r10, qword ptr [rdi + 0x90]
+  0x0181c51885  test     r10, r10
+  0x0181c51888  je       0x181c518b7
+  0x0181c5188a  mov      rax, qword ptr [r10 + 0x28]
+  0x0181c5188e  movzx    r9d, bpl
+  0x0181c51892  movups   xmm0, xmmword ptr [rsi]
+  0x0181c51895  mov      rcx, qword ptr [r10 + 0x40]
+  0x0181c51899  mov      r8d, r14d
+  0x0181c5189c  mov      qword ptr [rsp + 0x28], rax
+  0x0181c518a1  mov      edx, r15d
+  0x0181c518a4  lea      rax, [rsp + 0x40]
+  0x0181c518a9  movaps   xmmword ptr [rsp + 0x40], xmm0
+  0x0181c518ae  mov      qword ptr [rsp + 0x20], rax
+  0x0181c518b3  call     qword ptr [r10 + 0x18]
+  0x0181c518b7  mov      rsi, qword ptr [rsp + 0x70]
+  0x0181c518bc  mov      rbx, qword ptr [rsp + 0x78]
+  0x0181c518c1  mov      rbp, qword ptr [rsp + 0x80]
+  0x0181c518c9  add      rsp, 0x50
+  0x0181c518cd  pop      r15
+  0x0181c518cf  pop      r14
+  0x0181c518d1  pop      rdi
+  0x0181c518d2  ret      
+
+==============================================================================
+=== GameInputManager::NotifyDirChange   RVA 0x1c519a0
+==============================================================================
+  0x0181c519a0  mov      qword ptr [rsp + 8], rbx
+  0x0181c519a5  mov      qword ptr [rsp + 0x10], rbp
+  0x0181c519aa  mov      qword ptr [rsp + 0x18], rsi
+  0x0181c519af  mov      qword ptr [rsp + 0x20], rdi
+  0x0181c519b4  push     r14
+  0x0181c519b6  sub      rsp, 0x50
+  0x0181c519ba  cmp      byte ptr [rip + 0x39b3ed0], 0
+  0x0181c519c1  mov      rsi, r9
+  0x0181c519c4  mov      r14d, r8d
+  0x0181c519c7  mov      ebp, edx
+  0x0181c519c9  mov      rdi, rcx
+  0x0181c519cc  jne      0x181c51a05
+  0x0181c519ce  lea      rcx, [rip + 0x374fc53]
+  0x0181c519d5  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c519da  lea      rcx, [rip + 0x37434af]
+  0x0181c519e1  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c519e6  lea      rcx, [rip + 0x3742eb3]
+  0x0181c519ed  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c519f2  lea      rcx, [rip + 0x3741277]
+  0x0181c519f9  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181c519fe  mov      byte ptr [rip + 0x39b3e8c], 1
+  0x0181c51a05  mov      rax, qword ptr [rip + 0x3741264]
+  0x0181c51a0c  mov      rax, qword ptr [rax + 0x20]
+  0x0181c51a10  test     byte ptr [rax + 0x135], 1
+  0x0181c51a17  jne      0x181c51a21
+  0x0181c51a19  mov      rcx, rax
+  0x0181c51a1c  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0181c51a21  mov      rax, qword ptr [rax + 0xc0]
+  0x0181c51a28  mov      rax, qword ptr [rax + 0x10]
+  0x0181c51a2c  test     byte ptr [rax + 0x135], 1
+  0x0181c51a33  jne      0x181c51a3d
+  0x0181c51a35  mov      rcx, rax
+  0x0181c51a38  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0181c51a3d  mov      rcx, qword ptr [rip + 0x374fbe4]
+  0x0181c51a44  mov      rax, qword ptr [rax + 0xb8]
+  0x0181c51a4b  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c51a52  mov      rbx, qword ptr [rax]
+  0x0181c51a55  jne      0x181c51a5c
+  0x0181c51a57  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c51a5c  xor      edx, edx
+  0x0181c51a5e  mov      rcx, rbx
+  0x0181c51a61  call     0x1840db710      ; -> Object::op_Implicit
+  0x0181c51a66  test     al, al
+  0x0181c51a68  jne      0x181c51b56
+  0x0181c51a6e  mov      rax, qword ptr [rip + 0x374341b]
+  0x0181c51a75  mov      rax, qword ptr [rax + 0x20]
+  0x0181c51a79  test     byte ptr [rax + 0x135], 1
+  0x0181c51a80  jne      0x181c51a8a
+  0x0181c51a82  mov      rcx, rax
+  0x0181c51a85  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0181c51a8a  mov      rax, qword ptr [rax + 0xc0]
+  0x0181c51a91  mov      rax, qword ptr [rax + 0x10]
+  0x0181c51a95  test     byte ptr [rax + 0x135], 1
+  0x0181c51a9c  jne      0x181c51aa6
+  0x0181c51a9e  mov      rcx, rax
+  0x0181c51aa1  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0181c51aa6  mov      rcx, qword ptr [rip + 0x374fb7b]
+  0x0181c51aad  mov      rax, qword ptr [rax + 0xb8]
+  0x0181c51ab4  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181c51abb  mov      rbx, qword ptr [rax]
+  0x0181c51abe  jne      0x181c51ac5
+  0x0181c51ac0  call     0x18046fe50      ; -> sub_46FE50
+  0x0181c51ac5  xor      edx, edx
+  0x0181c51ac7  mov      rcx, rbx
+  0x0181c51aca  call     0x1840db710      ; -> Object::op_Implicit
+  0x0181c51acf  test     al, al
+  0x0181c51ad1  jne      0x181c51b1d
+  0x0181c51ad3  mov      r10, qword ptr [rdi + 0x98]
+  0x0181c51ada  test     r10, r10
+  0x0181c51add  je       0x181c51b02
+  0x0181c51adf  movups   xmm0, xmmword ptr [rsi]
+  0x0181c51ae2  mov      rax, qword ptr [r10 + 0x28]
+  0x0181c51ae6  lea      r9, [rsp + 0x40]
+  0x0181c51aeb  mov      rcx, qword ptr [r10 + 0x40]
+  0x0181c51aef  mov      r8d, r14d
+  0x0181c51af2  mov      edx, ebp
+  0x0181c51af4  movaps   xmmword ptr [rsp + 0x40], xmm0
+  0x0181c51af9  mov      qword ptr [rsp + 0x20], rax
+  0x0181c51afe  call     qword ptr [r10 + 0x18]
+  0x0181c51b02  mov      rbx, qword ptr [rsp + 0x60]
+  0x0181c51b07  mov      rbp, qword ptr [rsp + 0x68]
+  0x0181c51b0c  mov      rsi, qword ptr [rsp + 0x70]
+  0x0181c51b11  mov      rdi, qword ptr [rsp + 0x78]
+  0x0181c51b16  add      rsp, 0x50
+  0x0181c51b1a  pop      r14
+  0x0181c51b1c  ret      
+
+==============================================================================
+=== Fp2::Digitize   RVA 0x275441
+==============================================================================
+  0x0180275441  add      byte ptr [rax - 0x75], cl
+  0x0180275444  adc      eax, 0x50b448f
+  0x0180275449  mov      ecx, 1
+  0x018027544e  mov      qword ptr [rsp + 0x78], rbp
+  0x0180275453  mov      r9, rax
+  0x0180275456  mov      r8, rdi
+  0x0180275459  mov      qword ptr [rsp + 0x80], r14
+  0x0180275461  call     0x180003b90      ; -> sub_3B90
+  0x0180275466  mov      rcx, qword ptr [rbx + 0x18]
+  0x018027546a  mov      ebp, eax
+  0x018027546c  mov      rax, qword ptr [rsi + 0x20]
+  0x0180275470  mov      qword ptr [rsp + 0x70], rcx
+  0x0180275475  test     byte ptr [rax + 0x135], 1
+  0x018027547c  jne      0x180275486
+  0x018027547e  mov      rcx, rax
+  0x0180275481  call     0x1804a52c0      ; -> sub_4A52C0
+  0x0180275486  mov      rax, qword ptr [rax + 0xc0]
+  0x018027548d  lea      rdx, [rsp + 0x70]
+  0x0180275492  mov      rcx, qword ptr [rax + 0x10]
+  0x0180275496  call     0x180470640      ; -> sub_470640
+  0x018027549b  mov      rdx, qword ptr [rip + 0x50b4436]
+  0x01802754a2  mov      ecx, 1
+  0x01802754a7  mov      r9, rax
+  0x01802754aa  mov      r8, rdi
+  0x01802754ad  call     0x180003b90      ; -> sub_3B90
+  0x01802754b2  movups   xmm0, xmmword ptr [rbx + 0x20]
+  0x01802754b6  mov      r14d, eax
+  0x01802754b9  mov      rax, qword ptr [rsi + 0x20]
+  0x01802754bd  movups   xmmword ptr [rsp + 0x20], xmm0
+  0x01802754c2  test     byte ptr [rax + 0x135], 1
+  0x01802754c9  jne      0x1802754d3
+  0x01802754cb  mov      rcx, rax
+  0x01802754ce  call     0x1804a52c0      ; -> sub_4A52C0
+  0x01802754d3  mov      rax, qword ptr [rax + 0xc0]
+  0x01802754da  lea      rdx, [rsp + 0x20]
+  0x01802754df  mov      rcx, qword ptr [rax + 0x18]
+  0x01802754e3  call     0x180470640      ; -> sub_470640
+  0x01802754e8  mov      rdx, qword ptr [rip + 0x50b43e9]
+  0x01802754ef  mov      ecx, 1
+  0x01802754f4  mov      r9, rax
+  0x01802754f7  mov      r8, rdi
+  0x01802754fa  call     0x180003b90      ; -> sub_3B90
+  0x01802754ff  xor      r9d, r9d
+  0x0180275502  mov      r8d, eax
+  0x0180275505  mov      edx, r14d
+  0x0180275508  mov      ecx, ebp
+  0x018027550a  call     0x1833db6c0      ; -> ValueTuple::CombineHashCodes
+  0x018027550f  mov      r14, qword ptr [rsp + 0x80]
+  0x0180275517  mov      rbp, qword ptr [rsp + 0x78]
+  0x018027551c  add      rsp, 0x50
+  0x0180275520  pop      rdi
+  0x0180275521  pop      rsi
+  0x0180275522  pop      rbx
+  0x0180275523  ret      

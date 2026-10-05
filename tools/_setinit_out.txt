@@ -1,0 +1,52 @@
+
+==============================================================================
+=== InterpolatorSet::Init   RVA 0x1843ada70
+==============================================================================
+  <无法解码>
+
+==============================================================================
+=== InterpolatorSet::get_interpolators   RVA 0x579580
+==============================================================================
+  0x0180579580  mov      rax, qword ptr [rcx + 0x40]
+  0x0180579584  ret      
+
+==============================================================================
+=== InterpolatorSet::Reset   RVA 0x1843adce0
+==============================================================================
+  <无法解码>
+
+==============================================================================
+=== InterpolatorSet::.ctor(target,interps,onComplete,autoStart)   RVA 0x43ae070
+==============================================================================
+  0x01843ae070  mov      qword ptr [rsp + 8], rbx
+  0x01843ae075  mov      qword ptr [rsp + 0x10], rsi
+  0x01843ae07a  mov      qword ptr [rsp + 0x18], rdi
+  0x01843ae07f  push     r14
+  0x01843ae081  sub      rsp, 0x20
+  0x01843ae085  mov      rbx, rdx
+  0x01843ae088  mov      rsi, r9
+  0x01843ae08b  xor      edx, edx
+  0x01843ae08d  mov      rdi, r8
+  0x01843ae090  mov      r14, rcx
+  0x01843ae093  call     0x1843ae0f0      ; -> InterpolatorSet::.ctor
+  0x01843ae098  mov      rax, qword ptr [r14]
+  0x01843ae09b  mov      rcx, r14
+  0x01843ae09e  mov      rdx, qword ptr [rax + 0x190]
+  0x01843ae0a5  call     qword ptr [rax + 0x188]
+  0x01843ae0ab  xor      r8d, r8d
+  0x01843ae0ae  mov      rdx, rbx
+  0x01843ae0b1  mov      rcx, r14
+  0x01843ae0b4  call     0x1843967f0      ; -> InterpolatorRunnerBase::InitBase
+  0x01843ae0b9  cmp      byte ptr [rsp + 0x50], 0
+  0x01843ae0be  mov      qword ptr [r14 + 0x40], rdi
+  0x01843ae0c2  mov      qword ptr [r14 + 0x38], rsi
+  0x01843ae0c6  je       0x1843ae0d2
+  0x01843ae0c8  xor      edx, edx
+  0x01843ae0ca  mov      rcx, r14
+  0x01843ae0cd  call     0x1843ad660      ; -> InterpolatorSet::DoRestart
+  0x01843ae0d2  mov      rbx, qword ptr [rsp + 0x30]
+  0x01843ae0d7  mov      rsi, qword ptr [rsp + 0x38]
+  0x01843ae0dc  mov      rdi, qword ptr [rsp + 0x40]
+  0x01843ae0e1  add      rsp, 0x20
+  0x01843ae0e5  pop      r14
+  0x01843ae0e7  ret      

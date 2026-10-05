@@ -1,0 +1,164 @@
+
+===== GameActionLogic =====
+   public bool Enable; // 0x10
+   public string RoleName; // 0x18
+   public string Name; // 0x20
+   public string Animate; // 0x28
+   public Fp AnimateDuration; // 0x30
+   public ActionType ActionType; // 0x38
+   public ActionLogicDurationAutoType AutoDuration; // 0x3C
+   public Fp TotalDuration; // 0x40
+   public bool EnableAnimationTimeMap; // 0x48
+   public AnimationCurve AnimationTimeMap; // 0x50
+   public Fp AnimationRotate; // 0x58
+   public FlyinType Flyin; // 0x60
+   public string NextAction; // 0x68
+   public string DropAction; // 0x70
+   public string DropEndAction; // 0x78
+   public string DropEndHighAction; // 0x80
+   public string OnGroundAction; // 0x88
+   public string BeginFallAction; // 0x90
+   public string DeadAction; // 0x98
+   public List<ActionTimeScaleRange> TimeScales; // 0xA0
+   public ActionStartSpeed StartSpeed; // 0xA8
+   public List<SpeedChangeData> SpeedChanges; // 0xB0
+   public List<AddMotionDataWithTime> AddMotions; // 0xB8
+   public List<StopMotionByTag> StopMotions; // 0xC0
+   public bool AutoEndActionWhenMotionEnds; // 0xC8
+   public List<ActionOverridePhysics> OverridePhysics; // 0xD0
+   public Fp2 InputDirSpeed; // 0xD8
+   public bool InputDirControlsActorDir; // 0xE8
+   public List<FreeMoveData> FreeMoves; // 0xF0
+   public List<ActionPlatformMoveLimitConf> PlatMoveLimit; // 0xF8
+   public ActionActorChangeFaceToMoveDirMode SyncMovementToDirType; // 0x100
+   public Fp ProtectTime; // 0x104
+   public List<ActionSwitchData> ActionSwitchs; // 0x110
+   public List<string> Interrupt; // 0x118
+   public List<ActionCountDownData> CDList; // 0x120
+   public List<ActionTurn> TurnList; // 0x128
+   public List<CollisionSwitchWithTime> CollisionSwitchList; // 0x130
+   public List<ActionRaycastWithTime> RaycastList; // 0x138
+   public List<EffectObjectData> AddEffects; // 0x140
+   public List<RemoveCustomDurationEffectData> RemoveEffect; // 0x148
+   public ActionLogicRotationType MotionControlEffectRot; // 0x150
+   public List<CameraShakeData> CameraShake; // 0x158
+   public List<ActorShakeBodyWithTime> ShakeBody; // 0x160
+   public List<ActorJoystickVibrateWithTime> JoystickVibrate; // 0x168
+   public List<ActorMobileVibrateWithTime> MobileVibrate; // 0x170
+   public List<WaterWaveMaker> WaterInteract; // 0x178
+   public bool AlphaGradientEnable; // 0x180
+   public Gradient AlphaGradient; // 0x188
+   public List<ActionHitData> HitDataList; // 0x190
+   public ActionLogicRotationType HitBoxRot; // 0x198
+   public int ActionMaxHitCount; // 0x19C
+   public List<EffectObjectData> HitEffects; // 0x1A0
+   public List<ActionBehitBox> BehitBoxs; // 0x1A8
+   public ActionLogicHitEffectPosType HitEffPosType; // 0x1B0
+   public ActionLogicHitEffectDirType HitEffDirType; // 0x1B4
+   public bool SwitchVoiceState; // 0x1B8
+   public List<CriwareAudio> HitAudios; // 0x1C0
+   public List<CriwareAudio> Audios; // 0x1C8
+   public List<ActionGrabStart> GrabStart; // 0x1D0
+   public List<ActionGrabTimeRange> GrabTimeRange; // 0x1D8
+   public List<ActionGrabControlFrame> GrabControlFrames; // 0x1E0
+   public List<ActionGrabDamage> GrabDamages; // 0x1E8
+
+===== ActionMgr =====
+   public ActionStartSpeed StartSpeed; // 0x10
+   public ActionOverridePhysics OverridePhysics; // 0x18
+   public List<ActionOverrideBehitBox> OverrideBehitBoxs; // 0x20
+   public int Invincipal; // 0x28
+   public Fp Armor; // 0x2C
+   public float ModelAlpha; // 0x34
+   private ActionPlatformMoveLimitConf <PlatformMoveLimitConf>k__BackingField; // 0x38
+   public ActionGrabTimeRange CurGrab; // 0x40
+   public List<ActionInstructionMatch> CurInstructionMatches; // 0x48
+   public List<int> CurInstructionMatchIndexes; // 0x50
+   public float ForceModelFrame; // 0x58
+   public float ForceModelFrameTimeRemain; // 0x5C
+   public RaycastHit2DWarp LastRaycastHitInAction; // 0x60
+   public Fp LastRaycastHitInActionTime; // 0x98
+   public bool DisableMoveInput; // 0xA0
+   public Fp2 OverrideSelfColBox; // 0xA8
+   public List<Fp> BlockMoveStartX; // 0xB8
+   public ActionPlatformMoveLimitConf get_PlatformMoveLimitConf() { }
+   public void ResetAtChangeAction() { }
+   public void ResetInFrame() { }
+   public void ResetOnInit() { }
+   public void SetPlatformMoveConf(ActorBase actor, ActionPlatformMoveLimitConf newConf) { }
+   public void SetForceModelFrame(float forceFrame, float forceFrameDur) { }
+   public void AddOverrideBehitBox(ActionBehitBox bhb) { }
+   public void AddOverrideBehitBox(int index, string tag, LogicBoxProto box, ActionScriptCall preproc) { }
+   public void DebugDump(StringBuilder sb) { }
+   public void .ctor() { }
+   public string Name; // 0x0
+   public Fp2 StartVelocity; // 0x8
+   public Fp StartingTime; // 0x18
+   public void SetZero() { }
+   public EnterCommand Cmd; // 0x0
+   public string TargetAction; // 0x8
+   public static readonly ActionMgr.<>c <>9; // 0x0
+   public static Predicate<GameActionLogic> <>9__92_0; // 0x8
+   public void .ctor() { }
+   internal bool <GetRandomHitBackAction>b__92_0(GameActionLogic f) { }
+   public ActorBase Owner; // 0x10
+   private ActionLogicGroup m_ActionGroup; // 0x18
+   private ActionChangeParams <LastActionChangeParams>k__BackingField; // 0x20
+   private Fp2 <LastActionChangeDir2>k__BackingField; // 0x40
+   private GameActionLogic <CurrentAction>k__BackingField; // 0x50
+   private GameActionLogic <LastAction>k__BackingField; // 0x58
+   private ActionTypeSpecificProc_Base <ActionTypeSpecific>k__BackingField; // 0x60
+   private ActionLogicRunner <ActionRunner>k__BackingField; // 0x68
+   private ActionMgrAttr <Attr>k__BackingField; // 0x70
+   private string <FromAction>k__BackingField; // 0x78
+   private Fp <Time>k__BackingField; // 0x80
+   private int <ActionChangeAutoId>k__BackingField; // 0x88
+   private int m_voiceStateCount; // 0x8C
+   private int <VoiceState>k__BackingField; // 0x90
+   public string DefaultStandAction; // 0x98
+   public string DefaultRunStartAction; // 0xA0
+   public string DefaultRunAction; // 0xA8
+   public string DefaultRunBreakAction; // 0xB0
+   public string DefaultRunTurnAction; // 0xB8
+   public string DefaultDropAction; // 0xC0
+   public string DefaultDropEndAction; // 0xC8
+   public string DefaultDropEndHighAction; // 0xD0
+   public string DefaultSquatAction; // 0xD8
+   public string DefaultSquatToStandAction; // 0xE0
+   private List<string> m_actionChangeLimit; // 0xE8
+   private List<GameActionLogic> m_HitBackActions; // 0xF0
+   private bool m_HitBackActionsCacheInited; // 0xF8
+
+===== ActorActionColliderMgr =====
+   public ActorBase Owner; // 0x10
+   public List<ActorActionCollider> BoxList; // 0x18
+   public GameObject Folder; // 0x20
+   public void .ctor(ActorBase owner) { }
+   public ActorActionCollider AddBoxByConf(ActionCollideBox conf) { }
+   public ActorActionCollider AddBoxSimple(Fp2 localPos, Fp2 size, Fp dur, int layer, bool bind) { }
+   public void UpdateBoxs(Fp dt) { }
+   public ActorActionCollider FindByTag(string tag) { }
+   public void DisableAll() { }
+   public void DebugDump(StringBuilder sb) { }
+   public ActorBase Owner; // 0x10
+   private List<HitBox> <ActionHitBoxs>k__BackingField; // 0x18
+   private List<HitBox> <CustomHitBoxs>k__BackingField; // 0x20
+   private static List<HitBoxConfigAndIndex> s_lstHitDataExisting; // 0x0
+   public List<HitBox> get_ActionHitBoxs() { }
+   public List<HitBox> get_CustomHitBoxs() { }
+   public void .ctor(ActorBase owner) { }
+   public void UpdateHitBoxs(GameActionLogic logic, Fp timeCur) { }
+   public void Clear() { }
+   public void SetLocalCustomHitBox(int index, string hitDataId, Fp2 min, Fp2 max, Fp rot, Fp duration, bool restart) { }
+   public void SetGlobalCustomHitBox(int index, string hitDataId, Fp2 center, Fp2 size, Fp rot, Fp duration, bool restart) { }
+   public HitBox SetCustomHitBoxByStartEndPos(int index, string hitDataId, Fp2 start, Fp2 end, Fp width, Fp duration, bool restart) { }
+   protected Fp[] m_values; // 0x10
+   public Fp MoveSpeed; // 0x18
+   public Fp MinMp; // 0x20
+   public Fp[] MPRecover; // 0x28
+   public Fp MPAddRate; // 0x30
+   public void SetAttr(EAttrType type, Fp value) { }
+   public void DebugDump(StringBuilder sb) { }
+   public void .ctor() { }
+   private Fp <HpMaxBeforeBattle>k__BackingField; // 0x38
+   public Fp get_Item(EAttrType index) { }

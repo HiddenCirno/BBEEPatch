@@ -1,0 +1,110 @@
+总条目 2438, 其中 ES(103401) 97 条
+
+########## 输入=?  (44 条) ##########
+  slot=2 idx=13  "UltraDAend"  帧="all":0.5
+  slot=3 idx=1   "?"  
+  slot=4 idx=1   "fall"  帧="all":0.1,"1":2,"4":2,"5":0.5,"11":0.5
+  slot=4 idx=2   "fallupdd"  帧="all":0.5
+  slot=4 idx=3   "fallupd"  帧="all":0.5
+  slot=4 idx=4   "fallup22"  帧="all":0.2
+  slot=4 idx=5   "fallup2dd"  帧="all":0.5
+  slot=4 idx=6   "fallup2d"  帧="all":0.5
+  slot=4 idx=7   "fallend"  帧="all":0.2,"5":0.05,"11":0.05
+  slot=4 idx=8   "fallend2"  帧="all":0.4,"5":0.1,"11":0.1
+  slot=4 idx=9   "fallm"  帧="all":0.5
+  slot=4 idx=10  "fallmdown"  帧="all":0.5
+  slot=4 idx=11  "fallmdownend"  帧="all":0.6,"5":0.4,"7":0.4,"11":0.25
+  slot=4 idx=12  "atkAir12"  帧="all":0.25
+  slot=4 idx=15  "fallmdownendEX"  帧="all":0.6,"5":0.4,"7":0.4,"11":0.25
+  slot=4 idx=16  "fallmdownendEX2"  帧="all":0.6,"5":0.4,"7":0.4,"11":0.25
+  slot=5 idx=1   "dashAtkEX"  帧="all":0.15
+  slot=5 idx=2   "dashAtk"  帧="all":0.15
+  slot=5 idx=3   "dashAirAtkEX"  帧="all":0.15
+  slot=5 idx=4   "dashAirAtk"  帧="all":0.15
+  slot=5 idx=7   "attackholdDashEXQ"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=11  "dashend"  
+  slot=5 idx=12  "dashAir"  帧="all":0.1,"1":0.45,"2":0.45,"4":0.45,"5"
+  slot=5 idx=13  "dashAir2"  帧="all":0.1,"1":0.45,"2":0.45,"4":0.45,"5"
+  slot=5 idx=14  "dashAir3"  帧="all":0.1,"1":0.45,"2":0.45,"4":0.45,"5"
+  slot=5 idx=15  "attackhold_hit"  帧="all":0.55
+  slot=5 idx=16  "attackhold_hit2"  帧="all":0.45, "2":0.2
+  slot=5 idx=17  "attackhold_hit2Air"  帧="all":0.45,"1":0.35,"2":0.2
+  slot=5 idx=18  "dashAAhit"  帧="all":0.35
+  slot=5 idx=19  "dashAAendEX"  帧="all":0.65,"5":0.2,"11":0.25
+  slot=5 idx=20  "dashAAend"  帧="all":0.65,"5":0.2,"11":0.25
+  slot=5 idx=21  "dashAAendX"  帧="all":0.65,"5":0.2,"11":0.25
+  slot=5 idx=22  "dashAirAtkGEX"  帧="all":0.15
+  slot=5 idx=23  "dashAirAtkG"  帧="all":0.15
+  slot=5 idx=24  "dashAtkGEX"  帧="all":0.15
+  slot=5 idx=25  "dashAtkG"  帧="all":0.15
+  slot=6 idx=1   "rush"  帧="all":0.5,"5":0.45,"8":0.6,"11":0.45
+  slot=6 idx=2   "rushUp"  帧="all":0.5,"5":0.01
+  slot=7 idx=4   "jump2"  
+  slot=7 idx=5   "jump3"  
+  slot=8 idx=2   "attackhold22_loop"  帧="all":0.5,"2":0,"5":0,"7":0,"11":0
+  slot=8 idx=3   "attackhold23"  帧="all":0.6,"1":1,"2":0.3,"5":0.01,"7":0.3
+  slot=11 idx=4   "falldownEX0"  帧="all":0.5
+  slot=11 idx=5   "fallmEX0Air"  帧="all":0.5
+
+########## 输入=Attack  (17 条) ##########
+  slot=1 idx=1   "AttackUp"  帧="all":0.5,"5":0.01
+  slot=1 idx=2   "AttackUp"  帧="all":0.5,"5":0.01
+  slot=1 idx=3   "AttackUp2"  帧="all":0.5,"5":0.01
+  slot=1 idx=4   "attackD1"  帧="all":0.35,"5":0.01,"7":0.3
+  slot=1 idx=5   "attackD1"  帧="all":0.35,"5":0.01,"7":0.3
+  slot=1 idx=6   "attackD2"  帧="all":0.35,"5":0.01,"7":0.3
+  slot=1 idx=7   "attackD3"  帧="all":0.5,"1":0.3,"5":0.01,"7":0.35
+  slot=1 idx=8   "atkAirX"  帧="all":0.28,"5":0.01,"8":0.75
+  slot=1 idx=9   "attack1"  帧="all":0.3,"5":0.01,"7":0.3
+  slot=1 idx=10  "attack2"  帧="all":0.35,"5":0.01,"7":0.3
+  slot=1 idx=11  "attack3"  帧="all":0.35,"5":0.01,"7":0.32
+  slot=1 idx=12  "attack4"  帧="all":0.4,"5":0.01,"8":0.75
+  slot=1 idx=13  "atkAirX"  帧="all":0.28,"5":0.01,"8":0.75
+  slot=4 idx=13  "AttackUp2"  帧="all":0.5,"5":0.01
+  slot=4 idx=14  "atkAir3"  帧="all":0.25
+  slot=8 idx=1   "attackhold21"  帧="all":0.5,"1":1,"2":0.2,"5":0.01,"7":0.2
+  slot=8 idx=4   "attackhold"  帧="all":0.5,"1":1,"2":0.2,"5":0.01,"7":0.2
+
+########## 输入=Dash  (11 条) ##########
+  slot=5 idx=5   "attackholdDashEX"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=5   "attackholdDashEX"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=5   "attackholdDashEX"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=5   "attackholdDashEX"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=6   "attackholdDash"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=6   "attackholdDash"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=6   "attackholdDash"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=6   "attackholdDash"  帧=all:0.5,"8":0.8,"2":0.2
+  slot=5 idx=8   "dash"  帧="all":0.1,"1":0.6,"4":0.6,"5":0.6,"8":0.
+  slot=5 idx=9   "dash2"  帧="all":0.1,"1":0.6,"4":0.6,"5":0.6,"8":0.
+  slot=5 idx=10  "dash3"  帧="all":0.1,"1":0.6,"4":0.6,"5":0.6,"8":0.
+
+########## 输入=Jump  (3 条) ##########
+  slot=7 idx=1   "jump_down"  帧="all":0.17
+  slot=7 idx=2   "drop_down"  帧="2":0.025,"7":0.2
+  slot=7 idx=3   "jump"  帧="all":0.17
+
+########## 输入=Skill  (18 条) ##########
+  slot=2 idx=1   "attackAEX"  帧="all":0.5,"1":0.7,"5":0.01
+  slot=2 idx=2   "attackA"  帧="all":0.5,"1":0.7,"5":0.01
+  slot=2 idx=3   "attackB"  帧="all":0.5,"1":0.8,"5":0.01
+  slot=2 idx=4   "attackC"  帧="all":1.25,"4":1.4,"5":0.3,"11":0.3
+  slot=2 idx=5   "attackA_AirEX"  帧="all":0.6,"2":0.45,"5":0.01,"7":0.45
+  slot=2 idx=6   "attackA_Air"  帧="all":0.6,"2":0.45,"5":0.01,"7":0.45
+  slot=2 idx=7   "attackB_Air"  帧="all":0.75,"2":0.55,"5":0.01,"7":0.45
+  slot=2 idx=8   "attackC_Air"  帧="all":1,"5":0.01,"7":0.55,"11":1
+  slot=2 idx=9   "UltraDashEX"  帧="all":0.55,"2":1
+  slot=2 idx=10  "UltraDash"  帧="all":0.55,"2":1
+  slot=2 idx=11  "UltraDashAirEX"  帧="all":2
+  slot=2 idx=12  "UltraDashAir"  帧="all":2
+  slot=2 idx=14  "holdEX"  帧="all":0.7,"5":0.01
+  slot=2 idx=15  "hold"  帧="all":0.7,"5":0.01
+  slot=2 idx=16  "attackAir2EX"  帧="all":0.3,"5":0.01
+  slot=2 idx=17  "attackAir2"  帧="all":0.3,"5":0.01
+  slot=2 idx=18  "attackAirEX"  帧="all":0.3,"5":0.01
+  slot=2 idx=19  "attackAir"  帧="all":0.3,"5":0.01
+
+########## 输入=Summon  (4 条) ##########
+  slot=11 idx=1   "dashAtk0"  帧="all":0.35
+  slot=11 idx=2   "dashAirAtk0"  帧="all":0.35
+  slot=11 idx=3   "fallmEX0"  帧="all":0.5
+  slot=11 idx=6   "summon"  帧="11":0.5

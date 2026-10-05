@@ -1,0 +1,91 @@
+=== 含 LookRotation 的 Tooltip / 注释 ===
+  [Tooltip("世界上方向，用于稳定LookRotation，避免翻滚。通常用 Vector3.up。")]
+  [Tooltip("当相机与up方向几乎共线时，采用的备用up，防止LookRotation奇异。")]
+
+=== 含 LookRotation 的所有字符串 ===
+  "世界上方向，用于稳定LookRotation，避免翻滚。通常用 Vector3.up。"
+  "当相机与up方向几乎共线时，采用的备用up，防止LookRotation奇异。"
+  "QuaternionScripting::LookRotation"
+
+=== 该组件所属类 ===
+public class nnkMeshFace2Cam : MonoBehaviour // TypeDefIndex: 2310
+{
+	// Fields
+	[Header("Alignment")]
+	public nnkMeshFace2Cam.AlignMode alignMode; // 0x20
+	[Tooltip("仅在 CustomAxes 下生效：允许朝向相机的轴")]
+	public bool faceX; // 0x24
+	public bool faceY; // 0x25
+	public bool faceZ; // 0x26
+	[Tooltip("世界上方向，用于稳定LookRotation，避免翻滚。通常用 Vector3.up。")]
+	public Vector3 worldUp; // 0x28
+	[Tooltip("是否锁定滚转（roll）。启用后将
+
+=== QuaternionFp ===
+public struct QuaternionFp : IEquatable<QuaternionFp>, IFormattable // TypeDefIndex: 20849
+{
+	// Fields
+	public Fp4 value; // 0x0
+	public static readonly QuaternionFp identity; // 0x0
+
+	// Methods
+
+	// RVA: 0x3E29BB0 Offset: 0x3E287B0 VA: 0x183E29BB0
+	public void .ctor(Fp x, Fp y, Fp z, Fp w) { }
+
+	// RVA: 0x3E29590 Offset: 0x3E28190 VA: 0x183E29590 Slot: 4
+	public bool Equals(QuaternionFp x) { }
+
+	// RVA: 0x3E296A0 Offset: 0x3E282A0 VA: 0x183E296A0 Slot: 0
+	public override bool Equals(object x) { }
+
+	// RVA: 0x3E207F0 Offset: 0x3E1F3F0 VA: 0x183E207F0 Slot: 2
+	public override int GetHashCode() { }
+
+	// RVA: 0x3E29940 Offset: 0x3E28540 VA: 0x183E29940 Slot: 3
+	public override string ToString() { }
+
+	// RVA: 0x3E29740 Offset: 0x3E28340 VA: 0x183E29740 Slot: 5
+	public string ToString(string format, IFormatProvider formatProvider) { }
+
+	// RVA: 0x3E29B20 Offset: 0x3E28720 VA: 0x183E29B20
+	private static void .cctor() { }
+}
+
+// Namespace: Unity.Mathematics.FixedPoint
+[Il2CppEagerStaticClassConstruction]
+[Serializable]
+public struct Random // TypeDefIndex: 20850
+{
+	// Fields
+	public uint state; // 0x0
+
+	// Methods
+
+	// RVA: 0x3E13050 Offset: 0x3E11C50 VA: 0x183E13050
+	public void .ctor(
+
+=== ActorVisualBase / ActorRender 相关方法 ===
+
+--- public class ActorVisual ---
+  private static int mEffectOrder; // 0x0
+  private static Dictionary<VFXEffectExtension.Option, ESortingLayer> s_layerOption2SortingLayer; // 0x8
+  public static void ResetEffectOrder() { }
+  internal static void OnPostProcessEffect(VFXEffectHub effecthub, LayerInfo layerInfo, int face, float rotate) { }
+  public static ESortingLayer GetSortinglayer(VFXEffectExtension.Option layerOption) { }
+  public void .ctor() { }
+  public VFXEffectExtension.Option[] FilterByOptions; // 0x20
+  public int StencilRef; // 0x28
+  public CompareFunction CompareFunction; // 0x2C
+  public StencilOp PassedOp; // 0x30
+  public StencilOp FailedOp; // 0x34
+  private HashSet<VFXEffectHub> _effects; // 0x38
+  private List<Material> _temp; // 0x40
+  public void .ctor() { }
+  public MeshRenderer targetRenderer; // 0x20
+  public int materialIndex; // 0x28
+  public string textureProperty; // 0x30
+  public Texture mainTex; // 0x38
+  private MaterialPropertyBlock _block; // 0x40
+  private Texture _lastTex; // 0x48
+  public void SyncFromMaterial() { }

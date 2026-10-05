@@ -1,0 +1,9 @@
+
+########## A1 ##########
+  @52987: 3003 | esbullet | `ff | fff | A12 | Role/Es/es_holdatk1_02 | 433 | fff | behit_up | Splash | 333
+
+########## B1 ##########
+  @46815: 3003 | esbullet | B12 | Role/ha/ha_attack6_02 | fff | Role/Es/es_holdatk1_02
+
+########## C1 ##########
+  @40687: 3003 | esbullet | C12 | Role/ha/ha_attack6_02 | 433 | Role/Es/es_holdatk3_02 | 433 | hff

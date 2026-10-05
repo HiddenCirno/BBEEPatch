@@ -1,0 +1,160 @@
+跳转表 @RVA 0x1be09f0, 16 项
+  case 0: -> 0x181be085d
+  case 1: -> 0x181be0869
+  case 2: -> 0x181be0882
+  case 3: -> 0x181be0897
+  case 4: -> 0x181be08ef
+  case 5: -> 0x181be0947
+  case 6: -> 0x181be0998
+  case 7: -> 0x181be09ad
+  case 8: -> 0x181be09c6
+  case 9: -> 0x24ccccccc
+  case 10: -> 0x24ccccccc
+  case 11: -> 0x24ccccccc
+  case 12: -> 0x1a45c8948
+  case 13: -> 0x1ec894810
+  case 14: -> 0x1d7561824
+  case 15: -> 0x203485741
+
+########## dirType = 0  (RVA 0x1be085d) ##########
+  0x000181be085d  mov      al, 1
+  0x000181be085f  add      rsp, 0xb8
+  0x000181be0866  pop      rdi
+  0x000181be0867  pop      rbx
+  0x000181be0868  ret      
+
+########## dirType = 1  (RVA 0x1be0869) ##########
+  0x000181be0869  movss    xmm0, dword ptr [rsp + 0x74]
+  0x000181be086f  xorps    xmm1, xmm1
+  0x000181be0872  comiss   xmm0, xmm1
+  0x000181be0875  seta     al
+  0x000181be0878  add      rsp, 0xb8
+  0x000181be087f  pop      rdi
+  0x000181be0880  pop      rbx
+  0x000181be0881  ret      
+
+########## dirType = 2  (RVA 0x1be0882) ##########
+  0x000181be0882  xorps    xmm0, xmm0
+  0x000181be0885  comiss   xmm0, dword ptr [rsp + 0x74]
+  0x000181be088a  seta     al
+  0x000181be088d  add      rsp, 0xb8
+  0x000181be0894  pop      rdi
+  0x000181be0895  pop      rbx
+  0x000181be0896  ret      
+
+########## dirType = 3  (RVA 0x1be0897) ##########
+  0x000181be0897  test     rbx, rbx
+  0x000181be089a  je       0x181be09ea
+  0x000181be08a0  mov      rcx, qword ptr [rbx + 0x60]
+  0x000181be08a4  test     rcx, rcx
+  0x000181be08a7  je       0x181be09ea
+  0x000181be08ad  xor      edx, edx
+  0x000181be08af  call     0x181b0cec0      ; -> ActorDir::get_Dir
+  0x000181be08b4  mov      rcx, qword ptr [rip + 0x371ae5d]
+  0x000181be08bb  mov      rbx, rax
+  0x000181be08be  cmp      dword ptr [rcx + 0xe0], 0
+  0x000181be08c5  jne      0x181be08cc
+  0x000181be08c7  call     0x18046fe50      ; -> sub_46FE50
+  0x000181be08cc  xor      edx, edx
+  0x000181be08ce  mov      rcx, rbx
+  0x000181be08d1  call     0x183e25420      ; -> Fp::op_Explicit
+  0x000181be08d6  mulss    xmm0, dword ptr [rsp + 0x70]
+  0x000181be08dc  xorps    xmm1, xmm1
+  0x000181be08df  comiss   xmm0, xmm1
+  0x000181be08e2  seta     al
+  0x000181be08e5  add      rsp, 0xb8
+  0x000181be08ec  pop      rdi
+  0x000181be08ed  pop      rbx
+  0x000181be08ee  ret      
+
+########## dirType = 4  (RVA 0x1be08ef) ##########
+  0x000181be08ef  test     rbx, rbx
+  0x000181be08f2  je       0x181be09ea
+  0x000181be08f8  mov      rcx, qword ptr [rbx + 0x60]
+  0x000181be08fc  test     rcx, rcx
+  0x000181be08ff  je       0x181be09ea
+  0x000181be0905  xor      edx, edx
+  0x000181be0907  call     0x181b0cec0      ; -> ActorDir::get_Dir
+  0x000181be090c  mov      rcx, qword ptr [rip + 0x371ae05]
+  0x000181be0913  mov      rbx, rax
+  0x000181be0916  cmp      dword ptr [rcx + 0xe0], 0
+  0x000181be091d  jne      0x181be0924
+  0x000181be091f  call     0x18046fe50      ; -> sub_46FE50
+  0x000181be0924  xor      edx, edx
+  0x000181be0926  mov      rcx, rbx
+  0x000181be0929  call     0x183e25420      ; -> Fp::op_Explicit
+  0x000181be092e  mulss    xmm0, dword ptr [rsp + 0x70]
+  0x000181be0934  xorps    xmm1, xmm1
+  0x000181be0937  comiss   xmm1, xmm0
+  0x000181be093a  seta     al
+  0x000181be093d  add      rsp, 0xb8
+  0x000181be0944  pop      rdi
+  0x000181be0945  pop      rbx
+  0x000181be0946  ret      
+
+########## dirType = 5  (RVA 0x1be0947) ##########
+  0x000181be0947  cmp      byte ptr [rip + 0x3a192ca], 0
+  0x000181be094e  jne      0x181be0963
+  0x000181be0950  lea      rcx, [rip + 0x378bab9]
+  0x000181be0957  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x000181be095c  mov      byte ptr [rip + 0x3a192b5], 1
+  0x000181be0963  mov      rax, qword ptr [rip + 0x378baa6]
+  0x000181be096a  mov      rcx, qword ptr [rax + 0xb8]
+  0x000181be0971  movss    xmm0, dword ptr [rsp + 0x70]
+  0x000181be0977  ucomiss  xmm0, dword ptr [rcx]
+  0x000181be097a  jp       0x181be09de
+  0x000181be097c  jne      0x181be09de
+  0x000181be097e  movss    xmm0, dword ptr [rsp + 0x74]
+  0x000181be0984  ucomiss  xmm0, dword ptr [rcx + 4]
+  0x000181be0988  jp       0x181be09de
+  0x000181be098a  jne      0x181be09de
+  0x000181be098c  mov      al, 1
+  0x000181be098e  add      rsp, 0xb8
+  0x000181be0995  pop      rdi
+  0x000181be0996  pop      rbx
+  0x000181be0997  ret      
+
+########## dirType = 6  (RVA 0x1be0998) ##########
+  0x000181be0998  xorps    xmm0, xmm0
+  0x000181be099b  comiss   xmm0, dword ptr [rsp + 0x70]
+  0x000181be09a0  seta     al
+  0x000181be09a3  add      rsp, 0xb8
+  0x000181be09aa  pop      rdi
+  0x000181be09ab  pop      rbx
+  0x000181be09ac  ret      
+
+########## dirType = 7  (RVA 0x1be09ad) ##########
+  0x000181be09ad  movss    xmm0, dword ptr [rsp + 0x70]
+  0x000181be09b3  xorps    xmm1, xmm1
+  0x000181be09b6  comiss   xmm0, xmm1
+  0x000181be09b9  seta     al
+  0x000181be09bc  add      rsp, 0xb8
+  0x000181be09c3  pop      rdi
+  0x000181be09c4  pop      rbx
+  0x000181be09c5  ret      
+
+########## dirType = 8  (RVA 0x1be09c6) ##########
+  0x000181be09c6  movss    xmm0, dword ptr [rsp + 0x70]
+  0x000181be09cc  xorps    xmm1, xmm1
+  0x000181be09cf  ucomiss  xmm0, xmm1
+  0x000181be09d2  jp       0x181be085d
+  0x000181be09d8  jne      0x181be085d
+  0x000181be09de  xor      al, al
+  0x000181be09e0  add      rsp, 0xb8
+  0x000181be09e7  pop      rdi
+  0x000181be09e8  pop      rbx
+  0x000181be09e9  ret      
+
+########## dirType = 9  (RVA 0xcccccccc) ##########
+
+########## dirType = 10  (RVA 0xcccccccc) ##########
+
+########## dirType = 11  (RVA 0xcccccccc) ##########
+
+########## dirType = 12  (RVA 0x245c8948) ##########
+
+########## dirType = 13  (RVA 0x6c894810) ##########
+
+########## dirType = 14  (RVA 0x57561824) ##########
+
+########## dirType = 15  (RVA 0x83485741) ##########

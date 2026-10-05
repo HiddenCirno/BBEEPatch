@@ -1,0 +1,149 @@
+
+[f=  4654] 动作 "jump"
+          [技能] 动作="jump" 输入=Jump/Any 槽=7.3 需Trigger=[]  ActorId=103401 类型=Jump
+          [技能] 动作="jump" 输入=Jump/Any 槽=7.3 需Trigger=[]  ActorId=103401 类型=Jump
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  5255] 动作 "dropend2"
+
+[f=  5279] 动作 "attackD1"
+          [技能] 动作="attackD1" 输入=Attack/Down 槽=1.4 需Trigger=[]  ActorId=103401 类型=Attack
+          [技能] 动作="attackD1" 输入=Attack/Down 槽=1.4 需Trigger=[]  ActorId=103401 类型=Attack
+            └ 弹幕 idx=10340101 action="aD12"
+            └ 弹幕 idx=1006 action="fly"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  6348] 动作 "jump"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  6938] 动作 "dropend2"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  7328] 动作 "jump"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  7562] 动作 "fall"
+          [技能] 动作="fall" 输入=/Any 槽=4.1 需Trigger=[]  ActorId=103401 类型=AttackAir
+
+[f=  7636] 动作 "fallup"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  7896] 动作 "fallupd"
+          [技能] 动作="fall" 输入=/Any 槽=4.1 需Trigger=[]  ActorId=103401 类型=AttackAir
+          [技能] 动作="fallupd" 输入=/Any 槽=4.3 需Trigger=[]  ActorId=103401 类型=AttackAir
+
+[f=  7898] 动作 "fallup2"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  8194] 动作 "fallup2d"
+          [技能] 动作="fallupd" 输入=/Any 槽=4.3 需Trigger=[]  ActorId=103401 类型=AttackAir
+          [技能] 动作="fallup2d" 输入=/Any 槽=4.6 需Trigger=[]  ActorId=103401 类型=AttackAir
+
+[f=  8196] 动作 "fallup3"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  8466] 动作 "fallm"
+          [技能] 动作="fallup2d" 输入=/Any 槽=4.6 需Trigger=[]  ActorId=103401 类型=AttackAir
+          [技能] 动作="fallm" 输入=/Any 槽=4.9 需Trigger=[]  ActorId=103401 类型=AttackAir
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  8811] 动作 "fallmdown"
+          [技能] 动作="fallm" 输入=/Any 槽=4.9 需Trigger=[]  ActorId=103401 类型=AttackAir
+          [技能] 动作="fallmdown" 输入=/Any 槽=4.10 需Trigger=[]  ActorId=103401 类型=AttackAir
+
+[f=  8842] 动作 "fallmdownendEX2"
+          [技能] 动作="fallmdownend" 输入=/Any 槽=4.11 需Trigger=[]  ActorId=103401 类型=AttackAir
+          [技能] 动作="fallmdownendEX2" 输入=/Any 槽=4.16 需Trigger=[]  ActorId=103401 类型=AttackAir
+
+[f=  8842] 动作 "fallmdownend"
+          [技能] 动作="fallmdown" 输入=/Any 槽=4.10 需Trigger=[]  ActorId=103401 类型=AttackAir
+          [技能] 动作="fallmdownend" 输入=/Any 槽=4.11 需Trigger=[]  ActorId=103401 类型=AttackAir
+          [技能] 动作="fallmdownendEX2" 输入=/Any 槽=4.16 需Trigger=[]  ActorId=103401 类型=AttackAir
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f=  9758] 动作 "jump"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 10016] 动作 "jump2"
+          [技能] 动作="jump2" 输入=/Any 槽=7.4 需Trigger=[]  ActorId=103401 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 10179] 动作 "jump3"
+          [技能] 动作="jump2" 输入=/Any 槽=7.4 需Trigger=[]  ActorId=103401 类型=Jump
+          [技能] 动作="jump3" 输入=/Any 槽=7.5 需Trigger=[]  ActorId=103401 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 10397] 动作 "dashAirAtkG"
+          [技能] 动作="dashAirAtk" 输入=/Any 槽=5.4 需Trigger=[]  ActorId=103401 类型=Dash
+          [技能] 动作="dashAirAtkG" 输入=/Any 槽=5.23 需Trigger=[]  ActorId=103401 类型=Dash
+
+[f= 10397] 动作 "dashAirAtk"
+          [技能] 动作="dashAirAtk0" 输入=Summon/Up 槽=11.2 需Trigger=[]  ActorId=103401 类型=Summon
+          [技能] 动作="dashAirAtk" 输入=/Any 槽=5.4 需Trigger=[]  ActorId=103401 类型=Dash
+
+[f= 10397] 动作 "dashAirAtk0"
+          [技能] 动作="jump3" 输入=/Any 槽=7.5 需Trigger=[]  ActorId=103401 类型=Jump
+          [技能] 动作="dashAirAtk0" 输入=Summon/Up 槽=11.2 需Trigger=[]  ActorId=103401 类型=Summon
+            └ 弹幕 idx=800010 action="anyingchongci"
+            └ 弹幕 idx=10340101 action="dashAir"
+            └ 弹幕 idx=10340101 action="dashA"
+            └ 弹幕 idx=10340101 action="dashA"
+            └ 弹幕 idx=10340101 action="dashA"
+            └ 弹幕 idx=10340101 action="dashA"
+            └ 弹幕 idx=10340101 action="dashA"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 10798] 动作 "dashAAendEX"
+          [技能] 动作="dashAirAtkG" 输入=/Any 槽=5.23 需Trigger=[]  ActorId=103401 类型=Dash
+          [技能] 动作="dashAAendEX" 输入=/Any 槽=5.19 需Trigger=[]  ActorId=103401 类型=Dash
+          [技能] 动作="dashAAendEX" 输入=/Any 槽=5.19 需Trigger=[]  ActorId=103401 类型=Dash
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 11679] 动作 "jump"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 11937] 动作 "jump2"
+            └ 弹幕 idx=10340101 action="jump"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 12098] 动作 "jump3"
+            └ 弹幕 idx=10340101 action="jump"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 12284] 动作 "fallmEX0"
+          [技能] 动作="fallmEX0" 输入=Summon/Down 槽=11.3 需Trigger=[]  ActorId=103401 类型=Summon
+
+[f= 12284] 动作 "fallm"
+
+[f= 12284] 动作 "fallmEX0Air"
+
+  · · · · · · · · · · · · · · · · · · · ·
+
+[f= 12441] 动作 "fallmdownEX0"
+
+[f= 12457] 动作 "fallmdownendEX"
+          [技能] 动作="fallmdownendEX" 输入=/Any 槽=4.15 需Trigger=[]  ActorId=103401 类型=AttackAir
+
+[f= 12457] 动作 "fallmdownend"
+          [技能] 动作="fallmEX0" 输入=Summon/Down 槽=11.3 需Trigger=[]  ActorId=103401 类型=Summon
+          [技能] 动作="fallmdownendEX" 输入=/Any 槽=4.15 需Trigger=[]  ActorId=103401 类型=AttackAir

@@ -1,0 +1,75 @@
+
+===== get_RealDeltaTime @ 0x18073f8c0  (file 0x73e4c0) =====
+  0x018073f8c0  mov      rax, qword ptr [rcx]
+  0x018073f8c3  ret      
+
+===== get_TimeScale @ 0x1805d4390  (file 0x5d2f90) =====
+  0x01805d4390  cld      
+  0x01805d4391  and      edi, edx
+  0x01805d4393  add      al, 0x48
+  0x01805d4395  mov      esi, dword ptr [rbx + 0x20]
+  0x01805d4398  cmp      dword ptr [rcx + 0xe0], 0
+  0x01805d439f  jne      0x1805d43a6
+  0x01805d43a1  call     0x18046fe50
+  0x01805d43a6  movups   xmm0, xmmword ptr [rbp]
+  0x01805d43aa  mov      rax, qword ptr [rip + 0x4dac017]
+  0x01805d43b1  lea      rdx, [rsp + 0x40]
+  0x01805d43b6  xor      r9d, r9d
+  0x01805d43b9  mov      qword ptr [rsp + 0x20], rax
+  0x01805d43be  mov      r8, rsi
+  0x01805d43c1  movaps   xmmword ptr [rsp + 0x40], xmm0
+  0x01805d43c6  lea      rcx, [rsp + 0x50]
+  0x01805d43cb  call     0x182712870
+  0x01805d43d0  movaps   xmm0, xmmword ptr [rsp + 0x50]
+  0x01805d43d5  lea      rcx, [rsp + 0x30]
+  0x01805d43da  mov      rdx, qword ptr [rip + 0x4dac15f]
+  0x01805d43e1  movdqa   xmmword ptr [rsp + 0x30], xmm0
+  0x01805d43e7  call     0x182712ba0
+  0x01805d43ec  test     rax, rax
+  0x01805d43ef  je       0x1805d443b
+  0x01805d43f1  mov      ecx, dword ptr [rbx + 0x18]
+  0x01805d43f4  lea      rdx, [rsp + 0x50]
+  0x01805d43f9  mov      dword ptr [rax + 0x34], ecx
+  0x01805d43fc  lea      rcx, [rsp + 0x40]
+  0x01805d4401  movaps   xmm0, xmmword ptr [rsp + 0x30]
+  0x01805d4406  mov      r8, qword ptr [rip + 0x4dac42b]
+  0x01805d440d  movdqa   xmmword ptr [rsp + 0x50], xmm0
+  0x01805d4413  call     0x182713060
+  0x01805d4418  movups   xmm0, xmmword ptr [rsp + 0x40]
+  0x01805d441d  mov      rbx, qword ptr [rsp + 0x70]
+  0x01805d4422  mov      rax, rdi
+  0x01805d4425  mov      rbp, qword ptr [rsp + 0x78]
+
+===== get_DeltaTime @ 0x1805a57e0  (file 0x5a43e0) =====
+  0x01805a57e0  mov      rax, qword ptr [rcx + 0x10]
+  0x01805a57e4  ret      
+
+===== SetRealTimeAndScale @ 0x181bf5430  (file 0x1bf4030) =====
+  0x0181bf5430  mov      qword ptr [rsp + 8], rbx
+  0x0181bf5435  mov      qword ptr [rsp + 0x10], rsi
+  0x0181bf543a  push     rdi
+  0x0181bf543b  sub      rsp, 0x20
+  0x0181bf543f  cmp      byte ptr [rip + 0x3a1013e], 0
+  0x0181bf5446  mov      rbx, r8
+  0x0181bf5449  mov      rdi, rdx
+  0x0181bf544c  mov      rsi, rcx
+  0x0181bf544f  jne      0x181bf5464
+  0x0181bf5451  lea      rcx, [rip + 0x37062c0]
+  0x0181bf5458  call     0x1804ff9e0
+  0x0181bf545d  mov      byte ptr [rip + 0x3a10120], 1
+  0x0181bf5464  mov      qword ptr [rsi], rdi
+  0x0181bf5467  mov      qword ptr [rsi + 8], rbx
+  0x0181bf546b  mov      rcx, qword ptr [rip + 0x37062a6]
+  0x0181bf5472  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bf5479  jne      0x181bf5480
+  0x0181bf547b  call     0x18046fe50
+  0x0181bf5480  xor      r8d, r8d
+  0x0181bf5483  mov      rdx, rbx
+  0x0181bf5486  mov      rcx, rdi
+  0x0181bf5489  call     0x183e22e10
+  0x0181bf548e  mov      rbx, qword ptr [rsp + 0x30]
+  0x0181bf5493  mov      qword ptr [rsi + 0x10], rax
+  0x0181bf5497  mov      rsi, qword ptr [rsp + 0x38]
+  0x0181bf549c  add      rsp, 0x20
+  0x0181bf54a0  pop      rdi
+  0x0181bf54a1  ret      

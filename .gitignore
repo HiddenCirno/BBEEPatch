@@ -1,0 +1,19 @@
+# 构建产物
+bin/
+obj/
+*.dll
+*.pdb
+
+# 游戏派生物（不进版本库）
+dump/
+logs/
+extracted/
+js_src/
+tools/_dl/
+tools/_save/
+tools/decomp/
+tools/_cabindex.json
+
+# 本地临时
+*.orig
+*.bak

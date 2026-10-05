@@ -1,0 +1,18 @@
+A1           -> `ff | fff
+B1           -> 
+C1           -> 
+A2           -> (无此动作块)
+B2           -> (无此动作块)
+C2           -> (无此动作块)
+aD1          -> aD1 | dead
+aD2          -> aD2 | dead
+aD3          -> aD3 | dead
+aD12         -> aD12 | dead
+aD22         -> aD22 | dead
+aD32         -> aD32 | dead
+dashSkill    -> dashSkill | dead | Role/Es/es_attackAir_02 | @333 | hff | hff
+dashSkill2   -> dashSkill2 | dead | Role/Es/es_attackAir_02a | @333 | 333 | 433 | 433
+UD           -> dead | Role/Es/es_AH_01 | ff& | @333 | @333 | @33
+UDA          -> UDA | dead | Role/Es/es_AH_01 | ff& | @333 | @333 | @33
+UDA0         -> UDA0 | dead | Hit/hit_019 | sfx_es_attack_hit
+UDEX         -> UDEX | dead | ff& | Role/Es/es_AH_03

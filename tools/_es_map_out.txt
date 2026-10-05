@@ -1,0 +1,499 @@
+
+
+#################### es.ab  (character ALG) ####################
+  raw=1042540B  strings=20622  actions=178  group='es'
+
+--- [dashAir3]  vfx=['Role/Es/es_dash_01', 'Role/Es/es_dash_02', 'Role/Es/es_dodge_02']  hits=[]
+    ChangeSkill  action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  ChangeSkill
+    ChangeSkill  ChangeSkill
+    ChangeSkill  action:"attackB_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackC_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackAir2EX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"fallupd",trigger:56131
+    ChangeSkill  action:"fallup22",trigger:56131
+    ChangeSkill  action:"fallm",trigger:56131
+    ChangeSkill  action:"jump3",trigger:11741
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+    SetActionCD  action: "fall", cd: 0
+    SetActionCD  action: "atkAir12", cd: 0
+    SetActionCD  action: "AttackUp2", cd: 0
+
+--- [dashAir2]  vfx=['Role/Es/es_dash_01', 'Role/Es/es_dash_02', 'Role/Es/es_dodge_02']  hits=[]
+    ChangeSkill  action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  ChangeSkill
+    ChangeSkill  ChangeSkill
+    ChangeSkill  action:"attackB_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackC_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackAir2EX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dash3",trigger:11801
+    ChangeSkill  action:"dashAir3",trigger:11801
+    ChangeSkill  action:"fallupd",trigger:56131
+    ChangeSkill  action:"fallup22",trigger:56131
+    ChangeSkill  action:"fallm",trigger:56131
+    ChangeSkill  action:"jump3",trigger:11741
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+    SetActionCD  action: "fall", cd: 0
+    SetActionCD  action: "atkAir12", cd: 0
+    SetActionCD  action: "AttackUp2", cd: 0
+
+--- [dashAir]  vfx=['Role/Es/es_dash_01', 'Role/Es/es_dash_02', 'Role/Es/es_dodge_02']  hits=[]
+    ChangeSkill  action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  ChangeSkill
+    ChangeSkill  ChangeSkill
+    ChangeSkill  action:"attackB_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackC_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackAir2EX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dash2",trigger:11801
+    ChangeSkill  action:"dashAir2",trigger:11801
+    ChangeSkill  action:"fallupd",trigger:56131
+    ChangeSkill  action:"fallup22",trigger:56131
+    ChangeSkill  action:"fallm",trigger:56131
+    ChangeSkill  action:"jump3",trigger:11741
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+    SetActionCD  action: "fall", cd: 0
+    SetActionCD  action: "atkAir12", cd: 0
+    SetActionCD  action: "AttackUp2", cd: 0
+
+--- [dash3]  vfx=['Role/Es/es_dash_01', 'Role/Es/es_dash_02', 'Role/Es/es_dodge_02']  hits=[]
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+
+--- [dash2]  vfx=['Role/Es/es_dash_01', 'Role/Es/es_dash_02', 'Role/Es/es_dodge_02']  hits=[]
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+
+--- [dash]  vfx=['Role/Es/es_dash_01', 'Role/Es/es_dash_02', 'Role/Es/es_dodge_02']  hits=[]
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+
+--- [dashAirAtkold]  vfx=['Role/Es/es_dashAtk22_03', 'Role/Es/es_dodge_01', 'Role/Es/es_attack1_01']  hits=[]
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+
+--- [dashAAhitold]  vfx=['Role/Es/es_attack1_01']  hits=['Hit/hit_018']
+    ChangeSkill  action:"dashAir2",trigger:11801
+    ChangeSkill  action:"attackAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"fallupd",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.9
+    ChangeSkill  action:"fallup22",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.9
+    ChangeSkill  action:"fallm",trigger:56251,trigger2:56131,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    CreateBulletIfTriggerChange  DAA
+
+--- [fall]  vfx=[]  hits=['Hit/hit_105']
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  ChangeSkill
+    ChangeSkill  dashAir
+    CreateBulletIfTriggerChange  
+
+--- [fallmdownendEXx]  vfx=['Role/Es/es_fallmdownend_01']  hits=['Hit/hit_106']
+    Splash  es_fall
+    Splash  es_fall
+    Splash  es_fall
+    CreateBullet  trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+    SetActionCD  action: "fallmEX0", cd: 0
+
+--- [fallmdownendEX]  vfx=['Role/Es/es_fallmdownend_01']  hits=['Hit/hit_106']
+    Splash  es_fall
+    Splash  es_fall
+    Splash  es_fall
+    CreateBullet  trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+    SetActionCD  action: "fallmEX0", cd: 0
+
+--- [fallmdownendEX2]  vfx=['Role/Es/es_fallmdownend_01']  hits=['Hit/hit_106']
+    Splash  es_fall
+    Splash  es_fall
+    Splash  es_fall
+    CreateBullet  trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+    SetActionCD  action: "fallmEX0", cd: 0
+
+--- [fallmdownendold]  vfx=['Role/Es/es_fallmdownend_01']  hits=['Hit/hit_019']
+    CreateBullet  trigger:11481,bullet_id:800002,bullet_action:"leibao",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+
+--- [atkAirX]  vfx=[]  hits=['Hit/hit_018']
+    ChangeSkill  action:"jump2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"fallmEX0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"fall",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.9
+    ChangeSkill  action:"AttackUp2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"atkAir12",effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.35
+    ChangeSkill  action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.35
+    ChangeSkill  ChangeSkill
+    ChangeSkill  ChangeSkill
+    ChangeSkill  action:"attackB_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackC_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackAir2EX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"attackAir2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"attackAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"attackAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    CreateBulletIfTriggerChange  2301_changestop
+
+--- [attackholdDashEXQ]  vfx=['Role/Es/es_dodge_01', 'Role/Es/es_dodge_02', 'Role/Es/es_attackhlod_02', 'Role/Es/es_dash_01', 'Role/Es/es_attackhlod_01']  hits=['Hit/hit_105']
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"dashAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"fallmEX0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    ChangeSkill  action:"dash2",trigger:56251,trigger2:11801,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    ChangeSkill  action:"dash3",trigger:56251,trigger2:11801,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+    SetActionCD  action: "dash", cd: 0.6
+    SetActionCD  action: "fall", cd: 0
+    SetActionCD  action: "atkAir12", cd: 0
+    SetActionCD  action: "AttackUp2", cd: 0
+
+--- [attackholdDashEX]  vfx=['Role/Es/es_dodge_01', 'Role/Es/es_dodge_02', 'Role/Es/es_attackhlod_02', 'Role/Es/es_dash_01', 'Role/Es/es_attackhlod_01']  hits=['Hit/hit_105']
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"dashAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"fallmEX0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    ChangeSkill  action:"dash2",trigger:56251,trigger2:11801,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    ChangeSkill  action:"dash3",trigger:56251,trigger2:11801,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+    SetActionCD  action: "dash", cd: 0.6
+    SetActionCD  action: "fall", cd: 0
+    SetActionCD  action: "atkAir12", cd: 0
+    SetActionCD  action: "AttackUp2", cd: 0
+
+--- [attackholdDash]  vfx=['Role/Es/es_dodge_01', 'Role/Es/es_dodge_02', 'Role/Es/es_attackhlod_02', 'Role/Es/es_dash_01', 'Role/Es/es_attackhlod_01']  hits=['Hit/hit_105']
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"dashAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"fallmEX0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    ChangeSkill  action:"dash2",trigger:56251,trigger2:11801,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    ChangeSkill  action:"dash3",trigger:56251,trigger2:11801,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.5
+    CreateBullet  trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+    SetActionCD  action: "dash", cd: 0.6
+    SetActionCD  action: "fall", cd: 0
+    SetActionCD  action: "atkAir12", cd: 0
+    SetActionCD  action: "AttackUp2", cd: 0
+
+--- [attackhold_hit2]  vfx=['Role/Es/es_stand_02', 'Role/Es/es_attackhlod_hit_01', 'Role/Es/es_attackhlod_hit_04', 'Role/Es/es_dodge_02', 'Role/Es/es_attackhlod_hit_03', 'Role/Es/es_attackhlod_hit_02']  hits=[]
+    ChangeSkill  action:"attackholdDashEX",buff: "skill_times1", buff_stack: 99
+    ChangeSkill  action:"attackholdDash",buff: "skill_times1", buff_stack: 99
+    Splash  CreateBullet
+    CreateBullet  Role/Es/es_attackhlod_hit_02
+    RemoveBuff  buff: "skill_times1"
+    SetActionCD  action: "dash", cd: 0.1
+
+--- [attackhold_hit2Air]  vfx=['Role/Es/es_stand_02', 'Role/Es/es_attackhlod_hit_01', 'Role/Es/es_attackhlod_hit_04', 'Role/Es/es_dodge_02', 'Role/Es/es_attackhlod_hit_03', 'Role/Es/es_attackhlod_hit_02']  hits=[]
+    ChangeSkill  action:"attackholdDashEX",buff: "skill_times1", buff_stack: 99
+    ChangeSkill  action:"attackholdDash",buff: "skill_times1", buff_stack: 99
+    Splash  CreateBullet
+    CreateBullet  Role/Es/es_attackhlod_hit_02
+    RemoveBuff  buff: "skill_times1"
+    SetActionCD  action: "dash", cd: 0.1
+
+--- [attackD2]  vfx=[]  hits=[]
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"fallmEX0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    CreateBulletIfTriggerChange  SkillSetCD
+
+--- [attack3]  vfx=[]  hits=['Hit/hit_018']
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"fallmEX0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    CreateBulletIfTriggerChange  SkillSetCD
+
+--- [AttackUp]  vfx=['Role/Es/es_attack1_01']  hits=['Hit/hit_018']
+    ChangeAction  action:"AttackUp2",trigger:56271
+    ChangeSkill  action:"jump2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"fallmEX0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"fall",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.9
+    ChangeSkill  action:"atkAir12",effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"atkAir12",effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  ChangeSkill
+    ChangeSkill  ChangeSkill
+    ChangeSkill  action:"attackB_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackC_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackAir2EX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    CreateBulletIfTriggerChange  aup
+
+--- [holdEX]  vfx=['Role/Es/es_dodge_02']  hits=[]
+    ChangeSkill  action:"attackA",trigger:56071
+    CreateBulletIfTriggerChange  DeleteBulletByTag
+
+--- [hold]  vfx=['Role/Es/es_dodge_02']  hits=[]
+    ChangeSkill  action:"attackA",trigger:56071
+    CreateBulletIfTriggerChange  DeleteBulletByTag
+
+--- [rush]  vfx=['Role/Es/es_dodge_02']  hits=[]
+    ChangeSkill  action:"rushUp",trigger:56021
+    CreateBulletIfTriggerChange  SetActionCD
+    SetActionCD  action: "AttackUp", cd: 1.05
+    SetActionCD  action: "AttackUp2", cd: 1.05
+    SetActionCD  action: "AttackUp", cd: 0.01
+    SetActionCD  action: "AttackUp2", cd: 0.01
+
+--- [rushUp]  vfx=[]  hits=[]
+    ChangeSkill  action:"jump2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"jump3",trigger:56251,trigger2:11741,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackholdDashEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"attackholdDash",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.6
+    ChangeSkill  action:"dashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  ChangeSkill
+    ChangeSkill  attackholdDashEX
+    ChangeSkill  action:"dashAirAtk0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"fallmEX0",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"fall",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.9
+    ChangeSkill  ChangeSkill
+    ChangeSkill  action:"fallupdd",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:0.9
+    ChangeSkill  ChangeSkill
+    ChangeSkill  action:"fallm",trigger:56251,trigger2:56131,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+    ChangeSkill  action:"atkAir12",effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"atkAir3",effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"atkAir12",effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"atkAir3",effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+    ChangeSkill  ChangeSkill
+    ChangeSkill  ChangeSkill
+    ChangeSkill  action:"attackB_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1
+    ChangeSkill  action:"attackC_Air",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.2
+    ChangeSkill  action:"attackAir2EX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir2",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    ChangeSkill  action:"attackAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+    CreateBulletIfTriggerChange  ScanBulletAndAddBuff
+
+--- [summonEX]  vfx=[]  hits=[]
+
+--- [summon]  vfx=[]  hits=[]
+
+  >>> actions containing CreateBullet (28): ['dashAir3', 'dashAir2', 'dashAir', 'dash3', 'dash2', 'dash', 'dashAirAtkold', 'dashAAhitold', 'fall', 'fallmdownendEXx', 'fallmdownendEX', 'fallmdownendEX2', 'fallmdownendold', 'atkAirX', 'attackholdDashEXQ', 'attackholdDashEX', 'attackholdDash', 'attackhold_hit2', 'attackhold_hit2Air', 'attackD2', 'attack3', 'AttackUp', 'holdEX', 'hold', 'rush', 'rushUp', 'summonEX', 'summon']
+
+
+#################### esbullet.ab  (emblem bullet ALG) ####################
+  raw=168240B  strings=1022  actions=78  group='esbullet'
+
+--- [esbullet]  vfx=[]  hits=[]
+
+--- [esbullet]  vfx=[]  hits=[]
+
+--- [jump]  vfx=['Role/Es/es_fall_01a']  hits=['Hit/hit_105']
+
+--- [q]  vfx=[]  hits=['Hit/hit_019']
+
+--- [fallmdownend]  vfx=['Role/Es/es_fallmdownend_02']  hits=['Hit/hit_019']
+
+--- [attackAir2old]  vfx=['Role/Es/es_holdFull_01']  hits=['Hit/hit_018']
+    RemoveBuff_es  buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+
+--- [attackAir2]  vfx=['Role/Es/es_attackAir_03']  hits=['Hit/hit_106']
+
+--- [attackAir]  vfx=['Role/Es/es_attackAir_01']  hits=['Hit/hit_018']
+
+--- [talentBullet]  vfx=['Role/Es/es_attackAir_03']  hits=['Hit/hit_106']
+
+--- [dashAir3]  vfx=['Role/Es/es_attackAir_03a']  hits=['Hit/hit_105']
+
+--- [dashAir2]  vfx=['Role/Es/es_attackAir_01a']  hits=['Hit/hit_105']
+
+--- [dashAir]  vfx=['Role/Es/es_attackAir_01']  hits=['Hit/hit_105']
+
+--- [dashSkill2]  vfx=['Role/Es/es_attackAir_02a']  hits=['Hit/hit_105']
+
+--- [dash2]  vfx=['Role/Es/es_attackAir_02a']  hits=['Hit/hit_105']
+
+--- [dashSkill]  vfx=['Role/Es/es_attackAir_02']  hits=['Hit/hit_105']
+
+--- [dash]  vfx=['Role/Es/es_attackAir_02']  hits=['Hit/hit_105']
+
+--- [DAA2]  vfx=['Role/Es/es_dashAtk1_02']  hits=['Hit/hit_106']
+
+--- [DAA]  vfx=['Role/Es/es_dashAtk1_01']  hits=['Hit/hit_018']
+    CreateBullet  bullet_id:10340101,bullet_action: "DAA2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+
+--- [dashBEX]  vfx=['Role/Es/es_esbullet_dashA_001', 'Role/Es/es_esbullet_dashA_002']  hits=['Hit/hit_105']
+
+--- [dashB]  vfx=['Role/Es/es_esbullet_dashA_001', 'Role/Es/es_esbullet_dashA_002']  hits=['Hit/hit_105']
+    ChangeAction  action:"dashBEX"
+
+--- [dashA]  vfx=[]  hits=['Hit/hit_019']
+
+--- [dashA0]  vfx=[]  hits=[]
+
+--- [dashAtk]  vfx=[]  hits=[]
+    cond: ParamV("offsetx") ;; ParamV("offsety")
+
+--- [AD_hit]  vfx=[]  hits=['Hit/hit_105']
+    Splash  es_AD_hit
+
+--- [C12EX]  vfx=['Role/Es/es_holdatk3_02a']  hits=[]
+
+--- [C1EX]  vfx=['Role/Es/es_holdatk3_02']  hits=['Hit/hit_106']
+    Splash  Esbullet_C
+
+--- [C12]  vfx=['Role/Es/es_holdatk3_02a']  hits=[]
+
+--- [C1]  vfx=['Role/ha/ha_attack6_02', 'Role/Es/es_holdatk3_02']  hits=['Hit/hit_106']
+    Splash  Esbullet_C
+    ChangeAction  action:"C1EX",trigger:56061
+
+--- [B12EX]  vfx=['Role/Es/es_holdatk1_02a']  hits=[]
+
+--- [B1EX]  vfx=['Role/Es/es_holdatk1_02']  hits=['Hit/hit_018']
+    Splash  Esbullet_B
+
+--- [B12]  vfx=['Role/Es/es_holdatk1_02a']  hits=[]
+
+--- [B1]  vfx=['Role/ha/ha_attack6_02', 'Role/Es/es_holdatk1_02']  hits=['Hit/hit_018']
+    Splash  Esbullet_B
+    ChangeAction  action:"B1EX",trigger:56061
+
+--- [A12EX]  vfx=['Role/Es/es_holdatk1_02a']  hits=[]
+
+--- [A1EX]  vfx=['Role/Es/es_holdatk1_02']  hits=['Hit/hit_018']
+    Splash  Esbullet_A
+
+--- [A12]  vfx=['Role/Es/es_holdatk1_02a']  hits=[]
+
+--- [A1]  vfx=['Role/Es/es_holdatk1_02']  hits=['Hit/hit_018']
+    Splash  Esbullet_A
+    ChangeAction  action:"A1EX",trigger:56061
+
+--- [UDA0]  vfx=[]  hits=['Hit/hit_019']
+
+--- [UDAA]  vfx=[]  hits=['Hit/hit_106']
+
+--- [UDA]  vfx=['Role/Es/es_AH_01']  hits=['Hit/hit_106']
+
+--- [UD]  vfx=['Role/Es/es_AH_01']  hits=['Hit/hit_106']
+
+--- [UDAEX]  vfx=['Role/Es/es_AH_03']  hits=['Hit/hit_106']
+
+--- [UDEX]  vfx=['Role/Es/es_AH_03']  hits=['Hit/hit_106']
+
+--- [aup2]  vfx=['Role/Es/es_attackup_02']  hits=['Hit/hit_106']
+    SetActionCD  action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+    SetActionCD  action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+
+--- [aup]  vfx=['Role/Es/es_attackup_01']  hits=['Hit/hit_018']
+    SetActionCD  action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+    SetActionCD  action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+    CreateBullet  bullet_id:10340101,bullet_action: "aup2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+
+--- [aH3EX]  vfx=['Role/Es/es_atkhold_21_006', 'Role/Es/es_attack3_02']  hits=['Hit/hit_106']
+    Splash  push_back
+    Splash  Hit/hit_106
+    ChangeAction  action:"aH3EX"
+
+--- [aH3]  vfx=['Role/Es/es_atkhold_21_006', 'Role/Es/es_attack3_02']  hits=['Hit/hit_106']
+    Splash  push_back
+    Splash  Hit/hit_106
+    ChangeAction  action:"aH3EX"
+
+--- [aH2EX]  vfx=['Role/Es/es_atkhold_21_005', 'Role/Es/es_attack3_02']  hits=['Hit/hit_106']
+    Splash  Hit/hit_106
+    ChangeAction  action:"aH2EX"
+
+--- [aH2]  vfx=['Role/Es/es_atkhold_21_005', 'Role/Es/es_attack3_02']  hits=['Hit/hit_106']
+    Splash  Hit/hit_106
+    ChangeAction  action:"aH2EX"
+
+--- [aHEX]  vfx=['Role/Es/es_atkhold_21_003']  hits=['Hit/hit_106']
+    ChangeAction  action:"aHEX"
+
+--- [aH]  vfx=['Role/Es/es_atkhold_21_003']  hits=['Hit/hit_106']
+    ChangeAction  action:"aHEX"
+
+--- [aD32]  vfx=['Role/Es/es_attackD1_009', 'Role/Es/es_attack3_01', 'Role/Es/es_attack3_02']  hits=['Hit/hit_018']
+
+--- [aD3]  vfx=['Role/Es/es_attackD1_008', 'Role/Es/es_attack3_01']  hits=['Hit/hit_018']
+
+--- [aD22]  vfx=['Role/Es/es_attackD1_006', 'Role/Es/es_attack3_01', 'Role/Es/es_attack3_02']  hits=['Hit/hit_018']
+
+--- [aD2]  vfx=['Role/Es/es_attackD1_005', 'Role/Es/es_attack3_01']  hits=['Hit/hit_018']
+
+--- [aD12]  vfx=['Role/Es/es_attackD1_003']  hits=['Hit/hit_018']
+
+--- [aD1]  vfx=['Role/Es/es_attackD1_002']  hits=['Hit/hit_105']
+
+--- [a0]  vfx=['Role/Es/es_attack1_02']  hits=['Hit/hit_105']
+
+--- [a]  vfx=['Role/Es/es_attack1_01']  hits=['Hit/hit_105']
+    ChangeAction  action:"a0"
+
+--- [a02]  vfx=['Role/Es/es_attack1_03']  hits=['Hit/hit_018']
+
+--- [a20]  vfx=['Role/Es/es_attack2_02']  hits=['Hit/hit_105']
+    Splash  Hit/hit_105
+
+--- [a2]  vfx=['Role/Es/es_attack2_01']  hits=['Hit/hit_105']
+    Splash  Hit/hit_105
+    ChangeAction  action:"a20"
+
+--- [a22]  vfx=['Role/Es/es_attack2_03']  hits=['Hit/hit_018']
+
+--- [a3]  vfx=['Role/Es/es_attack3_01']  hits=['Hit/hit_018']
+
+--- [a32]  vfx=['Role/Es/es_attack3_02']  hits=['Hit/hit_106']
+
+--- [a4]  vfx=['Role/Es/es_attack4_02']  hits=['Hit/hit_106']
+
+--- [a42]  vfx=['Role/Es/es_attack4_03']  hits=['Hit/hit_106']
+
+--- [aa]  vfx=['Role/Es/es_atkAir12_005']  hits=['Hit/hit_106']
+
+--- [aa3]  vfx=['Role/Es/es_atkAir12_006', 'Role/Es/es_attack3_02']  hits=['Hit/hit_106']
+
+--- [x32old]  vfx=['Role/Es/es_holdRelease_02']  hits=['Hit/hit_018']
+
+--- [x32]  vfx=['Role/Es/es_holdRelease_02']  hits=['Hit/hit_018']
+
+--- [x3old]  vfx=['Role/Es/es_holdRelease_01']  hits=['Hit/hit_105']
+
+--- [x3]  vfx=['Role/Es/es_holdRelease_01']  hits=['Hit/hit_105']
+
+--- [xup]  vfx=['Role/Es/es_holdRelease_01']  hits=['Hit/hit_105']
+
+--- [xup2]  vfx=['Role/Es/es_holdRelease_02']  hits=['Hit/hit_018']
+
+--- [ax2]  vfx=['Role/Es/es_holdFull_01']  hits=['Hit/hit_018']
+    RemoveBuff_es  buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+
+--- [ax1]  vfx=['Role/Es/es_holdFull_01']  hits=['Hit/hit_018']
+    RemoveBuff_es  buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+
+--- [x1]  vfx=['Role/Es/es_holdFull_01']  hits=['Hit/hit_018']
+    RemoveBuff_es  buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+
+--- [x2]  vfx=['Role/Es/es_holdFull_01', 'Role/Hb/hb_s6hn_01', 'Role/Es/es_attackAir_01']  hits=['Hit/hit_018', 'Hit/hit_009', 'hit/hit_002', 'Hit/hit_019']
+    cond: ActionLogicCondition_Trigger
+    RemoveBuff_es  buff: "1112_mpSpeed", target: "caster", tag: "es_x"

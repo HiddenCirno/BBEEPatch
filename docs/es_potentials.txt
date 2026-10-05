@@ -1,0 +1,56 @@
+potId=5600   act=340101    name=Type:Enchanter「佩利诺尔」
+               desc=附带<color=#3AFDFFFF>纹章</color>的大剑攻击，共3段。
+potId=5601   act=340131    name=None
+               desc=附带<color=#3AFDFFFF>纹章</color>的斩击。可蓄力增加<color=#3AFDFFFF>纹章</color>追加攻击的次数。
+potId=5602   act=340321    name=Type:Slasher「莫德雷德」
+               desc=腾空同时用大剑上撩，附带<color=#3AFDFFFF>纹章</color>。有短暂的<color=#3AFDFFFF>无敌</color>状态。
+potId=5603   act=340351    name=None
+               desc=None
+potId=5604   act=340361    name=None
+               desc=滞空时间越久，造成伤害越高。
+potId=5605   act=340371    name=None
+               desc=<color=#3AFDFFFF>无敌</color>状态升级为<color=#3AFDFFFF>无敌闪避</color>状态且时间延长。
+potId=5606   act=340271    name=None
+               desc=<color=#3AFDFFFF>纹章</color>更大并会向前方移动，伤害提升。
+potId=5607   act=340281    name=Type:Shooter「布鲁诺」
+               desc=斩出剑气。共3段，第3段可破霸体。
+potId=5608   act=340501    name=Type:Slasher「贝德维尔」
+               desc=斜向的一闪。期间再次按<action=MoveY+>+<action=Skill>可施放第二段。
+potId=5609   act=340511    name=None
+               desc=可透支SP使用。
+potId=5610   act=340151    name=None
+               desc=可使用三段跳；被击飞时可按<action=Jump>受身：恢复到可控制状态并无敌1秒。
+potId=5612   act=340171    name=None
+               desc=空中跳跃会产生<color=#3AFDFFFF>纹章</color>向下攻击。
+potId=5613   act=340191    name=None
+               desc=可借力弹起的次数增加至3次。<br>弹起3次后冲击地面将产生更大的<color=#3AFDFFFF>纹章</color>并造成更多伤害。
+potId=5614   act=340201    name=None
+               desc=踩到敌人会重置<color=#3AFDFFFF>空中普攻</color>的段数限制计数。
+potId=5615   act=340221    name=None
+               desc=可使用三段冲刺。
+potId=5616   act=340231    name=None
+               desc=会在起始点产生<color=#3AFDFFFF>纹章</color>；<color=#3AFDFFFF>纹章</color>会追加攻击。
+potId=5617   act=340391    name=Type:Slasher「高文」
+               desc=腾空再冲击斜下方的地面产生<color=#3AFDFFFF>纹章</color>。
+potId=5618   act=340401    name=None
+               desc=冲击轨迹上会出现<color=#3AFDFFFF>纹章</color>并追加攻击。
+potId=5619   act=340411    name=None
+               desc=冲击地面的攻击范围扩大，伤害提升。
+potId=5620   act=340421    name=None
+               desc=冲击时会牵扯沿途的敌人。
+potId=5621   act=340441    name=Type:Slasher「加拉哈德」
+               desc=一闪。可破霸体和防御。
+potId=5622   act=340451    name=None
+               desc=命中后，在即将结束瞬间按<action=MoveY->+<action=Dash>可无消耗再次一闪。
+potId=5623   act=340461    name=None
+               desc=MP消耗降低。
+potId=5624   act=340471    name=None
+               desc=可在空中使用。
+potId=5625   act=340571    name=None
+               desc=在空中，任意动作都可互相衔接。
+potId=5626   act=340581    name=None
+               desc=可透支MP施放<color=#3AFDFFFF>泛技能类招式</color>。
+potId=5627   act=340591    name=None
+               desc=<color=#3AFDFFFF>纹章</color>会更多地出现在<color=#3AFDFFFF>泛普攻类招式</color>中。
+potId=5640   act=105       name=潜能增幅
+               desc=普攻和技能伤害提升20%

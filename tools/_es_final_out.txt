@@ -1,0 +1,119 @@
+
+
+############ A. es.ab bullet spawns ############
+  markers=175
+  actions: drop_down_show, drop_down, push_back_3, push_back_4, push_down_3, push_down_4, knockdown, knockdown_loop, knockdown_stand, addHP, addHPAir, stand0, stand, squat, squat_loop, squat_to_stand, standUp, runb, run, runBrake, dashAir3, dashAir2, dashAir, dashAir0, dash3, dash2, dash, dashendAirAHD, dashendAir, dashend, dashAirAtkold, dashAirAtkEXold, dashAirAtkGEX, dashAirAtkEX, dashAirAtkG, dashAirAtk, dashAirAtk0, dashAtkEXold, dashAtkGEX, dashAtkEX, dashAtkG, dashAtk, dashAtk0, dashAirAtkloop, dashAAhitold, dashAAhit, dashAAendEX, dashAAend, dashAAendX, reactive, jump_down, jump0, jump, jump2, jump3, fallend2, fallend, fall, fallup, fallupdd, fallupd, fallup2, fallup22, fallup2dd, fallup2d, fallup3, fallm, fallmdownEX0, fallmdown, fallmdownend, fallmEX0Air, fallmEX0, fallmEX, fallmdownEX, fallmdownendEXx, fallmdownendEX, fallmdownendEX2, fallmdownendold, drop2f, drop3, drop22, drop2, dropend2D, dropendD, dropend, dropend2, dropend3, dropend4, dropend_show, quickStand, drop_start, drop, drop(clone), quickStandEnd, downGround, attackAir2EX, attackAir2, attackAirEX, attackAir, atkAirX, atkAir12, atkAir3, atkAir3old, atkAir2, atkAir1, attackC_Air, attackC, attackB_Air, attackA_Air, attackA_AirEX, attackA, attackAEX, attackhold23, attackholdend, attackhold22_loop, attackhold21, attackhold, attackhold1old, attackholdDashEXQ, attackholdDashEX, attackholdDash, attackhold_hit, attackhold_hit2, attackhold_hit2Air, atkhold_2A_drop, atkhold_2A_end, UltraDAend, UltraDashAirEX, UltraDashAir, UltraDashEX, UltraDash, UDdrop, attackD3, attackD2, attackD1, attack1, attack2, attack3, attack4, AttackUp2, AttackUp, AttackUp2x, behit_up, behit_middle, push_back, push_back_2, holdEX, hold, hold1, dead, rush, rushUp, pvp_born, born, reborn, push_down, push_down_2, standUp2, transmit, teacherskill, teacherskillAir, super_burst, super_burstAir, pvp_burst, pvp_burstAir, burst, burstD, StagePass, born_start, born_start_2, summonEX, summon, paid_show, winpose, dead_backup
+  @39624     [dashAir3            ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @47528     [dashAir2            ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @55432     [dashAir             ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @60192     [dash3               ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @63380     [dash2               ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @66164     [dash                ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @84172     [dashAirAtkold       ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @133956    [dashAAhitold        ] CreateBulletIfTriggerChange trigger:56271,bullet_id:10340101,bullet_action:"DAA",pos_x:1.2,pos_y:1.5,dir_x:1,dir_y:0,bullet_action_new:"DAA2"
+  @173340    [fall                ] CreateBulletIfTriggerChange trigger:56271,bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"
+  @241532    [fallmdownendEXx     ] CreateBullet               trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @245196    [fallmdownendEX      ] CreateBullet               trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @248896    [fallmdownendEX2     ] CreateBullet               trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @251268    [fallmdownendold     ] CreateBullet               trigger:11481,bullet_id:800002,bullet_action:"leibao",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @321644    [atkAirX             ] CreateBulletIfTriggerChange trigger:56271,bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"
+  @423164    [attackholdDashEXQ   ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @431580    [attackholdDashEX    ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @440132    [attackholdDash      ] CreateBullet               trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @448224    [attackhold_hit2     ] CreateBullet               bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1
+  @453292    [attackhold_hit2Air  ] CreateBullet               bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1
+  @492204    [attackD2            ] CreateBulletIfTriggerChange trigger:56271,bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"
+  @504988    [attack3             ] CreateBulletIfTriggerChange trigger:56271,bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"
+  @528440    [AttackUp            ] CreateBulletIfTriggerChange trigger:56271,bullet_id:10340101,bullet_action:"aup",pos_x:1,pos_y:1.6,dir_x:1,dir_y:0,bullet_action_new:"aup2"
+  @534460    [holdEX              ] CreateBulletIfTriggerChange trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"
+  @535936    [hold                ] CreateBulletIfTriggerChange trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"
+  @540828    [rush                ] CreateBulletIfTriggerChange trigger:56271,bullet_id:10340101,bullet_action:"x3",pos_x:0.5,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x32"
+  @551652    [rushUp              ] CreateBulletIfTriggerChange trigger:56271,bullet_id:10340101,bullet_action:"xup",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"xup2",tag:"es_rush"
+  @573576    [summonEX            ] CreateBullet_summon        
+  @574320    [summon              ] CreateBullet_summon        
+
+
+############ B. es.ab bullet action changes (BulletAction*) ############
+  markers=175
+  actions: drop_down_show, drop_down, push_back_3, push_back_4, push_down_3, push_down_4, knockdown, knockdown_loop, knockdown_stand, addHP, addHPAir, stand0, stand, squat, squat_loop, squat_to_stand, standUp, runb, run, runBrake, dashAir3, dashAir2, dashAir, dashAir0, dash3, dash2, dash, dashendAirAHD, dashendAir, dashend, dashAirAtkold, dashAirAtkEXold, dashAirAtkGEX, dashAirAtkEX, dashAirAtkG, dashAirAtk, dashAirAtk0, dashAtkEXold, dashAtkGEX, dashAtkEX, dashAtkG, dashAtk, dashAtk0, dashAirAtkloop, dashAAhitold, dashAAhit, dashAAendEX, dashAAend, dashAAendX, reactive, jump_down, jump0, jump, jump2, jump3, fallend2, fallend, fall, fallup, fallupdd, fallupd, fallup2, fallup22, fallup2dd, fallup2d, fallup3, fallm, fallmdownEX0, fallmdown, fallmdownend, fallmEX0Air, fallmEX0, fallmEX, fallmdownEX, fallmdownendEXx, fallmdownendEX, fallmdownendEX2, fallmdownendold, drop2f, drop3, drop22, drop2, dropend2D, dropendD, dropend, dropend2, dropend3, dropend4, dropend_show, quickStand, drop_start, drop, drop(clone), quickStandEnd, downGround, attackAir2EX, attackAir2, attackAirEX, attackAir, atkAirX, atkAir12, atkAir3, atkAir3old, atkAir2, atkAir1, attackC_Air, attackC, attackB_Air, attackA_Air, attackA_AirEX, attackA, attackAEX, attackhold23, attackholdend, attackhold22_loop, attackhold21, attackhold, attackhold1old, attackholdDashEXQ, attackholdDashEX, attackholdDash, attackhold_hit, attackhold_hit2, attackhold_hit2Air, atkhold_2A_drop, atkhold_2A_end, UltraDAend, UltraDashAirEX, UltraDashAir, UltraDashEX, UltraDash, UDdrop, attackD3, attackD2, attackD1, attack1, attack2, attack3, attack4, AttackUp2, AttackUp, AttackUp2x, behit_up, behit_middle, push_back, push_back_2, holdEX, hold, hold1, dead, rush, rushUp, pvp_born, born, reborn, push_down, push_down_2, standUp2, transmit, teacherskill, teacherskillAir, super_burst, super_burstAir, pvp_burst, pvp_burstAir, burst, burstD, StagePass, born_start, born_start_2, summonEX, summon, paid_show, winpose, dead_backup
+  @142648    [dashAAendEX         ] BulletAction               Bullet:"esbullet" , Action:"dashB", Tag:"es_dashAA"
+  @145852    [dashAAend           ] BulletAction               Bullet:"esbullet" , Action:"dashB", Tag:"es_dashAA"
+  @149120    [dashAAendX          ] BulletAction               Bullet:"esbullet" , Action:"dashB", Tag:"es_dashAA"
+  @460440    [UltraDAend          ] BulletAction               Bullet:"esbullet" , Action:"UDAA", Tag:"es_ultra"
+
+
+############ C. esbullet.ab calls ############
+  markers=76
+  actions: jump, q, fallmdownend, attackAir2old, attackAir2, attackAir, talentBullet, dashAir3, dashAir2, dashAir, dashSkill2, dash2, dashSkill, dash, DAA2, DAA, dashBEX, dashB, dashA, dashA0, dashAtk, AD_hit, C12EX, C1EX, C12, C1, B12EX, B1EX, B12, B1, A12EX, A1EX, A12, A1, UDA0, UDAA, UDA, UD, UDAEX, UDEX, aup2, aup, aH3EX, aH3, aH2EX, aH2, aHEX, aH, aD32, aD3, aD22, aD2, aD12, aD1, a0, a, a02, a20, a2, a22, a3, a32, a4, a42, aa, aa3, x32old, x32, x3old, x3, xup, xup2, ax2, ax1, x1, x2
+  @6188      [attackAir2old       ] RemoveBuff_es              buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+  @28204     [DAA                 ] CreateBullet               bullet_id:10340101,bullet_action: "DAA2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+  @31800     [dashB               ] ChangeAction               action:"dashBEX"
+  @36340     [AD_hit              ] Splash                     
+  @39220     [C1EX                ] Splash                     
+  @42368     [C1                  ] Splash                     
+  @42896     [C1                  ] ChangeAction               action:"C1EX",trigger:56061
+  @45396     [B1EX                ] Splash                     
+  @48496     [B1                  ] Splash                     
+  @49024     [B1                  ] ChangeAction               action:"B1EX",trigger:56061
+  @51520     [A1EX                ] Splash                     
+  @54492     [A1                  ] Splash                     
+  @55020     [A1                  ] ChangeAction               action:"A1EX",trigger:56061
+  @66060     [aup2                ] SetActionCD                action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+  @66564     [aup2                ] SetActionCD                action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+  @68088     [aup                 ] SetActionCD                action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+  @68592     [aup                 ] SetActionCD                action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+  @68992     [aup                 ] CreateBullet               bullet_id:10340101,bullet_action: "aup2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+  @71916     [aH3EX               ] Splash                     
+  @72320     [aH3EX               ] Splash                     
+  @72848     [aH3EX               ] ChangeAction               action:"aH3EX"
+  @75844     [aH3                 ] Splash                     
+  @76248     [aH3                 ] Splash                     
+  @76776     [aH3                 ] ChangeAction               action:"aH3EX"
+  @79604     [aH2EX               ] Splash                     
+  @80132     [aH2EX               ] ChangeAction               action:"aH2EX"
+  @82908     [aH2                 ] Splash                     
+  @83436     [aH2                 ] ChangeAction               action:"aH2EX"
+  @85988     [aHEX                ] ChangeAction               action:"aHEX"
+  @88540     [aH                  ] ChangeAction               action:"aHEX"
+  @108636    [a                   ] ChangeAction               action:"a0"
+  @112412    [a20                 ] Splash                     
+  @114448    [a2                  ] Splash                     
+  @114932    [a2                  ] ChangeAction               action:"a20"
+  @148044    [ax2                 ] RemoveBuff_es              buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+  @150068    [ax1                 ] RemoveBuff_es              buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+  @152532    [x1                  ] RemoveBuff_es              buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+  @155512    [x2                  ] RemoveBuff_es              buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+
+  --- ChangeAction / ChangeSkill transitions ---
+    [dashB         ] ChangeAction(action:"dashBEX")
+    [C1            ] ChangeAction(action:"C1EX",trigger:56061)
+    [B1            ] ChangeAction(action:"B1EX",trigger:56061)
+    [A1            ] ChangeAction(action:"A1EX",trigger:56061)
+    [aH3EX         ] ChangeAction(action:"aH3EX")
+    [aH3           ] ChangeAction(action:"aH3EX")
+    [aH2EX         ] ChangeAction(action:"aH2EX")
+    [aH2           ] ChangeAction(action:"aH2EX")
+    [aHEX          ] ChangeAction(action:"aHEX")
+    [aH            ] ChangeAction(action:"aHEX")
+    [a             ] ChangeAction(action:"a0")
+    [a2            ] ChangeAction(action:"a20")
+
+
+############ D. BulletConfig rows (Id, LogicRes, StartAction, Skin) ############
+  total rows: 180
+
+  -- rows whose LogicRes is an ES/emblem-relevant resource --
+    id=10340101  LogicRes='esbullet'  StartAction=None  Skin=None
+    id=800000  LogicRes='commonbullet'  StartAction=None  Skin=None
+    id=800001  LogicRes='firebullet'  StartAction=None  Skin=None
+    id=800001  LogicRes='firebullet'  StartAction='dilei_fall'  Skin=None
+    id=800001  LogicRes='firebullet'  StartAction='dilei_fall_s'  Skin=None
+    id=800002  LogicRes='thunderbullet'  StartAction=None  Skin=None
+    id=800002  LogicRes='thunderbullet'  StartAction='totem_behit'  Skin=None
+    id=800008  LogicRes='surroundbullet'  StartAction=None  Skin=None
+    id=1001  LogicRes='herolight'  StartAction=None  Skin=None
+
+  -- every row with id in 10340100..10340200 --
+    id=10340101  LogicRes='esbullet'  StartAction=None  Skin=None
+
+  -- rows whose StartAction mentions a known esbullet action --

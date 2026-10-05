@@ -1,0 +1,41 @@
+AttackUp             aup2×2, aup×2, fly×1
+UltraDAend           UDA×1
+UltraDashAirEX       UDA0×4, dashAir2×1
+UltraDashEX          UD×1, UDAEX×1
+ace10_909            aD22×1
+ace11_910            A1×1
+ace12_911            a32×1
+ace13_912            B1×1
+ace14_913            a42×1
+ace15_914            aD32×1
+ace16_915            attackAir2×1
+ace17_1001           aa3×1, aup2×1, aup×1
+ace18_1002           attackAir2×2, aa3×1, aup2×1, aup×1
+ace1_900             aD12×2, A1×2
+ace2_901             a32×2
+ace3_902             B1×2
+ace4_903             aD22×3
+ace5_904             B1×3
+ace6_905             a20×3, a22×3
+ace7_906             x2×3
+ace8_907             a0×2, a02×2
+ace9_908             a20×2, a22×2
+atkAir12             aup×4, aa×2, aup2×2
+atkAir3              aa3×1
+attackA_AirEX        A1×4, dashAir2×2
+attackAir2EX         ax2×63, dashAir2×3
+attackB_Air          B1×2
+attackC_Air          C1×1
+dash                 dash×5
+dashAir              dashAir×11, dash2×1, dashAir2×1
+dashAir2             dashAir×3
+dashend              dash2×1
+drop2                dashAir2×1
+fall                 anyingchongci×1, dashAir×1
+holdEX               x2×9
+jump                 dash×2
+jump2                jump×13, dash2×1, dashAir2×1, dashAir×1
+jump3                jump×7, dashAir2×3, dashAir×1
+run                  dashAir2×1
+rush                 x32×1, dash2×1
+summon               summonburst×1

@@ -1,0 +1,1402 @@
+================================================================================================
+### esskin_06：改了 94 个特效
+  ● es_ah_01.ab
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.000,0.549,2.000,0.518)  ==>  (2.000,0.000,0.241,0.000)/(1.441,0.605,0.748,0.184)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(2.281,1.087,1.236,1.000)
+  ● es_ah_02.ab
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.447)  ==>  (0.000,0.000,0.000,0.000)/(0.019,0.011,0.011,0.447)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_MaskTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+  ● es_ah_03.ab
+       + 新增插值器 物体=suiping01 (1)  脚本=MaterialTinter   prop=_DissolveColor     start=(0.000,0.000,0.000,0.000) end=(2.996,1.795,2.017,1.000)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.224,1.506,2.996,1.000)  ==>  (0.000,0.000,0.000,0.000)/(2.271,1.189,1.273,1.000)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.003,0.008,0.066,0.702)  ==>  (0.000,0.000,0.000,0.000)/(0.067,0.004,0.011,0.702)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_MaskTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.319,2.000,0.000)/(0.000,0.319,2.000,0.298)  ==>  (1.789,0.447,0.623,0.000)/(1.789,0.245,0.358,0.098)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_HighlightColor    (0.514,0.613,1.000,1.000)/(0.620,0.716,1.000,0.000)  ==>  (1.000,0.665,0.712,1.000)/(1.000,0.620,0.674,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_BrightColor       (0.000,0.257,0.698,1.000)/(0.000,0.298,1.000,0.000)  ==>  (0.642,0.197,0.267,1.000)/(1.000,0.250,0.368,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_AmbientColor      (0.553,0.678,1.000,0.510)/(0.000,0.170,1.000,0.000)  ==>  (1.000,0.553,0.626,0.510)/(1.000,0.410,0.526,0.000)
+       · 多的对象: Mono/suiping01 (1)/MaterialCollector, Mono/suiping01 (1)/MaterialTinter
+       · 材质引用变了: suiping01 (1):ParticleSystemRenderer
+  ● es_airdashatk21_001.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       - 删掉插值器 物体=02 (1) 脚本=MaterialTinter prop=_MaskTex_ST
+  ● es_atkair12_001.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkair12_002.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkair12_003.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkair12_004.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkair12_005.ab
+       + 新增插值器 物体=sword027 (1)   脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/sword027 (1)/MaterialCollector, Mono/sword027 (1)/MaterialTinter
+  ● es_atkair12_006.ab
+       + 新增插值器 物体=sword027 (1)   脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/sword027 (1)/MaterialCollector, Mono/sword027 (1)/MaterialTinter
+  ● es_atkhold_21_001.ab
+       · 材质引用变了: glow01:ParticleSystemRenderer
+  ● es_atkhold_21_002.ab
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.161,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(2.281,0.893,0.933,1.000)
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_MeshParamB        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_atkhold_21_003.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkhold_21_004.ab
+       + 新增插值器 物体=44 (2)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=jianqi01 (1)   脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.555,0.821,2.119,1.000)  ==>  (2.996,0.829,0.784,0.000)/(2.281,0.893,0.933,1.000)
+       ~ 改值      物体=jianqi01 (1)   脚本=MaterialTinter   prop=_MeshParamB        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       · 多的对象: Mono/44 (2)/MaterialCollector, Mono/44 (2)/MaterialTinter
+  ● es_atkhold_21_005.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkhold_21_006.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter
+  ● es_attack1_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack1_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack1_03.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack2_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack2_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack2_03.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack3_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack4_01.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack4_02.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack4_03.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=11 (2)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/11 (2)/MaterialCollector, Mono/11 (2)/MaterialTinter
+  ● es_attackair_01.ab
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+  ● es_attackair_01a.ab
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+  ● es_attackair_02.ab
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+       · 材质引用变了: glass:ParticleSystemRenderer
+  ● es_attackair_03.ab
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/lod1 (1)/VFXEffectHub, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector
+  ● es_attackd1_001.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attackd1_002.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attackd1_003.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attackd1_004.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+  ● es_attackd1_005.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+  ● es_attackd1_006.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+  ● es_attackd1_007.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+  ● es_attackd1_008.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+  ● es_attackd1_009.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+  ● es_attackhlod_01.ab
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_attackhlod_02.ab
+       + 新增插值器 物体=tuowei01       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       - 删掉插值器 物体=Line 脚本=MaterialTinter prop=_MainTex_ST
+       · 多的对象: Mono/tuowei01/MaterialCollector, Mono/tuowei01/MaterialTinter
+  ● es_attackhlod_hit_01.ab
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.408,0.661,1.921,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.415,0.210,0.227,0.000)
+  ● es_attackhlod_hit_02.ab
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTexTintColor  (0.000,0.000,0.000,0.000)/(0.665,1.051,3.616,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.000,0.524,0.549,0.000)
+  ● es_attackhlod_hit_04.ab
+       + 新增插值器 物体=Plane002 (2)   脚本=MaterialTinter   prop=_MeshParamA        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=Plane002 (2)   脚本=MaterialTinter   prop=_TintColor         start=(0.000,0.000,0.000,0.000) end=(2.271,0.808,0.866,1.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.408,0.661,1.921,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.255,0.097,0.106,0.000)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.796,1.046,2.271,1.000)  ==>  (0.000,0.000,0.000,0.000)/(2.271,0.808,0.866,1.000)
+       · 多的对象: Mono/Plane002 (2)/MaterialCollector, Mono/Plane002 (2)/MaterialTinter, Renderer/01 (2)/ParticleSystemRenderer, Renderer/01 (3)/ParticleSystemRenderer, Renderer/Plane002 (2)/MeshRenderer, Renderer/chi (2)/ParticleSystemRenderer, Renderer/chi (3)/ParticleSystemRenderer
+       · 材质引用变了: 01 (2):ParticleSystemRenderer, chi (2):ParticleSystemRenderer, chi (3):ParticleSystemRenderer, 01 (3):ParticleSystemRenderer, Plane002 (2):MeshRenderer
+  ● es_attackup_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attackup_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_dash_01.ab
+       - 删掉插值器 物体=Other 脚本=MaterialTinterProxy prop=_RemapColorFrom
+       - 删掉插值器 物体=Other 脚本=MaterialTinterProxy prop=_RemapLerp
+       - 删掉插值器 物体=Other 脚本=MaterialTinterProxy prop=_RemapColorTo
+  ● es_dash_02.ab
+       + 新增插值器 物体=tuowei01       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       - 删掉插值器 物体=Line 脚本=MaterialTinter prop=_MainTex_ST
+       · 多的对象: Mono/tuowei01/MaterialCollector, Mono/tuowei01/MaterialTinter
+  ● es_dashatk1_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_dashatk1_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_dashatk22_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_dashatk22_02.ab
+       + 新增插值器 物体=sword01        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword01 (1)    脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/RefracQuan (1)/GrabPass, Mono/sword01 (1)/MaterialCollector, Mono/sword01 (1)/MaterialTinter, Mono/sword01/MaterialCollector, Mono/sword01/MaterialTinter, Mono/wiggle (1)/TransformMotorProxy, Renderer/RefracQuan (1)/ParticleSystemRenderer, Renderer/glass01 (1)/ParticleSystemRenderer
+       · 材质引用变了: RefracQuan (1):ParticleSystemRenderer, sharp (1):ParticleSystemRenderer, sword01 (1):ParticleSystemRenderer, glass01 (1):ParticleSystemRenderer
+  ● es_dodge_01.ab
+       ~ 改值      物体=Other          脚本=ActorTrailProxy  prop=_AddColor          (0.000,0.000,0.000,0.000)/(0.000,0.380,1.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.311,0.028,0.039,0.000)
+  ● es_dodge_02.ab
+       ~ 改值      物体=Other          脚本=ActorTrailProxy  prop=_AddColor          (0.000,0.000,0.000,0.000)/(0.000,0.380,1.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.310,0.027,0.039,0.000)
+  ● es_energy_01.ab
+       - 删掉插值器 物体=Other 脚本=BatchMaterialTinterProxy prop=_TintColor
+  ● es_energy_02.ab
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44F            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44B            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/44B/MaterialCollector, Mono/44B/MaterialTinter, Mono/44F/MaterialCollector, Mono/44F/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter
+  ● es_energy_02_1.ab
+       + 新增插值器 物体=ring_b         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=ring_b         脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (0.865,1.165,2.828,0.784)/(3.184,1.967,2.010,0.537)
+       ~ 改值      物体=ring_bg        脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (2.000,1.051,1.082,0.675)/(2.000,0.670,0.670,0.000)
+       ~ 改值      物体=ring_bg2       脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (2.000,1.051,1.082,0.675)/(2.000,0.670,0.670,0.000)
+  ● es_energy_02_2.ab
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=ring_bg2 (1)   脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (2.707,1.296,1.239,0.784)/(0.749,0.231,0.242,0.000)
+       ~ 改值      物体=ring_bg (1)    脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (2.707,1.296,1.239,0.784)/(0.708,0.330,0.346,0.000)
+       ~ 改值      物体=ring_b (1)     脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.239,0.349,0.749,0.000)  ==>  (2.743,1.436,1.436,0.784)/(0.749,0.239,0.260,0.000)
+       · 多的对象: Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter, Mono/sword (4)/MaterialCollector, Mono/sword (4)/MaterialTinter
+  ● es_energy_02_3.ab
+       + 新增插值器 物体=ring_bg2 (1)   脚本=MaterialTinter   prop=_TintColor         start=(2.000,1.051,1.082,0.675) end=(2.000,0.670,0.670,0.000)
+       + 新增插值器 物体=ring_b (1)     脚本=MaterialTinter   prop=_TintColor         start=(0.865,1.165,2.828,0.784) end=(3.184,1.967,2.010,0.537)
+       + 新增插值器 物体=ring_bg (1)    脚本=MaterialTinter   prop=_TintColor         start=(2.000,1.051,1.082,0.675) end=(2.000,0.670,0.670,0.000)
+       + 新增插值器 物体=ring_b (1)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=ring_bg (1)    脚本=MaterialTinter   prop=_SubTex_ST         start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=ring_bg2 (1)   脚本=MaterialTinter   prop=_SubTex_ST         start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       - 删掉插值器 物体=ring_b 脚本=MaterialTinter prop=_TintColor
+       - 删掉插值器 物体=ring_bg 脚本=MaterialTinter prop=_SubTex_ST
+       - 删掉插值器 物体=ring_bg 脚本=MaterialTinter prop=_TintColor
+       - 删掉插值器 物体=ring_bg2 脚本=MaterialTinter prop=_SubTex_ST
+       - 删掉插值器 物体=ring_bg2 脚本=MaterialTinter prop=_TintColor
+       · 多的对象: Mono/ring_b (1)/MaterialCollector, Mono/ring_b (1)/MaterialTinter, Mono/ring_b (1)/TransformMotor, Mono/ring_bg (1)/MaterialCollector, Mono/ring_bg (1)/MaterialTinter, Mono/ring_bg2 (1)/MaterialCollector, Mono/ring_bg2 (1)/MaterialTinter, Renderer/ring_b (1)/MeshRenderer
+       · 材质引用变了: ring_b (1):MeshRenderer, ring_bg2 (1):MeshRenderer, ring_bg (1):MeshRenderer
+  ● es_energy_02_4.ab
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter, Mono/sword (4)/MaterialCollector, Mono/sword (4)/MaterialTinter
+  ● es_esbullet_dasha_001.ab
+       + 新增插值器 物体=tuowei01       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.273,0.714,1.864,0.392)  ==>  (2.000,0.000,0.178,0.000)/(1.214,0.361,0.394,0.392)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(2.706,1.008,1.124,1.000)
+       · 多的对象: Mono/tuowei01/MaterialCollector, Mono/tuowei01/MaterialTinter
+  ● es_esbullet_dasha_002.ab
+       + 新增插值器 物体=tuowei01       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.273,0.714,1.864,0.392)  ==>  (2.000,0.000,0.178,0.000)/(1.214,0.361,0.394,0.392)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(2.706,1.008,1.124,1.000)
+       · 多的对象: Mono/VFX01 (4)/VFXEffectHub, Mono/VFX01 (5)/VFXEffectHub, Mono/tuowei01/MaterialCollector, Mono/tuowei01/MaterialTinter, Renderer/tuowei01/ParticleSystemRenderer
+       · 材质引用变了: tuowei01:ParticleSystemRenderer, tuowei01:ParticleSystemRenderer, tuowei01:ParticleSystemRenderer
+  ● es_fall_01.ab
+       + 新增插值器 物体=sword02        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword03        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword02 (1)    脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword03 (1)    脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword01 (1)    脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword01        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/sword01 (1)/MaterialCollector, Mono/sword01 (1)/MaterialTinter, Mono/sword01/MaterialCollector, Mono/sword01/MaterialTinter, Mono/sword02 (1)/MaterialCollector, Mono/sword02 (1)/MaterialTinter, Mono/sword02/MaterialCollector, Mono/sword02/MaterialTinter
+       · 材质引用变了: baodian (1):ParticleSystemRenderer, sword01 (1):ParticleSystemRenderer, sword02 (1):ParticleSystemRenderer, sword03 (1):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_fall_01a.ab
+       + 新增插值器 物体=sword02        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword02 (1)    脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword03 (1)    脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword01        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword03        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword01 (1)    脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/sword01 (1)/MaterialCollector, Mono/sword01 (1)/MaterialTinter, Mono/sword01/MaterialCollector, Mono/sword01/MaterialTinter, Mono/sword02 (1)/MaterialCollector, Mono/sword02 (1)/MaterialTinter, Mono/sword02/MaterialCollector, Mono/sword02/MaterialTinter
+       · 材质引用变了: sword03 (1):ParticleSystemRenderer, baodian (1):ParticleSystemRenderer, sword02 (1):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer, sword01 (1):ParticleSystemRenderer
+  ● es_fall_02.ab
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (13)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (14)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (12)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (11)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/sword (10)/MaterialCollector, Mono/sword (10)/MaterialTinter, Mono/sword (11)/MaterialCollector, Mono/sword (11)/MaterialTinter, Mono/sword (12)/MaterialCollector, Mono/sword (12)/MaterialTinter, Mono/sword (13)/MaterialCollector, Mono/sword (13)/MaterialTinter
+       · 材质引用变了: sword (12):ParticleSystemRenderer, sword (7):ParticleSystemRenderer, sword (13):ParticleSystemRenderer, sword (6):ParticleSystemRenderer, sword (14):ParticleSystemRenderer, baodian (1):ParticleSystemRenderer
+  ● es_fall_02a.ab
+       + 新增插值器 物体=sword (09)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (11)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (08)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/sword (08)/MaterialCollector, Mono/sword (08)/MaterialTinter, Mono/sword (09)/MaterialCollector, Mono/sword (09)/MaterialTinter, Mono/sword (10)/MaterialCollector, Mono/sword (10)/MaterialTinter, Mono/sword (11)/MaterialCollector, Mono/sword (11)/MaterialTinter
+       · 材质引用变了: sword (08):ParticleSystemRenderer, sword (7):ParticleSystemRenderer, sword (6):ParticleSystemRenderer, sword (09):ParticleSystemRenderer
+  ● es_fall_03.ab
+       + 新增插值器 物体=sword (11)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/sword (10)/MaterialCollector, Mono/sword (10)/MaterialTinter, Mono/sword (11)/MaterialCollector, Mono/sword (11)/MaterialTinter, Mono/sword (5)/MaterialCollector, Mono/sword (5)/MaterialTinter, Mono/sword (8)/MaterialCollector, Mono/sword (8)/MaterialTinter
+  ● es_fall_03a.ab
+       + 新增插值器 物体=sword (14)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (13)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (12)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (11)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/sword (10)/MaterialCollector, Mono/sword (10)/MaterialTinter, Mono/sword (11)/MaterialCollector, Mono/sword (11)/MaterialTinter, Mono/sword (12)/MaterialCollector, Mono/sword (12)/MaterialTinter, Mono/sword (13)/MaterialCollector, Mono/sword (13)/MaterialTinter
+       · 材质引用变了: sword (13):ParticleSystemRenderer, sword (14):ParticleSystemRenderer, sword (12):ParticleSystemRenderer, baodian (1):ParticleSystemRenderer, sword (6):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_fall_04.ab
+       - 删掉插值器 物体=guangzhu01 脚本=MaterialTinter prop=_MaskTex
+       ~ 改值      物体=guangzhu01     脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(5.647,6.525,11.984,1.000)  ==>  (0.000,0.000,0.000,0.000)/(2.119,1.369,1.421,1.000)
+  ● es_fallend_01.ab
+       · 材质引用变了: stone:ParticleSystemRenderer
+  ● es_fallend_02.ab
+       · 多的对象: Renderer/Particle System (1)/ParticleSystemRenderer, Renderer/stone (1)/ParticleSystemRenderer
+       · 材质引用变了: Particle System (1):ParticleSystemRenderer, stone (1):ParticleSystemRenderer
+  ● es_fallend_03.ab
+       + 新增插值器 物体=sword027 (1)   脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/sword027 (1)/MaterialCollector, Mono/sword027 (1)/MaterialTinter
+  ● es_fallmdownend_01.ab
+       + 新增插值器 物体=sword026       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword027 (1)   脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       - 删掉插值器 物体=SceneTint 脚本=BatchMaterialTinterProxy prop=_TintColor
+       · 多的对象: Mono/sword026/MaterialCollector, Mono/sword026/MaterialTinter, Mono/sword027 (1)/MaterialCollector, Mono/sword027 (1)/MaterialTinter, Renderer/SubEmitter0 (2)/ParticleSystemRenderer, Renderer/glass (1)/ParticleSystemRenderer
+       · 材质引用变了: glass (1):ParticleSystemRenderer, SubEmitter0 (2):ParticleSystemRenderer
+  ● es_hold1_01.ab
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/44 (1)/MaterialCollector, Mono/44 (1)/MaterialTinter, Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_hold1_02.ab
+       + 新增插值器 物体=44 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/44 (1)/MaterialCollector, Mono/44 (1)/MaterialTinter, Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_holdatk1_01.ab
+       + 新增插值器 物体=012            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/012/MaterialCollector, Mono/012/MaterialTinter
+  ● es_holdatk1_02.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(2.226,0.914,0.963,1.000)
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_MeshParamB        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       · 材质引用变了: feng02:MeshRenderer
+  ● es_holdatk1_02a.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(2.226,0.914,0.963,1.000)
+  ● es_holdatk3_01.ab
+       + 新增插值器 物体=013            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=012            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/012/MaterialCollector, Mono/012/MaterialTinter, Mono/013/MaterialCollector, Mono/013/MaterialTinter
+  ● es_holdatk3_02.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (2.996,0.784,0.873,0.000)/(2.412,1.081,1.128,1.000)
+       · 材质引用变了: feng02:MeshRenderer
+  ● es_holdatk3_02a.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(2.412,1.081,1.128,1.000)
+  ● es_holdatk_air_001.ab
+       + 新增插值器 物体=02 (2)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+  ● es_holdatk_air_002.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_holdatk_air_003.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=01             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/01/MaterialCollector, Mono/01/MaterialTinter, Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter
+  ● es_holdatk_air_004.ab
+       + 新增插值器 物体=013 (1)        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=012 (1)        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/012 (1)/MaterialCollector, Mono/012 (1)/MaterialTinter, Mono/013 (1)/MaterialCollector, Mono/013 (1)/MaterialTinter
+  ● es_holdfull_01.ab
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.000,0.184,0.774,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.387,0.192,0.208,0.000)
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.297,1.676,3.442,0.000)  ==>  (0.000,0.000,0.000,0.000)/(2.081,1.325,1.344,0.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+  ● es_holdfull_02.ab
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.000,0.184,0.774,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.388,0.192,0.208,0.000)
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.297,1.676,3.442,0.000)  ==>  (0.000,0.000,0.000,0.000)/(2.081,1.325,1.344,0.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+  ● es_holdrelease_01.ab
+       + 新增插值器 物体=03             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/03/MaterialCollector, Mono/03/MaterialTinter, Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_holdrelease_02.ab
+       + 新增插值器 物体=swordB         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44B            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=swordF         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44F            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/44B/MaterialCollector, Mono/44B/MaterialTinter, Mono/44F/MaterialCollector, Mono/44F/MaterialTinter
+  ● es_rushup_01.ab
+       + 新增插值器 物体=03             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/03/MaterialCollector, Mono/03/MaterialTinter
+  ● es_rushup_02.ab
+       + 新增插值器 物体=swordF         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=swordB         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44B            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=03             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=44F            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/03/MaterialCollector, Mono/03/MaterialTinter, Mono/44B/MaterialCollector, Mono/44B/MaterialTinter, Mono/44F/MaterialCollector, Mono/44F/MaterialTinter
+  ● es_stand_01.ab
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTexTintColor  (0.000,0.000,0.000,0.000)/(0.049,0.099,0.358,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.491,0.243,0.260,1.000)
+  ● es_stand_02.ab
+       · 多的对象: Mono/lod0 (1)/VFXEffectHub
+       · 材质引用变了: baodian01:ParticleSystemRenderer
+  ● es_standby_001.ab
+       + 新增插值器 物体=Particle System (4) 脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=Particle System (2) 脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=Particle System (5) 脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=Particle System (3) 脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       - 删掉插值器 物体=gaoguang 脚本=MaterialTinterProxy prop=_EmissionTex
+       - 删掉插值器 物体=gaoguang 脚本=MaterialTinterProxy prop=_EmissionTex_ST
+       ~ 改值      物体=gaoguang       脚本=MaterialTinterProxy prop=_EmissionX         (0.150,0.832,1.059,1.000)/(3.953,2.974,0.615,1.000)  ==>  (0.788,0.299,0.294,1.000)/(1.962,0.879,0.901,1.000)
+       · 多的对象: Mono/Particle System (2)/MaterialCollector, Mono/Particle System (2)/MaterialTinter, Mono/Particle System (3)/MaterialCollector, Mono/Particle System (3)/MaterialTinter, Mono/Particle System (4)/MaterialCollector, Mono/Particle System (4)/MaterialTinter, Mono/Particle System (5)/MaterialCollector, Mono/Particle System (5)/MaterialTinter
+================================================================================================
+### esskin_10：改了 96 个特效
+  ● es_ah_01.ab
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.000,0.549,2.000,0.518)  ==>  (0.119,1.033,0.000,0.000)/(0.194,0.799,0.147,0.184)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.013,1.637,0.797,1.000)
+  ● es_ah_02.ab
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.447)  ==>  (0.000,0.000,0.000,0.000)/(0.019,0.011,0.011,0.447)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_MaskTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+  ● es_ah_03.ab
+       + 新增插值器 物体=suiping01 (1)  脚本=MaterialTinter   prop=_DissolveColor     start=(0.000,0.000,0.000,0.000) end=(1.940,2.996,1.804,1.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_HighlightColor    (0.514,0.613,1.000,1.000)/(0.620,0.716,1.000,0.000)  ==>  (0.667,1.000,0.681,1.000)/(0.620,1.000,0.624,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_BrightColor       (0.000,0.257,0.698,1.000)/(0.000,0.298,1.000,0.000)  ==>  (0.202,0.643,0.196,1.000)/(0.251,1.000,0.268,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_AmbientColor      (0.553,0.678,1.000,0.510)/(0.000,0.170,1.000,0.000)  ==>  (1.000,0.553,0.626,0.510)/(1.000,0.410,0.526,0.000)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.224,1.506,2.996,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.062,1.916,0.967,1.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.319,2.000,0.000)/(0.000,0.319,2.000,0.298)  ==>  (0.449,1.789,0.702,0.000)/(0.599,1.789,0.253,0.098)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.003,0.008,0.066,0.702)  ==>  (0.000,0.000,0.000,0.000)/(0.067,0.004,0.011,0.702)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_MaskTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       · 多的对象: Mono/suiping01 (1)/MaterialCollector, Mono/suiping01 (1)/MaterialTinter
+       · 材质引用变了: suiping01 (1):ParticleSystemRenderer
+  ● es_airdashatk21_001.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.739,1.227,0.808,1.000)
+       - 删掉插值器 物体=02 (1) 脚本=MaterialTinter prop=_MaskTex_ST
+  ● es_airdashatk21_002.ab
+       · 多的对象: Mono/Other (1)/TransformMotorProxy, Mono/Refrac01 (1)/GrabPass, Renderer/Refrac01 (1)/ParticleSystemRenderer, Renderer/sharp (1)/ParticleSystemRenderer, Renderer/smoke01 (2)/ParticleSystemRenderer, Renderer/smoke01 (3)/ParticleSystemRenderer, Renderer/smoke02 (2)/ParticleSystemRenderer
+       · 材质引用变了: sharp (1):ParticleSystemRenderer, smoke01 (2):ParticleSystemRenderer, smoke01 (3):ParticleSystemRenderer, smoke02 (2):ParticleSystemRenderer, Refrac01 (1):ParticleSystemRenderer
+  ● es_atkair12_001.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.739,1.227,0.745,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkair12_002.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkair12_003.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.221,1.221,1.221,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkair12_004.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.237,1.208,1.213,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkair12_005.ab
+       + 新增插值器 物体=sword027 (1)   脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.761,1.227,0.739,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.221,1.221,1.221,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/sword027 (1)/MaterialCollector, Mono/sword027 (1)/MaterialTinter
+  ● es_atkair12_006.ab
+       + 新增插值器 物体=sword027 (1)   脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.795,1.227,0.739,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.780,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/sword027 (1)/MaterialCollector, Mono/sword027 (1)/MaterialTinter
+  ● es_atkhold_21_001.ab
+       · 材质引用变了: glow01:ParticleSystemRenderer
+  ● es_atkhold_21_002.ab
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.739,1.227,0.772,1.000)
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.161,2.996,1.000)  ==>  (1.451,2.717,1.601,0.000)/(1.089,2.241,0.856,1.000)
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_MeshParamB        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_atkhold_21_003.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.783,1.135,0.684,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.822,1.227,0.739,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkhold_21_004.ab
+       + 新增插值器 物体=44 (2)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.543,1.190,0.421,1.000)
+       ~ 改值      物体=jianqi01 (1)   脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.555,0.821,2.119,1.000)  ==>  (0.784,1.160,2.996,0.000)/(1.166,2.183,0.834,1.000)
+       · 多的对象: Mono/44 (2)/MaterialCollector, Mono/44 (2)/MaterialTinter
+  ● es_atkhold_21_005.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.786,1.227,0.739,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.759,1.227,0.739,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_atkhold_21_006.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.776,1.227,0.739,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter
+  ● es_attack1_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.826,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack1_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.826,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack1_03.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.767,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack2_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.594,0.943,0.547,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack2_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.596,0.941,0.549,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack2_03.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.596,0.941,0.549,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Renderer/02 (1)/ParticleSystemRenderer, Renderer/11 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_attack3_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.828,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack3_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.828,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Renderer/02/ParticleSystemRenderer, Renderer/11 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02:ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_attack4_01.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.656,1.098,0.606,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.656,1.098,0.606,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attack4_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.656,1.098,0.606,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.656,1.098,0.606,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/lod0 (1)/VFXEffectHub
+       · 材质引用变了: 11111 (1):ParticleSystemRenderer
+  ● es_attack4_03.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.656,1.098,0.606,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.656,1.098,0.606,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/lod0 (2)/VFXEffectHub
+  ● es_attackair_01.ab
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.909,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+  ● es_attackair_01a.ab
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.822,1.227,0.739,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+  ● es_attackair_02.ab
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.818,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+       · 材质引用变了: glass:ParticleSystemRenderer
+  ● es_attackair_03.ab
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.909,1.227,0.739,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.144,1.144,1.144,1.000)
+       - 删掉插值器 物体=1112 脚本=MaterialTinter prop=_MainTex_ST
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+  ● es_attackd1_001.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.780,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attackd1_002.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.846,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attackd1_003.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.846,1.227,0.739,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Renderer/02 (1)/ParticleSystemRenderer, Renderer/11 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_attackd1_004.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.850,1.227,0.739,1.000)
+  ● es_attackd1_005.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.850,1.227,0.739,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_MainTex_ST        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTex_ST         start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_MaskTex_ST        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       - 删掉插值器 物体=02 脚本=MaterialTinter prop=_MainTex_ST
+       - 删掉插值器 物体=02 脚本=MaterialTinter prop=_SubTex_ST
+       - 删掉插值器 物体=02 脚本=MaterialTinter prop=_MaskTex_ST
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Renderer/02 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02 (1):ParticleSystemRenderer
+  ● es_attackd1_006.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_MainTex_ST        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTex_ST         start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_MaskTex_ST        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.850,1.227,0.739,1.000)
+       - 删掉插值器 物体=02 脚本=MaterialTinter prop=_MainTex_ST
+       - 删掉插值器 物体=02 脚本=MaterialTinter prop=_SubTex_ST
+       - 删掉插值器 物体=02 脚本=MaterialTinter prop=_MaskTex_ST
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Renderer/02 (1)/ParticleSystemRenderer, Renderer/11 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_attackd1_007.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.817,1.227,0.739,1.000)
+  ● es_attackd1_008.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.817,1.227,0.739,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_MainTex_ST        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       - 删掉插值器 物体=02 脚本=MaterialTinter prop=_MainTex_ST
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Renderer/02 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02 (1):ParticleSystemRenderer
+  ● es_attackd1_009.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.817,1.227,0.739,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_MainTex_ST        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       - 删掉插值器 物体=02 脚本=MaterialTinter prop=_MainTex_ST
+       - 删掉插值器 物体=11 脚本=MaterialTinter prop=_MaskTex_ST
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Renderer/02 (1)/ParticleSystemRenderer, Renderer/11 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_attackhlod_01.ab
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.776,1.227,0.739,1.000)
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_attackhlod_02.ab
+       + 新增插值器 物体=tuowei01       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.929,1.227,0.739,1.000)
+       - 删掉插值器 物体=Line 脚本=MaterialTinter prop=_MainTex_ST
+       · 多的对象: Mono/tuowei01/MaterialCollector, Mono/tuowei01/MaterialTinter
+  ● es_attackhlod_hit_01.ab
+       + 新增插值器 物体=smoke01 (1)    脚本=MaterialTinter   prop=_MainTex_ST        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=line1 (1)      脚本=MaterialTinter   prop=_TintColor         start=(0.000,0.000,0.000,0.000) end=(2.828,2.828,2.828,1.000)
+       + 新增插值器 物体=line1 (1)      脚本=MaterialTinter   prop=_MainTex_ST        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.408,0.661,1.921,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.242,0.416,0.208,0.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.721,1.721,1.721,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.654,1.019,0.639,1.000)
+       · 多的对象: Mono/line1 (1)/MaterialCollector, Mono/line1 (1)/MaterialTinter, Mono/smoke01 (1)/MaterialCollector, Mono/smoke01 (1)/MaterialTinter, Renderer/glow01 (1)/ParticleSystemRenderer, Renderer/line1 (1)/ParticleSystemRenderer, Renderer/smoke01 (1)/ParticleSystemRenderer
+       · 材质引用变了: line1 (1):ParticleSystemRenderer, glow01 (1):ParticleSystemRenderer, smoke01 (1):ParticleSystemRenderer
+  ● es_attackhlod_hit_02.ab
+       - 删掉插值器 物体=line01 (1) 脚本=MaterialTinter prop=_TintColor
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTexTintColor  (0.000,0.000,0.000,0.000)/(0.665,1.051,3.616,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.627,1.000,0.525,0.000)
+  ● es_attackhlod_hit_04.ab
+       + 新增插值器 物体=Rafract (1)    脚本=MaterialTinter   prop=_MeshParamA        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=Rafract (1)    脚本=MaterialTinter   prop=_MeshParamB        start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.796,1.046,2.271,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.952,2.271,0.808,1.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.408,0.661,1.921,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.124,0.255,0.098,0.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.228,1.228,1.228,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.975,0.975,0.975,1.000)
+       · 多的对象: Mono/Rafract (1)/GrabPass, Mono/Rafract (1)/MaterialCollector, Mono/Rafract (1)/MaterialTinter, Renderer/Rafract (1)/MeshRenderer, Renderer/glow01 (1)/ParticleSystemRenderer
+       · 材质引用变了: glow01 (1):ParticleSystemRenderer, Rafract (1):MeshRenderer
+  ● es_attackup_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.819,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_attackup_02.ab
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.819,1.227,0.739,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Renderer/02 (1)/ParticleSystemRenderer, Renderer/11 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_dash_01.ab
+       - 删掉插值器 物体=Other 脚本=MaterialTinterProxy prop=_RemapColorFrom
+       - 删掉插值器 物体=Other 脚本=MaterialTinterProxy prop=_RemapLerp
+       - 删掉插值器 物体=Other 脚本=MaterialTinterProxy prop=_RemapColorTo
+  ● es_dash_02.ab
+       + 新增插值器 物体=tuowei01       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.772,1.227,0.739,1.000)
+       - 删掉插值器 物体=Line 脚本=MaterialTinter prop=_MainTex_ST
+       · 多的对象: Mono/tuowei01/MaterialCollector, Mono/tuowei01/MaterialTinter
+  ● es_dashatk1_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.813,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_dashatk1_02.ab
+       + 新增插值器 物体=11 (1)         脚本=MaterialTinter   prop=_SubTex_ST         start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.813,1.227,0.739,1.000)
+       - 删掉插值器 物体=11 脚本=MaterialTinter prop=_SubTex_ST
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/11 (1)/MaterialCollector, Mono/11 (1)/MaterialTinter, Renderer/02 (1)/ParticleSystemRenderer, Renderer/11 (1)/ParticleSystemRenderer
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_dashatk22_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.864,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_dashatk22_02.ab
+       + 新增插值器 物体=sword01        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.778,1.227,0.739,1.000)
+       · 多的对象: Mono/sword01/MaterialCollector, Mono/sword01/MaterialTinter
+  ● es_dodge_01.ab
+       ~ 改值      物体=Other          脚本=ActorTrailProxy  prop=_AddColor          (0.000,0.000,0.000,0.000)/(0.000,0.380,1.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.064,0.310,0.027,0.000)
+  ● es_dodge_02.ab
+       ~ 改值      物体=Other          脚本=ActorTrailProxy  prop=_AddColor          (0.000,0.000,0.000,0.000)/(0.000,0.380,1.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.056,0.310,0.027,0.000)
+  ● es_energy_01.ab
+       - 删掉插值器 物体=Other 脚本=BatchMaterialTinterProxy prop=_TintColor
+  ● es_energy_02.ab
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=44B            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.909,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=44F            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.909,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       · 多的对象: Mono/44B/MaterialCollector, Mono/44B/MaterialTinter, Mono/44F/MaterialCollector, Mono/44F/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter
+  ● es_energy_02_1.ab
+       + 新增插值器 物体=ring_b         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.898,1.227,0.739,1.000)
+       ~ 改值      物体=ring_bg2       脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.091,2.000,1.058,0.675)/(0.706,2.000,0.670,0.000)
+       ~ 改值      物体=ring_bg        脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.091,2.000,1.058,0.675)/(0.706,2.000,0.670,0.000)
+  ● es_energy_02_2.ab
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.299,1.299,1.299,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.299,1.299,1.299,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.299,1.299,1.299,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.299,1.299,1.299,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.299,1.299,1.299,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.299,1.299,1.299,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.299,1.299,1.299,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.299,1.299,1.299,1.000)
+       ~ 改值      物体=ring_b (1)     脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.239,0.349,0.749,0.000)  ==>  (1.228,2.343,0.810,0.902)/(0.293,0.749,0.239,0.000)
+       ~ 改值      物体=ring_bg (1)    脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.091,2.000,1.058,0.675)/(0.706,2.000,0.670,0.000)
+       ~ 改值      物体=ring_bg2 (1)   脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.091,2.000,1.058,0.675)/(0.231,0.749,0.273,0.000)
+       · 多的对象: Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter, Mono/sword (4)/MaterialCollector, Mono/sword (4)/MaterialTinter
+  ● es_energy_02_3.ab
+       + 新增插值器 物体=ring_bg (2)    脚本=MaterialTinter   prop=_TintColor         start=(1.091,2.000,1.058,0.675) end=(0.706,2.000,0.670,0.000)
+       + 新增插值器 物体=ring_bg2 (2)   脚本=MaterialTinter   prop=_TintColor         start=(1.091,2.000,1.058,0.675) end=(0.706,2.000,0.670,0.000)
+       + 新增插值器 物体=ring_bg (2)    脚本=MaterialTinter   prop=_SubTex_ST         start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       + 新增插值器 物体=ring_b (2)     脚本=MaterialTinter   prop=_TintColor         start=(0.865,1.165,2.828,0.784) end=(0.231,0.310,0.749,0.000)
+       + 新增插值器 物体=ring_b (2)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.898,1.227,0.739,1.000)
+       + 新增插值器 物体=ring_bg2 (2)   脚本=MaterialTinter   prop=_SubTex_ST         start=(0.000,0.000,0.000,0.000) end=(0.000,0.000,0.000,0.000)
+       - 删掉插值器 物体=ring_b 脚本=MaterialTinter prop=_TintColor
+       - 删掉插值器 物体=ring_bg 脚本=MaterialTinter prop=_SubTex_ST
+       - 删掉插值器 物体=ring_bg 脚本=MaterialTinter prop=_TintColor
+       - 删掉插值器 物体=ring_bg2 脚本=MaterialTinter prop=_SubTex_ST
+       - 删掉插值器 物体=ring_bg2 脚本=MaterialTinter prop=_TintColor
+       · 多的对象: Mono/ring_b (2)/MaterialCollector, Mono/ring_b (2)/MaterialTinter, Mono/ring_b (2)/TransformMotor, Mono/ring_bg (2)/MaterialCollector, Mono/ring_bg (2)/MaterialTinter, Mono/ring_bg2 (2)/MaterialCollector, Mono/ring_bg2 (2)/MaterialTinter, Renderer/ring_b (2)/MeshRenderer
+       · 材质引用变了: ring_bg (2):MeshRenderer, ring_bg2 (2):MeshRenderer, ring_b (2):MeshRenderer
+  ● es_energy_02_4.ab
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.268,1.268,1.268,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.268,1.268,1.268,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.268,1.268,1.268,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.268,1.268,1.268,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.268,1.268,1.268,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.268,1.268,1.268,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.268,1.268,1.268,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.268,1.268,1.268,1.000)
+       · 多的对象: Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter, Mono/sword (4)/MaterialCollector, Mono/sword (4)/MaterialTinter
+  ● es_esbullet_dasha_001.ab
+       + 新增插值器 物体=tuowei01       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.273,0.714,1.864,0.392)  ==>  (0.000,2.000,0.009,0.000)/(0.291,0.917,0.195,0.271)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.536,2.706,1.020,1.000)
+       · 多的对象: Mono/tuowei01/MaterialCollector, Mono/tuowei01/MaterialTinter
+  ● es_esbullet_dasha_002.ab
+       + 新增插值器 物体=tuowei01       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.536,2.706,1.020,1.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.273,0.714,1.864,0.392)  ==>  (0.000,2.000,0.009,0.000)/(0.291,0.917,0.195,0.271)
+       · 多的对象: Mono/tuowei01/MaterialCollector, Mono/tuowei01/MaterialTinter, Renderer/tuowei01/ParticleSystemRenderer
+       · 材质引用变了: tuowei01:ParticleSystemRenderer, tuowei01:ParticleSystemRenderer, tuowei01:ParticleSystemRenderer
+  ● es_fall_01.ab
+       + 新增插值器 物体=sword01        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword03        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword02        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       · 多的对象: Mono/sword01/MaterialCollector, Mono/sword01/MaterialTinter, Mono/sword02/MaterialCollector, Mono/sword02/MaterialTinter, Mono/sword03/MaterialCollector, Mono/sword03/MaterialTinter
+  ● es_fall_01a.ab
+       + 新增插值器 物体=sword02        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword03        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword01        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       · 多的对象: Mono/lod1 (1)/VFXEffectHub, Mono/sword01/MaterialCollector, Mono/sword01/MaterialTinter, Mono/sword02/MaterialCollector, Mono/sword02/MaterialTinter, Mono/sword03/MaterialCollector, Mono/sword03/MaterialTinter
+  ● es_fall_02.ab
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (11)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       · 多的对象: Mono/sword (10)/MaterialCollector, Mono/sword (10)/MaterialTinter, Mono/sword (11)/MaterialCollector, Mono/sword (11)/MaterialTinter, Mono/sword (5)/MaterialCollector, Mono/sword (5)/MaterialTinter, Mono/sword (8)/MaterialCollector, Mono/sword (8)/MaterialTinter
+  ● es_fall_02a.ab
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (11)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (12)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       · 多的对象: Mono/lod0 (1)/VFXEffectHub, Mono/sword (10)/MaterialCollector, Mono/sword (10)/MaterialTinter, Mono/sword (11)/MaterialCollector, Mono/sword (11)/MaterialTinter, Mono/sword (12)/MaterialCollector, Mono/sword (12)/MaterialTinter, Mono/sword (5)/MaterialCollector
+       · 材质引用变了: 11 (1):ParticleSystemRenderer, sword (12):ParticleSystemRenderer, baodian (1):ParticleSystemRenderer
+  ● es_fall_03.ab
+       + 新增插值器 物体=sword (11)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (14)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (13)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (12)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       · 多的对象: Mono/lod0 (1)/VFXEffectHub, Mono/sword (10)/MaterialCollector, Mono/sword (10)/MaterialTinter, Mono/sword (11)/MaterialCollector, Mono/sword (11)/MaterialTinter, Mono/sword (12)/MaterialCollector, Mono/sword (12)/MaterialTinter, Mono/sword (13)/MaterialCollector
+       · 材质引用变了: baodian (1):ParticleSystemRenderer, sword (6):ParticleSystemRenderer, sword (13):ParticleSystemRenderer, sword (7):ParticleSystemRenderer, sword (14):ParticleSystemRenderer, 11 (1):ParticleSystemRenderer
+  ● es_fall_03a.ab
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (11)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.913,1.423,0.826,1.000)
+       · 多的对象: Mono/lod0 (1)/VFXEffectHub, Mono/sword (10)/MaterialCollector, Mono/sword (10)/MaterialTinter, Mono/sword (11)/MaterialCollector, Mono/sword (11)/MaterialTinter, Mono/sword (5)/MaterialCollector, Mono/sword (5)/MaterialTinter, Mono/sword (8)/MaterialCollector
+  ● es_fall_04.ab
+       - 删掉插值器 物体=guangzhu01 脚本=MaterialTinter prop=_MaskTex
+       ~ 改值      物体=guangzhu01     脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(5.647,6.525,11.984,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.399,2.188,1.311,1.000)
+  ● es_fallend_01.ab
+       · 多的对象: Mono/wiggle (1)/TransformMotorProxy, Renderer/Particle System (2)/ParticleSystemRenderer, Renderer/Particle System (3)/ParticleSystemRenderer
+       · 材质引用变了: stone:ParticleSystemRenderer, Particle System (2):ParticleSystemRenderer, Particle System (3):ParticleSystemRenderer
+  ● es_fallend_02.ab
+       · 多的对象: Renderer/Particle System (1)/ParticleSystemRenderer, Renderer/Particle System (2)/ParticleSystemRenderer, Renderer/stone (1)/ParticleSystemRenderer
+       · 材质引用变了: Particle System (2):ParticleSystemRenderer, Particle System (1):ParticleSystemRenderer, stone (1):ParticleSystemRenderer
+  ● es_fallend_03.ab
+       + 新增插值器 物体=sword027 (1)   脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.786,1.227,0.739,1.000)
+       · 多的对象: Mono/sword027 (1)/MaterialCollector, Mono/sword027 (1)/MaterialTinter
+  ● es_fallmdownend_01.ab
+       + 新增插值器 物体=sword026       脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.758,1.227,0.739,1.000)
+       + 新增插值器 物体=sword027 (1)   脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.758,1.227,0.739,1.000)
+       - 删掉插值器 物体=SceneTint 脚本=BatchMaterialTinterProxy prop=_TintColor
+       · 多的对象: Mono/sword026/MaterialCollector, Mono/sword026/MaterialTinter, Mono/sword027 (1)/MaterialCollector, Mono/sword027 (1)/MaterialTinter
+  ● es_hold1_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.769,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=44 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.765,1.227,0.739,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.765,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.769,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/44 (1)/MaterialCollector, Mono/44 (1)/MaterialTinter, Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_hold1_02.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.806,1.231,0.714,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.803,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (10)     脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.806,1.231,0.714,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (8)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       + 新增插值器 物体=44 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.803,1.227,0.739,1.000)
+       + 新增插值器 物体=sword (9)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.823,1.227,0.739,1.000)
+       · 多的对象: Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter, Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/44 (1)/MaterialCollector, Mono/44 (1)/MaterialTinter, Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_holdatk1_01.ab
+       + 新增插值器 物体=012            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.834,1.227,0.739,1.000)
+       · 多的对象: Mono/012/MaterialCollector, Mono/012/MaterialTinter
+  ● es_holdatk1_02.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (1.644,2.830,1.245,0.000)/(1.088,2.226,0.921,1.000)
+       · 材质引用变了: feng02:MeshRenderer
+  ● es_holdatk1_02a.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(1.088,2.226,0.921,1.000)
+  ● es_holdatk3_01.ab
+       + 新增插值器 物体=012            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.849,1.227,0.739,1.000)
+       + 新增插值器 物体=013            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.849,1.227,0.739,1.000)
+       · 多的对象: Mono/012/MaterialCollector, Mono/012/MaterialTinter, Mono/013/MaterialCollector, Mono/013/MaterialTinter
+  ● es_holdatk3_02.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (1.093,2.996,0.784,0.000)/(1.088,2.226,0.921,1.000)
+       · 材质引用变了: feng02:MeshRenderer
+  ● es_holdatk3_02a.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(1.088,2.226,0.921,1.000)
+  ● es_holdatk_air_001.ab
+       + 新增插值器 物体=02 (2)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.906,1.227,0.739,1.000)
+  ● es_holdatk_air_002.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.862,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter
+  ● es_holdatk_air_003.ab
+       + 新增插值器 物体=01             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.818,1.227,0.739,1.000)
+       + 新增插值器 物体=02 (1)         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.739,1.227,0.742,1.000)
+       · 多的对象: Mono/01/MaterialCollector, Mono/01/MaterialTinter, Mono/02 (1)/MaterialCollector, Mono/02 (1)/MaterialTinter
+  ● es_holdatk_air_004.ab
+       + 新增插值器 物体=012 (1)        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.786,1.227,0.739,1.000)
+       + 新增插值器 物体=013 (1)        脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.786,1.227,0.739,1.000)
+       · 多的对象: Mono/012 (1)/MaterialCollector, Mono/012 (1)/MaterialTinter, Mono/013 (1)/MaterialCollector, Mono/013 (1)/MaterialTinter
+  ● es_holdfull_01.ab
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.618,1.036,0.601,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       - 删掉插值器 物体=Other (3) 脚本=MaterialTinterProxy prop=_RemapColorFrom
+       - 删掉插值器 物体=Other (3) 脚本=MaterialTinterProxy prop=_RemapLerp
+       - 删掉插值器 物体=Other (3) 脚本=MaterialTinterProxy prop=_RemapColorTo
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector, Mono/sword (2)/MaterialTinter, Mono/sword (3)/MaterialCollector, Mono/sword (3)/MaterialTinter
+  ● es_holdfull_02.ab
+       + 新增插值器 物体=sword (5)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (6)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (2)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.618,1.036,0.601,1.000)
+       + 新增插值器 物体=sword (1)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword          脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (7)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (3)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       + 新增插值器 物体=sword (4)      脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.206,1.206,1.206,1.000)
+       - 删掉插值器 物体=Other (3) 脚本=MaterialTinterProxy prop=_RemapColorFrom
+       - 删掉插值器 物体=Other (3) 脚本=MaterialTinterProxy prop=_RemapLerp
+       - 删掉插值器 物体=Other (3) 脚本=MaterialTinterProxy prop=_RemapColorTo
+       · 多的对象: Mono/44/MaterialCollector, Mono/44/MaterialTinter, Mono/WIGGLE (1)/VFXEffectExtension, Mono/WIGGLE (1)/VFXEffectHub, Mono/lod1/VFXEffectHub, Mono/sword (1)/MaterialCollector, Mono/sword (1)/MaterialTinter, Mono/sword (2)/MaterialCollector
+  ● es_holdrelease_01.ab
+       + 新增插值器 物体=44             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.767,1.227,0.739,1.000)
+       + 新增插值器 物体=03             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.771,1.227,0.739,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.771,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/03/MaterialCollector, Mono/03/MaterialTinter, Mono/44/MaterialCollector, Mono/44/MaterialTinter
+  ● es_holdrelease_02.ab
+       + 新增插值器 物体=swordF         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.786,1.227,0.739,1.000)
+       + 新增插值器 物体=44F            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.793,1.227,0.739,1.000)
+       + 新增插值器 物体=swordB         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.786,1.227,0.739,1.000)
+       + 新增插值器 物体=44B            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.793,1.227,0.739,1.000)
+       - 删掉插值器 物体=1112 脚本=MaterialTinter prop=_MainTex_ST
+       · 多的对象: Mono/44B/MaterialCollector, Mono/44B/MaterialTinter, Mono/44F/MaterialCollector, Mono/44F/MaterialTinter, Mono/swordB/MaterialCollector, Mono/swordB/MaterialTinter, Mono/swordF/MaterialCollector, Mono/swordF/MaterialTinter
+  ● es_rushup_01.ab
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.771,1.227,0.739,1.000)
+       + 新增插值器 物体=03             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.771,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/03/MaterialCollector, Mono/03/MaterialTinter
+  ● es_rushup_02.ab
+       + 新增插值器 物体=03             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.817,1.227,0.739,1.000)
+       + 新增插值器 物体=44F            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.825,1.227,0.739,1.000)
+       + 新增插值器 物体=swordF         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.809,1.227,0.739,1.000)
+       + 新增插值器 物体=swordB         脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.809,1.227,0.739,1.000)
+       + 新增插值器 物体=44B            脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.825,1.227,0.739,1.000)
+       + 新增插值器 物体=02             脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(0.817,1.227,0.739,1.000)
+       · 多的对象: Mono/02/MaterialCollector, Mono/02/MaterialTinter, Mono/03/MaterialCollector, Mono/03/MaterialTinter, Mono/44B/MaterialCollector, Mono/44B/MaterialTinter, Mono/44F/MaterialCollector, Mono/44F/MaterialTinter
+  ● es_stand_01.ab
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTexTintColor  (0.000,0.000,0.000,0.000)/(0.049,0.099,0.358,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.269,0.490,0.243,1.000)
+  ● es_stand_02.ab
+       · 多的对象: Mono/lod0 (1)/VFXEffectHub
+       · 材质引用变了: baodian01:ParticleSystemRenderer
+  ● es_standby_001.ab
+       + 新增插值器 物体=Particle System (4) 脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=Particle System (5) 脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=Particle System (2) 脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       + 新增插值器 物体=Particle System (3) 脚本=MaterialTinter   prop=_SubTexTintColor   start=(0.000,0.000,0.000,0.000) end=(1.227,0.735,0.826,1.000)
+       - 删掉插值器 物体=gaoguang 脚本=MaterialTinterProxy prop=_EmissionTex
+       - 删掉插值器 物体=gaoguang 脚本=MaterialTinterProxy prop=_EmissionTex_ST
+       ~ 改值      物体=gaoguang       脚本=MaterialTinterProxy prop=_EmissionX         (0.150,0.832,1.059,1.000)/(3.953,2.974,0.615,1.000)  ==>  (0.361,0.788,0.294,1.000)/(1.132,1.962,0.883,1.000)
+       · 多的对象: Mono/Particle System (2)/MaterialCollector, Mono/Particle System (2)/MaterialTinter, Mono/Particle System (3)/MaterialCollector, Mono/Particle System (3)/MaterialTinter, Mono/Particle System (4)/MaterialCollector, Mono/Particle System (4)/MaterialTinter, Mono/Particle System (5)/MaterialCollector, Mono/Particle System (5)/MaterialTinter
+================================================================================================
+### esskin_12：改了 96 个特效
+  ● es_ah_01.ab
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.000,0.549,2.000,0.518)  ==>  (3.593,3.634,3.462,0.000)/(1.892,1.997,1.347,0.227)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.168,1.168,0.964,1.000)
+  ● es_ah_02.ab
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_MaskTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+  ● es_ah_03.ab
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_MeshParamA        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.224,1.506,2.996,1.000)  ==>  (0.000,0.000,0.000,0.000)/(2.208,2.338,1.885,0.773)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.319,2.000,0.000)/(0.000,0.319,2.000,0.298)  ==>  (1.871,2.001,1.582,0.000)/(0.810,0.878,0.682,0.278)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_HighlightColor    (0.514,0.613,1.000,1.000)/(0.620,0.716,1.000,0.000)  ==>  (0.583,0.604,0.476,1.000)/(1.000,1.000,0.958,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_BrightColor       (0.000,0.257,0.698,1.000)/(0.000,0.298,1.000,0.000)  ==>  (0.573,0.604,0.419,1.000)/(0.626,0.642,0.415,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_AmbientColor      (0.553,0.678,1.000,0.510)/(0.000,0.170,1.000,0.000)  ==>  (0.616,0.679,0.516,0.510)/(0.622,0.755,0.146,0.000)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.003,0.008,0.066,0.702)  ==>  (0.000,0.000,0.000,0.000)/(0.004,0.008,0.067,0.702)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_MaskTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       · 材质引用变了: Plane002 (1):MeshRenderer, Plane002 (1):MeshRenderer
+  ● es_airdashatk21_001.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer
+  ● es_airdashatk21_002.ab
+       · 材质引用变了: stone:ParticleSystemRenderer, smoke01 (4):ParticleSystemRenderer
+  ● es_atkair12_001.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_002.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_003.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_004.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_005.ab
+       · 材质引用变了: sword027 (1):ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer
+  ● es_atkair12_006.ab
+       · 材质引用变了: sword027 (1):ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_atkhold_21_002.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.161,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(2.267,2.921,1.178,1.000)
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_MeshParamB        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+  ● es_atkhold_21_003.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 02 (1):ParticleSystemRenderer
+  ● es_atkhold_21_004.ab
+       ~ 改值      物体=jianqi01 (1)   脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.555,0.821,2.119,1.000)  ==>  (1.459,1.500,1.186,0.000)/(1.173,1.311,0.897,1.000)
+       ~ 改值      物体=jianqi01 (1)   脚本=MaterialTinter   prop=_MeshParamB        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+  ● es_atkhold_21_005.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 02 (1):ParticleSystemRenderer
+  ● es_atkhold_21_006.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer
+  ● es_attack1_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack1_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack1_03.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack2_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack2_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack2_03.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack3_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack4_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 02 (1):ParticleSystemRenderer
+  ● es_attack4_02.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_attack4_03.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_attackair_01.ab
+       · 材质引用变了: sword (5):ParticleSystemRenderer, sword (7):ParticleSystemRenderer, sword (3):ParticleSystemRenderer, sword:ParticleSystemRenderer, sword (1):ParticleSystemRenderer, sword (2):ParticleSystemRenderer
+  ● es_attackair_01a.ab
+       · 材质引用变了: sword (7):ParticleSystemRenderer, sword (4):ParticleSystemRenderer, sword (3):ParticleSystemRenderer, sword (1):ParticleSystemRenderer, sword (2):ParticleSystemRenderer, sword (5):ParticleSystemRenderer
+  ● es_attackair_02.ab
+       · 材质引用变了: sword (7):ParticleSystemRenderer, sword (1):ParticleSystemRenderer, sword (3):ParticleSystemRenderer, sword:ParticleSystemRenderer, sword (4):ParticleSystemRenderer, sword (5):ParticleSystemRenderer
+  ● es_attackair_03.ab
+       · 材质引用变了: sword (6):ParticleSystemRenderer, sword:ParticleSystemRenderer, sword (4):ParticleSystemRenderer, sword (3):ParticleSystemRenderer, sword (5):ParticleSystemRenderer, sword (1):ParticleSystemRenderer
+  ● es_attackd1_001.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_002.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_003.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_004.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_005.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_006.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_007.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_008.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_009.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackhlod_02.ab
+       · 材质引用变了: tuowei01:ParticleSystemRenderer, Line:ParticleSystemRenderer
+  ● es_attackhlod_hit_01.ab
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.408,0.661,1.921,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.405,0.425,0.294,0.000)
+       · 材质引用变了: smoke021:ParticleSystemRenderer
+  ● es_attackhlod_hit_02.ab
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTexTintColor  (0.000,0.000,0.000,0.000)/(0.665,1.051,3.616,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.259,1.296,0.911,1.000)
+  ● es_attackhlod_hit_04.ab
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.796,1.046,2.271,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.023,1.091,0.767,1.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.408,0.661,1.921,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.300,0.321,0.268,0.000)
+  ● es_attackup_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackup_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_dash_01.ab
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.776,1.000,0.000)/(0.000,0.145,1.000,1.000)  ==>  (0.000,0.776,1.000,0.000)/(0.350,0.377,0.251,1.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.721,1.721,1.721,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.860,0.860,0.860,1.000)
+  ● es_dash_02.ab
+       · 材质引用变了: tuowei01:ParticleSystemRenderer, Line:ParticleSystemRenderer
+  ● es_dashatk1_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_dashatk1_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_dashatk22_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_dashatk22_02.ab
+       · 材质引用变了: sword01:ParticleSystemRenderer, sword01:ParticleSystemRenderer
+  ● es_dashatk22_03.ab
+       · 材质引用变了: Trail01:TrailRenderer
+  ● es_dodge_01.ab
+       ~ 改值      物体=Other          脚本=ActorTrailProxy  prop=_AddColor          (0.000,0.000,0.000,0.000)/(0.000,0.380,1.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.455,0.509,0.329,0.000)
+  ● es_dodge_02.ab
+       ~ 改值      物体=Other          脚本=ActorTrailProxy  prop=_AddColor          (0.000,0.000,0.000,0.000)/(0.000,0.380,1.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.529,0.594,0.378,0.000)
+  ● es_energy_01.ab
+       ~ 改值      物体=Other          脚本=BatchMaterialTinterProxy prop=_TintColor         (1.000,1.000,1.000,1.000)/(0.038,0.000,0.179,1.000)  ==>  (1.000,1.000,1.000,1.000)/(0.296,0.311,0.189,1.000)
+  ● es_energy_02.ab
+       · 材质引用变了: sword (2):ParticleSystemRenderer, sword (5):ParticleSystemRenderer, sword (6):ParticleSystemRenderer, sword (7):ParticleSystemRenderer, sword (1):ParticleSystemRenderer, sword (4):ParticleSystemRenderer
+  ● es_energy_02_1.ab
+       ~ 改值      物体=ring_bg2       脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.565,1.586,1.196,0.784)/(0.541,0.604,0.357,0.000)
+       ~ 改值      物体=ring_b         脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (0.865,1.165,2.828,0.784)/(1.457,1.491,0.991,0.627)
+       ~ 改值      物体=ring_bg        脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.460,1.499,1.342,0.784)/(0.447,0.502,0.329,0.000)
+  ● es_energy_02_2.ab
+       ~ 改值      物体=ring_bg (1)    脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.460,1.499,1.342,0.784)/(0.447,0.502,0.329,0.000)
+       ~ 改值      物体=ring_b (1)     脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.239,0.349,0.749,0.000)  ==>  (1.452,1.498,0.918,0.627)/(0.457,0.491,0.340,0.000)
+       ~ 改值      物体=ring_bg2 (1)   脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.509,1.578,1.347,0.784)/(0.593,0.651,0.529,0.000)
+       · 材质引用变了: sword (3):ParticleSystemRenderer, sword (1):ParticleSystemRenderer, sword:ParticleSystemRenderer, sword (6):ParticleSystemRenderer, sword (5):ParticleSystemRenderer, sword (4):ParticleSystemRenderer
+  ● es_energy_02_3.ab
+       ~ 改值      物体=ring_bg        脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.460,1.499,1.342,0.784)/(0.447,0.502,0.329,0.000)
+       ~ 改值      物体=ring_bg2       脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.509,1.578,1.347,0.784)/(0.592,0.651,0.529,0.000)
+       ~ 改值      物体=ring_b         脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(1.184,1.735,3.746,0.537)  ==>  (0.865,1.165,2.828,0.784)/(1.457,1.491,0.991,0.627)
+  ● es_energy_02_4.ab
+       · 材质引用变了: sword (3):ParticleSystemRenderer, sword (2):ParticleSystemRenderer, sword (5):ParticleSystemRenderer, sword:ParticleSystemRenderer, sword (4):ParticleSystemRenderer, sword (1):ParticleSystemRenderer
+  ● es_esbullet_dasha_001.ab
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.413,1.447,1.000,1.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.273,0.714,1.864,0.392)  ==>  (3.593,3.634,3.462,0.000)/(2.605,2.675,2.057,0.094)
+       · 材质引用变了: tuowei01:ParticleSystemRenderer
+  ● es_esbullet_dasha_002.ab
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.273,0.714,1.864,0.392)  ==>  (3.593,3.634,3.462,0.000)/(2.605,2.675,2.057,0.094)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.413,1.447,1.000,1.000)
+  ● es_fall_01.ab
+       · 材质引用变了: sword01:ParticleSystemRenderer, sword03:ParticleSystemRenderer, sword01:ParticleSystemRenderer, sword03:ParticleSystemRenderer, sword02:ParticleSystemRenderer, sword02:ParticleSystemRenderer
+  ● es_fall_01a.ab
+       · 材质引用变了: sword03:ParticleSystemRenderer, sword02:ParticleSystemRenderer, sword03:ParticleSystemRenderer, sword02:ParticleSystemRenderer, sword01:ParticleSystemRenderer, sword01:ParticleSystemRenderer
+  ● es_fall_02.ab
+       · 材质引用变了: sword (9):ParticleSystemRenderer, sword (8):ParticleSystemRenderer, sword (9):ParticleSystemRenderer, sword (10):ParticleSystemRenderer, sword (11):ParticleSystemRenderer, sword (10):ParticleSystemRenderer
+  ● es_fall_02a.ab
+       · 材质引用变了: sword (5):ParticleSystemRenderer, sword (8):ParticleSystemRenderer, sword (10):ParticleSystemRenderer, sword (8):ParticleSystemRenderer, sword (11):ParticleSystemRenderer, sword (5):ParticleSystemRenderer
+  ● es_fall_03.ab
+       · 材质引用变了: sword (8):ParticleSystemRenderer, sword (10):ParticleSystemRenderer, sword (10):ParticleSystemRenderer, sword (11):ParticleSystemRenderer, sword (5):ParticleSystemRenderer, sword (9):ParticleSystemRenderer
+  ● es_fall_03a.ab
+       · 材质引用变了: sword (5):ParticleSystemRenderer, sword (9):ParticleSystemRenderer, sword (10):ParticleSystemRenderer, sword (11):ParticleSystemRenderer, sword (8):ParticleSystemRenderer, sword (9):ParticleSystemRenderer
+  ● es_fall_04.ab
+       ~ 改值      物体=guangzhu01     脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(5.647,6.525,11.984,1.000)  ==>  (0.000,0.000,0.000,0.000)/(5.609,5.907,4.987,1.000)
+       ~ 改值      物体=guangzhu01     脚本=MaterialTinter   prop=_MaskTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       · 材质引用变了: tuowei01:ParticleSystemRenderer, tuowei01:ParticleSystemRenderer
+  ● es_fall_04a.ab
+       · 材质引用变了: liangse01:ParticleSystemRenderer
+  ● es_fallend_01.ab
+       · 材质引用变了: stone:ParticleSystemRenderer
+  ● es_fallend_02.ab
+       · 材质引用变了: stone:ParticleSystemRenderer
+  ● es_fallend_03.ab
+       · 材质引用变了: sword027 (1):ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer
+  ● es_fallmdownend_01.ab
+       ~ 改值      物体=SceneTint      脚本=BatchMaterialTinterProxy prop=_TintColor         (1.000,1.000,1.000,1.000)/(0.240,0.220,0.849,1.000)  ==>  (1.000,1.000,1.000,1.000)/(0.000,0.223,0.396,1.000)
+       · 材质引用变了: sword026:ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer, sword026:ParticleSystemRenderer, sword026:ParticleSystemRenderer, sword026:ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer
+  ● es_fallmdownend_02.ab
+       · 材质引用变了: sword026:ParticleSystemRenderer, SubEmitter01:ParticleSystemRenderer, sword026:ParticleSystemRenderer, sword026:ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer, sword027 (1):ParticleSystemRenderer
+  ● es_hold1_01.ab
+       · 材质引用变了: sword (7):ParticleSystemRenderer, sword (6):ParticleSystemRenderer, 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer, sword (2):ParticleSystemRenderer, sword (3):ParticleSystemRenderer
+  ● es_hold1_02.ab
+       · 材质引用变了: sword (7):ParticleSystemRenderer, sword (10):ParticleSystemRenderer, sword:ParticleSystemRenderer, sword (9):ParticleSystemRenderer, sword (2):ParticleSystemRenderer, sword (7):ParticleSystemRenderer
+  ● es_holdatk1_01.ab
+       · 材质引用变了: 012:ParticleSystemRenderer
+  ● es_holdatk1_02.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(1.530,1.653,1.333,1.000)
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_MeshParamB        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       · 材质引用变了: feng02:MeshRenderer
+  ● es_holdatk1_02a.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(1.245,1.303,1.088,1.000)
+  ● es_holdatk3_01.ab
+       · 材质引用变了: 012:ParticleSystemRenderer, 013:ParticleSystemRenderer
+  ● es_holdatk3_02.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (2.258,2.319,2.052,0.000)/(1.382,1.447,1.208,1.000)
+       · 材质引用变了: feng02:MeshRenderer
+  ● es_holdatk3_02a.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(1.382,1.447,1.208,1.000)
+  ● es_holdatk_air_001.ab
+       · 材质引用变了: 02 (2):ParticleSystemRenderer
+  ● es_holdatk_air_002.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_holdatk_air_003.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 01:ParticleSystemRenderer
+  ● es_holdatk_air_004.ab
+       · 材质引用变了: 013 (1):ParticleSystemRenderer, 012 (1):ParticleSystemRenderer
+  ● es_holdfull_01.ab
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.000,0.184,0.774,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.510,0.529,0.435,0.000)
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.297,1.676,3.442,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.898,0.922,0.796,0.000)
+       · 材质引用变了: sword (7):ParticleSystemRenderer, sword (3):ParticleSystemRenderer, sword (6):ParticleSystemRenderer, sword (2):ParticleSystemRenderer, sword (1):ParticleSystemRenderer, sword (5):ParticleSystemRenderer
+  ● es_holdfull_02.ab
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.000,0.184,0.774,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.510,0.528,0.436,0.000)
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.297,1.676,3.442,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.899,0.922,0.796,0.000)
+       · 材质引用变了: sword (5):ParticleSystemRenderer, sword (1):ParticleSystemRenderer, sword (7):ParticleSystemRenderer, sword (4):ParticleSystemRenderer, sword:ParticleSystemRenderer, sword (6):ParticleSystemRenderer
+  ● es_holdrelease_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 03:ParticleSystemRenderer
+  ● es_holdrelease_02.ab
+       · 材质引用变了: swordF:ParticleSystemRenderer, 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer, swordB:ParticleSystemRenderer
+  ● es_rushup_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 03:ParticleSystemRenderer
+  ● es_rushup_02.ab
+       · 材质引用变了: 03:ParticleSystemRenderer, swordB:ParticleSystemRenderer, 02:ParticleSystemRenderer, swordF:ParticleSystemRenderer
+  ● es_stand_01.ab
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTexTintColor  (0.000,0.000,0.000,0.000)/(0.049,0.099,0.358,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.392,0.396,0.329,1.000)
+       · 材质引用变了: glow01:ParticleSystemRenderer, glow01:ParticleSystemRenderer
+  ● es_stand_02.ab
+       · 材质引用变了: baodian01:ParticleSystemRenderer
+  ● es_standby_001.ab
+       ~ 改值      物体=gaoguang       脚本=MaterialTinterProxy prop=_EmissionTex       (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+================================================================================================
+### esskin_13：改了 73 个特效
+  ● es_ah_01.ab
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.098,0.973,3.174,1.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.000,0.549,2.000,0.518)  ==>  (0.299,0.000,2.000,0.000)/(0.617,0.000,2.000,0.518)
+  ● es_ah_03.ab
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_MeshParamA        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_HighlightColor    (0.514,0.613,1.000,1.000)/(0.620,0.716,1.000,0.000)  ==>  (0.490,0.414,0.670,1.000)/(0.432,0.367,0.632,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_BrightColor       (0.000,0.257,0.698,1.000)/(0.000,0.298,1.000,0.000)  ==>  (0.220,0.135,0.736,1.000)/(0.352,0.076,0.849,0.000)
+       ~ 改值      物体=linhting01     脚本=MaterialTinter   prop=_AmbientColor      (0.553,0.678,1.000,0.510)/(0.000,0.170,1.000,0.000)  ==>  (0.627,0.500,0.774,0.510)/(0.376,0.079,0.991,0.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.319,2.000,0.000)/(0.000,0.319,2.000,0.298)  ==>  (0.299,0.000,2.000,0.000)/(0.617,0.000,2.000,0.298)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.224,1.506,2.996,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.817,1.216,2.552,1.000)
+       ~ 改值      物体=heidi01        脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.003,0.008,0.066,0.702)  ==>  (0.000,0.000,0.000,0.000)/(0.004,0.008,0.067,0.702)
+  ● es_atkair12_001.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_002.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_003.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_004.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_005.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkair12_006.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_atkhold_21_002.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.161,2.996,1.000)  ==>  (1.594,1.083,2.981,0.000)/(1.113,0.950,2.369,1.000)
+  ● es_atkhold_21_003.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_atkhold_21_004.ab
+       ~ 改值      物体=jianqi01 (1)   脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.555,0.821,2.119,1.000)  ==>  (0.784,1.160,2.996,0.000)/(0.980,0.837,2.088,1.000)
+  ● es_atkhold_21_005.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 02 (1):ParticleSystemRenderer
+  ● es_atkhold_21_006.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer
+  ● es_attack1_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack1_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack1_03.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack2_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack2_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack2_03.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack3_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attack4_01.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_attack4_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 02 (1):ParticleSystemRenderer
+  ● es_attack4_03.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_attackd1_001.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_002.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_003.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_004.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_005.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_006.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_007.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_008.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackd1_009.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackhlod_02.ab
+       · 材质引用变了: Line:ParticleSystemRenderer
+  ● es_attackhlod_hit_01.ab
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.408,0.661,1.921,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.699,0.390,1.839,0.000)
+  ● es_attackhlod_hit_02.ab
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTexTintColor  (0.000,0.000,0.000,0.000)/(0.665,1.051,3.616,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.865,0.476,2.726,1.000)
+  ● es_attackhlod_hit_04.ab
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(0.796,1.046,2.271,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.923,0.837,2.432,1.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.408,0.661,1.921,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.594,0.397,1.426,0.000)
+  ● es_attackup_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_attackup_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_dash_01.ab
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.776,1.000,0.000)/(0.000,0.145,1.000,1.000)  ==>  (0.000,0.776,1.000,0.000)/(0.106,0.000,0.717,1.000)
+       ~ 改值      物体=Other          脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.721,1.721,1.721,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.149,1.149,1.149,1.000)
+  ● es_dashatk1_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_dashatk1_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_dashatk22_01.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_dodge_01.ab
+       ~ 改值      物体=Other          脚本=ActorTrailProxy  prop=_AddColor          (0.000,0.000,0.000,0.000)/(0.000,0.380,1.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.410,0.000,1.000,0.000)
+  ● es_dodge_02.ab
+       ~ 改值      物体=Other          脚本=ActorTrailProxy  prop=_AddColor          (0.000,0.000,0.000,0.000)/(0.000,0.380,1.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.478,0.000,1.000,0.000)
+  ● es_energy_01.ab
+       ~ 改值      物体=Other          脚本=BatchMaterialTinterProxy prop=_TintColor         (1.000,1.000,1.000,1.000)/(0.038,0.000,0.179,1.000)  ==>  (1.000,1.000,1.000,1.000)/(0.233,0.165,0.690,1.000)
+  ● es_energy_02_1.ab
+       ~ 改值      物体=ring_bg        脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.132,0.874,2.828,0.784)/(0.300,0.231,0.749,0.000)
+       ~ 改值      物体=ring_bg2       脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.132,0.874,2.828,0.784)/(0.298,0.231,0.749,0.000)
+       ~ 改值      物体=ring_b         脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (0.865,1.165,2.828,0.784)/(1.882,1.196,3.746,0.537)
+  ● es_energy_02_2.ab
+       ~ 改值      物体=ring_b (1)     脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.239,0.349,0.749,0.000)  ==>  (1.132,0.874,2.828,0.784)/(0.300,0.231,0.749,0.000)
+       ~ 改值      物体=ring_bg2 (1)   脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.132,0.874,2.828,0.784)/(0.300,0.231,0.749,0.000)
+       ~ 改值      物体=ring_bg (1)    脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.132,0.874,2.828,0.784)/(0.300,0.231,0.749,0.000)
+  ● es_energy_02_3.ab
+       ~ 改值      物体=ring_b         脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(1.184,1.735,3.746,0.537)  ==>  (0.865,1.165,2.828,0.784)/(1.882,1.196,3.746,0.537)
+       ~ 改值      物体=ring_bg        脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.132,0.874,2.828,0.784)/(0.298,0.231,0.749,0.000)
+       ~ 改值      物体=ring_bg2       脚本=MaterialTinter   prop=_TintColor         (0.865,1.165,2.828,0.784)/(0.231,0.310,0.749,0.000)  ==>  (1.132,0.874,2.828,0.784)/(0.300,0.231,0.749,0.000)
+  ● es_esbullet_dasha_001.ab
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.273,0.714,1.864,0.392)  ==>  (0.297,0.000,2.000,0.000)/(0.792,0.273,1.864,0.392)
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.287,1.135,2.208,1.000)
+  ● es_esbullet_dasha_002.ab
+       ~ 改值      物体=Plane002 (1)   脚本=MaterialTinter   prop=_TintColor         (0.000,0.000,0.000,0.000)/(1.423,1.874,4.131,1.000)  ==>  (0.000,0.000,0.000,0.000)/(1.287,1.135,2.208,1.000)
+       ~ 改值      物体=glow01         脚本=MaterialTinter   prop=_TintColor         (0.000,0.327,2.000,0.000)/(0.273,0.714,1.864,0.392)  ==>  (0.305,0.000,2.000,0.000)/(0.767,0.273,1.864,0.392)
+  ● es_fall_04.ab
+       ~ 改值      物体=guangzhu01     脚本=MaterialTinter   prop=_MaskTex           (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+  ● es_fallmdownend_01.ab
+       ~ 改值      物体=SceneTint      脚本=BatchMaterialTinterProxy prop=_TintColor         (1.000,1.000,1.000,1.000)/(0.240,0.220,0.849,1.000)  ==>  (1.000,1.000,1.000,1.000)/(0.700,0.220,0.851,1.000)
+       · 材质引用变了: SubEmitter0 (1):ParticleSystemRenderer, SubEmitter0 (1):ParticleSystemRenderer
+  ● es_fallmdownend_02.ab
+       · 材质引用变了: SubEmitter01:ParticleSystemRenderer
+  ● es_hold1_01.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_hold1_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 02 (1):ParticleSystemRenderer
+  ● es_holdatk1_01.ab
+       · 材质引用变了: 012:ParticleSystemRenderer
+  ● es_holdatk1_02.ab
+       ~ 改值      物体=feng02         脚本=MaterialTinter   prop=_MeshParamB        (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (1.101,0.784,2.996,0.000)/(1.101,0.784,2.996,1.000)
+       · 材质引用变了: feng02:MeshRenderer
+  ● es_holdatk1_02a.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(1.101,0.784,2.996,1.000)
+  ● es_holdatk3_01.ab
+       · 材质引用变了: 012:ParticleSystemRenderer, 013:ParticleSystemRenderer
+  ● es_holdatk3_02.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (1.222,0.866,3.221,0.000)/(1.190,0.835,3.219,1.000)
+       · 材质引用变了: feng02:MeshRenderer
+  ● es_holdatk3_02a.ab
+       ~ 改值      物体=jianqi01       脚本=MaterialTinter   prop=_TintColor         (0.784,1.160,2.996,0.000)/(0.784,1.160,2.996,1.000)  ==>  (0.784,1.160,2.996,0.000)/(1.190,0.835,3.219,1.000)
+  ● es_holdatk_air_001.ab
+       · 材质引用变了: 02 (2):ParticleSystemRenderer
+  ● es_holdatk_air_002.ab
+       · 材质引用变了: 02:ParticleSystemRenderer
+  ● es_holdatk_air_003.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 01:ParticleSystemRenderer
+  ● es_holdatk_air_004.ab
+       · 材质引用变了: 012 (1):ParticleSystemRenderer, 013 (1):ParticleSystemRenderer
+  ● es_holdfull_01.ab
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.000,0.184,0.774,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.192,0.000,0.773,0.000)
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.297,1.676,3.442,0.000)  ==>  (0.000,0.000,0.000,0.000)/(1.248,0.983,2.608,0.000)
+  ● es_holdfull_02.ab
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorFrom    (0.000,0.000,0.000,0.000)/(0.000,0.184,0.774,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.192,0.000,0.773,0.000)
+       ~ 改值      物体=Other (3)      脚本=MaterialTinterProxy prop=_RemapColorTo      (0.000,0.000,0.000,0.000)/(1.297,1.676,3.442,0.000)  ==>  (0.000,0.000,0.000,0.000)/(1.248,0.983,2.608,0.000)
+  ● es_holdrelease_01.ab
+       · 材质引用变了: 03:ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_holdrelease_02.ab
+       · 材质引用变了: 02 (1):ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_rushup_01.ab
+       · 材质引用变了: 03:ParticleSystemRenderer, 02:ParticleSystemRenderer
+  ● es_rushup_02.ab
+       · 材质引用变了: 02:ParticleSystemRenderer, 03:ParticleSystemRenderer
+  ● es_stand_01.ab
+       ~ 改值      物体=Other01        脚本=MaterialTinterProxy prop=_DecoTexTintColor  (0.000,0.000,0.000,0.000)/(0.049,0.099,0.358,1.000)  ==>  (0.000,0.000,0.000,0.000)/(0.830,0.521,2.567,1.000)
+  ● es_standby_001.ab
+       ~ 改值      物体=gaoguang       脚本=MaterialTinterProxy prop=_EmissionTex       (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)  ==>  (0.000,0.000,0.000,0.000)/(0.000,0.000,0.000,0.000)

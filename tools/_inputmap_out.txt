@@ -1,0 +1,122 @@
+=== ES 记录的字符串字段取值分布 ===
+  f5: ['AttackUp', 'AttackUp2', 'UltraDAend', 'UltraDash', 'UltraDashAir', 'UltraDashAirEX', 'UltraDashEX', 'atkAir12', 'atkAir3', 'atkAirX', 'attack1', 'attack2', 'attack3', 'attack4']
+  f6: ['End_1_start', 'End_8_start', 'Start_1', 'Start_2', 'Start_4', 'Start_5', 'Start_6', 'Start_7', 'Start_8']
+  f7: ['End_1', 'End_2', 'End_4', 'End_5', 'End_6', 'End_7', 'End_8']
+  f8: ['Attack', 'Dash', 'Jump', 'Skill', 'Summon']
+  f24: ['"11":0.5', '"2":0.025,"7":0.2', '"all":0.15', '"all":0.17', '"all":0.2', '"all":0.25', '"all":0.3,"5":0.01', '"all":0.35', '"all":0.45, "2":0.2', '"all":0.5', '"all":0.5,"5":0.01', '"all":0.55', '"all":0.55,"2":1', '"all":0.7,"5":0.01']
+  f41: ['SkillJumpDownStart', 'SkillJumpStart']
+  f43: ['SummonSkill']
+
+判定: Input 字段=f8  InputDir 字段=fNone
+
+
+########## ES 输入 → 招式 ##########
+
+--- 按键=?  方向=  (44 条) ---
+    槽2.13  UltraDAend
+    槽3.1   None
+    槽4.1   fall
+    槽4.2   fallupdd
+    槽4.3   fallupd
+    槽4.4   fallup22
+    槽4.5   fallup2dd
+    槽4.6   fallup2d
+    槽4.7   fallend
+    槽4.8   fallend2
+    槽4.9   fallm
+    槽4.10  fallmdown
+    槽4.11  fallmdownend
+    槽4.12  atkAir12
+    槽4.15  fallmdownendEX
+    槽4.16  fallmdownendEX2
+    槽5.1   dashAtkEX
+    槽5.2   dashAtk
+    槽5.3   dashAirAtkEX
+    槽5.4   dashAirAtk
+    槽5.7   attackholdDashEXQ
+    槽5.11  dashend
+    槽5.12  dashAir
+    槽5.13  dashAir2
+    槽5.14  dashAir3
+    槽5.15  attackhold_hit
+    槽5.16  attackhold_hit2
+    槽5.17  attackhold_hit2Air
+    槽5.18  dashAAhit
+    槽5.19  dashAAendEX
+    槽5.20  dashAAend
+    槽5.21  dashAAendX
+    槽5.22  dashAirAtkGEX
+    槽5.23  dashAirAtkG
+    槽5.24  dashAtkGEX
+    槽5.25  dashAtkG
+    槽6.1   rush
+    槽6.2   rushUp
+    槽7.4   jump2
+    槽7.5   jump3
+    槽8.2   attackhold22_loop
+    槽8.3   attackhold23
+    槽11.4   falldownEX0
+    槽11.5   fallmEX0Air
+
+--- 按键=Attack  方向=  (17 条) ---
+    槽1.1   AttackUp
+    槽1.2   AttackUp
+    槽1.3   AttackUp2
+    槽1.4   attackD1
+    槽1.5   attackD1
+    槽1.6   attackD2
+    槽1.7   attackD3
+    槽1.8   atkAirX
+    槽1.9   attack1
+    槽1.10  attack2
+    槽1.11  attack3
+    槽1.12  attack4
+    槽1.13  atkAirX
+    槽4.13  AttackUp2
+    槽4.14  atkAir3
+    槽8.1   attackhold21
+    槽8.4   attackhold
+
+--- 按键=Dash  方向=  (11 条) ---
+    槽5.5   attackholdDashEX
+    槽5.5   attackholdDashEX
+    槽5.5   attackholdDashEX
+    槽5.5   attackholdDashEX
+    槽5.6   attackholdDash
+    槽5.6   attackholdDash
+    槽5.6   attackholdDash
+    槽5.6   attackholdDash
+    槽5.8   dash
+    槽5.9   dash2
+    槽5.10  dash3
+
+--- 按键=Jump  方向=  (3 条) ---
+    槽7.1   jump_down
+    槽7.2   drop_down
+    槽7.3   jump
+
+--- 按键=Skill  方向=  (18 条) ---
+    槽2.1   attackAEX
+    槽2.2   attackA
+    槽2.3   attackB
+    槽2.4   attackC
+    槽2.5   attackA_AirEX
+    槽2.6   attackA_Air
+    槽2.7   attackB_Air
+    槽2.8   attackC_Air
+    槽2.9   UltraDashEX
+    槽2.10  UltraDash
+    槽2.11  UltraDashAirEX
+    槽2.12  UltraDashAir
+    槽2.14  holdEX
+    槽2.15  hold
+    槽2.16  attackAir2EX
+    槽2.17  attackAir2
+    槽2.18  attackAirEX
+    槽2.19  attackAir
+
+--- 按键=Summon  方向=  (4 条) ---
+    槽11.1   dashAtk0
+    槽11.2   dashAirAtk0
+    槽11.3   fallmEX0
+    槽11.6   summon

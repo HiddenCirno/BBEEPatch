@@ -1,0 +1,53 @@
+esbullet 动作块标记 2 个, 文件 168240 字节
+
+########## 块 #0  动作名 ≈ "?"  [31:83] 52B ##########
+   (无指令类串)
+
+########## 块 #1  动作名 ≈ "esbullet"  [83:168240] 168157B ##########
+   RemoveBuff_es
+   buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+   CreateBullet_
+   bullet_id:10340101,bullet_action: "DAA2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+   ChangeAction
+   action:"dashBEX"
+   ChangeAction
+   action:"C1EX",trigger:56061
+   ChangeAction
+   action:"B1EX",trigger:56061
+   ChangeAction
+   action:"A1EX",trigger:56061
+   SetActionCD
+   action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+   SetActionCD
+   action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+   SetActionCD
+   action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+   SetActionCD
+   action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+   CreateBullet_
+   bullet_id:10340101,bullet_action: "aup2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+   ChangeAction
+   action:"aH3EX"
+   ChangeAction
+   action:"aH3EX"
+   ChangeAction
+   action:"aH2EX"
+   ChangeAction
+   action:"aH2EX"
+   ChangeAction
+   action:"aHEX"
+   ChangeAction
+   action:"aHEX"
+   ChangeAction
+   action:"a0"
+   ChangeAction
+   action:"a20"
+   RemoveBuff_es
+   buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+   RemoveBuff_es
+   buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+   RemoveBuff_es
+   buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+   RemoveBuff_es
+   buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+   [资源] Role/Es/es_fall_01a | Hit/hit_105 | Hit/hit_019 | Role/Es/es_fallmdownend_02 | Role/Es/es_holdFull_01 | Hit/hit_018 | Role/Es/es_attackAir_03 | Hit/hit_106 | Role/Es/es_attackAir_01 | Role/Es/es_attackAir_03a | Role/Es/es_attackAir_01a | Role/Es/es_attackAir_02a | Role/Es/es_attackAir_02 | Role/Es/es_dashAtk1_02 | Role/Es/es_dashAtk1_01 | Role/Es/es_esbullet_dashA_001 | Role/Es/es_esbullet_dashA_002 | Role/Es/es_holdatk3_02a | Role/Es/es_holdatk3_02 | Role/ha/ha_attack6_02 | Role/Es/es_holdatk1_02a | Role/Es/es_holdatk1_02 | Role/Es/es_AH_01 | Role/Es/es_AH_03 | Role/Es/es_attackup_02 | Role/Es/es_attackup_01 | Role/Es/es_atkhold_21_006 | Role/Es/es_attack3_02 | Role/Es/es_atkhold_21_005 | Role/Es/es_atkhold_21_003 | Role/Es/es_attackD1_009 | Role/Es/es_attack3_01 | Role/Es/es_attackD1_008 | Role/Es/es_attackD1_006 | Role/Es/es_attackD1_005 | Role/Es/es_attackD1_003 | Role/Es/es_attackD1_002 | Role/Es/es_attack1_02 | Role/Es/es_attack1_01 | Role/Es/es_attack1_03 | Role/Es/es_attack2_02 | Role/Es/es_attack2_01 | Role/Es/es_attack2_03 | Role/Es/es_attack4_02 | Role/Es/es_attack4_03 | Role/Es/es_atkAir12_005 | Role/Es/es_atkAir12_006 | Role/Es/es_holdRelease_02 | Role/Es/es_holdRelease_01 | Hit/hit_009 | Role/Hb/hb_s6hn_01

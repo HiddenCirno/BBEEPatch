@@ -1,0 +1,836 @@
+
+==============================================================================
+=== PlayerSkillMgr::SkillStartImplement  public void SkillStartImplement(PlayerSkill psk, Fp2 lastInputDir, PlayerSkillChain chain) { }   RVA 0x1bdbd30
+==============================================================================
+  0x0181bdbd30  push     rbp
+  0x0181bdbd32  push     rsi
+  0x0181bdbd33  push     rdi
+  0x0181bdbd34  push     r14
+  0x0181bdbd36  sub      rsp, 0x78
+  0x0181bdbd3a  cmp      byte ptr [rip + 0x3a29735], 0
+  0x0181bdbd41  mov      rbp, r9
+  0x0181bdbd44  mov      r14, r8
+  0x0181bdbd47  mov      rdi, rdx
+  0x0181bdbd4a  mov      rsi, rcx
+  0x0181bdbd4d  jne      0x181bdbd92
+  0x0181bdbd4f  lea      rcx, [rip + 0x371092a]
+  0x0181bdbd56  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdbd5b  lea      rcx, [rip + 0x371fb36]
+  0x0181bdbd62  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdbd67  lea      rcx, [rip + 0x371f9aa]
+  0x0181bdbd6e  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdbd73  lea      rcx, [rip + 0x3774376]
+  0x0181bdbd7a  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdbd7f  lea      rcx, [rip + 0x374c1aa]
+  0x0181bdbd86  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdbd8b  mov      byte ptr [rip + 0x3a296e4], 1
+  0x0181bdbd92  mov      rcx, qword ptr [rip + 0x37108e7]
+  0x0181bdbd99  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bdbda0  jne      0x181bdbdae
+  0x0181bdbda2  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdbda7  mov      rcx, qword ptr [rip + 0x37108d2]
+  0x0181bdbdae  mov      rax, qword ptr [rcx + 0xb8]
+  0x0181bdbdb5  mov      qword ptr [rsp + 0xa0], rbx
+  0x0181bdbdbd  mov      qword ptr [rsp + 0x70], r15
+  0x0181bdbdc2  cmp      byte ptr [rax + 0x14], 0
+  0x0181bdbdc6  je       0x181bdbe93
+  0x0181bdbdcc  mov      qword ptr [rsp + 0xa8], r12
+  0x0181bdbdd4  mov      qword ptr [rsp + 0xb0], r13
+  0x0181bdbddc  test     rdi, rdi
+  0x0181bdbddf  je       0x181bdbe01
+  0x0181bdbde1  movsxd   rdx, dword ptr [rdi + 0x18]
+  0x0181bdbde5  mov      qword ptr [rsp + 0x58], rdx
+  0x0181bdbdea  movsxd   rax, dword ptr [rdi + 0x1c]
+  0x0181bdbdee  mov      qword ptr [rsp + 0x50], rax
+  0x0181bdbdf3  movsxd   r13, dword ptr [rdi + 0x28]
+  0x0181bdbdf7  mov      r12, qword ptr [rdi + 0x2c]
+  0x0181bdbdfb  movsxd   r15, dword ptr [rdi + 0x40]
+  0x0181bdbdff  jmp      0x181bdbe14
+  0x0181bdbe01  xor      r12d, r12d
+  0x0181bdbe04  xor      r15d, r15d
+  0x0181bdbe07  xor      r13d, r13d
+  0x0181bdbe0a  mov      qword ptr [rsp + 0x50], r12
+  0x0181bdbe0f  mov      qword ptr [rsp + 0x58], r12
+  0x0181bdbe14  test     rbp, rbp
+  0x0181bdbe17  je       0x181bdbe1f
+  0x0181bdbe19  movsxd   rbx, dword ptr [rbp + 0x24]
+  0x0181bdbe1d  jmp      0x181bdbe21
+  0x0181bdbe1f  xor      ebx, ebx
+  0x0181bdbe21  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bdbe28  mov      rax, qword ptr [r14 + 8]
+  0x0181bdbe2c  mov      rdx, qword ptr [r14]
+  0x0181bdbe2f  mov      qword ptr [rsp + 0x60], rax
+  0x0181bdbe34  mov      qword ptr [rsp + 0x68], rdx
+  0x0181bdbe39  jne      0x181bdbe4a
+  0x0181bdbe3b  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdbe40  mov      rax, qword ptr [rsp + 0x60]
+  0x0181bdbe45  mov      rdx, qword ptr [rsp + 0x68]
+  0x0181bdbe4a  mov      r8, qword ptr [rsp + 0x50]
+  0x0181bdbe4f  mov      r9, r13
+  0x0181bdbe52  mov      qword ptr [rsp + 0x48], 0
+  0x0181bdbe5b  mov      ecx, 0x67a
+  0x0181bdbe60  mov      qword ptr [rsp + 0x40], rbx
+  0x0181bdbe65  mov      qword ptr [rsp + 0x38], rax
+  0x0181bdbe6a  mov      qword ptr [rsp + 0x30], rdx
+  0x0181bdbe6f  mov      rdx, qword ptr [rsp + 0x58]
+  0x0181bdbe74  mov      qword ptr [rsp + 0x28], r15
+  0x0181bdbe79  mov      qword ptr [rsp + 0x20], r12
+  0x0181bdbe7e  call     0x181571dd0      ; -> FSPDebuger::LogTrack
+  0x0181bdbe83  mov      r13, qword ptr [rsp + 0xb0]
+  0x0181bdbe8b  mov      r12, qword ptr [rsp + 0xa8]
+  0x0181bdbe93  mov      rax, qword ptr [rsi + 0x10]
+  0x0181bdbe97  test     rax, rax
+  0x0181bdbe9a  je       0x181bdc044
+  0x0181bdbea0  mov      rbx, qword ptr [rax + 0x100]
+  0x0181bdbea7  test     rbx, rbx
+  0x0181bdbeaa  je       0x181bdbed3
+  0x0181bdbeac  mov      rcx, qword ptr [rip + 0x377423d]
+  0x0181bdbeb3  xor      r8d, r8d
+  0x0181bdbeb6  mov      rdx, rdi
+  0x0181bdbeb9  call     0x1831c5940      ; -> String::Format
+  0x0181bdbebe  mov      rdx, qword ptr [rip + 0x374c06b]
+  0x0181bdbec5  xor      r9d, r9d
+  0x0181bdbec8  mov      r8, rax
+  0x0181bdbecb  mov      rcx, rbx
+  0x0181bdbece  call     0x181b13b90      ; -> ActorLog::Log
+  0x0181bdbed3  mov      r15, qword ptr [rsi + 0x20]
+  0x0181bdbed7  mov      qword ptr [rsi + 0x20], rdi
+  0x0181bdbedb  mov      qword ptr [rsi + 0x28], rbp
+  0x0181bdbedf  test     rdi, rdi
+  0x0181bdbee2  je       0x181bdc044
+  0x0181bdbee8  mov      rcx, qword ptr [rdi + 0x20]
+  0x0181bdbeec  test     rcx, rcx
+  0x0181bdbeef  je       0x181bdc044
+  0x0181bdbef5  xor      edx, edx
+  0x0181bdbef7  call     0x181499710      ; -> SkillActivateFixedPointWrap::get_TurnToDrag
+  0x0181bdbefc  test     al, al
+  0x0181bdbefe  jne      0x181bdbf16
+  0x0181bdbf00  mov      rax, qword ptr [rip + 0x371f991]
+  0x0181bdbf07  mov      rcx, qword ptr [rax + 0xb8]
+  0x0181bdbf0e  movups   xmm0, xmmword ptr [rcx + 0x30]
+  0x0181bdbf12  movups   xmmword ptr [r14], xmm0
+  0x0181bdbf16  mov      rcx, qword ptr [rdi + 0x20]
+  0x0181bdbf1a  test     rcx, rcx
+  0x0181bdbf1d  je       0x181bdc044
+  0x0181bdbf23  xor      edx, edx
+  0x0181bdbf25  call     0x181499450      ; -> SkillActivateFixedPointWrap::get_AutoTurn
+  0x0181bdbf2a  cmp      eax, 1
+  0x0181bdbf2d  jne      0x181bdbfc3
+  0x0181bdbf33  mov      rcx, qword ptr [r14]
+  0x0181bdbf36  xor      edx, edx
+  0x0181bdbf38  call     0x1805c0ed0      ; -> sub_5C0ED0
+  0x0181bdbf3d  mov      rdx, qword ptr [rip + 0x371f7d4]
+  0x0181bdbf44  mov      rbx, rax
+  0x0181bdbf47  cmp      dword ptr [rdx + 0xe0], 0
+  0x0181bdbf4e  jne      0x181bdbf5f
+  0x0181bdbf50  mov      rcx, rdx
+  0x0181bdbf53  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdbf58  mov      rdx, qword ptr [rip + 0x371f7b9]
+  0x0181bdbf5f  mov      rdx, qword ptr [rdx + 0xb8]
+  0x0181bdbf66  xor      r8d, r8d
+  0x0181bdbf69  mov      rcx, rbx
+  0x0181bdbf6c  mov      rdx, qword ptr [rdx + 0x15c]
+  0x0181bdbf73  call     0x183e25780      ; -> Fp::op_LessThan
+  0x0181bdbf78  mov      rbx, qword ptr [rsi + 0x10]
+  0x0181bdbf7c  test     al, al
+  0x0181bdbf7e  jne      0x181bdbfa3
+  0x0181bdbf80  mov      rcx, qword ptr [r14]
+  0x0181bdbf83  xor      edx, edx
+  0x0181bdbf85  call     0x183e29260      ; -> MathFp::sign
+  0x0181bdbf8a  test     rbx, rbx
+  0x0181bdbf8d  je       0x181bdc044
+  0x0181bdbf93  xor      r8d, r8d
+  0x0181bdbf96  mov      rdx, rax
+  0x0181bdbf99  mov      rcx, rbx
+  0x0181bdbf9c  call     0x181b03ef0      ; -> ActorBase::set_DirFp
+  0x0181bdbfa1  jmp      0x181bdbfc3
+  0x0181bdbfa3  test     rbx, rbx
+  0x0181bdbfa6  je       0x181bdc044
+  0x0181bdbfac  mov      rcx, qword ptr [rbx + 0x78]
+  0x0181bdbfb0  test     rcx, rcx
+  0x0181bdbfb3  je       0x181bdc044
+  0x0181bdbfb9  xor      r8d, r8d
+  0x0181bdbfbc  xor      edx, edx
+  0x0181bdbfbe  call     0x181aeb780      ; -> ActionMgr::SetActorDirByInputDir
+  0x0181bdbfc3  mov      rcx, qword ptr [rdi + 0x20]
+  0x0181bdbfc7  test     rcx, rcx
+  0x0181bdbfca  je       0x181bdc044
+  0x0181bdbfcc  xor      edx, edx
+  0x0181bdbfce  call     0x1805bba10      ; -> ActionInstructionMatchConfigFixedPointWrap::get_SuccessAction
+  0x0181bdbfd3  xor      edx, edx
+  0x0181bdbfd5  mov      rcx, rax
+  0x0181bdbfd8  call     0x1831c6f00      ; -> String::IsNullOrEmpty
+  0x0181bdbfdd  test     al, al
+  0x0181bdbfdf  jne      0x181bdc011
+  0x0181bdbfe1  mov      rax, qword ptr [rsi + 0x10]
+  0x0181bdbfe5  test     rax, rax
+  0x0181bdbfe8  je       0x181bdc044
+  0x0181bdbfea  mov      rcx, qword ptr [rdi + 0x20]
+  0x0181bdbfee  mov      rbx, qword ptr [rax + 0x78]
+  0x0181bdbff2  test     rcx, rcx
+  0x0181bdbff5  je       0x181bdc044
+  0x0181bdbff7  xor      edx, edx
+  0x0181bdbff9  call     0x1805bba10      ; -> ActionInstructionMatchConfigFixedPointWrap::get_SuccessAction
+  0x0181bdbffe  test     rbx, rbx
+  0x0181bdc001  je       0x181bdc044
+  0x0181bdc003  xor      r8d, r8d
+  0x0181bdc006  mov      rdx, rax
+  0x0181bdc009  mov      rcx, rbx
+  0x0181bdc00c  call     0x181ae84f0      ; -> ActionMgr::ChangeAction
+  0x0181bdc011  mov      r9, rbp
+  0x0181bdc014  mov      qword ptr [rsp + 0xc0], 0
+  0x0181bdc020  mov      r8, rdi
+  0x0181bdc023  mov      rdx, r15
+  0x0181bdc026  mov      rcx, rsi
+  0x0181bdc029  mov      r15, qword ptr [rsp + 0x70]
+  0x0181bdc02e  mov      rbx, qword ptr [rsp + 0xa0]
+  0x0181bdc036  add      rsp, 0x78
+  0x0181bdc03a  pop      r14
+  0x0181bdc03c  pop      rdi
+  0x0181bdc03d  pop      rsi
+  0x0181bdc03e  pop      rbp
+  0x0181bdc03f  jmp      0x181bdc9f0
+  0x0181bdc044  call     0x1804ffc00      ; -> sub_4FFC00
+  0x0181bdc049  int3     
+
+==============================================================================
+=== PlayerSkillMgr::FindSkillAndChainByActionName  public bool FindSkillAndChainByActionName(string actionName, out PlayerSkillChain skChain, out PlayerSkill skill) { }   RVA 0x1bd8a30
+==============================================================================
+  0x0181bd8a30  mov      qword ptr [rsp + 0x10], rbx
+  0x0181bd8a35  mov      qword ptr [rsp + 0x18], rbp
+  0x0181bd8a3a  push     rsi
+  0x0181bd8a3b  push     r14
+  0x0181bd8a3d  push     r15
+  0x0181bd8a3f  sub      rsp, 0x20
+  0x0181bd8a43  cmp      byte ptr [rip + 0x3a2ca34], 0
+  0x0181bd8a4a  mov      r14, r9
+  0x0181bd8a4d  mov      r15, r8
+  0x0181bd8a50  mov      rbp, rdx
+  0x0181bd8a53  mov      rsi, rcx
+  0x0181bd8a56  jne      0x181bd8a6b
+  0x0181bd8a58  lea      rcx, [rip + 0x3713c21]
+  0x0181bd8a5f  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bd8a64  mov      byte ptr [rip + 0x3a2ca13], 1
+  0x0181bd8a6b  mov      rcx, qword ptr [rip + 0x3713c0e]
+  0x0181bd8a72  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bd8a79  jne      0x181bd8a87
+  0x0181bd8a7b  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bd8a80  mov      rcx, qword ptr [rip + 0x3713bf9]
+  0x0181bd8a87  mov      rax, qword ptr [rcx + 0xb8]
+  0x0181bd8a8e  cmp      byte ptr [rax + 0x14], 0
+  0x0181bd8a92  je       0x181bd8aae
+  0x0181bd8a94  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bd8a9b  jne      0x181bd8aa2
+  0x0181bd8a9d  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bd8aa2  xor      edx, edx
+  0x0181bd8aa4  mov      ecx, 0x682
+  0x0181bd8aa9  call     0x1815720e0      ; -> FSPDebuger::LogTrack
+  0x0181bd8aae  xor      ebx, ebx
+  0x0181bd8ab0  mov      qword ptr [rsp + 0x40], rdi
+  0x0181bd8ab5  mov      qword ptr [r15], rbx
+  0x0181bd8ab8  mov      ecx, ebx
+  0x0181bd8aba  mov      qword ptr [r14], rbx
+  0x0181bd8abd  mov      rax, qword ptr [rsi + 0x30]
+  0x0181bd8ac1  test     rax, rax
+  0x0181bd8ac4  je       0x181bd8b3b
+  0x0181bd8ac6  cmp      ecx, dword ptr [rax + 0x18]
+  0x0181bd8ac9  jge      0x181bd8b37
+  0x0181bd8acb  mov      rcx, qword ptr [rsi + 0x30]
+  0x0181bd8acf  test     rcx, rcx
+  0x0181bd8ad2  je       0x181bd8b3b
+  0x0181bd8ad4  cmp      ebx, dword ptr [rcx + 0x18]
+  0x0181bd8ad7  jae      0x181bd8b41
+  0x0181bd8ad9  movsxd   rax, ebx
+  0x0181bd8adc  mov      rdi, qword ptr [rcx + rax*8 + 0x20]
+  0x0181bd8ae1  test     rdi, rdi
+  0x0181bd8ae4  je       0x181bd8b07
+  0x0181bd8ae6  xor      edx, edx
+  0x0181bd8ae8  mov      rcx, rdi
+  0x0181bd8aeb  call     0x181bb3e20      ; -> PlayerSkillChain::get_Count
+  0x0181bd8af0  test     eax, eax
+  0x0181bd8af2  jle      0x181bd8b07
+  0x0181bd8af4  xor      r8d, r8d
+  0x0181bd8af7  mov      rdx, rbp
+  0x0181bd8afa  mov      rcx, rdi
+  0x0181bd8afd  call     0x181bb1b50      ; -> PlayerSkillChain::FindByActionName
+  0x0181bd8b02  test     rax, rax
+  0x0181bd8b05  jne      0x181bd8b16
+  0x0181bd8b07  mov      rax, qword ptr [rsi + 0x30]
+  0x0181bd8b0b  inc      ebx
+  0x0181bd8b0d  mov      ecx, ebx
+  0x0181bd8b0f  test     rax, rax
+  0x0181bd8b12  je       0x181bd8b3b
+  0x0181bd8b14  jmp      0x181bd8ac6
+  0x0181bd8b16  mov      qword ptr [r15], rdi
+  0x0181bd8b19  mov      qword ptr [r14], rax
+  0x0181bd8b1c  mov      al, 1
+  0x0181bd8b1e  mov      rdi, qword ptr [rsp + 0x40]
+  0x0181bd8b23  mov      rbx, qword ptr [rsp + 0x48]
+  0x0181bd8b28  mov      rbp, qword ptr [rsp + 0x50]
+  0x0181bd8b2d  add      rsp, 0x20
+  0x0181bd8b31  pop      r15
+  0x0181bd8b33  pop      r14
+  0x0181bd8b35  pop      rsi
+  0x0181bd8b36  ret      
+
+==============================================================================
+=== PlayerSkillMgr::GetSkillCastRequires  public static void GetSkillCastRequires(PlayerSkill curSkill, PlayerObj plo, out bool activeStateValid_out, out bool groundValid_out, out bool mpValid_out) { }   RVA 0x1bdf0b0
+==============================================================================
+  0x0181bdf0b0  mov      qword ptr [rsp + 8], rbx
+  0x0181bdf0b5  mov      qword ptr [rsp + 0x10], rsi
+  0x0181bdf0ba  mov      qword ptr [rsp + 0x20], r9
+  0x0181bdf0bf  mov      qword ptr [rsp + 0x18], r8
+  0x0181bdf0c4  push     rdi
+  0x0181bdf0c5  push     r12
+  0x0181bdf0c7  push     r13
+  0x0181bdf0c9  push     r14
+  0x0181bdf0cb  push     r15
+  0x0181bdf0cd  sub      rsp, 0x150
+  0x0181bdf0d4  mov      r15, r9
+  0x0181bdf0d7  mov      rsi, r8
+  0x0181bdf0da  mov      r14, rdx
+  0x0181bdf0dd  mov      rdi, rcx
+  0x0181bdf0e0  cmp      byte ptr [rip + 0x3a263a5], 0
+  0x0181bdf0e7  jne      0x181bdf144
+  0x0181bdf0e9  lea      rcx, [rip + 0x3738600]
+  0x0181bdf0f0  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdf0f5  lea      rcx, [rip + 0x37678ac]
+  0x0181bdf0fc  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdf101  lea      rcx, [rip + 0x3767a20]
+  0x0181bdf108  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdf10d  lea      rcx, [rip + 0x3767b94]
+  0x0181bdf114  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdf119  lea      rcx, [rip + 0x370d560]
+  0x0181bdf120  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdf125  lea      rcx, [rip + 0x371c5ec]
+  0x0181bdf12c  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdf131  lea      rcx, [rip + 0x37c9ec8]
+  0x0181bdf138  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bdf13d  mov      byte ptr [rip + 0x3a26348], 1
+  0x0181bdf144  mov      rcx, qword ptr [rip + 0x370d535]
+  0x0181bdf14b  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bdf152  jne      0x181bdf160
+  0x0181bdf154  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf159  mov      rcx, qword ptr [rip + 0x370d520]
+  0x0181bdf160  mov      rax, qword ptr [rcx + 0xb8]
+  0x0181bdf167  cmp      byte ptr [rax + 0x14], 0
+  0x0181bdf16b  je       0x181bdf365
+  0x0181bdf171  test     rdi, rdi
+  0x0181bdf174  je       0x181bdf1b4
+  0x0181bdf176  movsxd   r10, dword ptr [rdi + 0x18]
+  0x0181bdf17a  mov      qword ptr [rsp + 0x90], r10
+  0x0181bdf182  movsxd   r9, dword ptr [rdi + 0x1c]
+  0x0181bdf186  mov      qword ptr [rsp + 0xe0], r9
+  0x0181bdf18e  movsxd   r8, dword ptr [rdi + 0x28]
+  0x0181bdf192  mov      qword ptr [rsp + 0xd8], r8
+  0x0181bdf19a  mov      rdx, qword ptr [rdi + 0x2c]
+  0x0181bdf19e  mov      qword ptr [rsp + 0xd0], rdx
+  0x0181bdf1a6  movsxd   rax, dword ptr [rdi + 0x40]
+  0x0181bdf1aa  mov      qword ptr [rsp + 0xc8], rax
+  0x0181bdf1b2  jmp      0x181bdf1f0
+  0x0181bdf1b4  mov      qword ptr [rsp + 0xc8], 0
+  0x0181bdf1c0  mov      qword ptr [rsp + 0xd0], 0
+  0x0181bdf1cc  mov      qword ptr [rsp + 0xd8], 0
+  0x0181bdf1d8  mov      qword ptr [rsp + 0xe0], 0
+  0x0181bdf1e4  mov      qword ptr [rsp + 0x90], 0
+  0x0181bdf1f0  test     r14, r14
+  0x0181bdf1f3  je       0x181bdf26e
+  0x0181bdf1f5  movsxd   r13, dword ptr [r14 + 0x268]
+  0x0181bdf1fc  mov      r12, qword ptr [r14 + 0x2b0]
+  0x0181bdf203  mov      r15, qword ptr [r14 + 0x2c0]
+  0x0181bdf20a  movsxd   rsi, dword ptr [r14 + 0x35c]
+  0x0181bdf211  movsxd   rbx, dword ptr [r14 + 0x360]
+  0x0181bdf218  cmp      byte ptr [r14 + 0xe8], 0
+  0x0181bdf220  je       0x181bdf229
+  0x0181bdf222  mov      eax, 1
+  0x0181bdf227  jmp      0x181bdf22b
+  0x0181bdf229  xor      eax, eax
+  0x0181bdf22b  xor      edx, edx
+  0x0181bdf22d  cmp      byte ptr [r14 + 0x148], dl
+  0x0181bdf234  setne    dl
+  0x0181bdf237  mov      qword ptr [rsp + 0xc0], rdx
+  0x0181bdf23f  mov      r9, qword ptr [r14 + 0x160]
+  0x0181bdf246  mov      qword ptr [rsp + 0xb8], r9
+  0x0181bdf24e  movsxd   r8, dword ptr [r14 + 0x16c]
+  0x0181bdf255  mov      qword ptr [rsp + 0xb0], r8
+  0x0181bdf25d  movsxd   rdx, dword ptr [r14 + 0x1fc]
+  0x0181bdf264  mov      qword ptr [rsp + 0xa8], rdx
+  0x0181bdf26c  jmp      0x181bdf29d
+  0x0181bdf26e  xor      ebx, ebx
+  0x0181bdf270  xor      esi, esi
+  0x0181bdf272  xor      r15d, r15d
+  0x0181bdf275  xor      r12d, r12d
+  0x0181bdf278  xor      r13d, r13d
+  0x0181bdf27b  xor      eax, eax
+  0x0181bdf27d  mov      qword ptr [rsp + 0xc0], rax
+  0x0181bdf285  mov      qword ptr [rsp + 0xa8], rax
+  0x0181bdf28d  mov      qword ptr [rsp + 0xb0], rax
+  0x0181bdf295  mov      qword ptr [rsp + 0xb8], rax
+  0x0181bdf29d  mov      qword ptr [rsp + 0xa0], rax
+  0x0181bdf2a5  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bdf2ac  jne      0x181bdf2bb
+  0x0181bdf2ae  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf2b3  mov      rax, qword ptr [rsp + 0xa0]
+  0x0181bdf2bb  mov      qword ptr [rsp + 0x80], 0
+  0x0181bdf2c7  mov      rcx, qword ptr [rsp + 0xa8]
+  0x0181bdf2cf  mov      qword ptr [rsp + 0x78], rcx
+  0x0181bdf2d4  mov      rcx, qword ptr [rsp + 0xb0]
+  0x0181bdf2dc  mov      qword ptr [rsp + 0x70], rcx
+  0x0181bdf2e1  mov      rcx, qword ptr [rsp + 0xb8]
+  0x0181bdf2e9  mov      qword ptr [rsp + 0x68], rcx
+  0x0181bdf2ee  mov      rcx, qword ptr [rsp + 0xc0]
+  0x0181bdf2f6  mov      qword ptr [rsp + 0x60], rcx
+  0x0181bdf2fb  mov      qword ptr [rsp + 0x58], rax
+  0x0181bdf300  mov      qword ptr [rsp + 0x50], rbx
+  0x0181bdf305  mov      qword ptr [rsp + 0x48], rsi
+  0x0181bdf30a  mov      qword ptr [rsp + 0x40], r15
+  0x0181bdf30f  mov      qword ptr [rsp + 0x38], r12
+  0x0181bdf314  mov      qword ptr [rsp + 0x30], r13
+  0x0181bdf319  mov      rax, qword ptr [rsp + 0xc8]
+  0x0181bdf321  mov      qword ptr [rsp + 0x28], rax
+  0x0181bdf326  mov      rax, qword ptr [rsp + 0xd0]
+  0x0181bdf32e  mov      qword ptr [rsp + 0x20], rax
+  0x0181bdf333  mov      r9, qword ptr [rsp + 0xd8]
+  0x0181bdf33b  mov      r8, qword ptr [rsp + 0xe0]
+  0x0181bdf343  mov      rdx, qword ptr [rsp + 0x90]
+  0x0181bdf34b  mov      ecx, 0x692
+  0x0181bdf350  call     0x181572310      ; -> FSPDebuger::LogTrack
+  0x0181bdf355  mov      rsi, qword ptr [rsp + 0x190]
+  0x0181bdf35d  mov      r15, qword ptr [rsp + 0x198]
+  0x0181bdf365  test     r14, r14
+  0x0181bdf368  je       0x181bdf6b0
+  0x0181bdf36e  mov      rcx, qword ptr [r14 + 0x78]
+  0x0181bdf372  test     rcx, rcx
+  0x0181bdf375  je       0x181bdf6b0
+  0x0181bdf37b  xor      edx, edx
+  0x0181bdf37d  call     0x181aed810      ; -> ActionMgr::get_CurrentActionType
+  0x0181bdf382  mov      ebx, eax
+  0x0181bdf384  mov      byte ptr [rsi], 1
+  0x0181bdf387  test     rdi, rdi
+  0x0181bdf38a  je       0x181bdf6b0
+  0x0181bdf390  mov      rcx, qword ptr [rdi + 0x20]
+  0x0181bdf394  test     rcx, rcx
+  0x0181bdf397  je       0x181bdf6b0
+  0x0181bdf39d  xor      edx, edx
+  0x0181bdf39f  call     0x18148c0e0      ; -> BlessConfFixedPointWrap::get_PvpInvalid
+  0x0181bdf3a4  test     al, al
+  0x0181bdf3a6  jne      0x181bdf3ca
+  0x0181bdf3a8  mov      rcx, qword ptr [rip + 0x3738341]
+  0x0181bdf3af  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bdf3b6  jne      0x181bdf3bd
+  0x0181bdf3b8  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf3bd  xor      edx, edx
+  0x0181bdf3bf  mov      ecx, ebx
+  0x0181bdf3c1  call     0x181b0b510      ; -> ActorDefine::IsPassiveState
+  0x0181bdf3c6  test     al, al
+  0x0181bdf3c8  je       0x181bdf404
+  0x0181bdf3ca  mov      rcx, qword ptr [rdi + 0x20]
+  0x0181bdf3ce  test     rcx, rcx
+  0x0181bdf3d1  je       0x181bdf6b0
+  0x0181bdf3d7  xor      edx, edx
+  0x0181bdf3d9  call     0x181499430      ; -> SkillActivateFixedPointWrap::get_AllowPassiveState
+  0x0181bdf3de  test     al, al
+  0x0181bdf3e0  jne      0x181bdf407
+  0x0181bdf3e2  mov      rcx, qword ptr [rip + 0x3738307]
+  0x0181bdf3e9  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bdf3f0  jne      0x181bdf3f7
+  0x0181bdf3f2  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf3f7  xor      edx, edx
+  0x0181bdf3f9  mov      ecx, ebx
+  0x0181bdf3fb  call     0x181b0b510      ; -> ActorDefine::IsPassiveState
+  0x0181bdf400  test     al, al
+  0x0181bdf402  je       0x181bdf407
+  0x0181bdf404  mov      byte ptr [rsi], 0
+  0x0181bdf407  mov      byte ptr [r15], 1
+  0x0181bdf40b  mov      rax, qword ptr [r14 + 0x58]
+  0x0181bdf40f  test     rax, rax
+  0x0181bdf412  je       0x181bdf6b0
+  0x0181bdf418  cmp      byte ptr [rax + 0x18], 0
+  0x0181bdf41c  je       0x181bdf422
+  0x0181bdf41e  mov      bl, 1
+  0x0181bdf420  jmp      0x181bdf483
+  0x0181bdf422  movups   xmm0, xmmword ptr [rax + 0x70]
+  0x0181bdf426  movups   xmmword ptr [rsp + 0x90], xmm0
+  0x0181bdf42e  mov      rbx, qword ptr [rip + 0x37382bb]
+  0x0181bdf435  cmp      dword ptr [rbx + 0xe0], 0
+  0x0181bdf43c  jne      0x181bdf44d
+  0x0181bdf43e  mov      rcx, rbx
+  0x0181bdf441  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf446  mov      rbx, qword ptr [rip + 0x37382a3]
+  0x0181bdf44d  mov      rbx, qword ptr [rbx + 0xb8]
+  0x0181bdf454  mov      rbx, qword ptr [rbx + 0x58]
+  0x0181bdf458  mov      rcx, qword ptr [rip + 0x371c2b9]
+  0x0181bdf45f  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bdf466  jne      0x181bdf46d
+  0x0181bdf468  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf46d  xor      r8d, r8d
+  0x0181bdf470  mov      rdx, rbx
+  0x0181bdf473  mov      rcx, qword ptr [rsp + 0x98]
+  0x0181bdf47b  call     0x183e25620      ; -> Fp::op_GreaterThan
+  0x0181bdf480  movzx    ebx, al
+  0x0181bdf483  mov      rcx, qword ptr [rdi + 0x20]
+  0x0181bdf487  test     rcx, rcx
+  0x0181bdf48a  je       0x181bdf6b0
+  0x0181bdf490  xor      edx, edx
+  0x0181bdf492  call     0x1814993f0      ; -> SkillActivateFixedPointWrap::get_AllowFlying
+  0x0181bdf497  movzx    ecx, bl
+  0x0181bdf49a  xor      edx, edx
+  0x0181bdf49c  test     al, al
+  0x0181bdf49e  cmove    edx, ecx
+  0x0181bdf4a1  test     edx, edx
+  0x0181bdf4a3  jne      0x181bdf4c1
+  0x0181bdf4a5  mov      rcx, qword ptr [rdi + 0x20]
+  0x0181bdf4a9  test     rcx, rcx
+  0x0181bdf4ac  je       0x181bdf6b0
+  0x0181bdf4b2  xor      edx, edx
+  0x0181bdf4b4  call     0x181499410      ; -> SkillActivateFixedPointWrap::get_AllowGround
+  0x0181bdf4b9  test     al, al
+  0x0181bdf4bb  jne      0x181bdf4c5
+  0x0181bdf4bd  test     bl, bl
+  0x0181bdf4bf  jne      0x181bdf4c5
+  0x0181bdf4c1  mov      byte ptr [r15], 0
+  0x0181bdf4c5  mov      r15, qword ptr [rsp + 0x1a0]
+  0x0181bdf4cd  mov      byte ptr [r15], 1
+  0x0181bdf4d1  xor      edx, edx
+  0x0181bdf4d3  mov      rcx, rdi
+  0x0181bdf4d6  call     0x181bb5590      ; -> PlayerSkill::get_MpLimitValid
+  0x0181bdf4db  test     al, al
+  0x0181bdf4dd  je       0x181bdf687
+  0x0181bdf4e3  mov      rdx, qword ptr [rdi + 0x50]
+  0x0181bdf4e7  test     rdx, rdx
+  0x0181bdf4ea  je       0x181bdf6b0
+  0x0181bdf4f0  mov      r8, qword ptr [rip + 0x37c9b09]
+  0x0181bdf4f7  lea      rcx, [rsp + 0xe8]
+  0x0181bdf4ff  call     0x182310940      ; -> sub_2310940
+  0x0181bdf504  movups   xmm0, xmmword ptr [rsp + 0xe8]
+  0x0181bdf50c  movups   xmmword ptr [rsp + 0x118], xmm0
+  0x0181bdf514  movups   xmm1, xmmword ptr [rsp + 0xf8]
+  0x0181bdf51c  movups   xmmword ptr [rsp + 0x128], xmm1
+  0x0181bdf524  movups   xmm0, xmmword ptr [rsp + 0x108]
+  0x0181bdf52c  movups   xmmword ptr [rsp + 0x138], xmm0
+  0x0181bdf534  mov      qword ptr [rsp + 0x90], 0
+  0x0181bdf540  lea      rsi, [rsp + 0x118]
+  0x0181bdf548  mov      qword ptr [rsp + 0x98], rsi
+  0x0181bdf550  mov      rdx, qword ptr [rip + 0x37675d1]
+  0x0181bdf557  lea      rcx, [rsp + 0x118]
+  0x0181bdf55f  call     0x182dbdd80      ; -> sub_2DBDD80
+  0x0181bdf564  test     al, al
+  0x0181bdf566  je       0x181bdf655
+  0x0181bdf56c  movups   xmm1, xmmword ptr [rsp + 0x128]
+  0x0181bdf574  movups   xmmword ptr [rsp + 0xe8], xmm1
+  0x0181bdf57c  movd     eax, xmm1
+  0x0181bdf580  test     eax, eax
+  0x0181bdf582  jle      0x181bdf550
+  0x0181bdf584  mov      rbx, qword ptr [rsp + 0x130]
+  0x0181bdf58c  mov      rdx, qword ptr [rip + 0x371c185]
+  0x0181bdf593  cmp      dword ptr [rdx + 0xe0], 0
+  0x0181bdf59a  jne      0x181bdf5ab
+  0x0181bdf59c  mov      rcx, rdx
+  0x0181bdf59f  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf5a4  mov      rdx, qword ptr [rip + 0x371c16d]
+  0x0181bdf5ab  mov      rdx, qword ptr [rdx + 0xb8]
+  0x0181bdf5b2  xor      r8d, r8d
+  0x0181bdf5b5  mov      rdx, qword ptr [rdx + 0x2c]
+  0x0181bdf5b9  mov      rcx, rbx
+  0x0181bdf5bc  call     0x183e25760      ; -> Fp::op_LessThanOrEqual
+  0x0181bdf5c1  test     al, al
+  0x0181bdf5c3  jne      0x181bdf550
+  0x0181bdf5c5  mov      rcx, qword ptr [r14 + 0x70]
+  0x0181bdf5c9  test     rcx, rcx
+  0x0181bdf5cc  je       0x181bdf6a4
+  0x0181bdf5d2  xor      r8d, r8d
+  0x0181bdf5d5  mov      edx, dword ptr [rsp + 0xe8]
+  0x0181bdf5dc  call     0x181af90f0      ; -> ActorAttrMgr::GetMP
+  0x0181bdf5e1  mov      rdi, rax
+  0x0181bdf5e4  mov      rbx, qword ptr [rip + 0x3738105]
+  0x0181bdf5eb  cmp      dword ptr [rbx + 0xe0], 0
+  0x0181bdf5f2  jne      0x181bdf603
+  0x0181bdf5f4  mov      rcx, rbx
+  0x0181bdf5f7  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf5fc  mov      rbx, qword ptr [rip + 0x37380ed]
+  0x0181bdf603  mov      rbx, qword ptr [rbx + 0xb8]
+  0x0181bdf60a  mov      rbx, qword ptr [rbx + 0x60]
+  0x0181bdf60e  mov      rcx, qword ptr [rip + 0x371c103]
+  0x0181bdf615  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bdf61c  jne      0x181bdf623
+  0x0181bdf61e  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bdf623  xor      r8d, r8d
+  0x0181bdf626  mov      rdx, rbx
+  0x0181bdf629  mov      rcx, qword ptr [rsp + 0xf0]
+  0x0181bdf631  call     0x183e22e90      ; -> Fp::FastSub
+  0x0181bdf636  xor      r8d, r8d
+  0x0181bdf639  mov      rdx, rax
+  0x0181bdf63c  mov      rcx, rdi
+  0x0181bdf63f  call     0x183e25780      ; -> Fp::op_LessThan
+  0x0181bdf644  test     al, al
+  0x0181bdf646  je       0x181bdf550
+  0x0181bdf64c  mov      byte ptr [r15], 0
+  0x0181bdf650  jmp      0x181bdf550
+  0x0181bdf655  mov      rdx, qword ptr [rip + 0x376734c]
+  0x0181bdf65c  mov      rcx, rsi
+  0x0181bdf65f  call     0x18056d4a0      ; -> ButtonWithImagesChildren::System.IDisposable.Dispose
+  0x0181bdf664  jmp      0x181bdf687
+  0x0181bdf666  mov      rdx, qword ptr [rip + 0x376733b]
+  0x0181bdf66d  mov      rcx, qword ptr [rsp + 0x98]
+  0x0181bdf675  call     0x18056d4a0      ; -> ButtonWithImagesChildren::System.IDisposable.Dispose
+  0x0181bdf67a  mov      rcx, qword ptr [rsp + 0x90]
+  0x0181bdf682  test     rcx, rcx
+  0x0181bdf685  jne      0x181bdf6aa
+  0x0181bdf687  lea      r11, [rsp + 0x150]
+  0x0181bdf68f  mov      rbx, qword ptr [r11 + 0x30]
+  0x0181bdf693  mov      rsi, qword ptr [r11 + 0x38]
+  0x0181bdf697  mov      rsp, r11
+  0x0181bdf69a  pop      r15
+  0x0181bdf69c  pop      r14
+  0x0181bdf69e  pop      r13
+  0x0181bdf6a0  pop      r12
+  0x0181bdf6a2  pop      rdi
+  0x0181bdf6a3  ret      
+
+==============================================================================
+=== PlayerSkillMgr::CheckSkillCanCast  public static bool CheckSkillCanCast(PlayerSkill curSkill, PlayerObj plo, bool checkActiveState = True, bool checkOnGround = True, bool checkMP = True) { }   RVA 0x1bde3e0
+==============================================================================
+  0x0181bde3e0  mov      rax, rsp
+  0x0181bde3e3  mov      byte ptr [rax + 0x20], r9b
+  0x0181bde3e7  mov      byte ptr [rax + 0x18], r8b
+  0x0181bde3eb  push     rsi
+  0x0181bde3ec  sub      rsp, 0x110
+  0x0181bde3f3  cmp      byte ptr [rip + 0x3a27093], 0
+  0x0181bde3fa  movzx    esi, r9b
+  0x0181bde3fe  mov      qword ptr [rax + 8], rbx
+  0x0181bde402  mov      rbx, rdx
+  0x0181bde405  mov      qword ptr [rax - 0x18], rdi
+  0x0181bde409  mov      rdi, rcx
+  0x0181bde40c  jne      0x181bde421
+  0x0181bde40e  lea      rcx, [rip + 0x370e26b]
+  0x0181bde415  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bde41a  mov      byte ptr [rip + 0x3a2706c], 1
+  0x0181bde421  mov      rcx, qword ptr [rip + 0x370e258]
+  0x0181bde428  mov      byte ptr [rsp + 0x90], 0
+  0x0181bde430  mov      byte ptr [rsp + 0x91], 0
+  0x0181bde438  mov      byte ptr [rsp + 0x92], 0
+  0x0181bde440  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bde447  jne      0x181bde455
+  0x0181bde449  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bde44e  mov      rcx, qword ptr [rip + 0x370e22b]
+  0x0181bde455  mov      rax, qword ptr [rcx + 0xb8]
+  0x0181bde45c  xor      edx, edx
+  0x0181bde45e  cmp      byte ptr [rax + 0x14], dl
+  0x0181bde461  je       0x181bde67d
+  0x0181bde467  mov      qword ptr [rsp + 0x108], rbp
+  0x0181bde46f  mov      qword ptr [rsp + 0xf8], r12
+  0x0181bde477  mov      qword ptr [rsp + 0xf0], r13
+  0x0181bde47f  mov      qword ptr [rsp + 0xe8], r14
+  0x0181bde487  mov      qword ptr [rsp + 0xe0], r15
+  0x0181bde48f  test     rdi, rdi
+  0x0181bde492  je       0x181bde4cc
+  0x0181bde494  movsxd   r9, dword ptr [rdi + 0x18]
+  0x0181bde498  mov      qword ptr [rsp + 0xd8], r9
+  0x0181bde4a0  movsxd   r8, dword ptr [rdi + 0x1c]
+  0x0181bde4a4  mov      qword ptr [rsp + 0xd0], r8
+  0x0181bde4ac  movsxd   rdx, dword ptr [rdi + 0x28]
+  0x0181bde4b0  mov      qword ptr [rsp + 0xc8], rdx
+  0x0181bde4b8  mov      rax, qword ptr [rdi + 0x2c]
+  0x0181bde4bc  mov      qword ptr [rsp + 0xc0], rax
+  0x0181bde4c4  movsxd   r13, dword ptr [rdi + 0x40]
+  0x0181bde4c8  xor      edx, edx
+  0x0181bde4ca  jmp      0x181bde4ef
+  0x0181bde4cc  mov      r13, rdx
+  0x0181bde4cf  mov      qword ptr [rsp + 0xc0], rdx
+  0x0181bde4d7  mov      qword ptr [rsp + 0xc8], rdx
+  0x0181bde4df  mov      qword ptr [rsp + 0xd0], rdx
+  0x0181bde4e7  mov      qword ptr [rsp + 0xd8], rdx
+  0x0181bde4ef  test     rbx, rbx
+  0x0181bde4f2  je       0x181bde569
+  0x0181bde4f4  movsxd   r12, dword ptr [rbx + 0x268]
+  0x0181bde4fb  mov      r15, qword ptr [rbx + 0x2b0]
+  0x0181bde502  mov      r14, qword ptr [rbx + 0x2c0]
+  0x0181bde509  movsxd   rbp, dword ptr [rbx + 0x35c]
+  0x0181bde510  movsxd   rsi, dword ptr [rbx + 0x360]
+  0x0181bde517  cmp      byte ptr [rbx + 0xe8], 0
+  0x0181bde51e  mov      eax, 1
+  0x0181bde523  jne      0x181bde528
+  0x0181bde525  mov      rax, rdx
+  0x0181bde528  mov      qword ptr [rsp + 0x98], rax
+  0x0181bde530  cmp      byte ptr [rbx + 0x148], 0
+  0x0181bde537  mov      r9, qword ptr [rbx + 0x160]
+  0x0181bde53e  setne    dl
+  0x0181bde541  mov      qword ptr [rsp + 0xb0], r9
+  0x0181bde549  mov      qword ptr [rsp + 0xb8], rdx
+  0x0181bde551  movsxd   r8, dword ptr [rbx + 0x16c]
+  0x0181bde558  mov      qword ptr [rsp + 0xa8], r8
+  0x0181bde560  movsxd   rdx, dword ptr [rbx + 0x1fc]
+  0x0181bde567  jmp      0x181bde59b
+  0x0181bde569  mov      rsi, rdx
+  0x0181bde56c  mov      qword ptr [rsp + 0x98], rdx
+  0x0181bde574  mov      rbp, rdx
+  0x0181bde577  mov      qword ptr [rsp + 0xa8], rdx
+  0x0181bde57f  mov      r14, rdx
+  0x0181bde582  mov      qword ptr [rsp + 0xb0], rdx
+  0x0181bde58a  mov      r15, rdx
+  0x0181bde58d  mov      qword ptr [rsp + 0xb8], rdx
+  0x0181bde595  mov      r12, rdx
+  0x0181bde598  mov      rax, rdx
+  0x0181bde59b  mov      qword ptr [rsp + 0xa0], rdx
+  0x0181bde5a3  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bde5aa  jne      0x181bde5b9
+  0x0181bde5ac  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bde5b1  mov      rax, qword ptr [rsp + 0x98]
+  0x0181bde5b9  mov      rcx, qword ptr [rsp + 0xa0]
+  0x0181bde5c1  mov      r9, qword ptr [rsp + 0xc8]
+  0x0181bde5c9  mov      r8, qword ptr [rsp + 0xd0]
+  0x0181bde5d1  mov      rdx, qword ptr [rsp + 0xd8]
+  0x0181bde5d9  mov      qword ptr [rsp + 0x80], 0
+  0x0181bde5e5  mov      qword ptr [rsp + 0x78], rcx
+  0x0181bde5ea  mov      rcx, qword ptr [rsp + 0xa8]
+  0x0181bde5f2  mov      qword ptr [rsp + 0x70], rcx
+  0x0181bde5f7  mov      rcx, qword ptr [rsp + 0xb0]
+  0x0181bde5ff  mov      qword ptr [rsp + 0x68], rcx
+  0x0181bde604  mov      rcx, qword ptr [rsp + 0xb8]
+  0x0181bde60c  mov      qword ptr [rsp + 0x60], rcx
+  0x0181bde611  mov      ecx, 0x693
+  0x0181bde616  mov      qword ptr [rsp + 0x58], rax
+  0x0181bde61b  mov      rax, qword ptr [rsp + 0xc0]
+  0x0181bde623  mov      qword ptr [rsp + 0x50], rsi
+  0x0181bde628  mov      qword ptr [rsp + 0x48], rbp
+  0x0181bde62d  mov      qword ptr [rsp + 0x40], r14
+  0x0181bde632  mov      qword ptr [rsp + 0x38], r15
+  0x0181bde637  mov      qword ptr [rsp + 0x30], r12
+  0x0181bde63c  mov      qword ptr [rsp + 0x28], r13
+  0x0181bde641  mov      qword ptr [rsp + 0x20], rax
+  0x0181bde646  call     0x181572310      ; -> FSPDebuger::LogTrack
+  0x0181bde64b  movzx    esi, byte ptr [rsp + 0x138]
+  0x0181bde653  xor      edx, edx
+  0x0181bde655  mov      r15, qword ptr [rsp + 0xe0]
+  0x0181bde65d  mov      r14, qword ptr [rsp + 0xe8]
+  0x0181bde665  mov      r13, qword ptr [rsp + 0xf0]
+  0x0181bde66d  mov      r12, qword ptr [rsp + 0xf8]
+  0x0181bde675  mov      rbp, qword ptr [rsp + 0x108]
+  0x0181bde67d  mov      qword ptr [rsp + 0x28], rdx
+  0x0181bde682  lea      rax, [rsp + 0x92]
+  0x0181bde68a  mov      rdx, rbx
+  0x0181bde68d  mov      qword ptr [rsp + 0x20], rax
+  0x0181bde692  lea      r9, [rsp + 0x91]
+  0x0181bde69a  mov      rcx, rdi
+  0x0181bde69d  lea      r8, [rsp + 0x90]
+  0x0181bde6a5  call     0x181bdf0b0      ; -> PlayerSkillUtility::GetSkillCastRequires
+  0x0181bde6aa  cmp      byte ptr [rsp + 0x130], 0
+  0x0181bde6b2  mov      rdi, qword ptr [rsp + 0x100]
+  0x0181bde6ba  mov      rbx, qword ptr [rsp + 0x120]
+  0x0181bde6c2  je       0x181bde6ce
+  0x0181bde6c4  cmp      byte ptr [rsp + 0x90], 0
+  0x0181bde6cc  je       0x181bde6f1
+  0x0181bde6ce  test     sil, sil
+  0x0181bde6d1  je       0x181bde6dd
+  0x0181bde6d3  cmp      byte ptr [rsp + 0x91], 0
+  0x0181bde6db  je       0x181bde6f1
+  0x0181bde6dd  cmp      byte ptr [rsp + 0x140], 0
+  0x0181bde6e5  je       0x181bde6fc
+  0x0181bde6e7  cmp      byte ptr [rsp + 0x92], 0
+  0x0181bde6ef  jne      0x181bde6fc
+  0x0181bde6f1  xor      al, al
+  0x0181bde6f3  add      rsp, 0x110
+  0x0181bde6fa  pop      rsi
+  0x0181bde6fb  ret      
+
+==============================================================================
+=== PlayerSkillMgr::StrictMatchPlayerSkillInputDir  public static bool StrictMatchPlayerSkillInputDir(PlayerObj player, Vector2 inputDir, SkillInputDirType dirType) { }   RVA 0x1be0660
+==============================================================================
+  0x0181be0660  push     rbx
+  0x0181be0662  push     rdi
+  0x0181be0663  sub      rsp, 0xb8
+  0x0181be066a  cmp      byte ptr [rip + 0x3a24e1e], 0
+  0x0181be0671  mov      rbx, rcx
+  0x0181be0674  movsxd   rdi, r8d
+  0x0181be0677  mov      qword ptr [rsp + 0x70], rdx
+  0x0181be067c  jne      0x181be069d
+  0x0181be067e  lea      rcx, [rip + 0x370bffb]
+  0x0181be0685  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181be068a  lea      rcx, [rip + 0x371b087]
+  0x0181be0691  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181be0696  mov      byte ptr [rip + 0x3a24df2], 1
+  0x0181be069d  mov      rcx, qword ptr [rip + 0x370bfdc]
+  0x0181be06a4  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181be06ab  jne      0x181be06b9
+  0x0181be06ad  call     0x18046fe50      ; -> sub_46FE50
+  0x0181be06b2  mov      rcx, qword ptr [rip + 0x370bfc7]
+  0x0181be06b9  mov      rax, qword ptr [rcx + 0xb8]
+  0x0181be06c0  cmp      byte ptr [rax + 0x14], 0
+  0x0181be06c4  je       0x181be0841
+  0x0181be06ca  mov      qword ptr [rsp + 0xd0], rbp
+  0x0181be06d2  mov      qword ptr [rsp + 0xe0], rsi
+  0x0181be06da  mov      qword ptr [rsp + 0xe8], r12
+  0x0181be06e2  mov      qword ptr [rsp + 0xb0], r13
+  0x0181be06ea  mov      qword ptr [rsp + 0xa8], r14
+  0x0181be06f2  mov      qword ptr [rsp + 0xa0], r15
+  0x0181be06fa  test     rbx, rbx
+  0x0181be06fd  je       0x181be0775
+  0x0181be06ff  movsxd   r12, dword ptr [rbx + 0x268]
+  0x0181be0706  mov      r15, qword ptr [rbx + 0x2b0]
+  0x0181be070d  mov      r14, qword ptr [rbx + 0x2c0]
+  0x0181be0714  movsxd   rbp, dword ptr [rbx + 0x35c]
+  0x0181be071b  movsxd   rsi, dword ptr [rbx + 0x360]
+  0x0181be0722  cmp      byte ptr [rbx + 0xe8], 0
+  0x0181be0729  je       0x181be0733
+  0x0181be072b  mov      r13d, 1
+  0x0181be0731  jmp      0x181be0736
+  0x0181be0733  xor      r13d, r13d
+  0x0181be0736  mov      r8, qword ptr [rbx + 0x160]
+  0x0181be073d  xor      eax, eax
+  0x0181be073f  cmp      byte ptr [rbx + 0x148], al
+  0x0181be0745  mov      qword ptr [rsp + 0x88], r8
+  0x0181be074d  setne    al
+  0x0181be0750  mov      qword ptr [rsp + 0x90], rax
+  0x0181be0758  movsxd   rdx, dword ptr [rbx + 0x16c]
+  0x0181be075f  mov      qword ptr [rsp + 0x80], rdx
+  0x0181be0767  movsxd   rax, dword ptr [rbx + 0x1fc]
+  0x0181be076e  mov      qword ptr [rsp + 0x78], rax
+  0x0181be0773  jmp      0x181be07a2
+  0x0181be0775  xor      esi, esi
+  0x0181be0777  xor      ebp, ebp
+  0x0181be0779  xor      r14d, r14d
+  0x0181be077c  mov      qword ptr [rsp + 0x78], rsi
+  0x0181be0781  xor      r15d, r15d
+  0x0181be0784  mov      qword ptr [rsp + 0x80], rsi
+  0x0181be078c  xor      r12d, r12d
+  0x0181be078f  mov      qword ptr [rsp + 0x88], rsi
+  0x0181be0797  xor      r13d, r13d
+  0x0181be079a  mov      qword ptr [rsp + 0x90], rsi
+  0x0181be07a2  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181be07a9  jne      0x181be07b0
+  0x0181be07ab  call     0x18046fe50      ; -> sub_46FE50
+  0x0181be07b0  mov      rax, qword ptr [rsp + 0x78]
+  0x0181be07b5  mov      r9, r14
+  0x0181be07b8  mov      qword ptr [rsp + 0x60], 0
+  0x0181be07c1  mov      r8, r15
+  0x0181be07c4  mov      qword ptr [rsp + 0x58], rdi
+  0x0181be07c9  mov      rdx, r12
+  0x0181be07cc  mov      qword ptr [rsp + 0x50], rax
+  0x0181be07d1  mov      ecx, 0x695
+  0x0181be07d6  mov      rax, qword ptr [rsp + 0x80]
+  0x0181be07de  mov      qword ptr [rsp + 0x48], rax
+  0x0181be07e3  mov      rax, qword ptr [rsp + 0x88]
+  0x0181be07eb  mov      qword ptr [rsp + 0x40], rax
+  0x0181be07f0  mov      rax, qword ptr [rsp + 0x90]
+  0x0181be07f8  mov      qword ptr [rsp + 0x38], rax
+  0x0181be07fd  mov      qword ptr [rsp + 0x30], r13
+  0x0181be0802  mov      qword ptr [rsp + 0x28], rsi
+  0x0181be0807  mov      qword ptr [rsp + 0x20], rbp
+  0x0181be080c  call     0x181571b00      ; -> FSPDebuger::LogTrack
+  0x0181be0811  mov      r15, qword ptr [rsp + 0xa0]
+  0x0181be0819  mov      r14, qword ptr [rsp + 0xa8]
+  0x0181be0821  mov      r13, qword ptr [rsp + 0xb0]
+  0x0181be0829  mov      r12, qword ptr [rsp + 0xe8]
+  0x0181be0831  mov      rsi, qword ptr [rsp + 0xe0]
+  0x0181be0839  mov      rbp, qword ptr [rsp + 0xd0]
+  0x0181be0841  cmp      edi, 8
+  0x0181be0844  ja       0x181be09de
+  0x0181be084a  lea      rdx, [rip - 0x1be0851]
+  0x0181be0851  mov      ecx, dword ptr [rdx + rdi*4 + 0x1be09f0]
+  0x0181be0858  add      rcx, rdx
+  0x0181be085b  jmp      rcx
+  0x0181be085d  mov      al, 1
+  0x0181be085f  add      rsp, 0xb8
+  0x0181be0866  pop      rdi
+  0x0181be0867  pop      rbx
+  0x0181be0868  ret      

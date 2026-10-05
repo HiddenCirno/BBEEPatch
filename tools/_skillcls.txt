@@ -1,0 +1,135 @@
+===== PlayerSkill =====
+public class PlayerSkill // TypeDefIndex: 4059
+{
+	// Fields
+	public PlayerSkillChain Owner; // 0x10
+	public int SkillId; // 0x18
+	public int ActorId; // 0x1C
+	public SkillActivateFixedPointWrap SkillActivate; // 0x20
+	public int AttrOrder; // 0x28
+	public Fp Level; // 0x2C
+	public SkillAttrFixedPointWrap Attr; // 0x38
+	public int SourceTriggerId; // 0x40
+	public InputCmd Input; // 0x44
+	private Fp[] m_muteSkills; // 0x48
+	public List<PlayerSkillMpSlotCache> MpLimitCaches; // 0x50
+
+	// Properties
+	public PlayerSkillGroup SkillType { get; }
+	public bool IsStartingSkill { get; }
+	public int MuteCount { get; }
+	public bool MpLimitValid { get; }
+	public Fp MpLimitCached { get; }
+
+	// Methods
+
+	// RVA: 0x1BB5600 Offset: 0x1BB4200 VA: 0x181BB5600
+	public PlayerSkillGroup get_SkillType() { }
+
+	// RVA: 0x1BB5480 Offset: 0x1BB4080 VA: 0x181BB5480
+	public bool get_IsStartingSkill() { }
+
+	// RVA: 0x1BB55E0 Offset: 0x1BB41E0 VA: 0x181BB55E0
+	public int get_MuteCount() { }
+
+	// RVA: 0x1BB4830 Offset: 0x1BB3430 VA: 0x181BB4830
+	public Fp GetMuteTime(int i) { }
+
+	// RVA: 0x1BB5590 Offset: 0x1BB4190 VA: 0x181BB5590
+	public bool get_MpLimitValid() { }
+
+	// RVA: 0x1BB54E0 Offset: 0x1BB40E0 VA: 0x181BB54E0
+	public Fp get_MpLimitCached() { }
+
+	// RVA: 0x1BB4F80 Offset: 0x1BB3B80 VA: 0x181BB4F80
+	public void .ctor() { }
+
+	// RVA: 0x1BB5010 Offset: 0x1BB3C10 VA: 0x181BB5010
+	public void .ctor(SkillActivateFixedPointWrap skActivate, int attrOrder, Fp lv, Fp teacherDamMul) { }
+
+	// RVA: 0x1BB4E70 Offset: 0x1BB3A70 VA: 0x181BB4E70 Slot: 3
+	public override string ToString() { }
+
+	// RVA: 0x1BB4A30 Offset: 0x1BB3630 VA: 0x181BB4A30
+	public void RefreshAttr(Fp teacherDamMul) { }
+
+	// RVA: 0x1BB44B0 Offset: 0x1BB30B0 VA: 0x181BB44B0
+	public Fp AttrValue(int index) { }
+
+	// RVA: 0x1BB4400 Offset: 0x1BB3000 VA: 0x181BB4400
+	public Fp AttrTeacherDamageMul() { }
+
+	// RVA: 0x1BB4350 Offset: 0x1BB2F50 VA: 0x181BB4350
+	public Fp AttrDamage() { }
+
+	// RVA: 0x1BB4910 Offset: 0x1BB3510 VA: 0x181BB4910
+	public bool IsCostSp() { }
+
+	// RVA: 0x1BB45E0 Offset: 0x1BB31E0 VA: 0x181BB45E0
+	public string GetJson() { }
+}
+
+// Namespace: GamePlay
+public class PlayerSkillChainCurSkill // TypeDefIndex: 4060
+{
+	// Fields
+	[CompilerGenerated]
+	private PlayerSkill <Skill>k__BackingField; // 0x10
+	[CompilerGenerated]
+	private Fp <TimeEllaps>k__BackingField; // 0x18
+
+	// Properties
+	public PlayerSkill Skill { get; set; }
+	public Fp TimeEllaps { get; set; }
+	public string Action { get; }
+	public int Order { get; }
+
+	// Methods
+
+	[CompilerGenerated]
+	// RVA: 0x5A57E0 Offset: 0x5A43E0 VA: 0x1805A57E0
+	public Playe
+
+===== 名字含 Skill 且带 Id 的类 =====
+   STActiveSkill  ns= 
+   SkillDamage  ns= 
+   SkillMpSlot  ns= 
+   SkillActivate  ns= 
+   SkillActivate  ns= 
+   SkillFromTeacher  ns= 
+   SkillAttr  ns= 
+   SkillSlotBanActions  ns= 
+   FesActorSkillLevelConf  ns= 
+   SkillActivateFixedPoint  ns= 
+   SkillActivateFixedPoint  ns= 
+   SkillAttrFixedPoint  ns= 
+   SkillDamageFixedPoint  ns= 
+   SkillFromTeacherFixedPoint  ns= 
+   STActiveSkillFixedPoint  ns= 
+   SkillMpSlotFixedPoint  ns= 
+   STActiveSkillFixedPointWrap  ns= 
+   SkillActivateFixedPoint_AtlasSpriteFixedPointWrap  ns= 
+   SkillMpSlotFixedPointWrap  ns= 
+   SkillActivateFixedPointWrap  ns= 
+   SkillAttrFixedPointWrap  ns= 
+   SkillDamageFixedPointWrap  ns= 
+   SkillFromTeacherFixedPointWrap  ns= 
+   BuffLogic_HpChangeFromSkillOverTime  ns= GamePlay
+   BuffLogic_AddSkillGroupDamR  ns= GamePlay
+   BuffLogic_AddSkillGroupDamR2  ns= GamePlay
+   BuffLogic_AddSkillGroupBehitDamR  ns= GamePlay
+   BuffLogic_AddSkillGroupBehitDam2R  ns= GamePlay
+   BuffLogic_AddSkillGroupCDR  ns= GamePlay
+   BuffLogic_AddSkillGroupCriR  ns= GamePlay
+   BuffLogic_AddSkillGroupCriV  ns= GamePlay
+   BuffLogic_AddSkillGroupSkillSpeed  ns= GamePlay
+   PlayerSkill  ns= GamePlay
+   PlayerSkillChainCurSkill  ns= GamePlay
+   BattleRecSkillCast  ns= GamePlay
+   SkillConfig  ns= GamePlay
+   VirtualButtonSkill  ns= GamePlay
+   WidgetActorSpecSkillsBase  ns= GamePlay
+   WidgetActorSpecSkills_cells  ns= GamePlay
+   BattleSkillBtn  ns= GamePlay
+   BattleSkillBtn_Burst  ns= GamePlay
+   BattleSkillGestureOmni  ns= GamePlay

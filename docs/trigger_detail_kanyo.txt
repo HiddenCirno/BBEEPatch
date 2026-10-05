@@ -1,0 +1,80 @@
+命中 6 条
+
+=== #1210 (55 bytes) ===
+  f1   ['11211']
+  f3   ['1']
+  f4   ['len12:e4b8ade6af92e5a29ee4bca4']
+  f5   ['msg{0}']
+  f6   ['msg{66}']
+  f11  ['msg{116}']
+  f17  ['msg{67}']
+  f21  ['msg{0}']
+    ActorActionDesc_116 = 普攻和技能伤害提升20%
+    ActorActionName_11211 = 泛用强化
+    ActorActionDesc_11211 = 泛用强化会对多个招式产生影响。
+
+=== #1211 (55 bytes) ===
+  f1   ['11211']
+  f3   ['5']
+  f4   ['len12:e4b8ade6af92e5a29ee4bca4']
+  f5   ['msg{0}']
+  f6   ['msg{66}']
+  f11  ['msg{116}']
+  f17  ['msg{67}']
+  f21  ['msg{0}']
+    ActorActionDesc_116 = 普攻和技能伤害提升20%
+    ActorActionName_11211 = 泛用强化
+    ActorActionDesc_11211 = 泛用强化会对多个招式产生影响。
+
+=== #3560 (99 bytes) ===
+  f1   ['21301']
+  f3   ['1']
+  f4   ['len12:e68a80e883bde794b5e79083']
+  f5   ['msg{0}']
+  f6   ['msg{83}']
+  f7   ['msg{83}']
+  f11  ['msg{116}']
+  f17  ['msg{67}']
+  f21  ['msg{0}']
+    ActorActionDesc_116 = 普攻和技能伤害提升20%
+    ActorActionName_21301 = 泛用强化Ⅰ
+    ActorActionDesc_21301 = 泛用强化会对多个招式产生影响。
+
+=== #3561 (99 bytes) ===
+  f1   ['21301']
+  f3   ['5']
+  f4   ['len12:e68a80e883bde794b5e79083']
+  f5   ['msg{0}']
+  f6   ['msg{83}']
+  f7   ['msg{83}']
+  f11  ['msg{116}']
+  f17  ['msg{67}']
+  f21  ['msg{0}']
+    ActorActionDesc_116 = 普攻和技能伤害提升20%
+    ActorActionName_21301 = 泛用强化Ⅰ
+    ActorActionDesc_21301 = 泛用强化会对多个招式产生影响。
+
+=== #3600 (38 bytes) ===
+  f1   ['21341']
+  f3   ['1']
+  f4   ['len12:e8bfbde8b8aae890bde99bb7']
+  f5   ['msg{131278413}']
+  f17  ['msg{67}']
+  f21  ['msg{131278413}']
+    ActorActionName_21341 = 泛用强化Ⅱ
+    ActorActionDesc_21341 = 泛用强化会对多个招式产生影响。
+    TriggerName_21341 = 追踪落雷
+    TriggerDesc_21341 = <color=#3AFDFFFF>落雷</color>会追踪<color=#3AFDFFFF>感电</color>的敌人且伤害提升{"v":0,"f":"%",
+
+=== #3601 (38 bytes) ===
+  f1   ['21341']
+  f3   ['5']
+  f4   ['len12:e8bfbde8b8aae890bde99bb7']
+  f5   ['msg{131278413}']
+  f17  ['msg{67}']
+  f21  ['msg{131278413}']
+    ActorActionName_21341 = 泛用强化Ⅱ
+    ActorActionDesc_21341 = 泛用强化会对多个招式产生影响。
+    TriggerName_21341 = 追踪落雷
+    TriggerDesc_21341 = <color=#3AFDFFFF>落雷</color>会追踪<color=#3AFDFFFF>感电</color>的敌人且伤害提升{"v":0,"f":"%",
+

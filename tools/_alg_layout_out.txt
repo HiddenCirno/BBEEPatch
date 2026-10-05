@@ -1,0 +1,368 @@
+
+===== ActionLogicGroup =====
+  public ActionLogicGroup.EVisualType VisualType; // 0x18
+  public List<SkeletonDataAssetRef> SkeletonDataAssetRefList; // 0x20
+  public ModelInfoRef ModelInfo; // 0x28
+  private string AnimationJson; // 0x30
+  public string[] AnimationJsons; // 0x38
+  public ActionLogicGroupType ALGType; // 0x40
+  private int m_voiceStateCount; // 0x44
+  public bool AutoRestoreToDefaultPose; // 0x48
+  private ActionLogicGroup _varientOf; // 0x50
+  private string _overrideName; // 0x58
+  public int CurSkeletonIndex; // 0x60
+  public string _refAnimationsFromActionLogicGroup; // 0x68
+  public string VarientSourceNameCached; // 0x70
+  private List<GameActionLogic> _actions; // 0x78
+  private string m_objNameCached; // 0x80
+  private Dictionary<string, GameActionLogic> m_cacheAction; // 0x88
+  public SkeletonDataAsset get_SkeletonDataAsset() { }
+  public string get_AnimationJsonOb() { }
+  public string get_AnimationJsonsStr() { }
+  public int get_VoiceStateCount() { }
+  public List<GameActionLogic> get_Actions() { }
+  public bool get_IsVarient() { }
+  public ActionLogicGroup get_VarientSource() { }
+  public string get_VarientSourceNameSource() { }
+  public string get_ActionLogicGroupName() { }
+  public GameActionLogic get_Item(string name) { }
+  public void ClearCache() { }
+  public void OnRelease() { }
+  public GameActionLogic FindAction(string actionName) { }
+  public GameActionLogic get_Item(ActionType type) { }
+  public void .ctor() { }
+  public bool get_IsSpine() { }
+  public bool get_IsSprite() { }
+  public bool get_IsModel3D() { }
+  public bool get_IsSpineObsolete() { }
+  public static bool TryGet(string fileName, out ActionLogicGroup actionLogicGroup, AssetLogType logType = 1) { }
+  public void OnBeforeSerialize() { }
+  public int value__; // 0x0
+
+===== ActionLogic =====
+  public void .ctor() { }
+  public void .ctor() { }
+  public void .ctor() { }
+  public string Name; // 0x10
+  public string Group; // 0x18
+  public Color Color; // 0x20
+  public void .ctor(string name = "", string gr = "", string cl = "#c0c0c0") { }
+  public void .ctor() { }
+  public string Name; // 0x10
+  public void .ctor(string name) { }
+  public int CurrentActionIndex; // 0x18
+  public GameActionLogic CurLogic; // 0x20
+  public ActionLogicGroup Owner; // 0x28
+  public void .ctor() { }
+  public TimeRange TimeRange; // 0x20
+  public override Fp get_TimeStart() { }
+  public override void set_TimeStart(Fp value) { }
+  public override Fp get_TimeEnd() { }
+  public override void set_TimeEnd(Fp value) { }
+  public ActorDisableMoveInputDir Clone() { }
+  public void .ctor() { }
+  public TimeRange TimeRange; // 0x20
+  public Fp2 Size; // 0x30
+
+
+=== esbullet 出现 90 次 ===
+
+--- #0 @32  后续串[0..3]=['esbullet']
+
+--- #1 @84  后续串[0..3]=['esbullet']
+
+--- #2 @144  后续串[0..3]=['esbullet', 'jump', 'dead', 'Role/Es/es_fall_01a']
+     资源 Role/Es/es_fall_01a | Hit/hit_105
+
+--- #3 @1416  后续串[0..3]=['esbullet_jump', '3003', '2303']
+
+--- #4 @1676  后续串[0..3]=['esbullet', 'dead', '433', 'behit_up']
+     资源 Hit/hit_019
+
+--- #5 @2900  后续串[0..3]=['esbullet', 'fallmdownend', 'dead', 'Role/Es/es_fallmdownend_02']
+     资源 Role/Es/es_fallmdownend_02 | Hit/hit_019
+
+--- #6 @4188  后续串[0..3]=['esbullet_fallmdownend']
+
+--- #7 @4408  后续串[0..3]=['esbullet', 'attackAir2old', 'dead', 'Role/Es/es_holdFull_01']
+     指令 buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+     资源 Role/Es/es_holdFull_01 | Hit/hit_018
+
+--- #8 @6420  后续串[0..3]=['esbullet', 'attackAir2', 'dead', 'Role/Es/es_attackAir_03']
+     资源 Role/Es/es_attackAir_03 | Hit/hit_106
+
+--- #9 @8760  后续串[0..3]=['esbullet', 'attackAir', 'dead', 'Role/Es/es_attackAir_01']
+     资源 Role/Es/es_attackAir_01 | Hit/hit_018
+
+--- #10 @10632  后续串[0..3]=['esbullet', 'talentBullet', 'dead', 'Role/Es/es_attackAir_03']
+     资源 Role/Es/es_attackAir_03 | Hit/hit_106
+
+--- #11 @12520  后续串[0..3]=['esbullet', 'dashAir3', 'dead', 'Role/Es/es_attackAir_03a']
+     资源 Role/Es/es_attackAir_03a | Hit/hit_105
+
+--- #12 @14016  后续串[0..3]=['esbullet', 'dashAir2', 'dead', 'Role/Es/es_attackAir_01a']
+     资源 Role/Es/es_attackAir_01a | Hit/hit_105
+
+--- #13 @15760  后续串[0..3]=['esbullet', 'dashAir', 'dead', 'Role/Es/es_attackAir_01']
+     资源 Role/Es/es_attackAir_01 | Hit/hit_105
+
+--- #14 @17860  后续串[0..3]=['esbullet', 'dashSkill2', 'dead', 'Role/Es/es_attackAir_02a']
+     资源 Role/Es/es_attackAir_02a | Hit/hit_105
+
+--- #15 @19424  后续串[0..3]=['esbullet', 'dash2', 'dead', 'Role/Es/es_attackAir_02a']
+     资源 Role/Es/es_attackAir_02a | Hit/hit_105
+
+--- #16 @20992  后续串[0..3]=['esbullet', 'dashSkill', 'dead', 'Role/Es/es_attackAir_02']
+     资源 Role/Es/es_attackAir_02 | Hit/hit_105
+
+--- #17 @23172  后续串[0..3]=['esbullet', 'dash', 'dead', 'Role/Es/es_attackAir_02']
+     资源 Role/Es/es_attackAir_02 | Hit/hit_105
+
+--- #18 @25340  后续串[0..3]=['esbullet', 'DAA2', 'dead', 'Role/Es/es_dashAtk1_02']
+     资源 Role/Es/es_dashAtk1_02 | Hit/hit_106
+
+--- #19 @26828  后续串[0..3]=['esbullet', 'DAA', 'dead', 'Role/Es/es_dashAtk1_01']
+     指令 CreateBullet_
+     指令 bullet_id:10340101,bullet_action: "DAA2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+     资源 Role/Es/es_dashAtk1_01 | Hit/hit_018
+
+--- #20 @28476  后续串[0..3]=['esbullet', 'dashBEX', 'dead', 'Role/Es/es_']
+     资源 Role/Es/es_
+
+--- #21 @28775  后续串[0..3]=['esbullet_dashA_001', 'q(', 'Role/Es/es_']
+     资源 Role/Es/es_
+
+--- #22 @28955  后续串[0..3]=['esbullet_dashA_002', 'q(', '@333', '433']
+     资源 Hit/hit_105
+
+--- #23 @30184  后续串[0..3]=['esbullet', 'dashB', 'dead', 'Role/Es/es_']
+     资源 Role/Es/es_
+
+--- #24 @30483  后续串[0..3]=['esbullet_dashA_001', 'q(', 'Role/Es/es_']
+     资源 Role/Es/es_
+
+--- #25 @30663  后续串[0..3]=['esbullet_dashA_002', 'q(', '@333', 'hff']
+     指令 ChangeAction
+     指令 action:"dashBEX"
+     资源 Hit/hit_105
+
+--- #26 @31992  后续串[0..3]=['esbullet', 'dashA', 'dead', 'CasterAction()!="dashAtk"&&CasterAction()!="dashAtkG"&&CasterAction()!="dashAtkEX"&&CasterAction()!="dashAtkGEX"&&CasterAction()!="dashAirAtk"&&CasterAction()!="dashAirAtkG"&&CasterAction()!="dashAirAtkEX"&&CasterAction()!="dashAirAtkGEX"&&CasterAction()!="dashAAhit"&&CasterAction()!="dashAAendX"&&CasterAction()!="dashAAend"&&CasterAction()!="dashAAendEX"? "dashA0":""']
+     资源 Hit/hit_019
+
+--- #27 @33288  后续串[0..3]=['esbullet', 'dashA0', 'dead']
+
+--- #28 @33892  后续串[0..3]=['esbullet', 'dashAtk', 'dead', 'ParamV("offsetx")']
+
+--- #29 @35648  后续串[0..3]=['esbullet', 'AD_hit', 'dead', '@333']
+     资源 Hit/hit_105
+
+--- #30 @36920  后续串[0..3]=['esbullet', 'C12EX', 'Role/Es/es_holdatk3_02a', 'q(']
+     资源 Role/Es/es_holdatk3_02a
+
+--- #31 @37740  后续串[0..3]=['esbullet', 'C1EX', 'C12EX', 'Role/Es/es_holdatk3_02']
+     资源 Role/Es/es_holdatk3_02 | Hit/hit_106
+
+--- #32 @39860  后续串[0..3]=['esbullet', 'C12', 'Role/Es/es_holdatk3_02a', '433']
+     资源 Role/Es/es_holdatk3_02a
+
+--- #33 @40676  后续串[0..3]=['esbullet', 'C1', 'C12', 'Role/ha/ha_attack6_02']
+     指令 ChangeAction
+     指令 action:"C1EX",trigger:56061
+     资源 Role/ha/ha_attack6_02 | Role/Es/es_holdatk3_02 | Hit/hit_106
+
+--- #34 @43096  后续串[0..3]=['esbullet', 'B12EX', 'Role/Es/es_holdatk1_02a', '433']
+     资源 Role/Es/es_holdatk1_02a
+
+--- #35 @43916  后续串[0..3]=['esbullet', 'B1EX', 'B12EX', 'Role/Es/es_holdatk1_02']
+     资源 Role/Es/es_holdatk1_02 | Hit/hit_018
+
+--- #36 @45988  后续串[0..3]=['esbullet', 'B12', 'Role/Es/es_holdatk1_02a', 'q(']
+     资源 Role/Es/es_holdatk1_02a
+
+--- #37 @46804  后续串[0..3]=['esbullet', 'B1', 'B12', 'Role/ha/ha_attack6_02']
+     指令 ChangeAction
+     指令 action:"B1EX",trigger:56061
+     资源 Role/ha/ha_attack6_02 | Role/Es/es_holdatk1_02 | Hit/hit_018
+
+--- #38 @49224  后续串[0..3]=['esbullet', 'A12EX', 'Role/Es/es_holdatk1_02a', '433']
+     资源 Role/Es/es_holdatk1_02a
+
+--- #39 @50044  后续串[0..3]=['esbullet', 'A1EX', 'fff', 'A12EX']
+     资源 Role/Es/es_holdatk1_02 | Hit/hit_018
+
+--- #40 @52160  后续串[0..3]=['esbullet', 'A12', 'Role/Es/es_holdatk1_02a', '433']
+     资源 Role/Es/es_holdatk1_02a
+
+--- #41 @52976  后续串[0..3]=['esbullet', 'A1', '`ff', 'fff']
+     指令 ChangeAction
+     指令 action:"A1EX",trigger:56061
+     资源 Role/Es/es_holdatk1_02 | Hit/hit_018
+
+--- #42 @55220  后续串[0..3]=['esbullet', 'UDA0', 'dead', 'Hit/hit_019']
+     资源 Hit/hit_019
+
+--- #43 @56072  后续串[0..3]=['esbullet', 'UDAA', 'dead', '@333']
+     资源 Hit/hit_106
+
+--- #44 @57432  后续串[0..3]=['esbullet', 'UDA', 'dead', 'Role/Es/es_AH_01']
+     资源 Role/Es/es_AH_01 | Hit/hit_106
+
+--- #45 @59444  后续串[0..3]=['esbullet', 'UD', 'dead', 'Role/Es/es_AH_01']
+     资源 Role/Es/es_AH_01 | Hit/hit_106
+
+--- #46 @60996  后续串[0..3]=['esbullet', 'UDAEX', 'dead', 'ff&']
+     资源 Role/Es/es_AH_03 | Hit/hit_106
+
+--- #47 @63012  后续串[0..3]=['esbullet', 'UDEX', 'dead', 'ff&']
+     资源 Role/Es/es_AH_03 | Hit/hit_106
+
+--- #48 @65024  后续串[0..3]=['esbullet', 'aup2', 'dead', 'Role/Es/es_attackup_02']
+     指令 SetActionCD
+     指令 action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+     指令 SetActionCD
+     指令 action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+     资源 Role/Es/es_attackup_02 | Hit/hit_106
+
+--- #49 @67052  后续串[0..3]=['esbullet', 'aup', 'dead', 'Role/Es/es_attackup_01']
+     指令 SetActionCD
+     指令 action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+     指令 SetActionCD
+     指令 action: "atkAir12",action2: "fall",  isCaster:true, trigger:56031
+     指令 CreateBullet_
+     指令 bullet_id:10340101,bullet_action: "aup2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+     资源 Role/Es/es_attackup_01 | Hit/hit_018
+
+--- #50 @69192  后续串[0..3]=['esbullet', 'aH3EX', 'dead', 'Role/Es/es_atkhold_21_006']
+     指令 ChangeAction
+     指令 action:"aH3EX"
+     资源 Role/Es/es_atkhold_21_006 | Role/Es/es_attack3_02 | Hit/hit_106
+
+--- #51 @73124  后续串[0..3]=['esbullet', 'aH3', 'dead', 'Role/Es/es_atkhold_21_006']
+     指令 ChangeAction
+     指令 action:"aH3EX"
+     资源 Role/Es/es_atkhold_21_006 | Role/Es/es_attack3_02 | Hit/hit_106
+
+--- #52 @77052  后续串[0..3]=['esbullet', 'aH2EX', 'dead', 'Role/Es/es_atkhold_21_005']
+     指令 ChangeAction
+     指令 action:"aH2EX"
+     资源 Role/Es/es_atkhold_21_005 | Role/Es/es_attack3_02 | Hit/hit_106
+
+--- #53 @80360  后续串[0..3]=['esbullet', 'aH2', 'dead', 'Role/Es/es_atkhold_21_005']
+     指令 ChangeAction
+     指令 action:"aH2EX"
+     资源 Role/Es/es_atkhold_21_005 | Role/Es/es_attack3_02 | Hit/hit_106
+
+--- #54 @83664  后续串[0..3]=['esbullet', 'aHEX', 'dead', 'Role/Es/es_atkhold_21_003']
+     指令 ChangeAction
+     指令 action:"aHEX"
+     资源 Role/Es/es_atkhold_21_003 | Hit/hit_106
+
+--- #55 @86216  后续串[0..3]=['esbullet', 'aH', 'dead', 'Role/Es/es_atkhold_21_003']
+     指令 ChangeAction
+     指令 action:"aHEX"
+     资源 Role/Es/es_atkhold_21_003 | Hit/hit_106
+
+--- #56 @88768  后续串[0..3]=['esbullet', 'aD32', 'dead', 'Role/Es/es_attackD1_009']
+     资源 Role/Es/es_attackD1_009 | Role/Es/es_attack3_01 | Role/Es/es_attack3_02 | Hit/hit_018
+
+--- #57 @91652  后续串[0..3]=['esbullet', 'aD3', 'dead', 'Role/Es/es_attackD1_008']
+     资源 Role/Es/es_attackD1_008 | Role/Es/es_attack3_01 | Hit/hit_018
+
+--- #58 @94248  后续串[0..3]=['esbullet', 'aD22', 'dead', 'Role/Es/es_attackD1_006']
+     资源 Role/Es/es_attackD1_006 | Role/Es/es_attack3_01 | Role/Es/es_attack3_02 | Hit/hit_018
+
+--- #59 @97132  后续串[0..3]=['esbullet', 'aD2', 'dead', 'Role/Es/es_attackD1_005']
+     资源 Role/Es/es_attackD1_005 | Role/Es/es_attack3_01 | Hit/hit_018
+
+--- #60 @99728  后续串[0..3]=['esbullet', 'aD12', 'dead', '@333']
+     资源 Role/Es/es_attackD1_003 | Hit/hit_018
+
+--- #61 @102268  后续串[0..3]=['esbullet', 'aD1', 'dead', 'ff&']
+     资源 Role/Es/es_attackD1_002 | Hit/hit_105
+
+--- #62 @104692  后续串[0..3]=['esbullet', 'a0', 'dead', '@333']
+     资源 Role/Es/es_attack1_02 | Hit/hit_105
+
+--- #63 @106756  后续串[0..3]=['esbullet', 'dead', '@333', 'Role/Es/es_attack1_01']
+     指令 ChangeAction
+     指令 action:"a0"
+     资源 Role/Es/es_attack1_01 | Hit/hit_105
+
+--- #64 @108860  后续串[0..3]=['esbullet', 'a02', 'dead', '@333']
+     资源 Role/Es/es_attack1_03 | Hit/hit_018
+
+--- #65 @111004  后续串[0..3]=['esbullet', 'a20', 'dead', 'Role/Es/es_attack2_02']
+     资源 Role/Es/es_attack2_02 | Hit/hit_105
+
+--- #66 @113040  后续串[0..3]=['esbullet', 'a2', 'dead', 'Role/Es/es_attack2_01']
+     指令 ChangeAction
+     指令 action:"a20"
+     资源 Role/Es/es_attack2_01 | Hit/hit_105
+
+--- #67 @115156  后续串[0..3]=['esbullet', 'a22', 'dead', 'Role/Es/es_attack2_03']
+     资源 Role/Es/es_attack2_03 | Hit/hit_018
+
+--- #68 @117300  后续串[0..3]=['esbullet', 'a3', 'dead', '@333']
+     资源 Role/Es/es_attack3_01 | Hit/hit_018
+
+--- #69 @118932  后续串[0..3]=['esbullet', 'a32', 'dead', 'ff']
+     资源 Role/Es/es_attack3_02 | Hit/hit_106
+
+--- #70 @121076  后续串[0..3]=['esbullet', 'a4', 'dead', 'Role/Es/es_attack4_02']
+     资源 Role/Es/es_attack4_02 | Hit/hit_106
+
+--- #71 @123560  后续串[0..3]=['esbullet', 'a42', 'dead', 'Role/Es/es_attack4_03']
+     资源 Role/Es/es_attack4_03 | Hit/hit_106
+
+--- #72 @126512  后续串[0..3]=['esbullet', 'aa', 'dead', 'Role/Es/es_atkAir12_005']
+     资源 Role/Es/es_atkAir12_005 | Hit/hit_106
+
+--- #73 @128656  后续串[0..3]=['esbullet', 'aa3', 'dead', 'Role/Es/es_atkAir12_006']
+     资源 Role/Es/es_atkAir12_006 | Role/Es/es_attack3_02 | Hit/hit_106
+
+--- #74 @131004  后续串[0..3]=['esbullet', 'x32old', 'dead', 'Role/Es/es_holdRelease_02']
+     资源 Role/Es/es_holdRelease_02 | Hit/hit_018
+
+--- #75 @133728  后续串[0..3]=['esbullet_x32']
+
+--- #76 @133936  后续串[0..3]=['esbullet', 'x32', 'dead', 'Role/Es/es_holdRelease_02']
+     资源 Role/Es/es_holdRelease_02 | Hit/hit_018
+
+--- #77 @136244  后续串[0..3]=['esbullet_x32', '2303']
+
+--- #78 @136452  后续串[0..3]=['esbullet', 'x3old', 'dead', 'Role/Es/es_holdRelease_01']
+     资源 Role/Es/es_holdRelease_01 | Hit/hit_105
+
+--- #79 @138952  后续串[0..3]=['esbullet', 'x3', 'dead', 'Role/Es/es_holdRelease_01']
+     资源 Role/Es/es_holdRelease_01 | Hit/hit_105
+
+--- #80 @141036  后续串[0..3]=['esbullet', 'xup', 'dead', 'Role/Es/es_holdRelease_01']
+     资源 Role/Es/es_holdRelease_01 | Hit/hit_105
+
+--- #81 @142872  后续串[0..3]=['esbullet_jump']
+
+--- #82 @143144  后续串[0..3]=['esbullet', 'xup2', 'dead', 'fff']
+     资源 Role/Es/es_holdRelease_02 | Hit/hit_018
+
+--- #83 @145436  后续串[0..3]=['esbullet_x32']
+
+--- #84 @145704  后续串[0..3]=['esbullet', 'ax2', 'dead', 'Role/Es/es_holdFull_01']
+     资源 Role/Es/es_holdFull_01 | Hit/hit_018
+
+--- #85 @147948  后续串[0..3]=['esbullet_x2_01', '433', 'RemoveBuff_es', 'buff: "1112_mpSpeed", target: "caster", tag: "es_x"']
+     指令 buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+
+--- #86 @148276  后续串[0..3]=['esbullet', 'ax1', 'dead', 'Role/Es/es_holdFull_01']
+     指令 buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+     资源 Role/Es/es_holdFull_01 | Hit/hit_018
+
+--- #87 @150300  后续串[0..3]=['esbullet', 'x1', 'dead', 'Role/Es/es_holdFull_01']
+     指令 buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+     资源 Role/Es/es_holdFull_01 | Hit/hit_018
+
+--- #88 @152764  后续串[0..3]=['esbullet', 'x2', '433', 'dead']
+     资源 Role/Es/es_holdFull_01 | Hit/hit_018
+
+--- #89 @155416  后续串[0..3]=['esbullet_x2_01', 'hf&', 'RemoveBuff_es', 'buff: "1112_mpSpeed", target: "caster", tag: "es_x"']
+     指令 buff: "1112_mpSpeed", target: "caster", tag: "es_x"
+     资源 Hit/hit_009

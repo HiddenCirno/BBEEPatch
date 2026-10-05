@@ -1,0 +1,39 @@
+待查表 22 个
+  _rt.ab: 无动作名命中
+  _tmp_es.ab: 无动作名命中
+  actorconfig.ab: 无动作名命中
+  baseactorconf.ab: 无动作名命中
+  baseactorpotentialconf.ab: 无动作名命中
+  blessconf.ab: 无动作名命中
+
+########## bulletconfig.ab ##########
+   TextAsset 13538 字节  head=b'4\x00\x00\x00\x08\xf5\xfb\xe2\x04\x12\x08rgbullet-\xcd\xcc\xcc='
+     动作名命中: summon×1
+     疑似 id: []
+  es_ah_01.ab: 无动作名命中
+  es_ah_01_mod.ab: 无动作名命中
+  es_logic.ab: 无动作名命中
+  esbullet.ab: 无动作名命中
+  fesactorskilllevelconf.ab: 无动作名命中
+  gm_sample.ab: 无动作名命中
+  js_sample.ab: 无动作名命中
+
+########## playerbattletriggerdetail.ab ##########
+   TextAsset 1080057 字节  head=b'\\\x00\x00\x00\x08\x91N\x18\x01"\x12\xe4\xbd\x8e\xe8\xa1\x80\xe5\x8f\x8d\xe5\x87\xbb\xe8'
+     动作名命中: summon×20
+     疑似 id: []
+  potentialcomboconf.ab: 无动作名命中
+  potentialconf.ab: 无动作名命中
+
+########## skillactivate.ab ##########
+   TextAsset 342244 字节  head=b'V\x00\x00\x00\x10\xe8\x07\x18\x05 \x01*\x07dashAir2\x07St'
+     动作名命中: holdEX×1, attackA×166, attackB×10, attackC×12, AttackUp×4, fallup×5, atkAir12×1, dashAtk×45, UltraDash×4, attackD1×21, summon×54, dashAir2×55
+     疑似 id: [100101, 100201, 100301, 100401, 100501, 101101, 101401, 101801, 102201, 102501, 102801, 102901]
+  skillattr.ab: 无动作名命中
+
+########## skilldamage.ab ##########
+   TextAsset 180224 字节  head=b'9\x00\x00\x00\x08\x85\x8e\x06\x12\x07attack1\x1d\x00\x00\x80? \x01'
+     动作名命中: attackA×76, attackB×5, attackC×6, AttackUp×1, fallup×4, atkAir12×1, dashAtk×36, UltraDash×2, attackD1×7, summon×4, dashAir2×1
+     疑似 id: []
+  switchmisc.ab: 无动作名命中
+  talenteffectconf.ab: 无动作名命中

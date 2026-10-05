@@ -1,0 +1,66 @@
+共 205 次, 去重 53 种
+
+动作                    按键/方向          槽位      纹章
+dash                  Dash/Any       5.8     dash, fly, anyingchongci
+dashend               Dash/Any       5.8     dash2
+attackholdDashEX      Dash/Down      5.5     dashSkill
+attackhold_hit        /Any           5.15    dashAir
+attackhold_hit2       /Any           5.16    AD_hit, dashSkill2
+AttackUp              Attack/Up      1.1     aup2, aup
+drop(clone)           Attack/Up      1.1     
+dropend               ?              ?       dashAir2
+dashAir               /Any           5.12    dashAir, dashAir2
+drop(clone)           /Any           5.12    
+dashendAirAHD         Dash/Down      5.5     
+dropend2              ?              ?       dashSkill2
+attackhold_hit2Air    /Any           5.17    AD_hit, dashSkill2
+atkhold_2A_drop       /Any           5.17    
+jump                  Jump/Any       7.3     
+fall                  /Any           4.1     dashAir2
+fallup                ?              ?       dashAir2
+fallupd               /Any           4.3     
+fallup2               ?              ?       
+fallup2d              /Any           4.6     
+fallup3               ?              ?       
+fallm                 /Any           4.9     
+fallmdown             /Any           4.10    
+fallmdownendEX2       /Any           4.16    
+fallmdownend          /Any           4.16    
+jump2                 /Any           7.4     jump
+dashAirAtkG           /Any           5.23    
+dashAirAtk            /Any           5.4     
+dashAirAtk0           Summon/Up      11.2    dashAir, dashA
+dashAAendEX           /Any           5.19    
+fallmEX0              Summon/Down    11.3    
+fallm                 ?              ?       
+fallmEX0Air           ?              ?       
+fallmdownEX0          ?              ?       
+fallmdownendEX        /Any           4.15    
+fallmdownend          /Any           4.15    
+fallend               /Any           4.7     dashAir2
+attackD1              Attack/Down    1.4     aD12
+jump3                 /Any           7.5     jump
+fallup22              /Any           4.4     
+atkAir12              /Any           4.12    aa
+drop3                 /Any           4.12    
+dashAir2              /Any           5.13    dashAir
+dashAir3              /Any           5.14    dashAir
+attackhold21          Attack/Any     8.1     
+attackhold22_loop     /Any           8.2     dashAir2
+attackhold23          /Any           8.3     aHEX, aH2EX
+fallup2               /Any           4.3     
+fallend2              /Any           4.8     
+attackD2              Attack/Down    1.6     aD22
+attackD3              Attack/Down    1.7     aD32
+atkAirX               Attack/Down    1.8     attackAir2
+dropendD              ?              ?       
+
+
+=== 关注: Attack/Down 与 Dash/Down ===
+  attackholdDashEX      Dash/Down      槽5.5     dashSkill
+  dashendAirAHD         Dash/Down      槽5.5     
+  fallmEX0              Summon/Down    槽11.3    
+  attackD1              Attack/Down    槽1.4     aD12
+  attackD2              Attack/Down    槽1.6     aD22
+  attackD3              Attack/Down    槽1.7     aD32
+  atkAirX               Attack/Down    槽1.8     attackAir2

@@ -1,0 +1,39 @@
+
+--- "attackD1"  ---
+   f2=v103401 | f3=v1 | f4=v4 | f5="attackD1" | f6="Start_1" | f8="Attack" | f9=v2 | f10="b'\xe0+'" | f16=v1 | f18=v1 | f21=0.35 | f22=0.7 | f24=""all":0.35,"5":0.01,"7":0.3" | f34=v1 | f51=v1 | f52=v3
+
+--- "attackAEX"  ---
+   f2=v103401 | f3=v2 | f4=v1 | f5="attackAEX" | f6="Start_2" | f8="Skill" | f9=v2 | f10="b'\xe7+\xfa+'" | f11="b'\x08\x02\x12\x02-1\x1d\x00\x00\x04\xc2%\x00\x00\xc8\xc2'" | f16=v1 | f18=v1 | f24=""all":0.5,"1":0.7,"5":0.01" | f32=v1 | f33="b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x10IconSkill_103401'" | f33="b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x13IconSkill_103401OFF'" | f34=v1 | f51=v2 | f52=v3
+
+--- "dashAir"  ---
+   f2=v103401 | f3=v5 | f4=v12 | f5="dashAir" | f6="Start_5" | f7="End_5" | f16=v1 | f19=v1 | f24=""all":0.1,"1":0.45,"2":0.45,"4":0.45,"5":0.4,"11":0.4" | f25=0.2 | f34=v1 | f49="b'\x05'" | f51=v5 | f52=v1
+
+--- "jump"  ---
+   f2=v103401 | f3=v7 | f4=v3 | f5="jump" | f6="Start_7" | f8="Jump" | f16=v1 | f18=v1 | f24=""all":0.17" | f34=v1 | f41="SkillJumpStart" | f51=v7 | f52=v1
+
+--- "dashAtk0"  ---
+   f2=v103401 | f3=v11 | f4=v1 | f5="dashAtk0" | f6="Start_5" | f8="Summon" | f9=v1 | f10="b'\xf1+'" | f16=v1 | f18=v1 | f24=""all":0.35" | f34=v1 | f51=v11 | f52=v2
+
+--- "fallmEX0"  ---
+   f2=v103401 | f3=v11 | f4=v3 | f5="fallmEX0" | f6="Start_4" | f8="Summon" | f9=v2 | f10="b'\xed+\xec+\xee+\xf9+'" | f16=v1 | f18=v1 | f19=v1 | f24=""all":0.5" | f34=v1 | f51=v11 | f52=v3
+
+--- "fall"  ---
+   f2=v103401 | f3=v4 | f4=v1 | f5="fall" | f6="Start_4" | f16=v1 | f19=v1 | f24=""all":0.1,"1":2,"4":2,"5":0.5,"11":0.5" | f34=v1 | f51=v4 | f52=v3
+
+--- "attack1"  ---
+   f2=v103401 | f3=v1 | f4=v9 | f5="attack1" | f6="Start_1" | f8="Attack" | f16=v1 | f18=v1 | f21=0.3 | f22=0.7 | f24=""all":0.3,"5":0.01,"7":0.3" | f34=v1 | f51=v1 | f52=v1
+
+
+=== 各 varint 字段的取值对照 ===
+    字段   attackD1  attackAEX    dashAir       jump   dashAtk0   fallmEX0       fall    attack1
+f2         103401     103401     103401     103401     103401     103401     103401     103401
+f3              1          2          5          7         11         11          4          1
+f4              4          1         12          3          1          3          1          9
+f9              2          2          -          -          1          2          -          -
+f16             1          1          1          1          1          1          1          1
+f18             1          1          -          1          1          1          -          1
+f19             -          -          1          -          -          1          1          -
+f32             -          1          -          -          -          -          -          -
+f34             1          1          1          1          1          1          1          1
+f51             1          2          5          7         11         11          4          1
+f52             3          3          1          1          2          3          3          1

@@ -1,0 +1,81 @@
+=== data-driven (id=10340101, Action, Tag) entries in es.ab ===
+  @89860     [dashAirAtkGEX     ] Action='dashA'  Tag=None
+  @90120     [dashAirAtkGEX     ] Action='dashAtk'  Tag=None
+  @94004     [dashAirAtkEX      ] Action='dashA'  Tag=None
+  @94264     [dashAirAtkEX      ] Action='dashAtk'  Tag=None
+  @98708     [dashAirAtkG       ] Action='dashA'  Tag=None
+  @98968     [dashAirAtkG       ] Action='dashAtk'  Tag=None
+  @102848    [dashAirAtk        ] Action='dashA'  Tag=None
+  @103108    [dashAirAtk        ] Action='dashAtk'  Tag=None
+  @111252    [dashAtkGEX        ] Action='dashA'  Tag=None
+  @111512    [dashAtkGEX        ] Action='dashA'  Tag=None
+  @111772    [dashAtkGEX        ] Action='dashAtk'  Tag=None
+  @116232    [dashAtkEX         ] Action='dashA'  Tag=None
+  @116492    [dashAtkEX         ] Action='dashA'  Tag=None
+  @116752    [dashAtkEX         ] Action='dashAtk'  Tag=None
+  @121772    [dashAtkG          ] Action='dashA'  Tag=None
+  @122032    [dashAtkG          ] Action='dashA'  Tag=None
+  @122292    [dashAtkG          ] Action='dashAtk'  Tag=None
+  @126748    [dashAtk           ] Action='dashA'  Tag=None
+  @127008    [dashAtk           ] Action='dashA'  Tag=None
+  @127268    [dashAtk           ] Action='dashAtk'  Tag=None
+  @134168    [dashAAhitold      ] Action='DAA'  Tag=None
+  @161256    [jump2             ] Action='jump'  Tag=None
+  @164548    [jump3             ] Action='jump'  Tag=None
+  @299044    [attackAir2EX      ] Action='ax2'  Tag=None
+  @304868    [attackAir2        ] Action='ax2'  Tag=None
+  @310628    [attackAirEX       ] Action='ax1'  Tag=None
+  @316228    [attackAir         ] Action='ax1'  Tag=None
+  @331260    [atkAir12          ] Action='aa'  Tag=None
+  @341064    [atkAir3           ] Action='aa3'  Tag=None
+  @360976    [attackC_Air       ] Action='C1'  Tag=None
+  @370132    [attackC           ] Action='C1'  Tag=None
+  @376460    [attackB_Air       ] Action='B1'  Tag=None
+  @379072    [attackB_Air       ] Action='B1'  Tag=None
+  @385164    [attackA_Air       ] Action='A1'  Tag=None
+  @391512    [attackA_AirEX     ] Action='A1'  Tag=None
+  @393932    [attackA           ] Action='A1'  Tag=None
+  @396260    [attackAEX         ] Action='A1'  Tag=None
+  @399888    [attackhold23      ] Action='aH'  Tag=None
+  @400148    [attackhold23      ] Action='aH'  Tag=None
+  @400408    [attackhold23      ] Action='aH2'  Tag=None
+  @400668    [attackhold23      ] Action='aH3'  Tag=None
+  @400928    [attackhold23      ] Action='aHEX'  Tag=None
+  @401216    [attackhold23      ] Action='aHEX'  Tag=None
+  @401504    [attackhold23      ] Action='aH2EX'  Tag=None
+  @401796    [attackhold23      ] Action='aH3EX'  Tag=None
+  @410748    [attackhold        ] Action='a4'  Tag=None
+  @411008    [attackhold        ] Action='a42'  Tag=None
+  @460572    [UltraDAend        ] Action='UDA'  Tag=None
+  @460816    [UltraDAend        ] Action='UDEX'  Tag=None
+  @463012    [UltraDashAirEX    ] Action='UDA0'  Tag=None
+  @465212    [UltraDashAir      ] Action='UDA0'  Tag=None
+  @471600    [UltraDashEX       ] Action='UD'  Tag=None
+  @471844    [UltraDashEX       ] Action='UDAEX'  Tag=None
+  @478228    [UltraDash         ] Action='UD'  Tag=None
+  @478472    [UltraDash         ] Action='UDAEX'  Tag=None
+  @488512    [attackD3          ] Action='aD3'  Tag=None
+  @488764    [attackD3          ] Action='aD32'  Tag=None
+  @492696    [attackD2          ] Action='aD2'  Tag=None
+  @492948    [attackD2          ] Action='aD22'  Tag=None
+  @496080    [attackD1          ] Action='aD1'  Tag=None
+  @496332    [attackD1          ] Action='aD12'  Tag=None
+  @499220    [attack1           ] Action='a0'  Tag=None
+  @499472    [attack1           ] Action='a02'  Tag=None
+  @502412    [attack2           ] Action='a20'  Tag=None
+  @502664    [attack2           ] Action='a22'  Tag=None
+  @505480    [attack3           ] Action='a3'  Tag=None
+  @505732    [attack3           ] Action='a32'  Tag=None
+  @508292    [attack4           ] Action='a4'  Tag=None
+  @508544    [attack4           ] Action='a42'  Tag=None
+  @519424    [AttackUp2         ] Action='aup'  Tag=None
+  @528648    [AttackUp          ] Action='aup'  Tag=None
+  @537344    [hold1             ] Action='x1'  Tag=None
+
+  total: 72
+
+=== textual Bullet:* script calls ===
+  @142668 [dashAAendEX] Bullet:"esbullet" , Action:"dashB", Tag:"es_dashAA"
+  @145872 [dashAAend] Bullet:"esbullet" , Action:"dashB", Tag:"es_dashAA"
+  @149140 [dashAAendX] Bullet:"esbullet" , Action:"dashB", Tag:"es_dashAA"
+  @460460 [UltraDAend] Bullet:"esbullet" , Action:"UDAA", Tag:"es_ultra"

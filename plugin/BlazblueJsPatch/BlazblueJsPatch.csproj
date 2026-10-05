@@ -1,0 +1,103 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>BlazblueJsPatch</AssemblyName>
+    <RootNamespace>BlazblueJsPatch</RootNamespace>
+    <Version>1.0.0</Version>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- 直接引用游戏目录里已装好的 BepInEx 组件, 不走 NuGet, 保证版本一致 -->
+    <GameDir Condition="'$(GameDir)' == ''">I:\SteamLibrary\steamapps\common\BlazblueEntropyEffect</GameDir>
+    <BepInExCore>$(GameDir)\BepInEx\core</BepInExCore>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx.Core">
+      <HintPath>$(BepInExCore)\BepInEx.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>$(BepInExCore)\BepInEx.Unity.IL2CPP.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(BepInExCore)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>$(BepInExCore)\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- 游戏互操作程序集: 由 BepInEx 首次启动时用 Cpp2IL 生成于 BepInEx/interop/ -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(GameDir)\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameDir)\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- IMGUI 兼容层要用到的引擎程序集 (GUIStyle / GUILayout / GUILayoutOption / GUISkin) -->
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(GameDir)\BepInEx\interop\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- 特效换色要直接操作 ParticleSystem -->
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>$(GameDir)\BepInEx\interop\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- 键盘配置面板要设 GUIStyle.fontStyle (FontStyle 枚举定义在这个程序集里) -->
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(GameDir)\BepInEx\interop\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- IMGUI 诊断要读 Input.mousePosition / Cursor.lockState, 判断鼠标输入到底有没有到位 -->
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(GameDir)\BepInEx\interop\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>$(GameDir)\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="NOAH.Core.Runtime">
+      <HintPath>$(GameDir)\BepInEx\interop\NOAH.Core.Runtime.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- 特效的着色插值器 (MaterialColorInterpolator / startValue / endValue / propName) 在这个程序集里。
+         Assembly-CSharp 只把 InterpolatorBase 作为 TypeRef 引进来, 拿不到具体类型。 -->
+    <!-- 纹章接管要用 Fp / Fp2 (定点数向量) 构造旋转后的方向 -->
+    <Reference Include="Unity.Mathematics.FixedPoint">
+      <HintPath>$(GameDir)\BepInEx\interop\Unity.Mathematics.FixedPoint.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VFX.Interpolator">
+      <HintPath>$(GameDir)\BepInEx\interop\VFX.Interpolator.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- 动作变速要设 Spine 的 SkeletonAnimation.timeScale (动画全局倍率)。
+         SkeletonAnimation 定义在 spine-unity 里, Assembly-CSharp 只把它当 TypeRef。 -->
+    <Reference Include="spine-unity">
+      <HintPath>$(GameDir)\BepInEx\interop\spine-unity.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="spine-csharp">
+      <HintPath>$(GameDir)\BepInEx\interop\spine-csharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- 连段模组要改 SkillActivateFixedPoint.PreSkillOrder (Google.Protobuf 的 RepeatedField<int>)。
+         findNextSkillMatchPreOrderAndInputDir 就是靠这个字段找下一段的。 -->
+    <Reference Include="Google.Protobuf">
+      <HintPath>$(GameDir)\BepInEx\interop\Google.Protobuf.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,38 @@
+
+### callers of PlayerSkillMgr::DoUpdate (0x1bd8780) : 2
+   0x00bf2422 <- GamePlay_PlayerSkillMgr_Wrap::M_DoUpdate (+0x162)
+   0x01badfa2 <- PlayerObj::UpdateLogic (+0x372)
+
+### callers of PlayerInput::OnInputCmdChange (0x1b99950) : 4
+   0x00bc2858 <- GamePlay_PlayerInput_Wrap::M_OnInputCmdChange (+0x298)
+   0x01537a9c <- ActorPVP::AddCommand (+0x21c)
+   0x0156b740 <- PvpWaitLogic::ReceivePlayerInput (+0x1d0)
+   0x0190aef1 <- BuffFuncsJs.BuffFunc::<initFuncsChecked>b__38_571 (+0x201)
+
+### callers of PlayerInput::DoUpdate (0x1b984a0) : 2
+   0x00bc0b32 <- GamePlay_PlayerInput_Wrap::M_DoUpdate (+0x162)
+   0x01badf30 <- PlayerObj::UpdateLogic (+0x300)
+
+### callers of PlayerSkillUtility::CheckPlayerSkillInputDir (0x1bddc10) : 3
+   0x00bf6b98 <- GamePlay_PlayerSkillUtility_Wrap::F_CheckPlayerSkillInputDir (+0x198)
+   0x01bb3a48 <- PlayerSkillChain::findNextSkillMatchPreOrderAndInputDir (+0x348)
+   0x01bb3d6c <- PlayerSkillChain::findStartingSkillMatchInputDir (+0x24c)
+
+### callers of PlayerInput::SetPressInputSatisfied (0x1b9a280) : 2
+   0x00bc3523 <- GamePlay_PlayerInput_Wrap::M_SetPressInputSatisfied (+0x2c3)
+   0x00bc364a <- GamePlay_PlayerInput_Wrap::M_SetPressInputSatisfied (+0x3ea)
+
+### callers of PlayerInput::GetCmdStatus (0x1b98c30) : 7
+   0x00bc15fb <- GamePlay_PlayerInput_Wrap::M_GetCmdStatus (+0x16b)
+   0x01915690 <- BuffFuncsJs.BuffFunc::<initFuncsChecked>b__38_627 (+0x430)
+   0x019156e1 <- BuffFuncsJs.BuffFunc::<initFuncsChecked>b__38_627 (+0x481)
+   0x01915732 <- BuffFuncsJs.BuffFunc::<initFuncsChecked>b__38_627 (+0x4d2)
+   0x01915783 <- BuffFuncsJs.BuffFunc::<initFuncsChecked>b__38_627 (+0x523)
+   0x0191bdd8 <- BuffFuncsJs.BuffFunc::<initFuncsChecked>b__38_651 (+0x398)
+   0x01b3a1f0 <- BuffLogic_LockInputAttackUntilPress::Update (+0x280)
+
+### callers of PlayerInput::GetCmdHistory (0x1b985d0) : 1
+   0x00bc105b <- GamePlay_PlayerInput_Wrap::M_GetCmdHistory (+0x22b)
+
+### callers of PlayerInput::GetLastestCmdHistory (0x1b98ee0) : 1
+   0x00bc1890 <- GamePlay_PlayerInput_Wrap::M_GetLastestCmdHistory (+0x1b0)

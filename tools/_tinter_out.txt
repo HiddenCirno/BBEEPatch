@@ -1,0 +1,567 @@
+
+==============================================================================
+=== MaterialTinter::Play   RVA 0x7df9c0
+==============================================================================
+  0x01807df9c0  mov      qword ptr [rsp + 0x18], rbp
+  0x01807df9c5  push     rdi
+  0x01807df9c6  push     r14
+  0x01807df9c8  push     r15
+  0x01807df9ca  sub      rsp, 0x40
+  0x01807df9ce  cmp      byte ptr [rip + 0x4e1cade], 0
+  0x01807df9d5  mov      rdi, r8
+  0x01807df9d8  mov      r15, rdx
+  0x01807df9db  mov      rbp, rcx
+  0x01807df9de  jne      0x1807dfa23
+  0x01807df9e0  lea      rcx, [rip + 0x4bc8a69]
+  0x01807df9e7  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df9ec  lea      rcx, [rip + 0x4ba2305]
+  0x01807df9f3  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df9f8  lea      rcx, [rip + 0x4bc1c29]
+  0x01807df9ff  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807dfa04  lea      rcx, [rip + 0x4b01bdd]
+  0x01807dfa0b  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807dfa10  lea      rcx, [rip + 0x4b04db9]
+  0x01807dfa17  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807dfa1c  mov      byte ptr [rip + 0x4e1ca90], 1
+  0x01807dfa23  mov      qword ptr [rsp + 0x60], rbx
+  0x01807dfa28  xor      edx, edx
+  0x01807dfa2a  mov      rcx, rbp
+  0x01807dfa2d  mov      qword ptr [rsp + 0x68], rsi
+  0x01807dfa32  call     0x1807e0280      ; -> MaterialTinter::get_validMaterials
+  0x01807dfa37  mov      r14, rax
+  0x01807dfa3a  test     rax, rax
+  0x01807dfa3d  je       0x1807dfc6d
+  0x01807dfa43  cmp      dword ptr [rax + 0x18], 0
+  0x01807dfa47  jle      0x1807dfc54
+  0x01807dfa4d  mov      rcx, qword ptr [rip + 0x4bc1bd4]
+  0x01807dfa54  cmp      dword ptr [rcx + 0xe0], 0
+  0x01807dfa5b  jne      0x1807dfa62
+  0x01807dfa5d  call     0x18046fe50      ; -> sub_46FE50
+  0x01807dfa62  xor      edx, edx
+  0x01807dfa64  mov      rcx, rdi
+  0x01807dfa67  call     0x1840db710      ; -> Object::op_Implicit
+  0x01807dfa6c  xor      ebx, ebx
+  0x01807dfa6e  test     al, al
+  0x01807dfa70  je       0x1807dfa80
+  0x01807dfa72  test     rdi, rdi
+  0x01807dfa75  je       0x1807dfc6d
+  0x01807dfa7b  mov      eax, dword ptr [rdi + 0x60]
+  0x01807dfa7e  jmp      0x1807dfa82
+  0x01807dfa80  mov      eax, ebx
+  0x01807dfa82  cmp      eax, dword ptr [rbp + 0x90]
+  0x01807dfa88  jl       0x1807dfc54
+  0x01807dfa8e  mov      dword ptr [rbp + 0x90], eax
+  0x01807dfa94  test     eax, eax
+  0x01807dfa96  jle      0x1807dfae4
+  0x01807dfa98  mov      rcx, qword ptr [rip + 0x4bc1b89]
+  0x01807dfa9f  mov      rsi, qword ptr [rbp + 0x98]
+  0x01807dfaa6  cmp      dword ptr [rcx + 0xe0], ebx
+  0x01807dfaac  jne      0x1807dfab3
+  0x01807dfaae  call     0x18046fe50      ; -> sub_46FE50
+  0x01807dfab3  xor      r8d, r8d
+  0x01807dfab6  xor      edx, edx
+  0x01807dfab8  mov      rcx, rsi
+  0x01807dfabb  call     0x1840db5f0      ; -> Object::op_Equality
+  0x01807dfac0  test     al, al
+  0x01807dfac2  je       0x1807dfae4
+  0x01807dfac4  xor      edx, edx
+  0x01807dfac6  mov      rcx, rbp
+  0x01807dfac9  call     0x1840d1a50      ; -> Component::get_gameObject
+  0x01807dface  mov      rdx, qword ptr [rip + 0x4bc897b]
+  0x01807dfad5  mov      rcx, rax
+  0x01807dfad8  call     0x18215c190      ; -> sub_215C190
+  0x01807dfadd  mov      qword ptr [rbp + 0x98], rax
+  0x01807dfae4  mov      rcx, qword ptr [rip + 0x4bc1b3d]
+  0x01807dfaeb  mov      rsi, qword ptr [rbp + 0x98]
+  0x01807dfaf2  cmp      dword ptr [rcx + 0xe0], ebx
+  0x01807dfaf8  jne      0x1807dfaff
+  0x01807dfafa  call     0x18046fe50      ; -> sub_46FE50
+  0x01807dfaff  xor      edx, edx
+  0x01807dfb01  mov      rcx, rsi
+  0x01807dfb04  call     0x1840db710      ; -> Object::op_Implicit
+  0x01807dfb09  test     al, al
+  0x01807dfb0b  je       0x1807dfb22
+  0x01807dfb0d  mov      rax, qword ptr [rbp + 0x98]
+  0x01807dfb14  test     rax, rax
+  0x01807dfb17  je       0x1807dfc6d
+  0x01807dfb1d  mov      esi, dword ptr [rax + 0x20]
+  0x01807dfb20  jmp      0x1807dfb24
+  0x01807dfb22  mov      esi, ebx
+  0x01807dfb24  cmp      dword ptr [rbp + 0x90], esi
+  0x01807dfb2a  jle      0x1807dfb43
+  0x01807dfb2c  mov      rcx, qword ptr [rbp + 0x98]
+  0x01807dfb33  test     rcx, rcx
+  0x01807dfb36  je       0x1807dfc6d
+  0x01807dfb3c  xor      edx, edx
+  0x01807dfb3e  call     0x1807e35d0      ; -> RefuseMaterialTinter::UpdatePriority
+  0x01807dfb43  mov      rcx, qword ptr [rip + 0x4bc1ade]
+  0x01807dfb4a  cmp      dword ptr [rcx + 0xe0], ebx
+  0x01807dfb50  jne      0x1807dfb57
+  0x01807dfb52  call     0x18046fe50      ; -> sub_46FE50
+  0x01807dfb57  xor      edx, edx
+  0x01807dfb59  mov      rcx, rdi
+  0x01807dfb5c  call     0x1840db710      ; -> Object::op_Implicit
+  0x01807dfb61  test     al, al
+  0x01807dfb63  je       0x1807dfb73
+  0x01807dfb65  test     rdi, rdi
+  0x01807dfb68  je       0x1807dfc6d
+  0x01807dfb6e  mov      eax, dword ptr [rdi + 0x48]
+  0x01807dfb71  jmp      0x1807dfb76
+  0x01807dfb73  mov      eax, dword ptr [rbp + 0x48]
+  0x01807dfb76  mov      r9d, eax
+  0x01807dfb79  mov      r8, r14
+  0x01807dfb7c  mov      rdx, r15
+  0x01807dfb7f  mov      qword ptr [rsp + 0x20], rbx
+  0x01807dfb84  mov      rcx, rbp
+  0x01807dfb87  call     0x1807df5f0      ; -> MaterialTinter::CreateInterpolatorSets
+  0x01807dfb8c  cmp      dword ptr [rbp + 0x90], esi
+  0x01807dfb92  jl       0x1807dfc54
+  0x01807dfb98  mov      r8, qword ptr [rip + 0x4b01a49]
+  0x01807dfb9f  lea      rdx, [rbp + 0x70]
+  0x01807dfba3  lea      rcx, [rsp + 0x30]
+  0x01807dfba8  call     0x1807db5f0      ; -> sub_7DB5F0
+  0x01807dfbad  mov      r9d, dword ptr [rsp + 0x38]
+  0x01807dfbb2  mov      eax, ebx
+  0x01807dfbb4  test     r9d, r9d
+  0x01807dfbb7  jle      0x1807dfbe4
+  0x01807dfbb9  mov      rdx, qword ptr [rsp + 0x30]
+  0x01807dfbbe  nop      
+  0x01807dfbc0  cmp      ebx, r9d
+  0x01807dfbc3  jae      0x1807dfc73
+  0x01807dfbc9  mov      r8, qword ptr [rdx]
+  0x01807dfbcc  test     r8, r8
+  0x01807dfbcf  je       0x1807dfc6d
+  0x01807dfbd5  inc      eax
+  0x01807dfbd7  mov      byte ptr [r8 + 0x10], bl
+  0x01807dfbdb  add      rdx, 8
+  0x01807dfbdf  cmp      eax, r9d
+  0x01807dfbe2  jl       0x1807dfbc3
+  0x01807dfbe4  cmp      byte ptr [rip + 0x4e1c8c7], bl
+  0x01807dfbea  jne      0x1807dfc0b
+  0x01807dfbec  lea      rcx, [rip + 0x4b019f5]
+  0x01807dfbf3  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807dfbf8  lea      rcx, [rip + 0x4b04bd1]
+  0x01807dfbff  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807dfc04  mov      byte ptr [rip + 0x4e1c8a6], 1
+  0x01807dfc0b  mov      r8, qword ptr [rip + 0x4b019d6]
+  0x01807dfc12  lea      rdx, [rbp + 0x70]
+  0x01807dfc16  lea      rcx, [rsp + 0x30]
+  0x01807dfc1b  call     0x1807db5f0      ; -> sub_7DB5F0
+  0x01807dfc20  mov      esi, dword ptr [rsp + 0x38]
+  0x01807dfc24  test     esi, esi
+  0x01807dfc26  jle      0x1807dfc4d
+  0x01807dfc28  mov      rdi, qword ptr [rsp + 0x30]
+  0x01807dfc2d  nop      dword ptr [rax]
+  0x01807dfc30  cmp      ebx, esi
+  0x01807dfc32  jae      0x1807dfc73
+  0x01807dfc34  mov      rcx, qword ptr [rdi]
+  0x01807dfc37  test     rcx, rcx
+  0x01807dfc3a  je       0x1807dfc6d
+  0x01807dfc3c  xor      edx, edx
+  0x01807dfc3e  call     0x1843addc0      ; -> InterpolatorSet::Restart
+  0x01807dfc43  inc      ebx
+  0x01807dfc45  add      rdi, 8
+  0x01807dfc49  cmp      ebx, esi
+  0x01807dfc4b  jl       0x1807dfc32
+  0x01807dfc4d  mov      byte ptr [rbp + 0xa0], 0
+  0x01807dfc54  mov      rsi, qword ptr [rsp + 0x68]
+  0x01807dfc59  mov      rbx, qword ptr [rsp + 0x60]
+  0x01807dfc5e  mov      rbp, qword ptr [rsp + 0x70]
+  0x01807dfc63  add      rsp, 0x40
+  0x01807dfc67  pop      r15
+  0x01807dfc69  pop      r14
+  0x01807dfc6b  pop      rdi
+  0x01807dfc6c  ret      
+
+==============================================================================
+=== MaterialTinter::CreateInterpolatorSets   RVA 0x7df5f0
+==============================================================================
+  0x01807df5f0  mov      qword ptr [rsp + 0x20], r9
+  0x01807df5f5  push     rbx
+  0x01807df5f6  push     r12
+  0x01807df5f8  push     r13
+  0x01807df5fa  push     r15
+  0x01807df5fc  sub      rsp, 0x48
+  0x01807df600  cmp      byte ptr [rip + 0x4e1ceab], 0
+  0x01807df607  mov      rbx, r9
+  0x01807df60a  mov      r15, r8
+  0x01807df60d  mov      r12, rdx
+  0x01807df610  mov      r13, rcx
+  0x01807df613  jne      0x1807df658
+  0x01807df615  lea      rcx, [rip + 0x4bc4eb4]
+  0x01807df61c  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df621  lea      rcx, [rip + 0x4b71ff0]
+  0x01807df628  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df62d  lea      rcx, [rip + 0x4ba26c4]
+  0x01807df634  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df639  lea      rcx, [rip + 0x4ba2838]
+  0x01807df640  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df645  lea      rcx, [rip + 0x4b01b34]
+  0x01807df64c  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df651  mov      byte ptr [rip + 0x4e1ce5a], 1
+  0x01807df658  xor      edx, edx
+  0x01807df65a  mov      rcx, r13
+  0x01807df65d  call     0x1807dfdc0      ; -> MaterialTinter::StopInterpolatorSets
+  0x01807df662  test     r12, r12
+  0x01807df665  je       0x1807df7e3
+  0x01807df66b  mov      qword ptr [rsp + 0x78], rsi
+  0x01807df670  mov      qword ptr [rsp + 0x70], rbp
+  0x01807df675  mov      qword ptr [rsp + 0x80], rdi
+  0x01807df67d  mov      qword ptr [rsp + 0x40], r14
+  0x01807df682  mov      rsi, qword ptr [r13 + 0x68]
+  0x01807df686  test     rsi, rsi
+  0x01807df689  je       0x1807df7fd
+  0x01807df68f  test     r15, r15
+  0x01807df692  je       0x1807df7fd
+  0x01807df698  mov      eax, dword ptr [r15 + 0x18]
+  0x01807df69c  cmp      dword ptr [rsi + 0x18], eax
+  0x01807df69f  jge      0x1807df6b7
+  0x01807df6a1  mov      r8, qword ptr [rip + 0x4bc4e28]
+  0x01807df6a8  lea      rcx, [r13 + 0x68]
+  0x01807df6ac  mov      edx, eax
+  0x01807df6ae  call     0x1820cf810      ; -> sub_20CF810
+  0x01807df6b3  mov      rsi, qword ptr [r13 + 0x68]
+  0x01807df6b7  xor      ebp, ebp
+  0x01807df6b9  xor      edi, edi
+  0x01807df6bb  xor      eax, eax
+  0x01807df6bd  test     rsi, rsi
+  0x01807df6c0  je       0x1807df7fd
+  0x01807df6c6  cmp      eax, dword ptr [rsi + 0x18]
+  0x01807df6c9  jge      0x1807df799
+  0x01807df6cf  cmp      edi, 0x1f
+  0x01807df6d2  jle      0x1807df6db
+  0x01807df6d4  mov      edx, 1
+  0x01807df6d9  jmp      0x1807df6f3
+  0x01807df6db  mov      ecx, edi
+  0x01807df6dd  mov      edx, 1
+  0x01807df6e2  and      ecx, 0x3f
+  0x01807df6e5  shl      rdx, cl
+  0x01807df6e8  test     rbx, rdx
+  0x01807df6eb  mov      edx, 0
+  0x01807df6f0  seta     dl
+  0x01807df6f3  cmp      ebp, dword ptr [rsi + 0x18]
+  0x01807df6f6  jae      0x1807df7f7
+  0x01807df6fc  movsxd   rax, ebp
+  0x01807df6ff  mov      rcx, qword ptr [rsi + rax*8 + 0x20]
+  0x01807df704  lea      r14, [rsi + rax*8]
+  0x01807df708  xor      eax, eax
+  0x01807df70a  cmp      edi, dword ptr [r15 + 0x18]
+  0x01807df70e  cmovl    eax, edx
+  0x01807df711  test     eax, eax
+  0x01807df713  jne      0x1807df727
+  0x01807df715  test     rcx, rcx
+  0x01807df718  je       0x1807df790
+  0x01807df71a  xor      edx, edx
+  0x01807df71c  call     0x1843adce0      ; -> InterpolatorSet::Reset
+  0x01807df721  inc      edi
+  0x01807df723  mov      eax, edi
+  0x01807df725  jmp      0x1807df6c6
+  0x01807df727  test     rcx, rcx
+  0x01807df72a  jne      0x1807df749
+  0x01807df72c  mov      rcx, qword ptr [rip + 0x4b71ee5]
+  0x01807df733  call     0x1804b3780      ; -> sub_4B3780
+  0x01807df738  xor      edx, edx
+  0x01807df73a  mov      rcx, rax
+  0x01807df73d  mov      rbx, rax
+  0x01807df740  call     0x1843ae0f0      ; -> InterpolatorSet::.ctor
+  0x01807df745  mov      qword ptr [r14 + 0x20], rbx
+  0x01807df749  mov      r8, qword ptr [rip + 0x4ba2728]
+  0x01807df750  mov      edx, edi
+  0x01807df752  mov      rbx, qword ptr [r14 + 0x20]
+  0x01807df756  mov      rcx, r15
+  0x01807df759  call     0x18231c940      ; -> sub_231C940
+  0x01807df75e  test     rbx, rbx
+  0x01807df761  je       0x1807df7fd
+  0x01807df767  mov      qword ptr [rsp + 0x28], 0
+  0x01807df770  xor      r9d, r9d
+  0x01807df773  mov      r8, r12
+  0x01807df776  mov      byte ptr [rsp + 0x20], 0
+  0x01807df77b  mov      rdx, rax
+  0x01807df77e  mov      rcx, rbx
+  0x01807df781  call     0x1843ada70      ; -> InterpolatorSet::Init
+  0x01807df786  mov      rbx, qword ptr [rsp + 0x88]
+  0x01807df78e  inc      ebp
+  0x01807df790  inc      edi
+  0x01807df792  mov      eax, edi
+  0x01807df794  jmp      0x1807df6c6
+  0x01807df799  cmp      ebp, dword ptr [rsi + 0x18]
+  0x01807df79c  jbe      0x1807df7a5
+  0x01807df79e  xor      ecx, ecx
+  0x01807df7a0  call     0x1833cff80      ; -> SequencePosition::ThrowArgumentOutOfRangeException
+  0x01807df7a5  mov      rdi, qword ptr [rsp + 0x80]
+  0x01807df7ad  mov      r14, qword ptr [rsp + 0x40]
+  0x01807df7b2  mov      qword ptr [rsp + 0x30], rsi
+  0x01807df7b7  mov      rsi, qword ptr [rsp + 0x78]
+  0x01807df7bc  mov      dword ptr [rsp + 0x3c], ebp
+  0x01807df7c0  mov      rbp, qword ptr [rsp + 0x70]
+  0x01807df7c5  mov      dword ptr [rsp + 0x38], 0
+  0x01807df7cd  movups   xmm0, xmmword ptr [rsp + 0x30]
+  0x01807df7d2  movups   xmmword ptr [r13 + 0x70], xmm0
+  0x01807df7d7  add      rsp, 0x48
+  0x01807df7db  pop      r15
+  0x01807df7dd  pop      r13
+  0x01807df7df  pop      r12
+  0x01807df7e1  pop      rbx
+  0x01807df7e2  ret      
+
+==============================================================================
+=== MaterialTinter::CheckInterpolatorSetsCacheValid   RVA 0x7df470
+==============================================================================
+  0x01807df470  push     rbx
+  0x01807df472  push     r15
+  0x01807df474  sub      rsp, 0x38
+  0x01807df478  cmp      byte ptr [rip + 0x4e1d030], 0
+  0x01807df47f  mov      r15, rdx
+  0x01807df482  mov      rbx, rcx
+  0x01807df485  jne      0x1807df4d6
+  0x01807df487  lea      rcx, [rip + 0x4ba286a]
+  0x01807df48e  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df493  lea      rcx, [rip + 0x4ba29de]
+  0x01807df49a  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df49f  lea      rcx, [rip + 0x4bc2182]
+  0x01807df4a6  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df4ab  lea      rcx, [rip + 0x4b01fbe]
+  0x01807df4b2  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df4b7  lea      rcx, [rip + 0x4b0212a]
+  0x01807df4be  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df4c3  lea      rcx, [rip + 0x4b05306]
+  0x01807df4ca  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df4cf  mov      byte ptr [rip + 0x4e1cfd9], 1
+  0x01807df4d6  mov      rdx, qword ptr [rip + 0x4b01f93]
+  0x01807df4dd  lea      rcx, [rbx + 0x70]
+  0x01807df4e1  mov      qword ptr [rsp + 0x50], rbp
+  0x01807df4e6  mov      qword ptr [rsp + 0x58], rsi
+  0x01807df4eb  mov      qword ptr [rsp + 0x60], rdi
+  0x01807df4f0  mov      qword ptr [rsp + 0x30], r14
+  0x01807df4f5  call     0x182575c90      ; -> sub_2575C90
+  0x01807df4fa  test     r15, r15
+  0x01807df4fd  je       0x1807df5b2
+  0x01807df503  cmp      eax, dword ptr [r15 + 0x18]
+  0x01807df507  jne      0x1807df5ae
+  0x01807df50d  mov      r8, qword ptr [rip + 0x4b020d4]
+  0x01807df514  lea      rdx, [rbx + 0x70]
+  0x01807df518  lea      rcx, [rsp + 0x20]
+  0x01807df51d  call     0x1807db5f0      ; -> sub_7DB5F0
+  0x01807df522  mov      esi, dword ptr [rsp + 0x28]
+  0x01807df526  xor      ebx, ebx
+  0x01807df528  test     esi, esi
+  0x01807df52a  jle      0x1807df590
+  0x01807df52c  mov      rdi, qword ptr [rsp + 0x20]
+  0x01807df531  cmp      ebx, esi
+  0x01807df533  jae      0x1807df5b8
+  0x01807df539  mov      rcx, qword ptr [rdi]
+  0x01807df53c  test     rcx, rcx
+  0x01807df53f  je       0x1807df5b2
+  0x01807df541  xor      edx, edx
+  0x01807df543  call     0x18056b970      ; -> ButtonWithImagesChildren::System.Collections.Generic.IEnumerator<System.Object>.get_Current
+  0x01807df548  mov      r8, qword ptr [rip + 0x4ba2929]
+  0x01807df54f  mov      edx, ebx
+  0x01807df551  mov      rcx, r15
+  0x01807df554  mov      rbp, rax
+  0x01807df557  call     0x18231c940      ; -> sub_231C940
+  0x01807df55c  mov      rcx, qword ptr [rip + 0x4bc20c5]
+  0x01807df563  mov      r14, rax
+  0x01807df566  cmp      dword ptr [rcx + 0xe0], 0
+  0x01807df56d  jne      0x1807df574
+  0x01807df56f  call     0x18046fe50      ; -> sub_46FE50
+  0x01807df574  xor      r8d, r8d
+  0x01807df577  mov      rdx, r14
+  0x01807df57a  mov      rcx, rbp
+  0x01807df57d  call     0x1840db7b0      ; -> Object::op_Inequality
+  0x01807df582  test     al, al
+  0x01807df584  jne      0x1807df5ae
+  0x01807df586  inc      ebx
+  0x01807df588  add      rdi, 8
+  0x01807df58c  cmp      ebx, esi
+  0x01807df58e  jl       0x1807df533
+  0x01807df590  mov      al, 1
+  0x01807df592  mov      r14, qword ptr [rsp + 0x30]
+  0x01807df597  mov      rdi, qword ptr [rsp + 0x60]
+  0x01807df59c  mov      rsi, qword ptr [rsp + 0x58]
+  0x01807df5a1  mov      rbp, qword ptr [rsp + 0x50]
+  0x01807df5a6  add      rsp, 0x38
+  0x01807df5aa  pop      r15
+  0x01807df5ac  pop      rbx
+  0x01807df5ad  ret      
+
+==============================================================================
+=== MaterialTinter::Restart   RVA 0x7dfdb0
+==============================================================================
+  0x01807dfdb0  mov      rdx, qword ptr [rcx + 0x60]
+  0x01807dfdb4  xor      r9d, r9d
+  0x01807dfdb7  xor      r8d, r8d
+  0x01807dfdba  jmp      0x1807df9c0
+  0x01807dfdbf  int3     
+
+==============================================================================
+=== MaterialTinter::RestartInterpolatorSets   RVA 0x7dfd00
+==============================================================================
+  0x01807dfd00  mov      qword ptr [rsp + 0x10], rbx
+  0x01807dfd05  mov      qword ptr [rsp + 0x18], rbp
+  0x01807dfd0a  push     rsi
+  0x01807dfd0b  sub      rsp, 0x30
+  0x01807dfd0f  cmp      byte ptr [rip + 0x4e1c79b], 0
+  0x01807dfd16  mov      rbp, rcx
+  0x01807dfd19  jne      0x1807dfd3a
+  0x01807dfd1b  lea      rcx, [rip + 0x4b018c6]
+  0x01807dfd22  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807dfd27  lea      rcx, [rip + 0x4b04aa2]
+  0x01807dfd2e  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807dfd33  mov      byte ptr [rip + 0x4e1c777], 1
+  0x01807dfd3a  mov      r8, qword ptr [rip + 0x4b018a7]
+  0x01807dfd41  lea      rdx, [rbp + 0x70]
+  0x01807dfd45  lea      rcx, [rsp + 0x20]
+  0x01807dfd4a  mov      qword ptr [rsp + 0x40], rdi
+  0x01807dfd4f  call     0x1807db5f0      ; -> sub_7DB5F0
+  0x01807dfd54  mov      esi, dword ptr [rsp + 0x28]
+  0x01807dfd58  xor      ebx, ebx
+  0x01807dfd5a  test     esi, esi
+  0x01807dfd5c  jle      0x1807dfd80
+  0x01807dfd5e  mov      rdi, qword ptr [rsp + 0x20]
+  0x01807dfd63  cmp      ebx, esi
+  0x01807dfd65  jae      0x1807dfd9c
+  0x01807dfd67  mov      rcx, qword ptr [rdi]
+  0x01807dfd6a  test     rcx, rcx
+  0x01807dfd6d  je       0x1807dfda2
+  0x01807dfd6f  xor      edx, edx
+  0x01807dfd71  call     0x1843addc0      ; -> InterpolatorSet::Restart
+  0x01807dfd76  inc      ebx
+  0x01807dfd78  add      rdi, 8
+  0x01807dfd7c  cmp      ebx, esi
+  0x01807dfd7e  jl       0x1807dfd65
+  0x01807dfd80  mov      rdi, qword ptr [rsp + 0x40]
+  0x01807dfd85  mov      rbx, qword ptr [rsp + 0x48]
+  0x01807dfd8a  mov      byte ptr [rbp + 0xa0], 0
+  0x01807dfd91  mov      rbp, qword ptr [rsp + 0x50]
+  0x01807dfd96  add      rsp, 0x30
+  0x01807dfd9a  pop      rsi
+  0x01807dfd9b  ret      
+
+==============================================================================
+=== MaterialTinterProxy::Restart   RVA 0x7df020
+==============================================================================
+  0x01807df020  mov      qword ptr [rsp + 8], rbx
+  0x01807df025  mov      qword ptr [rsp + 0x10], rsi
+  0x01807df02a  push     rdi
+  0x01807df02b  sub      rsp, 0x20
+  0x01807df02f  cmp      byte ptr [rip + 0x4e1d486], 0
+  0x01807df036  mov      rdi, rdx
+  0x01807df039  mov      rbx, rcx
+  0x01807df03c  jne      0x1807df051
+  0x01807df03e  lea      rcx, [rip + 0x4bc25e3]
+  0x01807df045  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x01807df04a  mov      byte ptr [rip + 0x4e1d46b], 1
+  0x01807df051  xor      edx, edx
+  0x01807df053  mov      rcx, rbx
+  0x01807df056  call     0x1807e8da0      ; -> VFXEffectBase::get_m_prevPoint
+  0x01807df05b  mov      rcx, qword ptr [rip + 0x4bc25c6]
+  0x01807df062  mov      rsi, rax
+  0x01807df065  cmp      dword ptr [rcx + 0xe0], 0
+  0x01807df06c  jne      0x1807df073
+  0x01807df06e  call     0x18046fe50      ; -> sub_46FE50
+  0x01807df073  xor      r8d, r8d
+  0x01807df076  mov      rdx, rdi
+  0x01807df079  mov      rcx, rsi
+  0x01807df07c  call     0x1840db7b0      ; -> Object::op_Inequality
+  0x01807df081  test     al, al
+  0x01807df083  je       0x1807df0fe
+  0x01807df085  xor      r8d, r8d
+  0x01807df088  mov      rdx, rdi
+  0x01807df08b  mov      rcx, rbx
+  0x01807df08e  call     0x1807e8e40      ; -> VFXEffectBase::set_m_prevPoint
+  0x01807df093  xor      edx, edx
+  0x01807df095  mov      rcx, rbx
+  0x01807df098  call     0x1807e8da0      ; -> VFXEffectBase::get_m_prevPoint
+  0x01807df09d  mov      rcx, qword ptr [rip + 0x4bc2584]
+  0x01807df0a4  mov      rdi, rax
+  0x01807df0a7  cmp      dword ptr [rcx + 0xe0], 0
+  0x01807df0ae  jne      0x1807df0b5
+  0x01807df0b0  call     0x18046fe50      ; -> sub_46FE50
+  0x01807df0b5  xor      edx, edx
+  0x01807df0b7  mov      rcx, rdi
+  0x01807df0ba  call     0x1840db710      ; -> Object::op_Implicit
+  0x01807df0bf  test     al, al
+  0x01807df0c1  je       0x1807df0f3
+  0x01807df0c3  xor      edx, edx
+  0x01807df0c5  mov      rcx, rbx
+  0x01807df0c8  call     0x1807e8da0      ; -> VFXEffectBase::get_m_prevPoint
+  0x01807df0cd  test     rax, rax
+  0x01807df0d0  je       0x1807df16b
+  0x01807df0d6  mov      r8, qword ptr [rax]
+  0x01807df0d9  mov      rcx, rax
+  0x01807df0dc  mov      rdx, qword ptr [rbx + 0x40]
+  0x01807df0e0  mov      r9, qword ptr [r8 + 0x198]
+  0x01807df0e7  mov      r8, qword ptr [r8 + 0x1a0]
+  0x01807df0ee  call     r9
+  0x01807df0f1  jmp      0x1807df0f5
+  0x01807df0f3  xor      eax, eax
+  0x01807df0f5  test     rbx, rbx
+  0x01807df0f8  je       0x1807df16b
+  0x01807df0fa  mov      qword ptr [rbx + 0x58], rax
+  0x01807df0fe  mov      rcx, qword ptr [rip + 0x4bc2523]
+  0x01807df105  mov      rdi, qword ptr [rbx + 0x58]
+  0x01807df109  cmp      dword ptr [rcx + 0xe0], 0
+  0x01807df110  jne      0x1807df117
+  0x01807df112  call     0x18046fe50      ; -> sub_46FE50
+  0x01807df117  xor      edx, edx
+  0x01807df119  mov      rcx, rdi
+  0x01807df11c  call     0x1840db710      ; -> Object::op_Implicit
+  0x01807df121  test     al, al
+  0x01807df123  je       0x1807df15b
+  0x01807df125  mov      rcx, qword ptr [rbx + 0x58]
+  0x01807df129  test     rcx, rcx
+  0x01807df12c  je       0x1807df16b
+  0x01807df12e  mov      rax, qword ptr [rbx + 0x40]
+  0x01807df132  mov      qword ptr [rcx + 0x40], rax
+  0x01807df136  mov      rcx, qword ptr [rbx + 0x58]
+  0x01807df13a  test     rcx, rcx
+  0x01807df13d  je       0x1807df16b
+  0x01807df13f  mov      rdx, qword ptr [rbx + 0x50]
+  0x01807df143  xor      r9d, r9d
+  0x01807df146  mov      r8, rbx
+  0x01807df149  call     0x1807df9c0      ; -> MaterialTinter::Play
+  0x01807df14e  mov      rax, qword ptr [rbx + 0x58]
+  0x01807df152  test     rax, rax
+  0x01807df155  je       0x1807df16b
+  0x01807df157  mov      qword ptr [rax + 0x38], rbx
+  0x01807df15b  mov      rbx, qword ptr [rsp + 0x30]
+  0x01807df160  mov      rsi, qword ptr [rsp + 0x38]
+  0x01807df165  add      rsp, 0x20
+  0x01807df169  pop      rdi
+  0x01807df16a  ret      
+
+==============================================================================
+=== InterpolatorSet::.ctor   RVA 0x43ae070
+==============================================================================
+  0x01843ae070  mov      qword ptr [rsp + 8], rbx
+  0x01843ae075  mov      qword ptr [rsp + 0x10], rsi
+  0x01843ae07a  mov      qword ptr [rsp + 0x18], rdi
+  0x01843ae07f  push     r14
+  0x01843ae081  sub      rsp, 0x20
+  0x01843ae085  mov      rbx, rdx
+  0x01843ae088  mov      rsi, r9
+  0x01843ae08b  xor      edx, edx
+  0x01843ae08d  mov      rdi, r8
+  0x01843ae090  mov      r14, rcx
+  0x01843ae093  call     0x1843ae0f0      ; -> InterpolatorSet::.ctor
+  0x01843ae098  mov      rax, qword ptr [r14]
+  0x01843ae09b  mov      rcx, r14
+  0x01843ae09e  mov      rdx, qword ptr [rax + 0x190]
+  0x01843ae0a5  call     qword ptr [rax + 0x188]
+  0x01843ae0ab  xor      r8d, r8d
+  0x01843ae0ae  mov      rdx, rbx
+  0x01843ae0b1  mov      rcx, r14
+  0x01843ae0b4  call     0x1843967f0      ; -> InterpolatorRunnerBase::InitBase
+  0x01843ae0b9  cmp      byte ptr [rsp + 0x50], 0
+  0x01843ae0be  mov      qword ptr [r14 + 0x40], rdi
+  0x01843ae0c2  mov      qword ptr [r14 + 0x38], rsi
+  0x01843ae0c6  je       0x1843ae0d2
+  0x01843ae0c8  xor      edx, edx
+  0x01843ae0ca  mov      rcx, r14
+  0x01843ae0cd  call     0x1843ad660      ; -> InterpolatorSet::DoRestart
+  0x01843ae0d2  mov      rbx, qword ptr [rsp + 0x30]
+  0x01843ae0d7  mov      rsi, qword ptr [rsp + 0x38]
+  0x01843ae0dc  mov      rdi, qword ptr [rsp + 0x40]
+  0x01843ae0e1  add      rsp, 0x20
+  0x01843ae0e5  pop      r14
+  0x01843ae0e7  ret      

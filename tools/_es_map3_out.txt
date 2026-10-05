@@ -1,0 +1,50 @@
+
+################ es.ab  (1042540 bytes) ################
+  action markers (es): 175
+  action list: drop_down_show, drop_down, push_back_3, push_back_4, push_down_3, push_down_4, knockdown, knockdown_loop, knockdown_stand, addHP, addHPAir, stand0, stand, squat, squat_loop, squat_to_stand, standUp, runb, run, runBrake, dashAir3, dashAir2, dashAir, dashAir0, dash3, dash2, dash, dashendAirAHD, dashendAir, dashend, dashAirAtkold, dashAirAtkEXold, dashAirAtkGEX, dashAirAtkEX, dashAirAtkG, dashAirAtk, dashAirAtk0, dashAtkEXold, dashAtkGEX, dashAtkEX, dashAtkG, dashAtk, dashAtk0, dashAirAtkloop, dashAAhitold, dashAAhit, dashAAendEX, dashAAend, dashAAendX, reactive, jump_down, jump0, jump, jump2, jump3, fallend2, fallend, fall, fallup, fallupdd, fallupd, fallup2, fallup22, fallup2dd, fallup2d, fallup3, fallm, fallmdownEX0, fallmdown, fallmdownend, fallmEX0Air, fallmEX0, fallmEX, fallmdownEX, fallmdownendEXx, fallmdownendEX, fallmdownendEX2, fallmdownendold, drop2f, drop3, drop22, drop2, dropend2D, dropendD, dropend, dropend2, dropend3, dropend4, dropend_show, quickStand, drop_start, drop, drop(clone), quickStandEnd, downGround, attackAir2EX, attackAir2, attackAirEX, attackAir, atkAirX, atkAir12, atkAir3, atkAir3old, atkAir2, atkAir1, attackC_Air, attackC, attackB_Air, attackA_Air, attackA_AirEX, attackA, attackAEX, attackhold23, attackholdend, attackhold22_loop, attackhold21, attackhold, attackhold1old, attackholdDashEXQ, attackholdDashEX, attackholdDash, attackhold_hit, attackhold_hit2, attackhold_hit2Air, atkhold_2A_drop, atkhold_2A_end, UltraDAend, UltraDashAirEX, UltraDashAir, UltraDashEX, UltraDash, UDdrop, attackD3, attackD2, attackD1, attack1, attack2, attack3, attack4, AttackUp2, AttackUp, AttackUp2x, behit_up, behit_middle, push_back, push_back_2, holdEX, hold, hold1, dead, rush, rushUp, pvp_born, born, reborn, push_down, push_down_2, standUp2, transmit, teacherskill, teacherskillAir, super_burst, super_burstAir, pvp_burst, pvp_burstAir, burst, burstD, StagePass, born_start, born_start_2, summonEX, summon, paid_show, winpose, dead_backup
+  CreateBullet* function-name strings present: ['CreateBullet', 'CreateBulletIfTriggerChange', 'CreateBulletU', 'CreateBulletX', 'CreateBullet_', 'CreateBullet_summon', 'CreateBulletm']
+
+=== CreateBullet* calls (function -> params -> enclosing action) ===
+  @133960   CreateBulletIfTriggerChange action='dashAAhitold'       trigger:56271,bullet_id:10340101,bullet_action:"DAA",pos_x:1.2,pos_y:1.5,dir_x:1,dir_y:0,bullet_action_new:"DAA2"
+  @173344   CreateBulletIfTriggerChange action='fall'               trigger:56271,bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"
+  @321648   CreateBulletIfTriggerChange action='atkAirX'            trigger:56271,bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"
+  @492208   CreateBulletIfTriggerChange action='attackD2'           trigger:56271,bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"
+  @504992   CreateBulletIfTriggerChange action='attack3'            trigger:56271,bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"
+  @528444   CreateBulletIfTriggerChange action='AttackUp'           trigger:56271,bullet_id:10340101,bullet_action:"aup",pos_x:1,pos_y:1.6,dir_x:1,dir_y:0,bullet_action_new:"aup2"
+  @534464   CreateBulletIfTriggerChange action='holdEX'             trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"
+  @535940   CreateBulletIfTriggerChange action='hold'               trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"
+  @540832   CreateBulletIfTriggerChange action='rush'               trigger:56271,bullet_id:10340101,bullet_action:"x3",pos_x:0.5,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x32"
+  @551656   CreateBulletIfTriggerChange action='rushUp'             trigger:56271,bullet_id:10340101,bullet_action:"xup",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"xup2",tag:"es_rush"
+  @39628    CreateBulletX              action='dashAir3'           trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @47532    CreateBulletX              action='dashAir2'           trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @55436    CreateBulletX              action='dashAir'            trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @60196    CreateBulletX              action='dash3'              trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @63384    CreateBulletX              action='dash2'              trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @66168    CreateBulletX              action='dash'               trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @84176    CreateBulletX              action='dashAirAtkold'      trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0
+  @251272   CreateBulletU              action='fallmdownendold'    trigger:11481,bullet_id:800002,bullet_action:"leibao",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @448228   CreateBulletm              action='attackhold_hit2'    bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1
+  @453296   CreateBulletm              action='attackhold_hit2Air' bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1
+  @241536   CreateBullet               action='fallmdownendEXx'    trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @245200   CreateBullet               action='fallmdownendEX'     trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @248900   CreateBullet               action='fallmdownendEX2'    trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0
+  @423168   CreateBullet               action='attackholdDashEXQ'  trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @431584   CreateBullet               action='attackholdDashEX'   trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+  @440136   CreateBullet               action='attackholdDash'     trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0
+
+=== other CreateBulletIfTriggerChange-style calls without bullet_id ===
+  @573580   CreateBullet_summon        action='summonEX'           "'"
+  @574324   CreateBullet_summon        action='summon'             "'"
+  @573580   CreateBullet_              action='summonEX'           'summon'
+  @574324   CreateBullet_              action='summon'             'summon'
+
+################ esbullet.ab  (168240 bytes) ################
+  action markers (esbullet): 76
+  action list: jump, q, fallmdownend, attackAir2old, attackAir2, attackAir, talentBullet, dashAir3, dashAir2, dashAir, dashSkill2, dash2, dashSkill, dash, DAA2, DAA, dashBEX, dashB, dashA, dashA0, dashAtk, AD_hit, C12EX, C1EX, C12, C1, B12EX, B1EX, B12, B1, A12EX, A1EX, A12, A1, UDA0, UDAA, UDA, UD, UDAEX, UDEX, aup2, aup, aH3EX, aH3, aH2EX, aH2, aHEX, aH, aD32, aD3, aD22, aD2, aD12, aD1, a0, a, a02, a20, a2, a22, a3, a32, a4, a42, aa, aa3, x32old, x32, x3old, x3, xup, xup2, ax2, ax1, x1, x2
+  CreateBullet* function-name strings present: ['CreateBullet', 'CreateBullet_']
+
+=== CreateBullet* calls (function -> params -> enclosing action) ===
+  @28208    CreateBullet_              action='DAA'                bullet_id:10340101,bullet_action: "DAA2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+  @68996    CreateBullet_              action='aup'                bullet_id:10340101,bullet_action: "aup2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271
+
+=== other CreateBulletIfTriggerChange-style calls without bullet_id ===

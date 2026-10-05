@@ -1,0 +1,63 @@
+fall                 下落 4.1
+fallend              落地 4.7
+fallend2             落地2 4.8
+fallm                弹完下坠 4.9
+fallmEX0             fallmEX0
+fallmEX0Air          fallmEX0Air
+fallmdown            下砸 4.10
+fallmdownEX0         fallmdownEX0
+fallmdownend         砸地 4.11
+fallmdownendEX       砸地EX 4.15
+fallmdownendEX2      砸地EX2 4.16
+fallup               弹起1 (无槽)
+fallup2              弹起2 (无槽)
+fallup22             踩踏2-2 4.4
+fallup2d             踩踏2-d 4.6
+fallup3              弹起3 (无槽)
+fallupd              踩踏1-d 4.3
+AttackUp             AttackUp
+AttackUp2            空中上攻击 4.13
+UltraDAend           UltraDAend
+UltraDashAirEX       UltraDashAirEX
+UltraDashEX          UltraDashEX
+ace17_1001           ace17_1001
+ace18_1002           ace18_1002
+ace1_900             ace1_900
+atkAir12             空中攻击12 4.12
+atkAir3              空中攻击3 4.14
+attackA_AirEX        attackA_AirEX
+attackAir2EX         空中攻击
+attackAirEX          空中攻击
+attackB_Air          attackB_Air
+attackC_Air          attackC_Air
+attackholdDashEX     attackholdDashEX
+dash                 dash
+dashAAendEX          dashAAendEX
+dashAir              空中冲刺
+dashAir2             空中冲刺
+dashAir3             空中冲刺
+dashAirAtk           空中冲刺
+dashAirAtk0          空中冲刺
+dashAirAtkG          空中冲刺
+drop                 drop
+drop2                drop2
+drop22               drop22
+drop3                drop3
+drop_down            drop_down
+dropend              dropend
+dropend2             dropend2
+dropend3             dropend3
+dropend4             dropend4
+holdEX               holdEX
+jump                 jump
+jump2                jump2
+jump3                jump3
+run                  run
+runBrake             runBrake
+rush                 rush
+rushUp               rushUp
+squat                squat
+squat_loop           squat_loop
+squat_to_stand       squat_to_stand
+stand                stand
+summon               summon

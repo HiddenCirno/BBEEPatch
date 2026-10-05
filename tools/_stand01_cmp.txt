@@ -1,0 +1,158 @@
+=== 原色 effect/prefab/role/es/es_stand_01.ab ===
+  对象数 17；对象类型统计:
+     Mono             13
+     Renderer         4
+
+--- 对比 esskin_06 ---
+  只在 原色 里有 3 个对象:
+    - Mono/es_stand_01/VFXEffectLOD
+    - Mono/lod0/VFXEffectHub
+    - Mono/lod1/VFXEffectHub
+  同名对象 14 个：相同 3，**不同 11**
+    * Mono/Other01/MaterialTinterProxy
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 397744820196477402}  ==>  {'m_FileID': 0, 'm_PathID': -1499592838958108358}
+        references     {'version': 2, 'RefIds': [{'rid': 0, 'type': {'class': 'MaterialTextureInterpolator', 'ns': 'NOAH.VFXInterpolator', 'asm': 'VFX.Interpolator'}, 'data': {'priority': 0, 'loops': 0, 'loopType': 0, 'duration': 0.20000000298…  ==>  {'version': 2, 'RefIds': [{'rid': 0, 'type': {'class': 'MaterialTextureInterpolator', 'ns': 'NOAH.VFXInterpolator', 'asm': 'VFX.Interpolator'}, 'data': {'priority': 0, 'loops': 0, 'loopType': 0, 'duration': 0.20000000298…
+    * Mono/audio/EffectAudio
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -8063125384600352294}  ==>  {'m_FileID': 0, 'm_PathID': 537520965201015098}
+    * Mono/es_stand_01/VFXEffectExtension
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': -6383673922055458502}
+    * Mono/es_stand_01/VFXEffectHub
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': -6383673922055458502}
+        m_effectAudio  {'m_FileID': 0, 'm_PathID': -9118093354814666278}  ==>  {'m_FileID': 0, 'm_PathID': 621446195901542714}
+        m_lod          0  ==>  1
+        m_lodEffect    1  ==>  0
+        m_particleRenderers []  ==>  [{'m_FileID': 0, 'm_PathID': -2751705974537998022}, {'m_FileID': 0, 'm_PathID': 7554441186370564410}, {'m_FileID': 0, 'm_PathID': 6771834223924588858}, {'m_FileID': 0, 'm_PathID': -2319260133485596358}]
+        m_particles    []  ==>  [{'m_FileID': 0, 'm_PathID': -3725559673058643654}, {'m_FileID': 0, 'm_PathID': -9091878028987420358}, {'m_FileID': 0, 'm_PathID': -5367937023929962182}, {'m_FileID': 0, 'm_PathID': 3864232910219620666}]
+        m_subEffectHubs [{'m_FileID': 0, 'm_PathID': -1732605404027549222}, {'m_FileID': 0, 'm_PathID': -3109953867264882214}]  ==>  []
+        m_vfxEffects   []  ==>  [{'m_FileID': 0, 'm_PathID': 5969848543305969978}, {'m_FileID': 0, 'm_PathID': -5958418072314203846}, {'m_FileID': 0, 'm_PathID': 7121015496966189370}, {'m_FileID': 0, 'm_PathID': 7780463705610367290}]
+    * Mono/guangzhu01/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 3097854406560188890}  ==>  {'m_FileID': 0, 'm_PathID': -4812629633974750918}
+    * Mono/guangzhu01/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 3097854406560188890}  ==>  {'m_FileID': 0, 'm_PathID': -4812629633974750918}
+    * Mono/guangzhu02/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7572767111748580902}  ==>  {'m_FileID': 0, 'm_PathID': -6030373510927830726}
+    * Mono/guangzhu02/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7572767111748580902}  ==>  {'m_FileID': 0, 'm_PathID': -6030373510927830726}
+    * Mono/ring02/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 1923970770096425434}  ==>  {'m_FileID': 0, 'm_PathID': -7389694914906050246}
+    * Mono/ring02/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -3949859062632281638}  ==>  {'m_FileID': 0, 'm_PathID': -7389694914906050246}
+    * Renderer/glow01/ParticleSystemRenderer
+        materials      ['glow_002_c', '(读不到 pathID=?)']  ==>  ['(读不到 pathID=?)', '(读不到 pathID=?)']
+
+--- 对比 esskin_10 ---
+  只在 原色 里有 3 个对象:
+    - Mono/es_stand_01/VFXEffectLOD
+    - Mono/lod0/VFXEffectHub
+    - Mono/lod1/VFXEffectHub
+  同名对象 14 个：相同 3，**不同 11**
+    * Mono/Other01/MaterialTinterProxy
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 397744820196477402}  ==>  {'m_FileID': 0, 'm_PathID': -2290719473407805269}
+        references     {'version': 2, 'RefIds': [{'rid': 0, 'type': {'class': 'MaterialTextureInterpolator', 'ns': 'NOAH.VFXInterpolator', 'asm': 'VFX.Interpolator'}, 'data': {'priority': 0, 'loops': 0, 'loopType': 0, 'duration': 0.20000000298…  ==>  {'version': 2, 'RefIds': [{'rid': 0, 'type': {'class': 'MaterialTextureInterpolator', 'ns': 'NOAH.VFXInterpolator', 'asm': 'VFX.Interpolator'}, 'data': {'priority': 0, 'loops': 0, 'loopType': 0, 'duration': 0.20000000298…
+    * Mono/audio/EffectAudio
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -8063125384600352294}  ==>  {'m_FileID': 0, 'm_PathID': 9058943428146444459}
+    * Mono/es_stand_01/VFXEffectExtension
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': 9021922332725360811}
+    * Mono/es_stand_01/VFXEffectHub
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': 9021922332725360811}
+        m_effectAudio  {'m_FileID': 0, 'm_PathID': -9118093354814666278}  ==>  {'m_FileID': 0, 'm_PathID': -9141305801758721877}
+        m_lod          0  ==>  1
+        m_lodEffect    1  ==>  0
+        m_particleRenderers []  ==>  [{'m_FileID': 0, 'm_PathID': 4547937009770772651}, {'m_FileID': 0, 'm_PathID': -8670619997043738453}, {'m_FileID': 0, 'm_PathID': 4495736039853078699}, {'m_FileID': 0, 'm_PathID': -949117368895981397}]
+        m_particles    []  ==>  [{'m_FileID': 0, 'm_PathID': -3892734200171775829}, {'m_FileID': 0, 'm_PathID': 7395905041451989163}, {'m_FileID': 0, 'm_PathID': 3938121965249116331}, {'m_FileID': 0, 'm_PathID': -8572735925879883605}]
+        m_subEffectHubs [{'m_FileID': 0, 'm_PathID': -1732605404027549222}, {'m_FileID': 0, 'm_PathID': -3109953867264882214}]  ==>  []
+        m_vfxEffects   []  ==>  [{'m_FileID': 0, 'm_PathID': 4890106458467154091}, {'m_FileID': 0, 'm_PathID': -9121020102616860501}, {'m_FileID': 0, 'm_PathID': -2515934615534487381}, {'m_FileID': 0, 'm_PathID': -4653425227182163797}]
+    * Mono/guangzhu01/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 3097854406560188890}  ==>  {'m_FileID': 0, 'm_PathID': 4918843125203679403}
+    * Mono/guangzhu01/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 3097854406560188890}  ==>  {'m_FileID': 0, 'm_PathID': 4918843125203679403}
+    * Mono/guangzhu02/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7572767111748580902}  ==>  {'m_FileID': 0, 'm_PathID': 6600307745242036395}
+    * Mono/guangzhu02/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7572767111748580902}  ==>  {'m_FileID': 0, 'm_PathID': 6600307745242036395}
+    * Mono/ring02/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 1923970770096425434}  ==>  {'m_FileID': 0, 'm_PathID': 7110574829504444587}
+    * Mono/ring02/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -3949859062632281638}  ==>  {'m_FileID': 0, 'm_PathID': 7110574829504444587}
+    * Renderer/glow01/ParticleSystemRenderer
+        materials      ['glow_002_c', '(读不到 pathID=?)']  ==>  ['(读不到 pathID=?)', '(读不到 pathID=?)']
+
+--- 对比 esskin_12 ---
+  同名对象 17 个：相同 3，**不同 14**
+    * Mono/Other01/MaterialTinterProxy
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 397744820196477402}  ==>  {'m_FileID': 0, 'm_PathID': 6223257010949704163}
+        references     {'version': 2, 'RefIds': [{'rid': 0, 'type': {'class': 'MaterialTextureInterpolator', 'ns': 'NOAH.VFXInterpolator', 'asm': 'VFX.Interpolator'}, 'data': {'priority': 0, 'loops': 0, 'loopType': 0, 'duration': 0.20000000298…  ==>  {'version': 2, 'RefIds': [{'rid': 0, 'type': {'class': 'MaterialTextureInterpolator', 'ns': 'NOAH.VFXInterpolator', 'asm': 'VFX.Interpolator'}, 'data': {'priority': 0, 'loops': 0, 'loopType': 0, 'duration': 0.20000000298…
+    * Mono/audio/EffectAudio
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -8063125384600352294}  ==>  {'m_FileID': 0, 'm_PathID': -7752932330610439709}
+    * Mono/es_stand_01/VFXEffectExtension
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': -2782903287784027677}
+    * Mono/es_stand_01/VFXEffectHub
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': -2782903287784027677}
+        m_effectAudio  {'m_FileID': 0, 'm_PathID': -9118093354814666278}  ==>  {'m_FileID': 0, 'm_PathID': -1110079597996029469}
+        m_subEffectHubs [{'m_FileID': 0, 'm_PathID': -1732605404027549222}, {'m_FileID': 0, 'm_PathID': -3109953867264882214}]  ==>  [{'m_FileID': 0, 'm_PathID': -8152388293497730589}, {'m_FileID': 0, 'm_PathID': -2106620754118325789}]
+    * Mono/es_stand_01/VFXEffectLOD
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': -2782903287784027677}
+    * Mono/guangzhu01/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 3097854406560188890}  ==>  {'m_FileID': 0, 'm_PathID': 7046699668355533283}
+    * Mono/guangzhu01/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 3097854406560188890}  ==>  {'m_FileID': 0, 'm_PathID': 7046699668355533283}
+    * Mono/guangzhu02/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7572767111748580902}  ==>  {'m_FileID': 0, 'm_PathID': 4924245016491444707}
+    * Mono/guangzhu02/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7572767111748580902}  ==>  {'m_FileID': 0, 'm_PathID': 4924245016491444707}
+    * Mono/lod0/VFXEffectHub
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -8782357896110601766}  ==>  {'m_FileID': 0, 'm_PathID': 5664607266232125923}
+        m_particleRenderers [{'m_FileID': 0, 'm_PathID': -7639315487539263014}, {'m_FileID': 0, 'm_PathID': 1099614753371589082}, {'m_FileID': 0, 'm_PathID': 1527051227972766170}, {'m_FileID': 0, 'm_PathID': -9113759637263152678}]  ==>  [{'m_FileID': 0, 'm_PathID': 221322641896557027}, {'m_FileID': 0, 'm_PathID': -5281483745237808669}, {'m_FileID': 0, 'm_PathID': 7213396408576559587}, {'m_FileID': 0, 'm_PathID': -5401117697694316061}]
+        m_particles    [{'m_FileID': 0, 'm_PathID': 6268762204773878234}, {'m_FileID': 0, 'm_PathID': 1855773693309225434}, {'m_FileID': 0, 'm_PathID': -24763535974594086}, {'m_FileID': 0, 'm_PathID': 6610634113471678938}]  ==>  [{'m_FileID': 0, 'm_PathID': -1574560722022053405}, {'m_FileID': 0, 'm_PathID': 6220015544113940963}, {'m_FileID': 0, 'm_PathID': -5759234727793210909}, {'m_FileID': 0, 'm_PathID': 5999277264125544931}]
+        m_vfxEffects   [{'m_FileID': 0, 'm_PathID': 4775887112272873946}, {'m_FileID': 0, 'm_PathID': 4077677495997368794}, {'m_FileID': 0, 'm_PathID': 5657851257798003162}, {'m_FileID': 0, 'm_PathID': -3617113747124319782}]  ==>  [{'m_FileID': 0, 'm_PathID': 4680342052721838563}, {'m_FileID': 0, 'm_PathID': 2496551806275078627}, {'m_FileID': 0, 'm_PathID': -6389087045179225629}, {'m_FileID': 0, 'm_PathID': 1518627355930511843}]
+    * Mono/lod1/VFXEffectHub
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -789778198893360678}  ==>  {'m_FileID': 0, 'm_PathID': 6826830772624083427}
+        m_particleRenderers [{'m_FileID': 0, 'm_PathID': 4167818778838763994}, {'m_FileID': 0, 'm_PathID': -1087572399329768998}, {'m_FileID': 0, 'm_PathID': 1553336730884114906}, {'m_FileID': 0, 'm_PathID': -7972954655327188518}]  ==>  [{'m_FileID': 0, 'm_PathID': 7861537890545486307}, {'m_FileID': 0, 'm_PathID': -3128618611866285597}, {'m_FileID': 0, 'm_PathID': 2334411466995124707}, {'m_FileID': 0, 'm_PathID': 6521621500916255203}]
+        m_particles    [{'m_FileID': 0, 'm_PathID': 6360602575184529882}, {'m_FileID': 0, 'm_PathID': 5206744901308516826}, {'m_FileID': 0, 'm_PathID': -5312537261017003558}, {'m_FileID': 0, 'm_PathID': 9104374656496306650}]  ==>  [{'m_FileID': 0, 'm_PathID': 1433428420194650595}, {'m_FileID': 0, 'm_PathID': 7316854549084621283}, {'m_FileID': 0, 'm_PathID': 4687034571588815331}, {'m_FileID': 0, 'm_PathID': -8273397157768541725}]
+        m_vfxEffects   [{'m_FileID': 0, 'm_PathID': -7363738257512396326}, {'m_FileID': 0, 'm_PathID': -357881311868155430}, {'m_FileID': 0, 'm_PathID': 8694898123103275482}, {'m_FileID': 0, 'm_PathID': 4083821362328177114}]  ==>  [{'m_FileID': 0, 'm_PathID': -2413456201875600925}, {'m_FileID': 0, 'm_PathID': -2875422316467009053}, {'m_FileID': 0, 'm_PathID': -1155621710327068189}, {'m_FileID': 0, 'm_PathID': 8998189819621132771}]
+    * Mono/ring02/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 1923970770096425434}  ==>  {'m_FileID': 0, 'm_PathID': 4576669210125388259}
+    * Mono/ring02/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -3949859062632281638}  ==>  {'m_FileID': 0, 'm_PathID': 4576669210125388259}
+    * Renderer/glow01/ParticleSystemRenderer
+        materials      ['glow_002_c', '(读不到 pathID=?)']  ==>  ['(读不到 pathID=?)', '(读不到 pathID=?)']
+
+--- 对比 esskin_13 ---
+  同名对象 17 个：相同 3，**不同 14**
+    * Mono/Other01/MaterialTinterProxy
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 397744820196477402}  ==>  {'m_FileID': 0, 'm_PathID': 8594307261373384472}
+        references     {'version': 2, 'RefIds': [{'rid': 0, 'type': {'class': 'MaterialTextureInterpolator', 'ns': 'NOAH.VFXInterpolator', 'asm': 'VFX.Interpolator'}, 'data': {'priority': 0, 'loops': 0, 'loopType': 0, 'duration': 0.20000000298…  ==>  {'version': 2, 'RefIds': [{'rid': 0, 'type': {'class': 'MaterialTextureInterpolator', 'ns': 'NOAH.VFXInterpolator', 'asm': 'VFX.Interpolator'}, 'data': {'priority': 0, 'loops': 0, 'loopType': 0, 'duration': 0.20000000298…
+    * Mono/audio/EffectAudio
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -8063125384600352294}  ==>  {'m_FileID': 0, 'm_PathID': -5282941670487128296}
+    * Mono/es_stand_01/VFXEffectExtension
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': 1893528217069520664}
+    * Mono/es_stand_01/VFXEffectHub
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': 1893528217069520664}
+        m_effectAudio  {'m_FileID': 0, 'm_PathID': -9118093354814666278}  ==>  {'m_FileID': 0, 'm_PathID': 8810445781519337240}
+        m_subEffectHubs [{'m_FileID': 0, 'm_PathID': -1732605404027549222}, {'m_FileID': 0, 'm_PathID': -3109953867264882214}]  ==>  [{'m_FileID': 0, 'm_PathID': -3096367694300674280}, {'m_FileID': 0, 'm_PathID': -8602254377005971688}]
+    * Mono/es_stand_01/VFXEffectLOD
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7524674079451575846}  ==>  {'m_FileID': 0, 'm_PathID': 1893528217069520664}
+    * Mono/guangzhu01/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 3097854406560188890}  ==>  {'m_FileID': 0, 'm_PathID': -2750414164468332776}
+    * Mono/guangzhu01/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 3097854406560188890}  ==>  {'m_FileID': 0, 'm_PathID': -2750414164468332776}
+    * Mono/guangzhu02/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7572767111748580902}  ==>  {'m_FileID': 0, 'm_PathID': -5859867759612360936}
+    * Mono/guangzhu02/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -7572767111748580902}  ==>  {'m_FileID': 0, 'm_PathID': -5859867759612360936}
+    * Mono/lod0/VFXEffectHub
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -8782357896110601766}  ==>  {'m_FileID': 0, 'm_PathID': -3669242120462563560}
+        m_particleRenderers [{'m_FileID': 0, 'm_PathID': -7639315487539263014}, {'m_FileID': 0, 'm_PathID': 1099614753371589082}, {'m_FileID': 0, 'm_PathID': 1527051227972766170}, {'m_FileID': 0, 'm_PathID': -9113759637263152678}]  ==>  [{'m_FileID': 0, 'm_PathID': -1028231834117961960}, {'m_FileID': 0, 'm_PathID': -160745219458562280}, {'m_FileID': 0, 'm_PathID': 6041158349626312472}, {'m_FileID': 0, 'm_PathID': 434487395729835800}]
+        m_particles    [{'m_FileID': 0, 'm_PathID': 6268762204773878234}, {'m_FileID': 0, 'm_PathID': 1855773693309225434}, {'m_FileID': 0, 'm_PathID': -24763535974594086}, {'m_FileID': 0, 'm_PathID': 6610634113471678938}]  ==>  [{'m_FileID': 0, 'm_PathID': 3118355108671358744}, {'m_FileID': 0, 'm_PathID': -4115132401536956648}, {'m_FileID': 0, 'm_PathID': 7550171531892524824}, {'m_FileID': 0, 'm_PathID': -8107302525469882600}]
+        m_vfxEffects   [{'m_FileID': 0, 'm_PathID': 4775887112272873946}, {'m_FileID': 0, 'm_PathID': 4077677495997368794}, {'m_FileID': 0, 'm_PathID': 5657851257798003162}, {'m_FileID': 0, 'm_PathID': -3617113747124319782}]  ==>  [{'m_FileID': 0, 'm_PathID': -4729373383531591912}, {'m_FileID': 0, 'm_PathID': -2091982868228438248}, {'m_FileID': 0, 'm_PathID': 2867340950577776408}, {'m_FileID': 0, 'm_PathID': -7506089972669315304}]
+    * Mono/lod1/VFXEffectHub
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -789778198893360678}  ==>  {'m_FileID': 0, 'm_PathID': -8283588883234191592}
+        m_particleRenderers [{'m_FileID': 0, 'm_PathID': 4167818778838763994}, {'m_FileID': 0, 'm_PathID': -1087572399329768998}, {'m_FileID': 0, 'm_PathID': 1553336730884114906}, {'m_FileID': 0, 'm_PathID': -7972954655327188518}]  ==>  [{'m_FileID': 0, 'm_PathID': -6144056589602617576}, {'m_FileID': 0, 'm_PathID': 6119377407157438232}, {'m_FileID': 0, 'm_PathID': -7562131923842136296}, {'m_FileID': 0, 'm_PathID': -4186639671771232488}]
+        m_particles    [{'m_FileID': 0, 'm_PathID': 6360602575184529882}, {'m_FileID': 0, 'm_PathID': 5206744901308516826}, {'m_FileID': 0, 'm_PathID': -5312537261017003558}, {'m_FileID': 0, 'm_PathID': 9104374656496306650}]  ==>  [{'m_FileID': 0, 'm_PathID': 98449235986056984}, {'m_FileID': 0, 'm_PathID': 3909047189710472984}, {'m_FileID': 0, 'm_PathID': 5165657825612236568}, {'m_FileID': 0, 'm_PathID': 8546898667970594584}]
+        m_vfxEffects   [{'m_FileID': 0, 'm_PathID': -7363738257512396326}, {'m_FileID': 0, 'm_PathID': -357881311868155430}, {'m_FileID': 0, 'm_PathID': 8694898123103275482}, {'m_FileID': 0, 'm_PathID': 4083821362328177114}]  ==>  [{'m_FileID': 0, 'm_PathID': -747629563439642856}, {'m_FileID': 0, 'm_PathID': 388574418120705816}, {'m_FileID': 0, 'm_PathID': -2927376317257578728}, {'m_FileID': 0, 'm_PathID': -8216667092026292456}]
+    * Mono/ring02/MaterialCollector
+        m_GameObject   {'m_FileID': 0, 'm_PathID': 1923970770096425434}  ==>  {'m_FileID': 0, 'm_PathID': -2461450118928038120}
+    * Mono/ring02/MaterialTinter
+        m_GameObject   {'m_FileID': 0, 'm_PathID': -3949859062632281638}  ==>  {'m_FileID': 0, 'm_PathID': -2461450118928038120}
+    * Renderer/glow01/ParticleSystemRenderer
+        materials      ['glow_002_c', '(读不到 pathID=?)']  ==>  ['(读不到 pathID=?)', '(读不到 pathID=?)']

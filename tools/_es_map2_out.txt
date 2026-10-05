@@ -1,0 +1,133 @@
+=== CreateBullet_ / CreateBulletIfTriggerChange occurrences by enclosing action ===
+  @39624    action='dashAir3'             func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0'
+  @47528    action='dashAir2'             func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0'
+  @55432    action='dashAir'              func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0'
+  @60192    action='dash3'                func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0'
+  @63380    action='dash2'                func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0'
+  @66164    action='dash'                 func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0'
+  @84172    action='dashAirAtkold'        func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0'
+  @133956   action='dashAAhitold'         func=CreateBulletIfTriggerChange  params='DAA'
+  @173340   action='fall'                 func=CreateBulletIfTriggerChange  params='es'
+  @241532   action='fallmdownendEXx'      func=CreateBullet  params='trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0'
+  @245196   action='fallmdownendEX'       func=CreateBullet  params='trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0'
+  @248896   action='fallmdownendEX2'      func=CreateBullet  params='trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0'
+  @251268   action='fallmdownendold'      func=CreateBullet  params='trigger:11481,bullet_id:800002,bullet_action:"leibao",pos_x:0,pos_y:0,dir_x:1,dir_y:0'
+  @321644   action='atkAirX'              func=CreateBulletIfTriggerChange  params='2301_changestop'
+  @423164   action='attackholdDashEXQ'    func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0'
+  @431580   action='attackholdDashEX'     func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0'
+  @440132   action='attackholdDash'       func=CreateBullet  params='trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0'
+  @448224   action='attackhold_hit2'      func=CreateBullet  params='Role/Es/es_attackhlod_hit_02'
+  @453292   action='attackhold_hit2Air'   func=CreateBullet  params='Role/Es/es_attackhlod_hit_02'
+  @492204   action='attackD2'             func=CreateBulletIfTriggerChange  params='SkillSetCD'
+  @504988   action='attack3'              func=CreateBulletIfTriggerChange  params='SkillSetCD'
+  @528440   action='AttackUp'             func=CreateBulletIfTriggerChange  params='aup'
+  @534460   action='holdEX'               func=CreateBulletIfTriggerChange  params='DeleteBulletByTag'
+  @535936   action='hold'                 func=CreateBulletIfTriggerChange  params='DeleteBulletByTag'
+  @540828   action='rush'                 func=CreateBulletIfTriggerChange  params='SetActionCD'
+  @551652   action='rushUp'               func=CreateBulletIfTriggerChange  params='ScanBulletAndAddBuff'
+  @573576   action='summonEX'             func=CreateBullet_summon  params='es'
+  @574320   action='summon'               func=CreateBullet_summon  params='es'
+
+=== all strings containing UDA / Ultra (es.ab) ===
+  @33284    [dashAir3] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @33492    [dashAir3] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @37012    [dashAir3] UltraDashAirEX
+  @37128    [dashAir3] UltraDashAir
+  @40908    [dashAir2] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @41116    [dashAir2] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @44888    [dashAir2] UltraDashAirEX
+  @45004    [dashAir2] UltraDashAir
+  @48812    [dashAir] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @49020    [dashAir] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @52792    [dashAir] UltraDashAirEX
+  @52908    [dashAir] UltraDashAir
+  @178724   [fallup] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @178932   [fallup] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @194284   [fallup2] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @194492   [fallup2] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @210836   [fallup3] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @211044   [fallup3] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @264152   [dropend2D] UltraDashEX
+  @264256   [dropend2D] UltraDash
+  @267384   [dropendD] UltraDashEX
+  @267488   [dropendD] UltraDash
+  @319104   [atkAirX] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.35
+  @319300   [atkAirX] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.35
+  @323912   [atkAir12] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @324120   [atkAir12] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @324720   [atkAir12] UltraDashAirEX
+  @324836   [atkAir12] UltraDashAir
+  @333408   [atkAir3] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @333616   [atkAir3] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @334216   [atkAir3] UltraDashAirEX
+  @334332   [atkAir3] UltraDashAir
+  @341924   [atkAir3old] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @342080   [atkAir3old] UltraDashAir
+  @342184   [atkAir3old] UltraDashAir
+  @346676   [atkAir2] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @346832   [atkAir2] UltraDashAir
+  @346936   [atkAir2] UltraDashAir
+  @351088   [atkAir1] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @351244   [atkAir1] UltraDashAir
+  @351348   [atkAir1] UltraDashAir
+  @365868   [attackC] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.5
+  @366072   [attackC] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.6
+  @397908   [attackhold23] UltraDashEX
+  @398012   [attackhold23] UltraDash
+  @408728   [attackhold] UltraDashEX
+  @408840   [attackhold] UltraDash
+  @458356   [UltraDAend] UltraDAend
+  @458716   [UltraDAend] action:"UltraDashEX",trigger:56081,buff: "skill_times2", buff_stack: 2,actiontime: 0.2
+  @458908   [UltraDAend] action:"UltraDash",trigger:56081,buff: "skill_times2", buff_stack: 2,actiontime: 0.2
+  @460456   [UltraDAend] Bullet:"esbullet" , Action:"UDAA", Tag:"es_ultra"
+  @460588   [UltraDAend] UDA
+  @461192   [UltraDashAirEX] UltraDashAirEX
+  @462088   [UltraDashAirEX] UltraDAend
+  @462792   [UltraDashAirEX] sfx_es_UltradashAir
+  @462836   [UltraDashAirEX] vo_es_UltraDash_p2
+  @462888   [UltraDashAirEX] vo_es_UltraDash_p1
+  @463028   [UltraDashAirEX] UDA0
+  @463396   [UltraDashAir] UltraDashAir
+  @464288   [UltraDashAir] UltraDAend
+  @464992   [UltraDashAir] sfx_es_UltradashAir
+  @465036   [UltraDashAir] vo_es_UltraDash_p2
+  @465088   [UltraDashAir] vo_es_UltraDash_p1
+  @465228   [UltraDashAir] UDA0
+  @465596   [UltraDashEX] UltraDashEX
+  @467380   [UltraDashEX] action:"UltraDashAirEX",trigger:56081,buff: "skill_times2", buff_stack: 2,actiontime: 0.2
+  @467576   [UltraDashEX] action:"UltraDashAir",trigger:56081,buff: "skill_times2", buff_stack: 2,actiontime: 0.2
+  @471384   [UltraDashEX] vo_es_UltraDash_p2
+  @471436   [UltraDashEX] vo_es_UltraDash_p1
+  @471480   [UltraDashEX] sfx_es_Ultradash
+  @471860   [UltraDashEX] UDAEX
+  @472224   [UltraDash] UltraDash
+  @474008   [UltraDash] action:"UltraDashAirEX",trigger:56081,buff: "skill_times2", buff_stack: 2,actiontime: 0.2
+  @474204   [UltraDash] action:"UltraDashAir",trigger:56081,buff: "skill_times2", buff_stack: 2,actiontime: 0.2
+  @478012   [UltraDash] vo_es_UltraDash_p2
+  @478064   [UltraDash] vo_es_UltraDash_p1
+  @478108   [UltraDash] sfx_es_Ultradash
+  @478488   [UltraDash] UDAEX
+  @484592   [attackD3] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.35
+  @484788   [attackD3] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:0,effpos_y:1.35
+  @487228   [attackD3] UltraDashAirEX
+  @487336   [attackD3] UltraDashAir
+  @514828   [AttackUp2] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @515036   [AttackUp2] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @516012   [AttackUp2] UltraDashAirEX
+  @516128   [AttackUp2] UltraDashAir
+  @523456   [AttackUp] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @523664   [AttackUp] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @524640   [AttackUp] UltraDashAirEX
+  @524756   [AttackUp] UltraDashAir
+  @547448   [rushUp] action:"UltraDashAirEX",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @547656   [rushUp] action:"UltraDashAir",trigger:56251,effect:"Role/Es/es_stand_01",effpos_x:-0.1,effpos_y:1.3
+  @548632   [rushUp] UltraDashAirEX
+  @548748   [rushUp] UltraDashAir
+
+=== all strings containing x1/x2/x3/xup/ax2/AD_hit/a3/aup (params) ===
+  @298960   [attackAir2EX] bullet_action: "ax2"
+  @304784   [attackAir2] bullet_action: "ax2"
+  @540664   [rush] bullet_action: "x3"
+
+=== raw context around x1 spawn (offset 534510) ===
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||'|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||fff|||||||||||||433||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||es||||||holdEX||||||es_hold|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||dead|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||L||||||||||||||||||||||||||||||||||||||||||||||||||||||||Role/Es/es_dodge_02|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||q(|||||||||||||||||||||||||||||||||||||||||||||||||||?|||?|||?|||?|||?|||?|||?|||?|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||'||||||||||||||||||||||||||||||||||vo_es_hold||||*>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||ChangeSkill|||||action:"attackA",trigger:56071|||||||||L||||||||||||||||||||||||||||||||||||CreateBulletIfTriggerChange|u|||trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"|||||||||||c|||||||||||||||||||||||||||||||||||K|Ig||||DeleteBulletByTag|||||||tag: "es_x"||||||||||||||||||||||||||||||'||||||||||||||||||||||||||||||1112_mpSpeed|||L|||||||||||||||||||||||L||||||||||||||||1112_mpSpeed||||||||||||||||||||||||@333||||||||||||||||K|Ig||||K|Ig||||es_attack|||||||||

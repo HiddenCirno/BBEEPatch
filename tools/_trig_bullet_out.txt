@@ -1,0 +1,2 @@
+TextAsset 数: 1
+  PlayerBattleTriggerDetail: 1080057 bytes

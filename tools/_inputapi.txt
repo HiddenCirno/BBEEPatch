@@ -1,0 +1,186 @@
+
+########## interface IInput ##########
+   public abstract int get_PlayerId();
+   public abstract void Release();
+   public abstract void ForceSetMoveDir(Fp2 dir);
+   public abstract bool GetMoveDir(out Fp2 outDir);
+   public abstract Fp2 GetMoveDirSimple();
+   public abstract InputCmdState GetCmdStatus(InputCmd cmd);
+   public abstract int GetCmdHistory(Fp maxTimeEllaps, ref InputCmdHistory[] hist_out);
+   public abstract InputCmdHistory GetLastestCmdHistory(bool pressed, Fp stickyTime);
+   public abstract InputCmdState GetCmdStatusBySkillSlotStatus(PlayerSkillGroup skGroup, ESkillPotentialSlot slot);
+   public abstract Fp GetTimeEllaps(Fp inpTimeStamp);
+   public abstract void Clear();
+   public abstract void ClearSafe();
+   public abstract void SetPressInputSatisfied(InputCmd input, bool satisfied = True);
+   private Fp2 m_MoveDir; // 0x10
+   public int get_PlayerId() { }
+   public void Release() { }
+   public void OnInputCommand(InputCmd cmd, Fp2 dir) { }
+   public void Update(Fp dt) { }
+   public void ForceSetMoveDir(Fp2 dir) { }
+   public bool GetMoveDir(out Fp2 outDir) { }
+   public Fp2 GetMoveDirSimple() { }
+
+########## class InputCmdState ##########
+   public InputCmd Cmd; // 0x10
+   public bool Pressing; // 0x14
+   public Fp2 CurDir; // 0x18
+   public Fp2 LastStartPressingDir; // 0x28
+   public Fp LastPressTimeStamp; // 0x38
+   public Fp LastUnpressTimeStamp; // 0x40
+   public VBtnSpecFlags VBtnFlags; // 0x48
+   public ESkillPotentialSlot Slot; // 0x4C
+   public uint SlotPotentialId; // 0x50
+   public PlayerSkillGroup SlotSkillGroup; // 0x54
+   public bool PressInputSatisfied; // 0x58
+   public void Clear() { }
+   public void CopyFrom(InputCmdState other) { }
+   public void .ctor() { }
+   public InputCmd Cmd; // 0x0
+   public bool Pressing; // 0x4
+   public Fp2 Dir; // 0x8
+   public Fp LastPressTimeStamp; // 0x18
+   public abstract int get_PlayerId();
+   public abstract void Release();
+   public abstract void ForceSetMoveDir(Fp2 dir);
+   public abstract bool GetMoveDir(out Fp2 outDir);
+   public abstract Fp2 GetMoveDirSimple();
+   public abstract InputCmdState GetCmdStatus(InputCmd cmd);
+   public abstract int GetCmdHistory(Fp maxTimeEllaps, ref InputCmdHistory[] hist_out);
+   public abstract InputCmdHistory GetLastestCmdHistory(bool pressed, Fp stickyTime);
+   public abstract InputCmdState GetCmdStatusBySkillSlotStatus(PlayerSkillGroup skGroup, ESkillPotentialSlot slot);
+   public abstract Fp GetTimeEllaps(Fp inpTimeStamp);
+   public abstract void Clear();
+   public abstract void ClearSafe();
+
+########## class ActorVirtualButtonConfig ##########
+   public ActorVirtualButtonConfig.EInputDirection direction; // 0x10
+   public ActorVirtualButtonConfig.EActorPosture posture; // 0x14
+   public void .ctor(ActorVirtualButtonConfig.EInputDirection direction, ActorVirtualButtonConfig.EActorPosture posture) { }
+   public bool Equals(ActorVirtualButtonConfig.TouchCriteria other) { }
+   public int CompareTo(ActorVirtualButtonConfig.TouchCriteria other) { }
+   public override bool Equals(object obj) { }
+   public override int GetHashCode() { }
+   public static bool op_Equality(ActorVirtualButtonConfig.TouchCriteria left, ActorVirtualButtonConfig.TouchCriteria right) { }
+   public static bool op_Inequality(ActorVirtualButtonConfig.TouchCriteria left, ActorVirtualButtonConfig.TouchCriteria right) { }
+   public ActorVirtualButtonConfig.TouchCriteria Clone() { }
+   public ActorVirtualButtonConfig.TouchCriteria criteria; // 0x10
+   public Sprite icon; // 0x18
+   public void .ctor() { }
+   public uint actorId; // 0x10
+   public bool hideIcon; // 0x14
+   public ActorVirtualButtonConfig.TouchCriteria criteria; // 0x18
+   public Sprite icon; // 0x20
+   private uint _1; // 0x28
+   private uint _2; // 0x2C
+   private uint _3; // 0x30
+   private uint _4; // 0x34
+
+########## class VirtualButtonCommand ##########
+   protected InputCmd command; // 0x20
+   protected Sprite defaultSprite; // 0x28
+   protected VirtualButtonStyleController styleController; // 0x30
+   protected Cutscene cutscenePress; // 0x38
+   protected Cutscene cutsceneRelease; // 0x40
+   protected PlayerObj player; // 0x48
+   protected HashSet<int> touchIdSet; // 0x50
+   protected bool isReady; // 0x58
+   protected bool isPressed; // 0x59
+   protected List<float> progressList; // 0x60
+   private readonly List<VirtualButtonCommand.Action> <ActionList>k__BackingField; // 0x68
+   public InputCmd get_Command() { }
+   public List<VirtualButtonCommand.Action> get_ActionList() { }
+   public bool get_IsPressed() { }
+   public virtual bool get_Interactable() { }
+   public void set_Player(PlayerObj value) { }
+   public void OnPointerDown(PointerEventData eventData) { }
+   public void OnPointerUp(PointerEventData eventData) { }
+!! 找不到 class ActorInputMgr
+
+########## class PlayerInput ##########
+   public InputCmd SpecialCmd; // 0x10
+   public List<InputCmdAndDelay> DestCmds; // 0x18
+   public Fp Timeout; // 0x20
+   public void .ctor() { }
+   public int value__; // 0x0
+   private Action<InputCmd, bool, Fp2> InputPressStateChanged; // 0x10
+   private Action<InputCmd, Fp2> InputDirChanged; // 0x18
+   private List<KeyValuePair<InputCmd, InputCmdBlockSource>> m_BlockCmdMap; // 0x20
+   private List<InputCmdState> m_cmdState; // 0x28
+   private List<InputCmdHistory> m_histList; // 0x30
+   private int m_maxHist; // 0x38
+   public bool DelayTeacherSkillInputAndTryCombine; // 0x3C
+   private PlayerInput.InputTeacherSkillDelayState m_InputTeacherSkState; // 0x40
+   private Fp m_InputTeackerSkStateEllaps; // 0x44
+   private Fp2 m_MoveDirForced; // 0x50
+   private Fp2 m_MoveDirCachedWhenBlocked; // 0x60
+   public bool LockInputToRight; // 0x70
+   private static InputCmdHistory s_EmptyCmdHistory; // 0x0
+   private PlayerObj m_Owner; // 0x78
+   private int m_PlayerId; // 0x80
+   public List<PlayerInputSpecialKeyReplace> SpecialKeyReplaces; // 0x88
+   private List<InputCmdState> m_cmdStateCacheForSpecial; // 0x90
+   private InputCmdState m_TempMergeCmdState; // 0x98
+   private InputCmdState[] m_DelayedCmdStateGen; // 0xA0
+   private int m_DelayedCmdStateGenCount; // 0xA8
+   public void add_InputPressStateChanged(Action<InputCmd, bool, Fp2> value) { }
+   public void remove_InputPressStateChanged(Action<InputCmd, bool, Fp2> value) { }
+
+
+=== 所有名字含 InputCmd 的方法 ===
+   public void add_InputPressStateChanged(Action<InputCmd, bool, Vector2> value)
+   public void remove_InputPressStateChanged(Action<InputCmd, bool, Vector2> value)
+   public void add_InputDirChanged(Action<InputCmd, Vector2> value)
+   public void remove_InputDirChanged(Action<InputCmd, Vector2> value)
+   public void ResolveInput(InputCmd cmd, bool pressed, Vector2 dir)
+   public void NotifyPressChange(InputCmd cmd, bool pressed, Vector2 dir)
+   public void NotifyDirChange(InputCmd cmd, Vector2 dir)
+   public void CopyFrom(InputCmdState other)
+   public abstract InputCmdState GetCmdStatus(InputCmd cmd)
+   public abstract int GetCmdHistory(Fp maxTimeEllaps, ref InputCmdHistory[] hist_out)
+   public abstract void SetPressInputSatisfied(InputCmd input, bool satisfied = True)
+   public void OnInputCommand(InputCmd cmd, Fp2 dir)
+   public InputCmdState GetCmdStatus(InputCmd cmd)
+   public int GetAllCmdStatus(Fp stickyTime, ref InputCmdState[] inpCmd_Buffer)
+   public int GetCmdHistory(Fp maxTimeEllaps, ref InputCmdHistory[] hist_out)
+   public void SetPressInputSatisfied(InputCmd input, bool satisfied = True)
+   public void add_InputPressStateChanged(Action<InputCmd, bool, Fp2> value)
+   public void remove_InputPressStateChanged(Action<InputCmd, bool, Fp2> value)
+   public void add_InputDirChanged(Action<InputCmd, Fp2> value)
+   public void remove_InputDirChanged(Action<InputCmd, Fp2> value)
+   private InputCmdState getInputCmd_raw(InputCmd cmd)
+   public void OnInputCmdChange(int playerId, InputCmd cmd, bool pressed, Fp2 dir)
+   private void addCmdHistory(InputCmd cmd, bool pressed, Fp2 dir)
+   public void OnInputDirChange(int playerId, InputCmd cmd, Fp2 dir)
+   private List<InputCmdState> GetCmdStatusFromSpecialReplaceByDestKey(InputCmd cmd)
+   public int GetCmdHistory(Fp stickyTime, ref InputCmdHistory[] inputCmdArray)
+   public void AddInputCmdBlock(InputCmd cmdTp, InputCmdBlockSource blockSrc)
+   public void RemoveInputCmdBlock(InputCmd cmdTp, InputCmdBlockSource blockSrc)
+   public bool IsInputCmdBlock(InputCmd cmdTp)
+   public void AddEveryInputCmdBlock(InputCmdBlockSource blockSrc)
+   public void RemoveAllInputCmdBlock(InputCmdBlockSource blockSrc)
+   private int findCmdBlockIndex(InputCmd cmd)
+   private void delayedTeacherSkillInputEventProc(InputCmd cmd, bool pressed, Fp2 dir)
+   private void delayedTeacherSkillInputEventProc_SimulateKeyClick(InputCmd cmd, Fp2 dir)
+   public void SetPressInputSatisfied(InputCmd cmd, bool satisfied = True)
+   public void InstructionRead(InputCmd cmd, Fp2 dir)
+   private PlayerSkill FindAStartingSkillForPredictByInputDir(InputCmd inp, Vector2 inputDir, int reqTriggerId)
+   private PlayerSkill FindByPreSkillOrderByInputDir(InputCmd inp, int order, Vector2 inputDir, int reqTriggerId)
+   public static Sprite GetSpriteFromActorVirtualButtonConfig(int actor, int style, InputCmd inputCmd, ActorVirtualButtonConfig.EInputDirection dir)
+   public void add_EventActorCmdChanged(UnityAction<int, InputCmd, bool, Fp2> value)
+   public void remove_EventActorCmdChanged(UnityAction<int, InputCmd, bool, Fp2> value)
+   public void add_EventActorDirChanged(UnityAction<int, InputCmd, Fp2> value)
+   public void remove_EventActorDirChanged(UnityAction<int, InputCmd, Fp2> value)
+   public void add_EventActorDirChangedPrecise(UnityAction<int, InputCmd, Fp2> value)
+   public void remove_EventActorDirChangedPrecise(UnityAction<int, InputCmd, Fp2> value)
+   public float GetCommandHoldTime(InputCmd cmd)
+   private void ResolveActorButton(int playerId, InputCmd cmd, bool pressed, Vector2 dir, bool ignoreLock = False)
+   private void NotifyCmdChange(int playerId, InputCmd cmd, bool pressed, Fp2 dir)
+   private void NotifyDirChange(int playerId, InputCmd cmd, Fp2 dir)
+   public void AddSpecificInputLock(InputCmd cmd)
+   public void RemoveSpecificInputLock(InputCmd cmd)
+   public static bool TryParse(string s, out InputCmd ret)
+   public static void RecordSkill(InputCmd cmd, ActorVirtualButtonConfig.TouchCriteria criteria, PlayerSkill skill)
+   public void SetComboCommands(List<InputCmd> commands)
+   public void SetAxisEvent(int playerId, InputCmd cmd, Fp2 vec)

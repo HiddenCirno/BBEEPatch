@@ -1,0 +1,160 @@
+
+[f=  4379] 动作 "dashAir"
+          [技能] 按键=Dash/Any 槽=5.1
+          [技能] 按键=Dash/Any 槽=5.1
+
+  ·· 空档 ··
+
+[f=  4536] 动作 "drop"
+          [技能] 按键=Dash/Any 槽=5.1
+
+  ·· 空档 ··
+
+[f=  4583] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f=  8061] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3
+          [技能] 按键=Jump/Any 槽=7.3
+          [技能] 按键=Jump/Any 槽=7.3
+
+  ·· 空档 ··
+
+[f=  8654] 动作 "dropend2"
+
+  ·· 空档 ··
+
+[f=  8795] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3
+          [技能] 按键=Jump/Any 槽=7.3
+
+  ·· 空档 ··
+
+[f=  9189] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3
+          [技能] 按键=/Any 槽=4.1
+            └ 弹幕 idx=1006 action="fly"
+
+  ·· 空档 ··
+
+[f=  9279] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f=  9653] 动作 "fallupd"
+          [技能] 按键=/Any 槽=4.1
+          [技能] 按键=/Any 槽=4.3
+
+[f=  9655] 动作 "fallup2"
+
+  ·· 空档 ··
+
+[f= 10079] 动作 "fallup22"
+          [技能] 按键=/Any 槽=4.3
+          [技能] 按键=/Any 槽=4.4
+
+  ·· 空档 ··
+
+[f= 10254] 动作 "fallup2d"
+          [技能] 按键=/Any 槽=4.4
+          [技能] 按键=/Any 槽=4.6
+
+[f= 10256] 动作 "fallup3"
+
+  ·· 空档 ··
+
+[f= 10681] 动作 "fallm"
+          [技能] 按键=/Any 槽=4.6
+          [技能] 按键=/Any 槽=4.9
+
+  ·· 空档 ··
+
+[f= 11023] 动作 "fallmdown"
+          [技能] 按键=/Any 槽=4.9
+          [技能] 按键=/Any 槽=4.10
+
+[f= 11040] 动作 "fallmdownendEX2"
+          [技能] 按键=/Any 槽=4.11
+          [技能] 按键=/Any 槽=4.16
+
+[f= 11040] 动作 "fallmdownend"
+          [技能] 按键=/Any 槽=4.10
+          [技能] 按键=/Any 槽=4.11
+          [技能] 按键=/Any 槽=4.16
+
+  ·· 空档 ··
+
+[f= 12106] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3
+          [技能] 按键=Jump/Any 槽=7.3
+
+  ·· 空档 ··
+
+[f= 12371] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3
+          [技能] 按键=/Any 槽=7.4
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 12519] 动作 "jump3"
+          [技能] 按键=/Any 槽=7.4
+          [技能] 按键=/Any 槽=7.5
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 12715] 动作 "fallmEX0"
+          [技能] 按键=/Any 槽=7.5
+          [技能] 按键=Summon/Down 槽=11.3
+
+[f= 12715] 动作 "fallm"
+
+[f= 12715] 动作 "fallmEX0Air"
+
+  ·· 空档 ··
+
+[f= 12873] 动作 "fallmdownEX0"
+
+[f= 12893] 动作 "fallmdownendEX"
+          [技能] 按键=/Any 槽=4.11
+          [技能] 按键=/Any 槽=4.15
+
+[f= 12893] 动作 "fallmdownend"
+          [技能] 按键=Summon/Down 槽=11.3
+          [技能] 按键=/Any 槽=4.11
+          [技能] 按键=/Any 槽=4.15
+
+  ·· 空档 ··
+
+[f= 14329] 动作 "attackD1"
+          [技能] 按键=Attack/Down 槽=1.4
+          [技能] 按键=Attack/Down 槽=1.4
+            └ 弹幕 idx=10340101 action="aD12"
+
+  ·· 空档 ··
+
+[f= 14728] 动作 "attackD2"
+          [技能] 按键=Attack/Down 槽=1.4
+          [技能] 按键=Attack/Down 槽=1.6
+            └ 弹幕 idx=10340101 action="aD22"
+
+  ·· 空档 ··
+
+[f= 15162] 动作 "attackD3"
+          [技能] 按键=Attack/Down 槽=1.6
+          [技能] 按键=Attack/Down 槽=1.7
+            └ 弹幕 idx=10340101 action="aD32"
+
+  ·· 空档 ··
+
+[f= 15647] 动作 "atkAirX"
+          [技能] 按键=Attack/Down 槽=1.7
+          [技能] 按键=Attack/Down 槽=1.8
+            └ 弹幕 idx=10340101 action="attackAir2"
+          [技能] 按键=Attack/Down 槽=1.8
+
+  ·· 空档 ··
+
+[f= 15877] 动作 "dropendD"

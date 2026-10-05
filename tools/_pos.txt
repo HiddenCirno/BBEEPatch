@@ -1,0 +1,132 @@
+=== ActorBase ¿Ô Position / Dir œ‡πÿ ===
+   public ActorPosition ActorPosition; // 0x58
+   public ActorDir ActorDir; // 0x60
+   private Fp2 <BornDir2>k__BackingField; // 0xF0
+   private bool <PreDir>k__BackingField; // 0x184
+   protected Fp2 m_logicPosition; // 0x228
+   public Fp2 BornDir2 { get; set; }
+   public bool PreDir { get; set; }
+   public Fp2 BornPosition { get; }
+   public float Dir { get; set; }
+   public Fp DirFp { get; set; }
+   public Fp2 PositionFp { get; set; }
+   public Vector2 Position { get; set; }
+   public Fp2 get_BornDir2() { }
+   protected void set_BornDir2(Fp2 value) { }
+   public bool get_PreDir() { }
+   public void set_PreDir(bool value) { }
+   public Fp2 get_BornPosition() { }
+   public float get_Dir() { }
+   public void set_Dir(float value) { }
+   public Fp get_DirFp() { }
+   public void set_DirFp(Fp value) { }
+   public Fp2 get_PositionFp() { }
+   public void set_PositionFp(Fp2 value) { }
+   public Vector2 get_Position() { }
+   public void set_Position(Vector2 value) { }
+   public virtual void OnDirChanged(Fp oldDir, Fp newDir) { }
+   public void FixPreDir() { }
+   public virtual Fp2 TransformPointToGlobal(Fp2 localPos, ActorGetDirectionType dirType = 0) { }
+   public virtual Fp2 TransformDirToGlobal(Fp2 localDir, ActorGetDirectionType dirType = 0) { }
+   public virtual Fp2 TransformDirToLocal(Fp2 localDir, ActorGetDirectionType dirType = 0) { }
+   public void SetPositionTeleport(Vector2 pos) { }
+   public Fp2 Position; // 0x30
+   public Fp Dir; // 0x4
+
+=== ActorPosition ===
+public class ActorPosition // TypeDefIndex: 3782
+{
+	// Fields
+	public ActorBase Owner; // 0x10
+	[CompilerGenerated]
+	private bool <IsOffGround>k__BackingField; // 0x18
+	private bool lastIsOffGround; // 0x19
+	public LayerMaskEx SceneSolidLayerMask; // 0x1C
+	public LayerMaskEx SceneSolidAndPassableLayerMask; // 0x20
+	[CompilerGenerated]
+	private SceneCarryPlatform <CurrentCarryPlatform>k__BackingField; // 0x28
+	public Fp StepUpHeightDefault; // 0x30
+	public Fp StepUpHeightWhenDrop; // 0x38
+	public Fp StepDownHeight; // 0x40
+	private Fp m_stepUpHeightCached; // 0x48
+	private Fp2 m_deltaMoveAccumulatedInCurFrame; // 0x50
+	public ActorPositionSkipFunctions SkipFuncs; // 0x60
+	public Fp GravityRatio; // 0x64
+	private Fp2 m_gravitySpeed; // 0x70
+	private RaycastHit2DWarp m_castResultCached; // 0x80
+	private static RaycastHit2DWarp[] s_ListHitCached; // 0x0
+	private Fp2 m_lastFramePos; // 0xB8
+	private Fp2 m_DeltaPosFromLastFrame; // 0xC8
+	private Fp2 m_RealVelocityByDeltaPos; // 0xD8
+	private bool m_isOffGroundOnMainUpdate; // 0xE8
+	private bool lastFlyingOut; // 0xE9
+	private int updateLastFlyingout; // 0xEC
+	public static bool ActorPositionUseLogger; // 0x8
+	private Fp m_lastOnGroundTimeStamp; // 0xF0
+	private Fp m_lastOffGroundTimeStamp; // 0xF8
+	private bool m_isLastFrameOffGround; // 0x100
+	private Fp2 m_LastFlyingVelocity; // 0x108
+
+	// Properties
+	public bool IsOffGround { get; set; }
+	public Fp2 CurPhysicsVelocity { get; }
+	public Fp2 PositionDeltaFromLastFrame { get; }
+	pub
+
+=== ActorDir ===
+public class ActorDir // TypeDefIndex: 3770
+{
+	// Fields
+	private Fp2 m_Dir; // 0x10
+	private Fp2 m_DirUp; // 0x20
+
+	// Properties
+	public Fp2 DirV { get; }
+	public Fp2 DirUpV { get; }
+	public Fp Dir { get; }
+
+	// Methods
+
+	// RVA: 0x158F2F0 Offset: 0x158DEF0 VA: 0x18158F2F0
+	public Fp2 get_DirV() { }
+
+	// RVA: 0x1B0CEB0 Offset: 0x1B0BAB0 VA: 0x181B0CEB0
+	public Fp2 get_DirUpV() { }
+
+	// RVA: 0x1B0CEC0 Offset: 0x1B0BAC0 VA: 0x181B0CEC0
+	public Fp get_Dir() { }
+
+	// RVA: 0x1B0C9C0 Offset: 0x1B0B5C0 VA: 0x181B0C9C0
+	public bool ChangeDir(Fp value) { }
+
+	// RVA: 0x1B0C860 Offset: 0x1B0B460 VA: 0x181B0C860
+	public void ChangeDir2(Fp2 dir) { }
+
+	// RVA: 0x1B0CB30 Offset: 0x1B0B730 VA: 0x181B0CB30
+	public Fp2 TransformDirToGlobal(Fp2 localDir, ActorGetDirectionType dirType = 0) { }
+
+	// RVA: 0x1B0CCA0 Offset: 0x1B0B8A0 VA: 0x181B0CCA0
+	public Fp2 TransformDirToLocal(Fp2 gDir, ActorGetDirectionType dirType = 0) { }
+
+	// RVA: 0x1B0CAD0 Offset: 0x1B0B6D0 VA: 0x181B0CAD0
+	public Fp GetRotateDegree() { }
+
+	// RVA: 0x1B0CE10 Offset: 0x1B0BA10 VA: 0x181B0CE10
+	public void .ctor() { }
+}
+
+// Namespace: GamePlay
+[Flags]
+public enum ActorHitEffectCheck // TypeDefIndex: 3771
+{
+	// Fields
+	public int value__; // 0x0
+	public const ActorHitEffectCheck Always = 0;
+	public const ActorHitEffectCheck Cd = 1;
+	public const ActorHitEffectCheck InGroupCount = 2;
+	public const ActorHitEffectCheck GlobalCount = 4;
+	public const ActorHitEffectCheck All = 7;
+}
+
+// Namespace: 
+public class ActorEffectMgr.Act

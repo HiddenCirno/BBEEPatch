@@ -1,0 +1,349 @@
+共 233 段
+
+段  1 [Dash/Any       槽5.1   ] 动作: dashAir
+段  2 [?              槽?     ] 动作: drop → dropend
+段  3 [Attack/Any     槽1.9   ] 动作: attack1
+                                    纹章: a0, a02, fly
+段  4 [Attack/Any     槽1.10  ] 动作: attack2
+                                    纹章: a20, a22
+段  5 [Attack/Any     槽1.10  ] 动作: attack3
+                                    纹章: a32
+段  6 [?              槽?     ] 动作: attack1
+                                    纹章: a0, a02
+段  7 [?              槽?     ] 动作: attack2
+                                    纹章: a20, a22
+段  8 [?              槽?     ] 动作: attack3
+                                    纹章: a32
+段  9 [Attack/Any     槽1.12  ] 动作: attack4
+                                    纹章: a42
+段 10 [Skill/Up       槽2.9   ] 动作: UltraDashEX
+                                    纹章: UD
+段 11 [Skill/Up       槽2.11  ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段 12 [Skill/Up       槽2.11  ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段 13 [Attack/Down    槽1.4   ] 动作: attackD1
+                                    纹章: aD12
+段 14 [Attack/Down    槽1.6   ] 动作: attackD2
+                                    纹章: aD22
+段 15 [Attack/Down    槽1.6   ] 动作: attackD3
+                                    纹章: aD32
+段 16 [Attack/Down    槽1.7   ] 动作: atkAirX
+                                    纹章: attackAir2
+段 17 [?              槽?     ] 动作: dropendD
+段 18 [/Any           槽5.2   ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA, anyingchongci, dash
+段 19 [/Any           槽5.25  ] 动作: dashAAendEX
+段 20 [/Any           槽5.19  ] 动作: summon
+                                    纹章: summonburst
+段 21 [?              槽?     ] 动作: summon
+段 22 [?              槽?     ] 动作: summon
+段 23 [?              槽?     ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA, dash
+段 24 [?              槽?     ] 动作: dashAAendEX
+段 25 [?              槽?     ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA
+段 26 [?              槽?     ] 动作: dashAAendEX
+段 27 [?              槽?     ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA, dash
+段 28 [?              槽?     ] 动作: dashAAendEX
+段 29 [?              槽?     ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA
+段 30 [?              槽?     ] 动作: dashAAendEX
+段 31 [?              槽?     ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA, dash
+段 32 [?              槽?     ] 动作: dashAAendEX
+段 33 [Jump/Any       槽7.3   ] 动作: jump
+段 34 [/Any           槽5.4   ] 动作: dashAirAtkG → dashAirAtk → dashAirAtk0
+                                    纹章: dashA
+段 35 [/Any           槽5.23  ] 动作: dashAAendEX
+段 36 [?              槽?     ] 动作: jump
+段 37 [?              槽?     ] 动作: dashAirAtkG → dashAirAtk → dashAirAtk0
+                                    纹章: dashAir, dashA
+段 38 [?              槽?     ] 动作: dashAAendEX
+段 39 [?              槽?     ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA
+段 40 [?              槽?     ] 动作: dashAAendEX
+段 41 [?              槽?     ] 动作: jump
+段 42 [/Any           槽7.4   ] 动作: jump2 → dashAir
+                                    纹章: jump, dashAir
+段 43 [/Any           槽5.12  ] 动作: jump2
+                                    纹章: jump, dashAir
+段 44 [/Any           槽7.5   ] 动作: jump3
+                                    纹章: jump, dashAir2
+段 45 [/Any           槽7.5   ] 动作: dashAirAtkG → dashAirAtk → dashAirAtk0
+                                    纹章: dashA
+段 46 [?              槽?     ] 动作: dashAAendEX
+段 47 [Dash/Down      槽5.5   ] 动作: attackholdDashEX → attackhold_hit
+                                    纹章: dashSkill, dash
+段 48 [/Any           槽5.15  ] 动作: attackhold_hit2
+                                    纹章: AD_hit, dashSkill2
+段 49 [?              槽?     ] 动作: jump
+段 50 [?              槽?     ] 动作: dropend2
+段 51 [Attack/Up      槽1.1   ] 动作: AttackUp
+                                    纹章: aup2, aup
+段 52 [?              槽?     ] 动作: dashAir
+                                    纹章: dashAir
+段 53 [?              槽?     ] 动作: drop(clone) → dropend
+                                    纹章: dashAir2
+段 54 [?              槽?     ] 动作: AttackUp
+                                    纹章: aup2, aup
+段 55 [?              槽?     ] 动作: attackholdDashEX → attackhold_hit
+                                    纹章: dashSkill
+段 56 [/Any           槽5.17  ] 动作: attackhold_hit2Air
+                                    纹章: AD_hit, dashSkill2
+段 57 [?              槽?     ] 动作: atkhold_2A_drop
+段 58 [/Any           槽5.17  ] 动作: drop(clone) → dropend
+段 59 [?              槽?     ] 动作: AttackUp
+                                    纹章: aup2, aup
+段 60 [?              槽?     ] 动作: drop(clone)
+段 61 [?              槽?     ] 动作: dropend
+段 62 [Dash/Any       槽5.8   ] 动作: dash
+                                    纹章: dash
+段 63 [/Any           槽6.2   ] 动作: dashend → rushUp
+                                    纹章: xup2, dash2
+段 64 [?              槽?     ] 动作: dropend2
+段 65 [?              槽?     ] 动作: dash
+                                    纹章: dash
+段 66 [?              槽?     ] 动作: rushUp
+                                    纹章: xup2, dash2
+段 67 [?              槽?     ] 动作: dropend2 → dash
+                                    纹章: dash
+段 68 [?              槽?     ] 动作: dashend
+段 69 [?              槽?     ] 动作: rushUp
+                                    纹章: xup2, dash2
+段 70 [?              槽?     ] 动作: dropend2
+段 71 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段 72 [?              槽?     ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段 73 [?              槽?     ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段 74 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段 75 [?              槽?     ] 动作: UDdrop
+段 76 [?              槽?     ] 动作: dropend
+段 77 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段 78 [?              槽?     ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段 79 [?              槽?     ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段 80 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD, UDAEX
+段 81 [?              槽?     ] 动作: UDdrop
+段 82 [?              槽?     ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段 83 [?              槽?     ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段 84 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段 85 [?              槽?     ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段 86 [?              槽?     ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段 87 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段 88 [?              槽?     ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段 89 [?              槽?     ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段 90 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD, UDAEX
+段 91 [Skill/Any      槽2.16  ] 动作: attackAir2EX
+                                    纹章: ax2
+段 92 [Skill/Any      槽2.16  ] 动作: drop2 → dropend
+段 93 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD, UDAEX
+段 94 [?              槽?     ] 动作: UDdrop
+段 95 [?              槽?     ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段 96 [?              槽?     ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段 97 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD, UDAEX
+段 98 [?              槽?     ] 动作: UDdrop
+段 99 [?              槽?     ] 动作: dropend
+段100 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段101 [?              槽?     ] 动作: UDdrop
+段102 [?              槽?     ] 动作: dropend
+段103 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段104 [?              槽?     ] 动作: UDdrop
+段105 [?              槽?     ] 动作: dropend
+段106 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段107 [?              槽?     ] 动作: UDdrop
+段108 [?              槽?     ] 动作: dropend
+段109 [Skill/Any      槽2.14  ] 动作: holdEX
+                                    纹章: x2
+段110 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段111 [?              槽?     ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段112 [?              槽?     ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段113 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD
+段114 [?              槽?     ] 动作: UltraDashAirEX
+                                    纹章: UDA0
+段115 [?              槽?     ] 动作: UltraDAend
+                                    纹章: UDA, UDEX
+段116 [?              槽?     ] 动作: UltraDashEX
+                                    纹章: UD, UDAEX
+段117 [?              槽?     ] 动作: UDdrop
+段118 [?              槽?     ] 动作: dropend
+段119 [?              槽?     ] 动作: attack1
+                                    纹章: a0, a02
+段120 [Attack/Any     槽8.1   ] 动作: attackhold21
+段121 [Attack/Any     槽8.1   ] 动作: attackhold23
+                                    纹章: aHEX
+段122 [?              槽?     ] 动作: attack1
+                                    纹章: a0, a02
+段123 [?              槽?     ] 动作: attackhold21
+段124 [/Any           槽8.2   ] 动作: attackhold22_loop
+段125 [/Any           槽8.2   ] 动作: attackhold23
+                                    纹章: aHEX
+段126 [?              槽?     ] 动作: attack1
+                                    纹章: a0, a02
+段127 [?              槽?     ] 动作: attackhold21
+段128 [?              槽?     ] 动作: attackhold22_loop
+段129 [?              槽?     ] 动作: attackhold22_loop
+段130 [?              槽?     ] 动作: attackhold23
+                                    纹章: aH2EX
+段131 [?              槽?     ] 动作: jump
+段132 [/Any           槽4.1   ] 动作: fall
+段133 [?              槽?     ] 动作: fallup
+段134 [/Any           槽4.1   ] 动作: fallupd → fallup2
+段135 [/Any           槽4.3   ] 动作: fallup2d → fallup3
+段136 [/Any           槽4.6   ] 动作: fallm
+段137 [/Any           槽4.9   ] 动作: fallmdown → fallmdownendEX2 → fallmdownend
+段138 [/Any           槽4.16  ] 动作: jump
+段139 [?              槽?     ] 动作: jump2
+                                    纹章: jump
+段140 [Summon/Down    槽11.3  ] 动作: fallmEX0 → fallm → fallmEX0Air
+段141 [/Any           槽4.15  ] 动作: fallmdownEX0 → fallmdownendEX → fallmdownend
+段142 [/Any           槽4.15  ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA, dash
+段143 [?              槽?     ] 动作: dashAAendEX
+段144 [?              槽?     ] 动作: dashAtkG → dashAtk → dashAtk0
+                                    纹章: dashA
+段145 [?              槽?     ] 动作: dashAAendEX
+段146 [?              槽?     ] 动作: dash
+                                    纹章: dash
+段147 [?              槽?     ] 动作: jump
+                                    纹章: dash2
+段148 [Skill/Down     槽2.5   ] 动作: attackA_AirEX
+                                    纹章: A1
+段149 [Skill/Down     槽2.5   ] 动作: attackB_Air
+                                    纹章: B1
+段150 [Skill/Down     槽2.7   ] 动作: attackC_Air
+                                    纹章: C1
+段151 [Skill/Down     槽2.8   ] 动作: drop22 → dropend
+段152 [Skill/Down     槽2.1   ] 动作: attackAEX
+                                    纹章: A1
+段153 [Skill/Down     槽2.3   ] 动作: attackB
+                                    纹章: B1
+段154 [Skill/Down     槽2.3   ] 动作: attackC
+                                    纹章: C1
+段155 [?              槽?     ] 动作: attack1
+                                    纹章: a0, a02
+段156 [?              槽?     ] 动作: attack2
+                                    纹章: a20, a22
+段157 [Attack/Up      槽1.2   ] 动作: AttackUp
+                                    纹章: aup2, aup
+段158 [Attack/Up      槽1.2   ] 动作: atkAir12
+                                    纹章: aa
+段159 [/Any           槽4.12  ] 动作: drop3
+段160 [?              槽?     ] 动作: dropend
+段161 [?              槽?     ] 动作: AttackUp
+                                    纹章: aup2, aup
+段162 [?              槽?     ] 动作: jump2
+                                    纹章: jump
+段163 [Attack/Up      槽4.13  ] 动作: AttackUp2
+                                    纹章: aup2, aup
+段164 [Attack/Up      槽4.13  ] 动作: atkAir12
+                                    纹章: aa
+段165 [Attack/Any     槽4.14  ] 动作: atkAir3
+                                    纹章: aa3
+段166 [Attack/Any     槽4.14  ] 动作: drop3
+段167 [?              槽?     ] 动作: dropend
+段168 [?              槽?     ] 动作: jump
+段169 [?              槽?     ] 动作: atkAir12
+                                    纹章: aa
+段170 [?              槽?     ] 动作: atkAir3
+                                    纹章: aa3
+段171 [?              槽?     ] 动作: drop3
+段172 [?              槽?     ] 动作: dropend
+段173 [?              槽?     ] 动作: jump
+段174 [?              槽?     ] 动作: AttackUp2
+                                    纹章: aup2, aup
+段175 [?              槽?     ] 动作: atkAir12
+                                    纹章: aa
+段176 [?              槽?     ] 动作: drop3
+段177 [?              槽?     ] 动作: dropend
+段178 [?              槽?     ] 动作: jump
+段179 [?              槽?     ] 动作: AttackUp2
+                                    纹章: aup2, aup
+段180 [?              槽?     ] 动作: drop(clone)
+段181 [?              槽?     ] 动作: dropend
+段182 [?              槽?     ] 动作: jump
+段183 [?              槽?     ] 动作: AttackUp2
+                                    纹章: aup2, aup
+段184 [?              槽?     ] 动作: drop(clone)
+段185 [?              槽?     ] 动作: dropend
+段186 [?              槽?     ] 动作: jump
+段187 [?              槽?     ] 动作: dashAir
+                                    纹章: dashAir
+段188 [/Any           槽5.13  ] 动作: dashAir2
+                                    纹章: dashAir
+段189 [/Any           槽5.13  ] 动作: AttackUp2
+                                    纹章: aup2, aup, dashAir2
+段190 [Attack/Up      槽1.3   ] 动作: drop(clone)
+段191 [?              槽?     ] 动作: dropend
+段192 [?              槽?     ] 动作: jump
+段193 [?              槽?     ] 动作: dashAir
+                                    纹章: dashAir
+段194 [?              槽?     ] 动作: jump2
+                                    纹章: jump, dashAir2
+段195 [?              槽?     ] 动作: dropend
+段196 [?              槽?     ] 动作: jump
+段197 [?              槽?     ] 动作: dashAir
+                                    纹章: dashAir
+段198 [?              槽?     ] 动作: AttackUp2
+段199 [?              槽?     ] 动作: drop(clone)
+段200 [?              槽?     ] 动作: dropend
+段201 [?              槽?     ] 动作: jump
+段202 [?              槽?     ] 动作: dashAir → AttackUp2
+段203 [?              槽?     ] 动作: drop(clone)
+段204 [?              槽?     ] 动作: dropend
+段205 [?              槽?     ] 动作: jump
+段206 [?              槽?     ] 动作: dashAir
+段207 [?              槽?     ] 动作: AttackUp2
+段208 [?              槽?     ] 动作: drop(clone)
+段209 [?              槽?     ] 动作: dropend
+段210 [?              槽?     ] 动作: jump
+段211 [?              槽?     ] 动作: dashAir
+段212 [?              槽?     ] 动作: AttackUp2
+段213 [?              槽?     ] 动作: drop(clone)
+段214 [?              槽?     ] 动作: dropend
+段215 [?              槽?     ] 动作: jump
+段216 [?              槽?     ] 动作: jump2
+段217 [?              槽?     ] 动作: fall
+段218 [/Any           槽4.7   ] 动作: fallend
+段219 [/Any           槽4.7   ] 动作: AttackUp
+段220 [?              槽?     ] 动作: jump2
+段221 [?              槽?     ] 动作: AttackUp2
+段222 [?              槽?     ] 动作: jump3
+段223 [?              槽?     ] 动作: atkAir12
+段224 [?              槽?     ] 动作: drop3
+段225 [?              槽?     ] 动作: fall → fallup
+段226 [?              槽?     ] 动作: fallupd → fallup2
+段227 [?              槽?     ] 动作: fallup2d → fallup3
+段228 [?              槽?     ] 动作: fallm
+段229 [?              槽?     ] 动作: fallmdown → fallmdownendEX2 → fallmdownend
+段230 [?              槽?     ] 动作: attackhold21 → attackhold23
+段231 [?              槽?     ] 动作: jump
+段232 [?              槽?     ] 动作: fall
+段233 [?              槽?     ] 动作: fallend

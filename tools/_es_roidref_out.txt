@@ -1,0 +1,7 @@
+BulletConfig ids: 180
+
+=== int32 RoleId hits in es.ab ===
+  id=10340101   x72
+
+=== int32 RoleId hits in esbullet.ab ===
+  id=10340101   x4

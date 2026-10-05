@@ -1,0 +1,49 @@
+=== playerbattletriggerdetail: 16941 条 ===
+   ActorActionDesc_10241 = 在空中可用<color=#3AFDFFFF>跳跃</color>和<color=#3AFDFFFF>冲刺</color>重置<color=#3AFDFFFF>泛空中普攻类招式</c
+   ActorActionDesc_10251 = 在空中可用<color=#3AFDFFFF>跳跃</color>重置<color=#3AFDFFFF>炼狱升拳</color>的段数限制计数。
+   ActorActionDesc_10261 = 在空中可用<color=#3AFDFFFF>冲刺</color>重置<color=#3AFDFFFF>空中普攻</color>的段数限制计数。
+   ActorActionDesc_10271 = 在空中可用<color=#3AFDFFFF>冲刺</color>重置<color=#3AFDFFFF>炼狱升拳</color>的段数限制计数。
+   ActorActionName_11211 = 泛用强化
+   ActorActionDesc_11211 = 泛用强化会对多个招式产生影响。
+   ActorActionDesc_11301 = <color=#3AFDFFFF>死神之镰</color>将重置<color=#3AFDFFFF>普攻</color>和<color=#3AFDFFFF>炼狱升拳</color>的
+   ActorActionName_21301 = 泛用强化Ⅰ
+   ActorActionDesc_21301 = 泛用强化会对多个招式产生影响。
+   ActorActionDesc_21324 = 拔剑格挡成功时，重置跳跃和冲刺的段数限制计数。
+   ActorActionName_21341 = 泛用强化Ⅱ
+   ActorActionDesc_21341 = 泛用强化会对多个招式产生影响。
+   (命中 12)
+=== blessconf: 336 条 ===
+   ActorActionDesc_40221 = 滑翔将视作落地，并重置段数限制计数。
+   (命中 1)
+=== potentialcomboconf: 699 条 ===
+   ActorActionDesc_11301 = <color=#3AFDFFFF>死神之镰</color>将重置<color=#3AFDFFFF>普攻</color>和<color=#3AFDFFFF>炼狱升拳</color>的
+   ActorActionDesc_14072 = 【空中】<color=#3AFDFFFF>蛇刹</color>与<color=#3AFDFFFF>蛇骸</color>可重置空中攻击动作的段数限制计数。
+   ActorActionDesc_21324 = 拔剑格挡成功时，重置跳跃和冲刺的段数限制计数。
+   ActorActionDesc_30432 = 在空中可用<color=#3AFDFFFF>跳跃</color>重置<color=#3AFDFFFF>泛空中普攻类招式</color>的段数限制计数。
+   ActorActionDesc_30442 = 在空中可用<color=#3AFDFFFF>冲刺</color>重置<color=#3AFDFFFF>泛空中普攻类招式</color>的段数限制计数。
+   ActorActionDesc_30464 = 空中使用后可重置冲刺与跳跃的段数限制计数。
+   ActorActionDesc_40221 = 滑翔将视作落地，并重置段数限制计数。
+   ActorActionDesc_110311 = 在空中可用<color=#3AFDFFFF>跳跃</color>重置<color=#3AFDFFFF>泛空中普攻类招式</color>的段数限制计数。
+   ActorActionDesc_110321 = 在空中可用<color=#3AFDFFFF>冲刺</color>重置<color=#3AFDFFFF>泛空中普攻类招式</color>的段数限制计数。
+   ActorActionDesc_110331 = 在空中可用<color=#3AFDFFFF>冲刺</color>重置<color=#3AFDFFFF>烙雷</color>的段数限制计数。
+   ActorActionDesc_110341 = 在空中可用<color=#3AFDFFFF>紫电</color>重置<color=#3AFDFFFF>泛空中普攻类招式</color>的段数限制计数。
+   ActorActionDesc_110343 = 释放时将不会重置泛地面普攻类招式的段数限制计数。
+   ActorActionDesc_180491 = 使用奇幻武器攻击后，重置泛空中普攻类招式的段数限制计数。
+   ActorActionDesc_181052 = 可重置泛空中普攻类招式的段数限制。
+   ActorActionDesc_221114 = 空中冲刺可重置泛空中普攻类招式的段数限制。
+   ActorActionDesc_221115 = 可重置泛空中普攻类招式的段数限制。
+   ActorActionDesc_280221 = 在空中使用时，段数限制计数可用<color=#3AFDFFFF>跳跃</color>重置。
+   ActorActionDesc_280271 = 可用<color=#3AFDFFFF>冲刺</color>重置<color=#3AFDFFFF>泛空中普攻类招式</color>的段数限制计数。
+   ActorActionDesc_280281 = 在空中使用时，段数限制计数可用<color=#3AFDFFFF>冲刺</color>重置。
+   ActorActionDesc_280523 = 可重置泛空中普攻类招式的段数限制。
+   ActorActionDesc_290551 = 可使用跳跃或冲刺重置空中段数限制计数。
+   ActorActionDesc_310681 = 空中冲刺可重置跳跃的段数限制计数。
+   ActorActionDesc_340493 = 发动时可重置<color=#3AFDFFFF>泛空中普攻类招式</color>的段数限制记数，且动作结束时可衔接<color=#3AFDFFFF> Type:Slasher「莫德雷
+   ActorActionDesc_370152 = 冲刺可以重置空中普攻段数。
+   (命中 24)
+=== skillactivate: 2438 条 ===
+   (命中 0)
+=== talenteffectconf: 239 条 ===
+   (命中 0)
+=== switchmisc: 1 条 ===
+   (命中 0)

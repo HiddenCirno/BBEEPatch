@@ -1,0 +1,27 @@
+
+================ skillactivate.ab ================
+  [TextAsset] pathid=-1977681545122140404
+     342244 字节  head=b'V\x00\x00\x00\x10\xe8\x07\x18\x05 \x01*\x07dashAir2\x07Start_5:\x05End_5B\x04DashZ\x00\x80\x01\x01\x90'
+     命中 holdEX: 1
+     命中 attackA: 166
+     命中 attackB: 10
+     命中 attackC: 12
+     命中 AttackUp: 4
+     命中 dashAtk: 45
+     命中 summon: 54
+     命中 fallup: 5
+     命中 atkAir12: 1
+     命中 UltraDashEX: 1
+     命中 attack1: 38
+     命中 dash: 329
+  [AssetBundle] pathid=1
+
+================ skillattr.ab ================
+  [AssetBundle] pathid=1
+  [TextAsset] pathid=3750486857306273727
+     2832 字节  head=b'\x1b\x00\x00\x00\x08\x85\x8e\x06\x10\x01\x1a\x02\t\n \x01-333@2\x08\xcd\xcc\xcc>\xcd\xcc\xcc=\x1b\x00\x00\x00\x08\x85\x8e\x06\x10\x01\x1a\x02\t\n \t-'
+
+================ fesactorskilllevelconf.ab ================
+  [AssetBundle] pathid=1
+  [TextAsset] pathid=3336116065429135603
+     3774 字节  head=b'\x08\x00\x00\x00\x08\xb3\x8c=\x10\x01\x18\x14\x08\x00\x00\x00\x08\xb4\x8c=\x10\x01\x18\x14\x08\x00\x00\x00\x08\x9b\x94=\x10\x01\x18\x14\x08\x00\x00\x00\x08\x9c\x94=\x10\x01\x18\x14'

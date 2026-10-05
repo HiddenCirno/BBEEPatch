@@ -1,0 +1,128 @@
+===== 提到 PlayerSkill 的方法签名 =====
+   public static void SetMute(PlayerObj pl, PlayerSkillGroup skillchainID, Fp time)
+   public bool ChangeToSkillByActionName(string name, PlayerSkillGroup skGroupReq, ActionSwitchSkillCheck skcheck = 13)
+   public void SetCountDownWithLastSkill(string id, Fp time, PlayerObj pl, PlayerSkill sk)
+   public void OnSkillStart(PlayerSkillChain chain)
+   public void OnSkillStart(PlayerSkill skill)
+   public abstract InputCmdState GetCmdStatusBySkillSlotStatus(PlayerSkillGroup skGroup, ESkillPotentialSlot slot)
+   public InputCmdState GetCmdStatusBySkillSlotStatus(PlayerSkillGroup skGroup, ESkillPotentialSlot slot)
+   public void Revert(PlayerSkill revertSk)
+   protected void set_SkillMgr(PlayerSkillMgr value)
+   private void set_Skill(PlayerSkill value)
+   public void StartSkill(PlayerSkill psk)
+   private void set_Status(PlayerSkillChain.ChainStatus value)
+   private void set_NextSkillPredict(PlayerSkill value)
+   public void SetStatus(PlayerSkillChain.ChainStatus st)
+   public void Init(PlayerSkillMgr owner, List<PlayerSkill> skList, PlayerSkillGroup skGroup)
+   public bool StartSkill(PlayerSkill skNew, ActionSwitchSkillCheck skcheck)
+   private bool startSkill(PlayerSkill skNew, Fp2 inputDir)
+   private void set_LastSkill(PlayerSkill value)
+   private void set_LastSkillChain(PlayerSkillChain value)
+   public PlayerSkillChain get_Item(PlayerSkillGroup skGroup)
+   public void InitOneCommonSkillChain(PlayerSkillGroup skGroup)
+   public void InitTeacherSkillChain(int actorId, int skillId, PlayerSkillGroup skGroup, float attrLv, float teacherDamMul)
+   public void InitTeacherSkillChainFp(int actorId, int skillId, PlayerSkillGroup skGroup, Fp attrLv, Fp teacherDamMul)
+   public bool SkillChangePreCall(PlayerSkill psk, PlayerSkillChain chain)
+   public void SkillStartImplement(PlayerSkill psk, Fp2 lastInputDir, PlayerSkillChain chain)
+   private void onSkillChangedPostProc(PlayerSkill oldsk, PlayerSkill newsk, PlayerSkillChain chain)
+   public void NotifySkillCDZero(PlayerSkillChain skChain)
+   public void NotifySkillTimeOutReset(PlayerSkillChain sc, PlayerSkill psk)
+   public bool ChangeSkillByActionName(string actionName, PlayerSkillGroup skGroupReq, ActionSwitchSkillCheck skcheck)
+   public bool FindSkillAndChainByActionName(string actionName, out PlayerSkillChain skChain, out PlayerSkill skill)
+   public void MpLowTip(PlayerSkillGroup skGroup)
+   public void ForceChangeLastSkill(PlayerSkillChain skc, PlayerSkill lastSk)
+   public static void GetSkillCastRequires(PlayerSkill curSkill, PlayerObj plo, out bool activeStateValid_out, out bool groundValid_out, out bool mpValid_out)
+   public static bool CheckSkillCanCast(PlayerSkill curSkill, PlayerObj plo, bool checkActiveState = True, bool checkOnGround = True, bool checkMP = True)
+   public static SkillActivateFixedPointWrap TeacherSkillToSkillActivate(int actorId, SkillFromTeacherFixedPointWrap teacherSkConf, PlayerSkillGroup skGroup)
+   public static void TipSkillMpNotEnough(PlayerObj pl, PlayerSkillGroup skGroup)
+   public static bool CheckNextSkillPreOrderOK(PlayerObj pl, PlayerSkillChain skc, PlayerSkill sk)
+   public static PlayerSkillChain GetSkillChainByPotential(uint potentialId, PlayerObj player, IReadOnlyList<PlayerSkillGroup> preferredSkillGroups)
+   public static bool IsSkillReady(PlayerSkill skill, PlayerObj player)
+   public static void GetSkillMpProgress(PlayerSkill skill, PlayerObj player, List<float> progressList)
+   public static void RecordSkill(InputCmd cmd, ActorVirtualButtonConfig.TouchCriteria criteria, PlayerSkill skill)
+   public void AddPotentialEntry(ActorVirtualButtonConfig.PotentialEntry entry, IReadOnlyList<PlayerSkillGroup> preferredSkillGroups)
+   public void SetOverrideSkill(PlayerSkill sk, bool refreshMpMaxCache = True)
+   private void showIcon(PlayerSkill sk, int quality)
+   public BattleSkillBtn FindBySkillType(PlayerSkillGroup skillType)
+   protected void InitSpSkill(PlayerSkill skill, uint spPotentialId)
+
+===== PlayerSkillChain =====
+public class PlayerSkillChainCurSkill // TypeDefIndex: 4060
+{
+	// Fields
+	[CompilerGenerated]
+	private PlayerSkill <Skill>k__BackingField; // 0x10
+	[CompilerGenerated]
+	private Fp <TimeEllaps>k__BackingField; // 0x18
+
+	// Properties
+	public PlayerSkill Skill { get; set; }
+	public Fp TimeEllaps { get; set; }
+	public string Action { get; }
+	public int Order { get; }
+
+	// Methods
+
+	[CompilerGenerated]
+	// RVA: 0x5A57E0 Offset: 0x5A43E0 VA: 0x1805A57E0
+	public PlayerSkill get_Skill() { }
+
+	[CompilerGenerated]
+	// RVA: 0x5BDD10 Offset: 0x5BC910 VA: 0x1805BDD10
+	private void set_Skill(PlayerSkill value) { }
+
+	[CompilerGenerated]
+	// RVA: 0x56B970 Offset: 0x56A570 VA: 0x18056B970
+	public Fp get_TimeEllaps() { }
+
+	[CompilerGenerated]
+	// RVA: 0x5901D0 Offset: 0x58EDD0 VA: 0x1805901D0
+	private void set_TimeEllaps(Fp value) { }
+
+	// RVA: 0x1BB08C0 Offset: 0x1BAF4C0 VA: 0x181BB08C0
+	public void Reset() { }
+
+	// RVA: 0x1BB0970 Offset: 0x1BAF570 VA: 0x181BB0970
+	public void StartSkill(PlayerSkill psk) { }
+
+	// RVA: 0x1BB0AA0 Offset: 0x1BAF6A0 VA: 0x181BB0AA0
+	public void Update(Fp dt) { }
+
+	// RVA: 0x1BB0B20 Offset: 0x1BAF720 VA: 0x181BB0B20
+	public string get_Action() { }
+
+	// RVA: 0x1BB0B80 Offset: 0x1BAF780 VA: 0x181BB0B80
+	public int get_Order() { }
+
+	// RVA: 0x1BB0750 Offset: 0x1BAF350 VA: 0x181BB0750
+	public bool IsFixDurComplete() { }
+
+	// RVA: 0x1BB07E0 Offset: 0x1BAF3E0 VA: 0x181BB07E0
+	public bool IsTimeOut() { }
+
+	// RVA: 0x56C460 Offset: 0x56B060 VA: 0x18056C460
+	public void .ctor() { }
+}
+
+// Namespace: 
+public enum PlayerSkillChain.ChainStatus // TypeDefIndex: 4061
+{
+	// Fields
+	public int value__; // 0x0
+	public const PlayerSkillChain.ChainStatus idle = 0;
+	public const PlayerSkillChain.ChainStatus active = 2;
+	public const PlayerSkillChain.ChainStatus cd = 4;
+	public const PlayerSkillChain.ChainStatus inactive = 5;
+}
+
+// Namespace: GamePlay
+[DefaultMember("Item")]
+public class PlayerSkillChain // TypeDefIndex: 4062
+{
+	// Fields
+	public PlayerSkillMgr Owner; // 0x10
+	public List<PlayerSkill> SkillList; // 0x18
+	[CompilerGenerated]
+	private PlayerSkillChain.ChainStatus <Status>k__BackingField; // 0x20
+	public int SkillType; // 0x24
+	public PlayerSkillChainCurSki

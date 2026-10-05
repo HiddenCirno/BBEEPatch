@@ -1,0 +1,149 @@
+
+[f=  8176] 动作 "attackholdDashEX"
+[f>=  8176]     └ 弹幕 idx=10340101 action="dashSkill"
+
+[f=  8222] 动作 "attackhold_hit"
+[f>=  8222]     └ 弹幕 idx=1006 action="fly"
+[f>=  8222]     └ 弹幕 idx=800010 action="anyingchongci"
+[f>=  8222]     └ 弹幕 idx=10340101 action="dash"
+[f>=  8222]     └ 弹幕 idx=10340101 action="dashSkill2"
+
+[f=  8583] 动作 "attackhold_hit2"
+[f>=  8583]     └ 弹幕 idx=10340101 action="AD_hit"
+
+[f= 10545] 动作 "AttackUp"
+[f>= 10545]     └ 弹幕 idx=10340101 action="aup2"
+[f>= 10545]     └ 弹幕 idx=10340101 action="aup"
+
+[f= 11070] 动作 "drop(clone)"
+
+[f= 11240] 动作 "dropend"
+
+[f= 11403] 动作 "dash"
+[f>= 11403]     └ 弹幕 idx=10340101 action="dash"
+[f>= 11403]     └ 弹幕 idx=10340101 action="dash"
+
+[f= 11588] 动作 "dashend"
+
+[f= 11713] 动作 "rushUp"
+[f>= 11713]     └ 弹幕 idx=10340101 action="xup2"
+[f>= 11713]     └ 弹幕 idx=10340101 action="dash2"
+
+[f= 12327] 动作 "dropend2"
+
+[f= 13784] 动作 "UltraDashEX"
+[f>= 13784]     └ 弹幕 idx=10340101 action="UD"
+
+[f= 14416] 动作 "UltraDashAirEX"
+[f>= 14416]     └ 弹幕 idx=10340101 action="UDA0"
+[f>= 14416]     └ 弹幕 idx=10340101 action="UDA0"
+
+[f= 14665] 动作 "UltraDAend"
+[f>= 14665]     └ 弹幕 idx=10340101 action="UDA"
+[f>= 14665]     └ 弹幕 idx=10340101 action="UDEX"
+
+[f= 16549] 动作 "attackAEX"
+[f>= 16549]     └ 弹幕 idx=10340101 action="A1"
+
+[f= 16965] 动作 "attackB"
+[f>= 16965]     └ 弹幕 idx=10340101 action="B1"
+
+[f= 17381] 动作 "attackC"
+[f>= 17381]     └ 弹幕 idx=10340101 action="C1"
+
+[f= 18474] 动作 "jump"
+
+[f= 18767] 动作 "attackA_AirEX"
+[f>= 18767]     └ 弹幕 idx=10340101 action="A1"
+
+[f= 19170] 动作 "attackB_Air"
+[f>= 19170]     └ 弹幕 idx=10340101 action="B1"
+
+[f= 19638] 动作 "attackC_Air"
+[f>= 19638]     └ 弹幕 idx=10340101 action="C1"
+
+[f= 20485] 动作 "drop22"
+
+[f= 20488] 动作 "dashAirAtkG"
+
+[f= 20488] 动作 "dashAirAtk"
+
+[f= 20488] 动作 "dashAirAtk0"
+[f>= 20488]     └ 弹幕 idx=10340101 action="dashAir"
+[f>= 20488]     └ 弹幕 idx=10340101 action="dashA"
+[f>= 20488]     └ 弹幕 idx=10340101 action="dashA"
+[f>= 20488]     └ 弹幕 idx=10340101 action="dashA"
+
+[f= 20847] 动作 "dashAAendEX"
+
+[f= 22044] 动作 "jump"
+
+[f= 22486] 动作 "fall"
+
+[f= 22597] 动作 "fallend"
+
+[f= 22930] 动作 "jump"
+
+[f= 23195] 动作 "jump2"
+[f>= 23195]     └ 弹幕 idx=10340101 action="jump"
+
+[f= 23509] 动作 "fall"
+
+[f= 23633] 动作 "fallup"
+
+[f= 23945] 动作 "fallupd"
+
+[f= 23947] 动作 "fallup2"
+
+[f= 24291] 动作 "fallup2d"
+
+[f= 24293] 动作 "fallup3"
+
+[f= 24709] 动作 "fallm"
+
+[f= 25059] 动作 "fallmdown"
+
+[f= 25096] 动作 "fallmdownendEX2"
+
+[f= 25096] 动作 "fallmdownend"
+
+[f= 26349] 动作 "jump"
+
+[f= 26771] 动作 "dashAirAtkG"
+
+[f= 26771] 动作 "dashAirAtk"
+
+[f= 26771] 动作 "dashAirAtk0"
+[f>= 26771]     └ 弹幕 idx=10340101 action="dashAir"
+[f>= 26771]     └ 弹幕 idx=10340101 action="dashA"
+[f>= 26771]     └ 弹幕 idx=10340101 action="dashA"
+
+[f= 27094] 动作 "dashAAendEX"
+
+[f= 27677] 动作 "jump"
+
+[f= 27986] 动作 "fallmEX0"
+
+[f= 27986] 动作 "fallm"
+
+[f= 27986] 动作 "fallmEX0Air"
+
+[f= 28146] 动作 "fallmdownEX0"
+
+[f= 28155] 动作 "fallmdownendEX"
+
+[f= 28155] 动作 "fallmdownend"
+
+[f= 29910] 动作 "attackD1"
+[f>= 29910]     └ 弹幕 idx=10340101 action="aD12"
+
+[f= 30268] 动作 "attackD2"
+[f>= 30268]     └ 弹幕 idx=10340101 action="aD22"
+
+[f= 30641] 动作 "attackD3"
+[f>= 30641]     └ 弹幕 idx=10340101 action="aD32"
+
+[f= 30964] 动作 "atkAirX"
+[f>= 30964]     └ 弹幕 idx=10340101 action="attackAir2"
+
+[f= 31194] 动作 "dropendD"

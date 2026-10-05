@@ -1,0 +1,176 @@
+==== Tooltip @ 6762987
+[Tooltip("世界上方向，用于稳定LookRotation，避免翻滚。通常用 Vector3.up。")]
+[Tooltip("世界上方向，用于稳定LookRotation，避免翻滚。通常用 Vector3.up。")]
+	public Vector3 worldUp; // 0x28
+	[Tooltip("是否锁定滚转（roll）。启用后将把目标旋转的Z轴与up对齐，避免侧翻。")]
+	public bool lockRoll; // 0x34
+	[Header("Camera")]
+	public bool useMainCamera; // 0x35
+	public Camera manualCamera; // 0x38
+	[Header("Smoothing")]
+	[Tooltip("每秒最大旋转角速度（度/秒）。设为0表示无平滑，瞬间对齐。")]
+	public float maxDegreesPerSecond; // 0x40
+	[Tooltip("当相机与up方向几乎共线时，采用的备用up，防止LookRotation奇异。")]
+	public Vector3 fallbackUp; // 0x44
+	[Header("Misc")]
+	[Tooltip("是否面向相机（true）还是背向相机（false）。")]
+	public bool faceCamera; // 0x50
+	private Transform _tr; // 0x58
+
+	// Methods
+
+	// RVA: 0x1509700 Offset: 0x1508300 VA: 0x181509700
+	private void OnEnable() { }
+
+	// RVA: 0x1509690 Offset: 0x1508290 VA: 0x181509690
+	private void LateUpdate() { }
+
+	// RVA: 0x1508A90 Offset: 0x1507690 VA: 0x181508A90
+	private void ApplyAlignment(float dt) { }
+
+	// RVA: 0x15095D0 Offset: 0x15081D0 VA: 0x1815095D0
+	private static Vector3 ChooseSafeUp(Vector3 forward, Vector3 preferredUp, Vector3 altUp) { }
+
+	// RVA: 0x1509730 Offset: 0x1508330 VA: 0x181509730
+	public void .ctor() { }
+}
+
+// Namespace: 
+[ExecuteAlways]
+public class BakedLightingManager : MonoBehaviour // TypeDefIndex: 2311
+{
+	// Fields
+	private ReflectionProbe[] probes; // 0x20
+	[SerializeField]
+	protected LightmapConfAsset lightmapConf; // 0x28
+
+	// Properties
+	public LightmapConfAsset LightmapConf { get; }
+
+	// Methods
+
+	// RVA: 0x575DF0 Offset: 0x5749F0 VA: 0x180575DF0
+	public LightmapConfAsset get_LightmapConf() { }
+
+	// RVA: 0x14EF350 Offset: 0x14EDF50 VA: 0x1814EF350
+	private void Awake() { }
+
+	// RVA: 0x5B8C8
+-----
+==== Tooltip @ 6763363
+[Tooltip("当相机与up方向几乎共线时，采用的备用up，防止LookRotation奇异。")]
+[Tooltip("当相机与up方向几乎共线时，采用的备用up，防止LookRotation奇异。")]
+	public Vector3 fallbackUp; // 0x44
+	[Header("Misc")]
+	[Tooltip("是否面向相机（true）还是背向相机（false）。")]
+	public bool faceCamera; // 0x50
+	private Transform _tr; // 0x58
+
+	// Methods
+
+	// RVA: 0x1509700 Offset: 0x1508300 VA: 0x181509700
+	private void OnEnable() { }
+
+	// RVA: 0x1509690 Offset: 0x1508290 VA: 0x181509690
+	private void LateUpdate() { }
+
+	// RVA: 0x1508A90 Offset: 0x1507690 VA: 0x181508A90
+	private void ApplyAlignment(float dt) { }
+
+	// RVA: 0x15095D0 Offset: 0x15081D0 VA: 0x1815095D0
+	private static Vector3 ChooseSafeUp(Vector3 forward, Vector3 preferredUp, Vector3 altUp) { }
+
+	// RVA: 0x1509730 Offset: 0x1508330 VA: 0x181509730
+	public void .ctor() { }
+}
+
+// Namespace: 
+[ExecuteAlways]
+public class BakedLightingManager : MonoBehaviour // TypeDefIndex: 2311
+{
+	// Fields
+	private ReflectionProbe[] probes; // 0x20
+	[SerializeField]
+	protected LightmapConfAsset lightmapConf; // 0x28
+
+	// Properties
+	public LightmapConfAsset LightmapConf { get; }
+
+	// Methods
+
+	// RVA: 0x575DF0 Offset: 0x5749F0 VA: 0x180575DF0
+	public LightmapConfAsset get_LightmapConf() { }
+
+	// RVA: 0x14EF350 Offset: 0x14EDF50 VA: 0x1814EF350
+	private void Awake() { }
+
+	// RVA: 0x5B8C80 Offset: 0x5B7880 VA: 0x1805B8C80
+	private void OnDestroy() { }
+
+	// RVA: 0x14EF3B0 Offset: 0x14EDFB0 VA: 0x1814EF3B0
+	public void SwitchLightingSet(string id) { }
+
+	// RVA: 0x570E60 Offset: 0x56FA60 VA: 0x180570E60
+	public void .ctor() { }
+}
+
+// Namespace: 
+private class ScenePostProcessBlit.ScenePostProcessBlitPass : ScriptableRenderPass // TypeDefIndex: 2312
+{
+	// Field
+-----
+
+=== 所有提到 LookRotation 的串 ===
+ * "世界上方向，用于稳定LookRotation，避免翻滚。通常用 Vector3.up。"
+ * "当相机与up方向几乎共线时，采用的备用up，防止LookRotation奇异。"
+ * "QuaternionScripting::LookRotation"
+
+=== QuaternionFp ===
+public struct QuaternionFp : IEquatable<QuaternionFp>, IFormattable // TypeDefIndex: 20849
+{
+	// Fields
+	public Fp4 value; // 0x0
+	public static readonly QuaternionFp identity; // 0x0
+
+	// Methods
+
+	// RVA: 0x3E29BB0 Offset: 0x3E287B0 VA: 0x183E29BB0
+	public void .ctor(Fp x, Fp y, Fp z, Fp w) { }
+
+	// RVA: 0x3E29590 Offset: 0x3E28190 VA: 0x183E29590 Slot: 4
+	public bool Equals(QuaternionFp x) { }
+
+	// RVA: 0x3E296A0 Offset: 0x3E282A0 VA: 0x183E296A0 Slot: 0
+	public override bool Equals(object x) { }
+
+	// RVA: 0x3E207F0 Offset: 0x3E1F3F0 VA: 0x183E207F0 Slot: 2
+	public override int GetHashCode() { }
+
+	// RVA: 0x3E29940 Offset: 0x3E28540 VA: 0x183E29940 Slot: 3
+	public override string ToString() { }
+
+	// RVA: 0x3E29740 Offset: 0x3E28340 VA: 0x183E29740 Slot: 5
+	public string ToString(string format, IFormatProvider formatProvider) { }
+
+	// RVA: 0x3E29B20 Offset: 0x3E28720 VA: 0x183E29B20
+	private static void .cctor() { }
+}
+
+// Namespace: Unity.Mathematics.FixedPoint
+[Il2CppEagerStaticClassConstruction]
+[Serializable]
+public struct Random // TypeDefIndex: 20850
+{
+	// Fields
+	public uint state; // 0x0
+
+	// Methods
+
+	// RVA: 0x3E13050 Offset: 0x3E11C50 VA: 0x183E13050
+	public void .ctor(uint seed) { }
+
+	// RVA: 0x3E13050 Offset: 0x3E11C50 VA: 0x183E13050
+	public void InitState(uint seed = 1851936439) { }
+
+	// RVA: 0x3E29C90 Offset: 0x3E28890 VA: 0x183E29C90
+	public int NextInt(int mi

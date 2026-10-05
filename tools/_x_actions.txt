@@ -1,0 +1,10 @@
+@150311  x1     -> dead | Role/Es/es_holdFull_01 | 433 | 433 | 43s | 433 | hff | behit_up | behit_middle@333
+@152775  x2     -> 433 | dead | Role/Es/es_holdFull_01 | fff | fff
+@138963  x3     -> dead | Role/Es/es_holdRelease_01
+@133947  x32    -> x32 | dead | Role/Es/es_holdRelease_02
+@141047  xup    -> xup | dead | Role/Es/es_holdRelease_01
+@143155  xup2   -> xup2 | dead | fff | Role/Es/es_holdRelease_02
+@117311  a3     -> dead | @333 | Role/Es/es_attack3_01
+@118943  a32    -> a32 | dead | @333 | Role/Es/es_attack3_02
+@26839   DAA    -> DAA | dead | Role/Es/es_dashAtk1_01 | push_back
+@25351   DAA2   -> DAA2 | dead | Role/Es/es_dashAtk1_02 | fff | 433 | hff | push_back

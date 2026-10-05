@@ -1,0 +1,1207 @@
+
+[f=  4355] 动作 "dash"
+          [技能] 按键=Dash/Any 槽=5.8 类型=Dash
+          [技能] 按键=Dash/Any 槽=5.8 类型=Dash
+            └ 弹幕 idx=10340101 action="dash"
+            └ 弹幕 idx=1006 action="fly"
+            └ 弹幕 idx=800010 action="anyingchongci"
+            └ 弹幕 idx=10340101 action="dash"
+
+  ·· 空档 ··
+
+[f=  4466] 动作 "dashend"
+            └ 弹幕 idx=10340101 action="dash2"
+          [技能] 按键=Dash/Any 槽=5.8 类型=Dash
+
+  ·· 空档 ··
+
+[f=  5086] 动作 "attackholdDashEX"
+          [技能] 按键=Dash/Down 槽=5.5 类型=Dash
+          [技能] 按键=Dash/Down 槽=5.5 类型=Dash
+            └ 弹幕 idx=10340101 action="dashSkill"
+
+  ·· 空档 ··
+
+[f=  5151] 动作 "attackhold_hit"
+          [技能] 按键=Dash/Down 槽=5.5 类型=Dash
+          [技能] 按键=/Any 槽=5.15 类型=Dash
+
+  ·· 空档 ··
+
+[f=  5481] 动作 "attackhold_hit2"
+          [技能] 按键=/Any 槽=5.15 类型=Dash
+          [技能] 按键=/Any 槽=5.16 类型=Dash
+            └ 弹幕 idx=10340101 action="AD_hit"
+            └ 弹幕 idx=10340101 action="dashSkill2"
+          [技能] 按键=/Any 槽=5.16 类型=Dash
+
+  ·· 空档 ··
+
+[f=  6591] 动作 "AttackUp"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+            └ 弹幕 idx=10340101 action="aup2"
+            └ 弹幕 idx=10340101 action="aup"
+
+  ·· 空档 ··
+
+[f=  7090] 动作 "drop(clone)"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+
+  ·· 空档 ··
+
+[f=  7234] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f=  7737] 动作 "AttackUp"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+            └ 弹幕 idx=10340101 action="aup2"
+            └ 弹幕 idx=10340101 action="aup"
+
+  ·· 空档 ··
+
+[f=  8253] 动作 "drop(clone)"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+
+  ·· 空档 ··
+
+[f=  8410] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f=  9605] 动作 "AttackUp"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+            └ 弹幕 idx=10340101 action="aup2"
+            └ 弹幕 idx=10340101 action="aup"
+
+  ·· 空档 ··
+
+[f=  9989] 动作 "dashAir"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 10399] 动作 "drop(clone)"
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+
+  ·· 空档 ··
+
+[f= 10477] 动作 "dropend"
+            └ 弹幕 idx=10340101 action="dashAir2"
+
+  ·· 空档 ··
+
+[f= 10649] 动作 "AttackUp"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+            └ 弹幕 idx=10340101 action="aup2"
+            └ 弹幕 idx=10340101 action="aup"
+
+  ·· 空档 ··
+
+[f= 10932] 动作 "attackholdDashEX"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=Dash/Down 槽=5.5 类型=Dash
+            └ 弹幕 idx=10340101 action="dashSkill"
+
+  ·· 空档 ··
+
+[f= 11142] 动作 "dashendAirAHD"
+          [技能] 按键=Dash/Down 槽=5.5 类型=Dash
+
+  ·· 空档 ··
+
+[f= 11291] 动作 "dropend2"
+            └ 弹幕 idx=10340101 action="dashSkill2"
+
+  ·· 空档 ··
+
+[f= 12042] 动作 "AttackUp"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+            └ 弹幕 idx=10340101 action="aup2"
+            └ 弹幕 idx=10340101 action="aup"
+
+  ·· 空档 ··
+
+[f= 12523] 动作 "drop(clone)"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+
+  ·· 空档 ··
+
+[f= 12681] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f= 14106] 动作 "AttackUp"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+            └ 弹幕 idx=10340101 action="aup2"
+            └ 弹幕 idx=10340101 action="aup"
+
+  ·· 空档 ··
+
+[f= 14533] 动作 "attackholdDashEX"
+          [技能] 按键=Attack/Up 槽=1.1 类型=Attack
+          [技能] 按键=Dash/Down 槽=5.5 类型=Dash
+            └ 弹幕 idx=10340101 action="dashSkill"
+
+  ·· 空档 ··
+
+[f= 14596] 动作 "attackhold_hit"
+          [技能] 按键=Dash/Down 槽=5.5 类型=Dash
+          [技能] 按键=/Any 槽=5.15 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 14946] 动作 "attackhold_hit2Air"
+          [技能] 按键=/Any 槽=5.15 类型=Dash
+          [技能] 按键=/Any 槽=5.17 类型=Dash
+            └ 弹幕 idx=10340101 action="AD_hit"
+            └ 弹幕 idx=10340101 action="dashSkill2"
+
+  ·· 空档 ··
+
+[f= 15210] 动作 "atkhold_2A_drop"
+          [技能] 按键=/Any 槽=5.17 类型=Dash
+
+  ·· 空档 ··
+
+[f= 15428] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f= 16811] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 17120] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 17212] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 17514] 动作 "fallupd"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+[f= 17516] 动作 "fallup2"
+
+  ·· 空档 ··
+
+[f= 17760] 动作 "fallup2d"
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+          [技能] 按键=/Any 槽=4.6 类型=AttackAir
+
+[f= 17762] 动作 "fallup3"
+
+  ·· 空档 ··
+
+[f= 18026] 动作 "fallm"
+          [技能] 按键=/Any 槽=4.6 类型=AttackAir
+          [技能] 按键=/Any 槽=4.9 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 18338] 动作 "fallmdown"
+          [技能] 按键=/Any 槽=4.9 类型=AttackAir
+          [技能] 按键=/Any 槽=4.10 类型=AttackAir
+
+[f= 18372] 动作 "fallmdownendEX2"
+          [技能] 按键=/Any 槽=4.11 类型=AttackAir
+          [技能] 按键=/Any 槽=4.16 类型=AttackAir
+
+[f= 18372] 动作 "fallmdownend"
+          [技能] 按键=/Any 槽=4.10 类型=AttackAir
+          [技能] 按键=/Any 槽=4.11 类型=AttackAir
+          [技能] 按键=/Any 槽=4.16 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 19149] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 19458] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 19713] 动作 "dashAirAtkG"
+          [技能] 按键=/Any 槽=5.4 类型=Dash
+          [技能] 按键=/Any 槽=5.23 类型=Dash
+
+[f= 19713] 动作 "dashAirAtk"
+          [技能] 按键=Summon/Up 槽=11.2 类型=Summon
+          [技能] 按键=/Any 槽=5.4 类型=Dash
+
+[f= 19713] 动作 "dashAirAtk0"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=Summon/Up 槽=11.2 类型=Summon
+            └ 弹幕 idx=10340101 action="dashAir"
+            └ 弹幕 idx=10340101 action="dashA"
+            └ 弹幕 idx=10340101 action="dashA"
+            └ 弹幕 idx=10340101 action="dashA"
+            └ 弹幕 idx=10340101 action="dashA"
+
+  ·· 空档 ··
+
+[f= 20087] 动作 "dashAAendEX"
+          [技能] 按键=/Any 槽=5.23 类型=Dash
+          [技能] 按键=/Any 槽=5.19 类型=Dash
+
+  ·· 空档 ··
+
+[f= 20626] 动作 "jump"
+          [技能] 按键=/Any 槽=5.19 类型=Dash
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 20877] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 21044] 动作 "fallmEX0"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=Summon/Down 槽=11.3 类型=Summon
+
+[f= 21044] 动作 "fallm"
+
+[f= 21044] 动作 "fallmEX0Air"
+
+  ·· 空档 ··
+
+[f= 21200] 动作 "fallmdownEX0"
+
+[f= 21217] 动作 "fallmdownendEX"
+          [技能] 按键=/Any 槽=4.11 类型=AttackAir
+          [技能] 按键=/Any 槽=4.15 类型=AttackAir
+
+[f= 21217] 动作 "fallmdownend"
+          [技能] 按键=Summon/Down 槽=11.3 类型=Summon
+          [技能] 按键=/Any 槽=4.11 类型=AttackAir
+          [技能] 按键=/Any 槽=4.15 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 22972] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 23333] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 23448] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 24558] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 24927] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 25036] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 25278] 动作 "attackD1"
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+            └ 弹幕 idx=10340101 action="aD12"
+
+  ·· 空档 ··
+
+[f= 25752] 动作 "jump"
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 26009] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 26180] 动作 "jump3"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 26749] 动作 "fall"
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 26855] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 27159] 动作 "fallupd"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+[f= 27161] 动作 "fallup2"
+
+  ·· 空档 ··
+
+[f= 27771] 动作 "fallup22"
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+          [技能] 按键=/Any 槽=4.4 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 27950] 动作 "fallup2d"
+          [技能] 按键=/Any 槽=4.4 类型=AttackAir
+          [技能] 按键=/Any 槽=4.6 类型=AttackAir
+
+[f= 27952] 动作 "fallup3"
+
+  ·· 空档 ··
+
+[f= 28298] 动作 "fallm"
+          [技能] 按键=/Any 槽=4.6 类型=AttackAir
+          [技能] 按键=/Any 槽=4.9 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 28647] 动作 "fallmdown"
+          [技能] 按键=/Any 槽=4.9 类型=AttackAir
+          [技能] 按键=/Any 槽=4.10 类型=AttackAir
+
+[f= 28659] 动作 "fallmdownendEX2"
+          [技能] 按键=/Any 槽=4.11 类型=AttackAir
+          [技能] 按键=/Any 槽=4.16 类型=AttackAir
+
+[f= 28659] 动作 "fallmdownend"
+          [技能] 按键=/Any 槽=4.10 类型=AttackAir
+          [技能] 按键=/Any 槽=4.11 类型=AttackAir
+          [技能] 按键=/Any 槽=4.16 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 29492] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 29965] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 30056] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 30486] 动作 "atkAir12"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.12 类型=AttackAir
+            └ 弹幕 idx=10340101 action="aa"
+
+  ·· 空档 ··
+
+[f= 30862] 动作 "drop3"
+          [技能] 按键=/Any 槽=4.12 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 31122] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f= 31188] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 31632] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 31740] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 32136] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 32527] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 32635] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 33038] 动作 "jump2"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+[f= 33092] 动作 "dashAir"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 33402] 动作 "fall"
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 33511] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+            └ 弹幕 idx=10340101 action="dashAir2"
+
+  ·· 空档 ··
+
+[f= 33843] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 34148] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 34246] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 34497] 动作 "jump2"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 34559] 动作 "dashAir"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 34792] 动作 "jump2"
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+[f= 34796] 动作 "dashAir"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 35067] 动作 "fall"
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+            └ 弹幕 idx=10340101 action="dashAir2"
+
+  ·· 空档 ··
+
+[f= 35173] 动作 "fallup"
+            └ 弹幕 idx=10340101 action="dashAir2"
+
+  ·· 空档 ··
+
+[f= 35394] 动作 "jump3"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+[f= 35410] 动作 "dashAir"
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 35581] 动作 "dashAir2"
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+          [技能] 按键=/Any 槽=5.13 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 35844] 动作 "fall"
+          [技能] 按键=/Any 槽=5.13 类型=Dash
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+            └ 弹幕 idx=10340101 action="dashAir2"
+
+  ·· 空档 ··
+
+[f= 35944] 动作 "fallup"
+            └ 弹幕 idx=10340101 action="dashAir2"
+
+  ·· 空档 ··
+
+[f= 36168] 动作 "dashAir3"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=5.14 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 36488] 动作 "jump2"
+          [技能] 按键=/Any 槽=5.14 类型=Dash
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 36605] 动作 "dashAir"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir2"
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 36889] 动作 "fall"
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 36973] 动作 "fallup"
+            └ 弹幕 idx=10340101 action="dashAir2"
+
+  ·· 空档 ··
+
+[f= 37249] 动作 "fallupd"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 37318] 动作 "fallup2"
+
+  ·· 空档 ··
+
+[f= 37768] 动作 "fallup22"
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+          [技能] 按键=/Any 槽=4.4 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 37922] 动作 "fallup2d"
+          [技能] 按键=/Any 槽=4.4 类型=AttackAir
+          [技能] 按键=/Any 槽=4.6 类型=AttackAir
+
+[f= 37924] 动作 "fallup3"
+
+  ·· 空档 ··
+
+[f= 38403] 动作 "fallm"
+          [技能] 按键=/Any 槽=4.6 类型=AttackAir
+          [技能] 按键=/Any 槽=4.9 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 38753] 动作 "fallmdown"
+          [技能] 按键=/Any 槽=4.9 类型=AttackAir
+          [技能] 按键=/Any 槽=4.10 类型=AttackAir
+
+[f= 38766] 动作 "fallmdownendEX2"
+          [技能] 按键=/Any 槽=4.11 类型=AttackAir
+          [技能] 按键=/Any 槽=4.16 类型=AttackAir
+
+[f= 38766] 动作 "fallmdownend"
+          [技能] 按键=/Any 槽=4.10 类型=AttackAir
+          [技能] 按键=/Any 槽=4.11 类型=AttackAir
+          [技能] 按键=/Any 槽=4.16 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 39606] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 40009] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 40122] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 40673] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 40984] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 41089] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 41589] 动作 "fallupd"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 41683] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 41874] 动作 "attackhold21"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 41958] 动作 "attackhold22_loop"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 42081] 动作 "attackhold23"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+            └ 弹幕 idx=10340101 action="aHEX"
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 43059] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 43531] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 43624] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 44178] 动作 "fallupd"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+[f= 44180] 动作 "fallup2"
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 44900] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f= 44989] 动作 "attackD1"
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+            └ 弹幕 idx=10340101 action="aD12"
+
+  ·· 空档 ··
+
+[f= 45370] 动作 "attackhold21"
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 45447] 动作 "attackhold22_loop"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+[f= 45490] 动作 "attackhold23"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+            └ 弹幕 idx=10340101 action="aHEX"
+
+  ·· 空档 ··
+
+[f= 45734] 动作 "jump"
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 46124] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 46216] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 46581] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 46935] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 47048] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 47612] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 47955] 动作 "fall"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 48056] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 48376] 动作 "fallupd"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+[f= 48378] 动作 "fallup2"
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 49149] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f= 49237] 动作 "attackD1"
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+            └ 弹幕 idx=10340101 action="aD12"
+
+  ·· 空档 ··
+
+[f= 49515] 动作 "attackhold21"
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 49597] 动作 "attackhold22_loop"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+[f= 49624] 动作 "attackhold23"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+            └ 弹幕 idx=10340101 action="aHEX"
+
+  ·· 空档 ··
+
+[f= 49883] 动作 "jump"
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 50329] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 50598] 动作 "jump3"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+
+  ·· 空档 ··
+
+[f= 51271] 动作 "dropend"
+
+  ·· 空档 ··
+
+[f= 51388] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 51661] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 51941] 动作 "jump3"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 52245] 动作 "fall"
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 52383] 动作 "fallup"
+
+  ·· 空档 ··
+
+[f= 52883] 动作 "fallupd"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+
+[f= 52885] 动作 "fallup2"
+
+  ·· 空档 ··
+
+[f= 53524] 动作 "fallup22"
+          [技能] 按键=/Any 槽=4.3 类型=AttackAir
+          [技能] 按键=/Any 槽=4.4 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 53644] 动作 "fallup2d"
+          [技能] 按键=/Any 槽=4.4 类型=AttackAir
+          [技能] 按键=/Any 槽=4.6 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 53735] 动作 "fallend2"
+          [技能] 按键=/Any 槽=4.6 类型=AttackAir
+          [技能] 按键=/Any 槽=4.8 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 54073] 动作 "attackhold21"
+          [技能] 按键=/Any 槽=4.8 类型=AttackAir
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 54159] 动作 "attackhold22_loop"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 54415] 动作 "attackhold22_loop"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 54483] 动作 "attackhold23"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+            └ 弹幕 idx=10340101 action="aH2EX"
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 56536] 动作 "jump"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 56805] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+
+[f= 56806] 动作 "dashAir"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 56992] 动作 "jump2"
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+[f= 57006] 动作 "dashAir"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+            └ 弹幕 idx=10340101 action="dashAir"
+            └ 弹幕 idx=10340101 action="dashAir"
+
+  ·· 空档 ··
+
+[f= 57155] 动作 "fall"
+          [技能] 按键=/Any 槽=5.12 类型=Dash
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 57269] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+            └ 弹幕 idx=10340101 action="dashAir2"
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 57442] 动作 "attackhold21"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 57518] 动作 "attackhold22_loop"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+            └ 弹幕 idx=10340101 action="dashAir2"
+
+  ·· 空档 ··
+
+[f= 57717] 动作 "attackhold23"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+            └ 弹幕 idx=10340101 action="aHEX"
+
+  ·· 空档 ··
+
+[f= 58072] 动作 "jump"
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 58306] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 58449] 动作 "jump3"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 58600] 动作 "fall"
+          [技能] 按键=/Any 槽=7.5 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 58752] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 58911] 动作 "attackhold21"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 58973] 动作 "attackhold22_loop"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 59218] 动作 "attackhold22_loop"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 59470] 动作 "attackhold22_loop"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 59613] 动作 "attackhold23"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+            └ 弹幕 idx=10340101 action="aH2EX"
+
+  ·· 空档 ··
+
+[f= 60045] 动作 "jump"
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+
+  ·· 空档 ··
+
+[f= 60307] 动作 "jump2"
+          [技能] 按键=Jump/Any 槽=7.3 类型=Jump
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+            └ 弹幕 idx=10340101 action="jump"
+
+  ·· 空档 ··
+
+[f= 60544] 动作 "fall"
+          [技能] 按键=/Any 槽=7.4 类型=Jump
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 60674] 动作 "fallend"
+          [技能] 按键=/Any 槽=4.1 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+          [技能] 按键=/Any 槽=4.7 类型=AttackAir
+
+  ·· 空档 ··
+
+[f= 60839] 动作 "attackhold21"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 60903] 动作 "attackhold22_loop"
+          [技能] 按键=Attack/Any 槽=8.1 类型=LongAttack
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 60993] 动作 "attackhold23"
+          [技能] 按键=/Any 槽=8.2 类型=LongAttack
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+            └ 弹幕 idx=10340101 action="aHEX"
+          [技能] 按键=/Any 槽=8.3 类型=LongAttack
+
+  ·· 空档 ··
+
+[f= 63815] 动作 "attackD1"
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+            └ 弹幕 idx=10340101 action="aD12"
+
+  ·· 空档 ··
+
+[f= 64212] 动作 "attackD2"
+          [技能] 按键=Attack/Down 槽=1.4 类型=Attack
+          [技能] 按键=Attack/Down 槽=1.6 类型=Attack
+            └ 弹幕 idx=10340101 action="aD22"
+
+  ·· 空档 ··
+
+[f= 64565] 动作 "attackD3"
+          [技能] 按键=Attack/Down 槽=1.6 类型=Attack
+          [技能] 按键=Attack/Down 槽=1.7 类型=Attack
+            └ 弹幕 idx=10340101 action="aD32"
+
+  ·· 空档 ··
+
+[f= 64876] 动作 "atkAirX"
+          [技能] 按键=Attack/Down 槽=1.7 类型=Attack
+          [技能] 按键=Attack/Down 槽=1.8 类型=Attack
+            └ 弹幕 idx=10340101 action="attackAir2"
+          [技能] 按键=Attack/Down 槽=1.8 类型=Attack
+
+  ·· 空档 ··
+
+[f= 65110] 动作 "dropendD"

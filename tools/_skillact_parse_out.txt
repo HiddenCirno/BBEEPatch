@@ -1,0 +1,60 @@
+条目数 2438
+文件 342244 字节
+
+字段号分布: f2(v)×2438, f3(v)×2438, f4(v)×2438, f5(s)×2419, f6(s)×1344, f7(s)×953, f8(s)×991, f9(v)×432, f10(s)×1757, f11(s)×1010, f15(s)×284, f16(v)×2421, f17(v)×2, f18(v)×1897, f19(v)×1413, f21(f32)×265, f22(f32)×244, f23(f32)×93, f24(s)×2361, f25(f32)×574, f26(v)×50, f27(f32)×50, f28(f32)×50, f32(v)×419, f33(s)×1873, f34(v)×1790, f35(v)×148, f36(s)×6, f41(s)×196, f42(s)×147, f43(s)×69, f44(s)×30, f45(v)×102, f49(s)×381, f50(v)×143, f51(v)×2438, f52(v)×2382
+
+=== 前 6 条完整 ===
+  f2=1000 | f3=5 | f4=1 | f5='dashAir' | f6='Start_5' | f7='End_5' | f8='Dash' | f11=b'' | f16=1 | f18=1 | f19=1 | f24='"all":0.1,"1":0.7,"5":0.6' | f34=1 | f35=1 | f51=5
+  f2=1000 | f3=7 | f4=1 | f5='jump' | f6='Start_7' | f7='End_7' | f8='Jump' | f16=1 | f18=1 | f24='"all":0.3,"5":0.1' | f34=1 | f51=7
+  f2=1002 | f3=5 | f4=1 | f5='dashAir' | f6='Start_5' | f7='End_5' | f8='Dash' | f11=b'' | f16=1 | f18=1 | f19=1 | f24='"all":0.1,"1":0.7,"5":0.6' | f34=1 | f35=1 | f51=5
+  f2=1002 | f3=7 | f4=1 | f5='jump' | f6='Start_7' | f7='End_7' | f8='Jump' | f16=1 | f18=1 | f24='"all":0.3,"5":0.1' | f34=1 | f51=7
+  f2=1003 | f3=5 | f4=1 | f5='dashAir' | f6='Start_5' | f7='End_5' | f8='Dash' | f11=b'' | f16=1 | f18=1 | f19=1 | f24='"all":0.1,"1":0.7,"5":0.6' | f34=1 | f35=1 | f51=5
+  f2=1003 | f3=7 | f4=1 | f5='jump' | f6='Start_7' | f7='End_7' | f8='Jump' | f16=1 | f18=1 | f24='"all":0.3,"5":0.1' | f34=1 | f51=7
+
+=== 含 "holdEX" 的条目 ===
+  f2=103401 | f3=2 | f4=14 | f5='holdEX' | f6='Start_2' | f7='End_2' | f8='Skill' | f10=b'\xfa+' | f11=b'\x08\x02\x12\x02-1\x1d\x00\x00\xc8\xc2%\x00\x00\xc8\xc2' | f16=1 | f18=1 | f24='"all":0.7,"5":0.01' | f33=b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x10IconSkill_103401' | f33=b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x13IconSkill_103401OFF' | f34=1 | f51=2 | f52=1
+
+=== 含 "AttackUp" 的条目 ===
+  f2=103401 | f3=1 | f4=1 | f5='AttackUp' | f8='Attack' | f9=1 | f10=b'\xe2+' | f16=1 | f18=1 | f24='"all":0.5,"5":0.01' | f34=1 | f51=1 | f52=2
+  f2=103401 | f3=1 | f4=2 | f5='AttackUp' | f8='Attack' | f9=1 | f10=b'\xe2+' | f15=b'\x04\x05\x06\x08\t\n\x0b\x0c' | f16=1 | f18=1 | f24='"all":0.5,"5":0.01' | f25=0.25 | f34=1 | f51=1 | f52=2
+
+=== 含 "attackA" 的条目 ===
+  f2=103401 | f3=2 | f4=2 | f5='attackA' | f6='Start_2' | f8='Skill' | f9=2 | f10=b'\xe7+' | f11=b'\x08\x02\x12\x03100\x1d\x00\x00\x04\xc2' | f16=1 | f18=1 | f24='"all":0.5,"1":0.7,"5":0.01' | f32=1 | f33=b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x10IconSkill_103401' | f33=b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x13IconSkill_103401OFF' | f34=1 | f51=2 | f52=3
+
+=== 含 "attackB" 的条目 ===
+  f2=103401 | f3=2 | f4=3 | f5='attackB' | f8='Skill' | f9=2 | f10=b'\xe7+' | f11=b'\x08\x02\x12\x03-35\x1d\x00\x00\x04\xc2%\x00\x00\xc8\xc2' | f16=1 | f18=1 | f24='"all":0.5,"1":0.8,"5":0.01' | f25=0.30000001192092896 | f32=1 | f33=b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x10IconSkill_103401' | f33=b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x13IconSkill_103401OFF' | f34=1 | f51=2 | f52=3
+
+=== 含 "attackC" 的条目 ===
+  f2=102801 | f3=1 | f4=8 | f5='attackC' | f6='End_1_start' | f7='End_1' | f8='Attack' | f15=b'\x07' | f16=1 | f18=1 | f24='"all":0.05,"1":0.6,"4":0.6,"5":0.01,"7":0.01,"8":0.6' | f25=0.30000001192092896 | f34=1 | f51=1 | f52=1
+  f2=103401 | f3=2 | f4=4 | f5='attackC' | f7='End_2' | f8='Skill' | f9=2 | f10=b'\xe7+' | f11=b'\x08\x02\x12\x03-69\x1d\x00\x00\x08\xc2%\x00\x00\xc8\xc2' | f16=1 | f18=1 | f24='"all":1.25,"4":1.4,"5":0.3,"11":0.3' | f25=0.30000001192092896 | f32=1 | f33=b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x10IconSkill_103401' | f33=b'\n\x1cUI/Atlas/IconSkill/IconSkill\x12\x13IconSkill_103401OFF' | f34=1 | f51=2 | f52=3
+
+=== 含 "summon" 的条目 ===
+  f2=100101 | f3=11 | f4=3 | f5='summon' | f8='Summon' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f49=b'\x0b' | f51=11 | f52=1
+  f2=100201 | f3=11 | f4=1 | f5='summon' | f8='Summon' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f51=11 | f52=1
+  f2=100301 | f3=11 | f4=9 | f5='summon' | f8='Summon' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"6":0.5,"11":0.5' | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f51=11 | f52=1
+  f2=100401 | f3=11 | f4=1 | f5='summon' | f8='Summon' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f25=0.05000000074505806 | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f51=11 | f52=1
+  f2=100401 | f3=11 | f4=1 | f5='summon' | f8='Summon' | f10=b'\xaa2' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f25=0.05000000074505806 | f33=b'\n$UI/Atlas/IconPotential/IconPotential\x12\x0ePotential_6442' | f33=b'\n$UI/Atlas/IconPotential/IconPotential\x12\x0ePotential_6442' | f34=1 | f51=11 | f52=1
+  f2=100401 | f3=11 | f4=1 | f5='summon' | f8='Summon' | f9=5 | f10=b'\xa62' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f25=0.05000000074505806 | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f51=11 | f52=1
+  f2=100401 | f3=11 | f4=1 | f5='summon' | f8='Summon' | f9=5 | f10=b'\xa62\xaa2' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f25=0.05000000074505806 | f33=b'\n$UI/Atlas/IconPotential/IconPotential\x12\x0ePotential_6442' | f33=b'\n$UI/Atlas/IconPotential/IconPotential\x12\x0ePotential_6442' | f34=1 | f51=11 | f52=1
+  f2=100501 | f3=11 | f4=2 | f5='summon' | f8='Summon' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f51=11 | f52=1
+  f2=100501 | f3=11 | f4=2 | f5='summon' | f8='Summon' | f9=5 | f10=b'\xbd1' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f51=11 | f52=1
+  f2=101101 | f3=11 | f4=1 | f5='summon' | f8='Summon' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"11":0.5' | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f51=11 | f52=1
+  f2=101401 | f3=11 | f4=3 | f5='summon' | f8='Summon' | f9=5 | f10=b'\xe13' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"5":0.01,"11":0.15' | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f51=11 | f52=1
+  f2=101401 | f3=11 | f4=11 | f5='summon' | f8='Summon' | f11=b'\x08\x0b\x12\x03100' | f16=1 | f18=1 | f19=1 | f24='"5":0.01,"11":0.15' | f33=b'\n\x16UI/Atlas/Common/Common\x12\tImgSummon' | f33=b'\n\x16UI/Atlas/Common/Common\x12\x0cImgSummonOFF' | f34=1 | f43='SummonSkill' | f51=11 | f52=1
+
+=== 含 "fallup" 的条目 ===
+  (无精确命中)
+
+=== 含 "atkAir12" 的条目 ===
+  f2=103401 | f3=4 | f4=12 | f5='atkAir12' | f6='Start_4' | f16=1 | f19=1 | f24='"all":0.25' | f34=1 | f51=4 | f52=3
+
+=== 含 "UltraDashEX" 的条目 ===
+  f2=103401 | f3=2 | f4=9 | f5='UltraDashEX' | f6='Start_2' | f7='End_2' | f8='Skill' | f9=1 | f10=b'\xe8+\xe9+' | f11=b'\x08\x03\x12\x03-50\x1d\x00\x00H\xc2%\x00\x00\xc8\xc2' | f16=1 | f18=1 | f24='"all":0.55,"2":1' | f33=b'\n$UI/Atlas/IconPotential/IconPotential\x12\x0ePotential_1255' | f33=b'\n$UI/Atlas/IconPotential/IconPotential\x12\x0ePotential_1255' | f34=1 | f45=1 | f51=2 | f52=2
+
+=== 含 "dashAtk" 的条目 ===
+  f2=102501 | f3=1 | f4=1 | f5='dashAtk' | f6='Start_1' | f8='Attack' | f9=1 | f10=b'\xab-' | f16=1 | f18=1 | f24='"all":0.9' | f34=1 | f51=1 | f52=2
+  f2=102501 | f3=1 | f4=2 | f5='dashAtk' | f6='Start_1' | f8='Attack' | f9=1 | f10=b'\xab-' | f15=b'\x07\x08\t' | f16=1 | f18=1 | f24='"all":0.9' | f25=0.30000001192092896 | f34=1 | f51=1 | f52=2
+  f2=102801 | f3=5 | f4=15 | f5='dashAtk' | f6='Start_5' | f10=b'\xdb,' | f16=1 | f18=1 | f21=0.30000001192092896 | f22=1.0 | f24='"all":0.42,"2":0.2,"1":0.65,"5":0.8,"9":0.2,"10":0.2,"12":0.2' | f34=1 | f35=1 | f49=b'\x05' | f51=5 | f52=1
+  f2=102901 | f3=6 | f4=3 | f5='dashAtk' | f6='Start_5' | f10=b'\xa6.' | f16=1 | f18=1 | f19=1 | f24='"all":0.1,"1":0.45,"4":0.45,"5":0.45' | f34=1 | f51=6 | f52=1
+  f2=103401 | f3=5 | f4=2 | f5='dashAtk' | f6='Start_5' | f10=b'\xf1+' | f16=1 | f18=1 | f24='"all":0.15' | f34=1 | f51=5 | f52=2
+  f2=103501 | f3=5 | f4=12 | f5='dashAtk' | f6='Start_5' | f7='End_5' | f10=b'\xd8/' | f16=1 | f18=1 | f19=1 | f24='"all":0.15,"1":0.6,"2":0.6,"5":0.6' | f34=1 | f49=b'\x05' | f51=5 | f52=1

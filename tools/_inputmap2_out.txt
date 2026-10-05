@@ -1,0 +1,132 @@
+ES(103401) 输入 → 招式    Input=f8, InputDir=f52
+
+### 按键="(无/派生)"  方向=?   (1 条)
+    槽4.9   fallm                  "all":0.5
+
+### 按键="(无/派生)"  方向=Any   (11 条)
+    槽3.1   None                   
+    槽5.11  dashend                
+    槽5.12  dashAir                "all":0.1,"1":0.45,"2":0.45,"4":0.45,"
+    槽5.13  dashAir2               "all":0.1,"1":0.45,"2":0.45,"4":0.45,"
+    槽5.14  dashAir3               "all":0.1,"1":0.45,"2":0.45,"4":0.45,"
+    槽6.1   rush                   "all":0.5,"5":0.45,"8":0.6,"11":0.45
+    槽6.2   rushUp                 "all":0.5,"5":0.01
+    槽7.4   jump2                  
+    槽7.5   jump3                  
+    槽8.2   attackhold22_loop      "all":0.5,"2":0,"5":0,"7":0,"11":0
+    槽8.3   attackhold23           "all":0.6,"1":1,"2":0.3,"5":0.01,"7":0
+
+### 按键="(无/派生)"  方向=Down   (19 条)
+    槽4.1   fall                   "all":0.1,"1":2,"4":2,"5":0.5,"11":0.5
+    槽4.2   fallupdd               "all":0.5
+    槽4.3   fallupd                "all":0.5
+    槽4.4   fallup22               "all":0.2
+    槽4.5   fallup2dd              "all":0.5
+    槽4.6   fallup2d               "all":0.5
+    槽4.7   fallend                "all":0.2,"5":0.05,"11":0.05
+    槽4.8   fallend2               "all":0.4,"5":0.1,"11":0.1
+    槽4.10  fallmdown              "all":0.5
+    槽4.11  fallmdownend           "all":0.6,"5":0.4,"7":0.4,"11":0.25
+    槽4.12  atkAir12               "all":0.25
+    槽4.15  fallmdownendEX         "all":0.6,"5":0.4,"7":0.4,"11":0.25
+    槽4.16  fallmdownendEX2        "all":0.6,"5":0.4,"7":0.4,"11":0.25
+    槽5.7   attackholdDashEXQ      all:0.5,"8":0.8,"2":0.2
+    槽5.15  attackhold_hit         "all":0.55
+    槽5.16  attackhold_hit2        "all":0.45, "2":0.2
+    槽5.17  attackhold_hit2Air     "all":0.45,"1":0.35,"2":0.2
+    槽11.4   falldownEX0            "all":0.5
+    槽11.5   fallmEX0Air            "all":0.5
+
+### 按键="(无/派生)"  方向=Up   (13 条)
+    槽2.13  UltraDAend             "all":0.5
+    槽5.1   dashAtkEX              "all":0.15
+    槽5.2   dashAtk                "all":0.15
+    槽5.3   dashAirAtkEX           "all":0.15
+    槽5.4   dashAirAtk             "all":0.15
+    槽5.18  dashAAhit              "all":0.35
+    槽5.19  dashAAendEX            "all":0.65,"5":0.2,"11":0.25
+    槽5.20  dashAAend              "all":0.65,"5":0.2,"11":0.25
+    槽5.21  dashAAendX             "all":0.65,"5":0.2,"11":0.25
+    槽5.22  dashAirAtkGEX          "all":0.15
+    槽5.23  dashAirAtkG            "all":0.15
+    槽5.24  dashAtkGEX             "all":0.15
+    槽5.25  dashAtkG               "all":0.15
+
+### 按键="Attack"  方向=Any   (8 条)
+    槽1.9   attack1                "all":0.3,"5":0.01,"7":0.3
+    槽1.10  attack2                "all":0.35,"5":0.01,"7":0.3
+    槽1.11  attack3                "all":0.35,"5":0.01,"7":0.32
+    槽1.12  attack4                "all":0.4,"5":0.01,"8":0.75
+    槽1.13  atkAirX                "all":0.28,"5":0.01,"8":0.75
+    槽4.14  atkAir3                "all":0.25
+    槽8.1   attackhold21           "all":0.5,"1":1,"2":0.2,"5":0.01,"7":0
+    槽8.4   attackhold             "all":0.5,"1":1,"2":0.2,"5":0.01,"7":0
+
+### 按键="Attack"  方向=Down   (5 条)
+    槽1.4   attackD1               "all":0.35,"5":0.01,"7":0.3
+    槽1.5   attackD1               "all":0.35,"5":0.01,"7":0.3
+    槽1.6   attackD2               "all":0.35,"5":0.01,"7":0.3
+    槽1.7   attackD3               "all":0.5,"1":0.3,"5":0.01,"7":0.35
+    槽1.8   atkAirX                "all":0.28,"5":0.01,"8":0.75
+
+### 按键="Attack"  方向=Up   (4 条)
+    槽1.1   AttackUp               "all":0.5,"5":0.01
+    槽1.2   AttackUp               "all":0.5,"5":0.01
+    槽1.3   AttackUp2              "all":0.5,"5":0.01
+    槽4.13  AttackUp2              "all":0.5,"5":0.01
+
+### 按键="Dash"  方向=Any   (3 条)
+    槽5.8   dash                   "all":0.1,"1":0.6,"4":0.6,"5":0.6,"8":
+    槽5.9   dash2                  "all":0.1,"1":0.6,"4":0.6,"5":0.6,"8":
+    槽5.10  dash3                  "all":0.1,"1":0.6,"4":0.6,"5":0.6,"8":
+
+### 按键="Dash"  方向=Down   (8 条)
+    槽5.5   attackholdDashEX       all:0.5,"8":0.8,"2":0.2
+    槽5.5   attackholdDashEX       all:0.5,"8":0.8,"2":0.2
+    槽5.5   attackholdDashEX       all:0.5,"8":0.8,"2":0.2
+    槽5.5   attackholdDashEX       all:0.5,"8":0.8,"2":0.2
+    槽5.6   attackholdDash         all:0.5,"8":0.8,"2":0.2
+    槽5.6   attackholdDash         all:0.5,"8":0.8,"2":0.2
+    槽5.6   attackholdDash         all:0.5,"8":0.8,"2":0.2
+    槽5.6   attackholdDash         all:0.5,"8":0.8,"2":0.2
+
+### 按键="Jump"  方向=Any   (2 条)
+    槽7.1   jump_down              "all":0.17
+    槽7.3   jump                   "all":0.17
+
+### 按键="Jump"  方向=Down   (1 条)
+    槽7.2   drop_down              "2":0.025,"7":0.2
+
+### 按键="Skill"  方向=Any   (6 条)
+    槽2.14  holdEX                 "all":0.7,"5":0.01
+    槽2.15  hold                   "all":0.7,"5":0.01
+    槽2.16  attackAir2EX           "all":0.3,"5":0.01
+    槽2.17  attackAir2             "all":0.3,"5":0.01
+    槽2.18  attackAirEX            "all":0.3,"5":0.01
+    槽2.19  attackAir              "all":0.3,"5":0.01
+
+### 按键="Skill"  方向=Down   (8 条)
+    槽2.1   attackAEX              "all":0.5,"1":0.7,"5":0.01
+    槽2.2   attackA                "all":0.5,"1":0.7,"5":0.01
+    槽2.3   attackB                "all":0.5,"1":0.8,"5":0.01
+    槽2.4   attackC                "all":1.25,"4":1.4,"5":0.3,"11":0.3
+    槽2.5   attackA_AirEX          "all":0.6,"2":0.45,"5":0.01,"7":0.45
+    槽2.6   attackA_Air            "all":0.6,"2":0.45,"5":0.01,"7":0.45
+    槽2.7   attackB_Air            "all":0.75,"2":0.55,"5":0.01,"7":0.45
+    槽2.8   attackC_Air            "all":1,"5":0.01,"7":0.55,"11":1
+
+### 按键="Skill"  方向=Up   (4 条)
+    槽2.9   UltraDashEX            "all":0.55,"2":1
+    槽2.10  UltraDash              "all":0.55,"2":1
+    槽2.11  UltraDashAirEX         "all":2
+    槽2.12  UltraDashAir           "all":2
+
+### 按键="Summon"  方向=Any   (1 条)
+    槽11.6   summon                 "11":0.5
+
+### 按键="Summon"  方向=Down   (1 条)
+    槽11.3   fallmEX0               "all":0.5
+
+### 按键="Summon"  方向=Up   (2 条)
+    槽11.1   dashAtk0               "all":0.35
+    槽11.2   dashAirAtk0            "all":0.35

@@ -1,0 +1,56 @@
+=== esbullet / teacher_esbullet / surroundbullet 全字段 ===
+
+--- esbullet  id=10340101  (48 bytes)
+    f1   var  10340101
+    f2   str  "esbullet"
+    f5   f32  0.10000000149011612
+    f6   f32  0.10000000149011612
+    f23  var  1
+    f24  var  1
+    f25  var  1
+    f26  len  0B  
+    f41  str  "MidActor"
+
+--- commonbullet  id=800000  (45 bytes)
+    f1   var  800000
+    f2   str  "commonbullet"
+    f5   f32  0.30000001192092896
+    f6   f32  0.10000000149011612
+    f23  var  1
+    f26  len  0B  
+    f41  str  "MidActor"
+
+--- surroundbullet  id=800008  (81 bytes)
+    f1   var  800008
+    f2   str  "surroundbullet"
+    f5   f32  0.30000001192092896
+    f6   f32  0.10000000149011612
+    f12  str  "NoSolidCollision"
+    f14  f32  1.0
+    f15  var  1
+    f20  str  "Tag=Throw"
+    f26  len  0B  
+    f41  str  "MidActor"
+
+--- herolight  id=1001  (56 bytes)
+    f1   var  1001
+    f2   str  "herolight"
+    f5   f32  0.10000000149011612
+    f6   f32  0.10000000149011612
+    f12  str  "NoSolidCollision"
+    f26  len  0B  
+    f41  str  "MidActor"
+
+--- teacher_esbullet  id=100034  (55 bytes)
+    f1   var  100034
+    f2   str  "teacher_esbullet"
+    f5   f32  0.10000000149011612
+    f6   f32  0.10000000149011612
+    f23  var  1
+    f24  var  1
+    f25  var  1
+    f26  len  0B  
+    f41  str  "MidActor"
+
+=== 所有 103401xx (ES 专属) ===
+  10340101  esbullet

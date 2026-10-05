@@ -1,0 +1,100 @@
+===== VisualObject =====
+   public Transform m_transform; // 0x10
+   public bool m_init; // 0x18
+   public bool m_bullet; // 0x19
+   public Vector3 m_velocity; // 0x1C
+   public Fp3 m_targetPos; // 0x28
+   public Fp3 m_lastPos; // 0x40
+   public Fp3 m_blinkPos; // 0x58
+   public QuaternionFp m_targetDir; // 0x70
+   public bool m_targetFlash; // 0x90
+   public string m_targetAction; // 0x98
+   public float m_preMoveTime; // 0xA0
+   public float m_preRateTime; // 0xA4
+   public float m_preTimeEx; // 0xA8
+   public List<VisualInfo> m_visualInfo; // 0xB0
+   public void Init(ActorModel model) { }
+   public void StopPreMove(float time) { }
+   public bool IsPreMove() { }
+   public void .ctor() { }
+   private GameObject m_mainObj; // 0x40
+   public float m_smoothRate; // 0x48
+   public float m_maxSpeed; // 0x4C
+   public void SetVisualState(bool state) { }
+   public Transform CreateVisualObject(Transform source, Transform visual) { }
+   public void SetVisualObjectActive(VisualObject obj, bool active) { }
+   public void AddVisualInfo(VisualObject obj, Fp3 last, Fp3 blink, Fp3 pos, QuaternionFp dir, bool flash, string action) { }
+   public void UpdateVisualObject(VisualObject obj, float delta) { }
+   public void .ctor() { }
+   public int <>1__state; // 0x0
+   public AsyncTaskMethodBuilder <>t__builder; // 0x8
+   public SceneBalance <>4__this; // 0x20
+   private TaskAwaiter <>u__1; // 0x28
+
+===== ActorModel =====
+   private ActorBase m_Owner; // 0x20
+   public Transform VisualTransform; // 0x28
+   public UIBridge UIBridge; // 0x30
+   public ActorVisualBase Renderer; // 0x38
+   public ActorEffectMgr EffectMgr; // 0x40
+   public CriwareAudioAssist AudioAssist; // 0x48
+   public ActorShaker RendererShaker; // 0x50
+   public ActorInteract ActorInteract; // 0x58
+   public Vector2 m_RendererShakeMagnitudeScaler; // 0x60
+   public Vector2 m_RendererShakeMagnituteLimit; // 0x68
+   public Fp m_RendererShakeTimeScaler; // 0x70
+   public int OriginalRenderLayer; // 0x78
+   public int OriginalRenderOrder; // 0x7C
+   private float lastUpdateAlpha; // 0x80
+   public ActorBase get_Owner() { }
+   public void Init(ActorBase owner) { }
+   public void CreateWaterWave(WaterWaveMaker waterInteract) { }
+   public void InitAudio() { }
+   public void InitRenderer(int skldataindex = 0, string skin = "") { }
+   public void SetPlayerCueSheetHold() { }
+   public void ReleaseAnim() { }
+   public void ReleaseAudio() { }
+   public CriAtomExPlayback PlayAudio(string audioCue) { }
+   public CriAtomExPlayback TsPlayAudio(int cueId) { }
+   public void ShakeBody(Vector2 delta, float dur) { }
+   public void UpdateModel(DeltaTimeAndScale delta) { }
+
+===== BulletObj 里 Visual/Render/Dir 相关 =====
+   public void StartBullet(SkillActivateFixedPointWrap skill, string action, Fp2 startDir) { }
+   public override void UpdateVisual(DeltaTimeAndScale dt) { }
+   private void updateRendererShowHide() { }
+   public void ChangeDir2(Fp2 dirInput) { }
+   public Fp2 GetDir2() { }
+
+===== 全库里 LookRotation / Quaternion.Euler 的调用者 =====
+   [Tooltip("世界上方向，用于稳定LookRotation，避免翻滚。通常用 Vector3.up。")]
+   [Tooltip("当相机与up方向几乎共线时，采用的备用up，防止LookRotation奇异。")]
+   public void set_rotation(Quaternion value) { }
+   public void set_rotation(Quaternion value) { }
+   public abstract void set_rotation(Quaternion value);
+   public void set_rotation(Quaternion value) { }
+   public void set_rotationOffset(Vector3 value) { }
+   public void set_rotation(Vector3 value) { }
+   public void set_rotation(Vector3 value) { }
+   internal static void F_LookRotation(IntPtr isolate, IntPtr info, IntPtr self, int paramLen, long data) { }
+   internal static void M_SetLookRotation(IntPtr isolate, IntPtr info, IntPtr self, int paramLen, long data) { }
+   [FreeFunction("QuaternionScripting::LookRotation", IsThreadSafe = True)]
+   public void SetLookRotation(Vector3 view) { }
+   public void SetLookRotation(Vector3 view, Vector3 up) { }
+   public void set_eulerAngles(Vector3 value) { }
+   private static void LookRotation_Injected(ref Vector3 forward, ref Vector3 upwards, out Quaternion ret) { }
+   public void set_eulerAngles(Vector3 value) { }
+   public void set_rotation(Quaternion value) { }
+   public void set_localRotation(Quaternion value) { }
+   internal void set_rotationOrder(RotationOrder value) { }
+   private void set_rotation_Injected(ref Quaternion value) { }
+   private void set_localRotation_Injected(ref Quaternion value) { }
+   public void set_rotation(Quaternion value) { }
+   public void set_eulerAngles(Vector3 value) { }
+   public void set_rotation(Quaternion value) { }
+   public void set_eulerAngles(Vector3 value) { }
+   public void set_rotationAxis(Axis value) { }
+   public void set_rotation3D(Vector3 value) { }
+   public void set_rotation(Quaternion value) { }
+   private void set_rotation_Injected(ref Quaternion value) { }
+   public void set_rotation(float value) { }

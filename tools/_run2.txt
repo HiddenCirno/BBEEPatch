@@ -1,0 +1,47 @@
+
+[f=   411] 动作 "dashAir"
+          [技能] 动作="dashAir" 输入=Dash/Any 槽=5.1 需Trigger=[] ActorId=1002 类型=Dash
+          [技能] 动作="dashAir" 输入=Dash/Any 槽=5.1 需Trigger=[] ActorId=1002 类型=Dash
+
+[f=   532] 动作 "drop"
+
+[f=   590] 动作 "dropend"
+
+[f=  4493] 动作 "attackAEX"
+          [技能] 动作="attackAEX" 输入=Skill/Down 槽=2.1 需Trigger=[] ActorId=103401 类型=Skill1
+          [技能] 动作="attackAEX" 输入=Skill/Down 槽=2.1 需Trigger=[] ActorId=103401 类型=Skill1
+            └ 弹幕 idx=10340101 action="A1"
+            └ 弹幕 idx=1006 action="fly"
+
+[f=  4823] 动作 "attackB"
+          [技能] 动作="attackB" 输入=Skill/Down 槽=2.3 需Trigger=[] ActorId=103401 类型=Skill1
+            └ 弹幕 idx=10340101 action="B1"
+
+[f=  5211] 动作 "attackC"
+          [技能] 动作="attackB" 输入=Skill/Down 槽=2.3 需Trigger=[] ActorId=103401 类型=Skill1
+          [技能] 动作="attackC" 输入=Skill/Down 槽=2.4 需Trigger=[] ActorId=103401 类型=Skill1
+            └ 弹幕 idx=10340101 action="C1"
+          [技能] 动作="attackC" 输入=Skill/Down 槽=2.4 需Trigger=[] ActorId=103401 类型=Skill1
+
+[f=  6506] 动作 "jump"
+          [技能] 动作="jump" 输入=Jump/Any 槽=7.3 需Trigger=[] ActorId=103401 类型=Jump
+          [技能] 动作="jump" 输入=Jump/Any 槽=7.3 需Trigger=[] ActorId=103401 类型=Jump
+
+[f=  6769] 动作 "attackA_AirEX"
+          [技能] 动作="attackA_AirEX" 输入=Skill/Down 槽=2.5 需Trigger=[] ActorId=103401 类型=Skill1
+            └ 弹幕 idx=10340101 action="A1"
+
+[f=  7296] 动作 "attackB_Air"
+          [技能] 动作="attackA_AirEX" 输入=Skill/Down 槽=2.5 需Trigger=[] ActorId=103401 类型=Skill1
+          [技能] 动作="attackB_Air" 输入=Skill/Down 槽=2.7 需Trigger=[] ActorId=103401 类型=Skill1
+            └ 弹幕 idx=10340101 action="B1"
+
+[f=  7815] 动作 "attackC_Air"
+          [技能] 动作="attackB_Air" 输入=Skill/Down 槽=2.7 需Trigger=[] ActorId=103401 类型=Skill1
+          [技能] 动作="attackC_Air" 输入=Skill/Down 槽=2.8 需Trigger=[] ActorId=103401 类型=Skill1
+            └ 弹幕 idx=10340101 action="C1"
+
+[f=  8730] 动作 "drop22"
+          [技能] 动作="attackC_Air" 输入=Skill/Down 槽=2.8 需Trigger=[] ActorId=103401 类型=Skill1
+
+[f=  8909] 动作 "dropend"

@@ -1,0 +1,38 @@
+本地化条目 51635
+
+=== 锚点 ActorUltra_103401 -> 9651332E  表里=有:Type:Slasher「贝德维尔」
+
+贝德维尔 的 hash:
+  46D34AC3
+  E49AD43B
+  AA958B38
+  9651332E
+  chash(ActorUltra_103401) = 9651332E
+
+=== 前缀 + id(1000..400000) 命中「高文/崔斯坦/布鲁诺/莫德雷德」 ===
+  ActorUltra_103401   Type:Slasher「贝德维尔」
+  ActorActionName_340081   Type:Assaulter「崔斯坦」
+  ActorActionName_340281   Type:Shooter「布鲁诺」
+  ActorActionName_340321   Type:Slasher「莫德雷德」
+  ActorActionName_340391   Type:Slasher「高文」
+  ActorActionName_340501   Type:Slasher「贝德维尔」
+
+=== 含「第一段/第二段/第三段」的条目 ===
+  2E1A206B  强化第一段攻击，山渐刺与断空崩蕾花会额外造成一段伤害。
+  85B0AAB4  第二段一闪期间<action=MoveY->+<action=Attack>可立刻释放踢击。
+  867BC086  普攻的第三段将快速挥砍，第五段将进行强力劈砍并发射剑气。
+  E0D86435  斜向的一闪。期间再次按<action=MoveY+>+<action=Skill>可施放第二段。
+  5545D0FF  <color=#3AFDFFFF>幻风</color>向下时，第三段的雷刃会加速下砸，伤害增加；
+<color=#3AFDFFFF>幻风</color>存在时，部分攻击的位移距离将受到影响。
+  B0802C3B  增加第二段攻击，再次长按<action=Attack>，发射闪电，可破霸体和防御。
+  D977A70A  蓄力后发射雷刃将使第二段攻击的闪电转变为可吸附敌人的雷电风暴。
+  EA5231C8  连续攻击，共三段。第一段快速斩击，期间进入无敌状态；第二段后跳并向斜下方投掷飞刀，期间进入闪避状态。第三段向前方投掷飞刀。
+  44E7D2CE  第三段攻击命中敌人时，将直接使其进入破甲状态。
+  209480D6  下段踢打第三段攻击结束时可按<action=Skill>发动<color=#3AFDFFFF>追击</color>抓取前方目标，若抓取成功则会对其释放爆破。
+  8C94AA8E  第一段攻击可长按<action=Attack>蓄力，随蓄力时间增加突进距离和伤害，最大蓄力时攻击可破霸体和防御。
+  7F5BAEE7  第一段和最后一段攻击视为冲刺。
+  3B4B9859  第三段攻击可以长按<action=Attack>进行蓄力，随蓄力时间增加伤害和突进距离，蓄力攻击可破霸体和防御。必定暴击。
+  52EBCA28  第三段攻击长按<action=Attack>进行蓄力时，在特定时间释放将以最大突进距离进行攻击。
+  20A8E9BB  第三段蓄力攻击将会触发<font="UI/Font/Oswald-Bold-SDF"><强化暴击></font>。
+  D7BB8B26  【地面】泛普攻类招式后若不进行操作将自动派生第二段攻击，此时按<action=Attack>将派生后续招式。
+  7E5431B7  连续踢打，共三段，第三段攻击始终受血烙强化。

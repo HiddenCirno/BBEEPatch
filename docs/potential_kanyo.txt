@@ -1,0 +1,39 @@
+=== 记录 #58 ===
+  f1   ['5826']
+  f2   ['27']
+  f3   ['msg5826']
+  f6   ['40']
+  f7   ['msg8']
+  f10  ['msg1254989']
+  f11  ['msg1254989']
+  f15  ['msg3']
+  f16  ['1']
+  f17  ['102501']
+  f18  ['msg250711']
+  f19  ['5826']
+    ActorSkill_102501 = 武装No11.1 Ver2.19「杀尘愤怒洪流」
+    ActorSkillDesc_102501 = 向前方发射数枚导弹。
+    ActorUltra_102501 = 武装No08EE VerE.24「爆击陨星降落」
+    ActorUltraDesc_102501 = 在地面「长按技能」发动大范围持续轰炸。SP：消耗MP获得。
+    ActorActionName_250711 = 泛用强化
+    ActorActionDesc_250711 = 一些使用武装的招式会残留<color=#3AFDFFFF>零件</color>。
+
+=== 记录 #493 ===
+  f1   ['6831']
+  f2   ['32']
+  f3   ['msg6831']
+  f6   ['40']
+  f7   ['msg8']
+  f9   ['1']
+  f10  ['msg1254989']
+  f11  ['msg1254989']
+  f15  ['msg40']
+  f17  ['103801']
+  f18  ['msg381081']
+  f19  ['6831']
+  f23  ['1']
+    ActorSkill_103801 = 步兵手雷
+    ActorSkillDesc_103801 = 投掷手雷，爆炸后造成范围伤害。
+    ActorActionName_381081 = 泛用强化
+    ActorActionDesc_381081 = 泛用强化会对多个招式产生影响。
+

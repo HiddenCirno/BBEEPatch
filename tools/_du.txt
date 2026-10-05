@@ -1,0 +1,120 @@
+=== PlayerSkillChain::DoUpdate   RVA 0x1bb1260
+==============================================================================
+  0x0181bb1260  mov      qword ptr [rsp + 8], rbx
+  0x0181bb1265  mov      qword ptr [rsp + 0x10], rbp
+  0x0181bb126a  mov      qword ptr [rsp + 0x18], rsi
+  0x0181bb126f  push     rdi
+  0x0181bb1270  sub      rsp, 0x20
+  0x0181bb1274  cmp      byte ptr [rip + 0x3a541d8], 0
+  0x0181bb127b  mov      rdi, rdx
+  0x0181bb127e  mov      rbp, rcx
+  0x0181bb1281  jne      0x181bb1296
+  0x0181bb1283  lea      rcx, [rip + 0x374a48e]
+  0x0181bb128a  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bb128f  mov      byte ptr [rip + 0x3a541bd], 1
+  0x0181bb1296  mov      rcx, qword ptr [rip + 0x374a47b]
+  0x0181bb129d  mov      rbx, qword ptr [rbp + 0x54]
+  0x0181bb12a1  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bb12a8  jne      0x181bb12af
+  0x0181bb12aa  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bb12af  xor      r8d, r8d
+  0x0181bb12b2  mov      rdx, rdi
+  0x0181bb12b5  mov      rcx, rbx
+  0x0181bb12b8  call     0x183e22e90      ; -> Fp::FastSub
+  0x0181bb12bd  mov      qword ptr [rbp + 0x54], rax
+  0x0181bb12c1  mov      rbx, rax
+  0x0181bb12c4  cmp      byte ptr [rip + 0x3a48957], 0
+  0x0181bb12cb  mov      rcx, qword ptr [rip + 0x374a446]
+  0x0181bb12d2  mov      rsi, qword ptr [rcx + 0xb8]
+  0x0181bb12d9  mov      rsi, qword ptr [rsi + 0x54]
+  0x0181bb12dd  jne      0x181bb12f9
+  0x0181bb12df  lea      rcx, [rip + 0x374a432]
+  0x0181bb12e6  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bb12eb  mov      rcx, qword ptr [rip + 0x374a426]
+  0x0181bb12f2  mov      byte ptr [rip + 0x3a48929], 1
+  0x0181bb12f9  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bb1300  jne      0x181bb1307
+  0x0181bb1302  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bb1307  xor      r8d, r8d
+  0x0181bb130a  mov      rdx, rsi
+  0x0181bb130d  mov      rcx, rbx
+  0x0181bb1310  call     0x183e25620      ; -> Fp::op_GreaterThan
+  0x0181bb1315  test     al, al
+  0x0181bb1317  jne      0x181bb131c
+  0x0181bb1319  mov      rbx, rsi
+  0x0181bb131c  cmp      byte ptr [rip + 0x3a54129], 0
+  0x0181bb1323  mov      qword ptr [rbp + 0x54], rbx
+  0x0181bb1327  jne      0x181bb133c
+  0x0181bb1329  lea      rcx, [rip + 0x37f6f98]
+  0x0181bb1330  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0181bb1335  mov      byte ptr [rip + 0x3a54110], 1
+  0x0181bb133c  mov      rax, qword ptr [rbp + 0x18]
+  0x0181bb1340  test     rax, rax
+  0x0181bb1343  je       0x181bb1451
+  0x0181bb1349  cmp      dword ptr [rax + 0x18], 0
+  0x0181bb134d  jle      0x181bb1451
+  0x0181bb1353  mov      rcx, qword ptr [rbp + 0x28]
+  0x0181bb1357  test     rcx, rcx
+  0x0181bb135a  je       0x181bb162b
+  0x0181bb1360  xor      r8d, r8d
+  0x0181bb1363  mov      rdx, rdi
+  0x0181bb1366  call     0x181bb0aa0      ; -> PlayerSkillChainCurSkill::Update
+  0x0181bb136b  mov      rcx, qword ptr [rbp + 0x30]
+  0x0181bb136f  test     rcx, rcx
+  0x0181bb1372  je       0x181bb162b
+  0x0181bb1378  xor      r8d, r8d
+  0x0181bb137b  mov      rdx, rdi
+  0x0181bb137e  call     0x181bb0aa0      ; -> PlayerSkillChainCurSkill::Update
+  0x0181bb1383  mov      rax, qword ptr [rbp + 0x28]
+  0x0181bb1387  test     rax, rax
+  0x0181bb138a  je       0x181bb162b
+  0x0181bb1390  cmp      dword ptr [rbp + 0x20], 0
+  0x0181bb1394  mov      rsi, qword ptr [rax + 0x10]
+  0x0181bb1398  je       0x181bb1604
+  0x0181bb139e  cmp      dword ptr [rbp + 0x20], 2
+  0x0181bb13a2  je       0x181bb1466
+  0x0181bb13a8  cmp      dword ptr [rbp + 0x20], 4
+  0x0181bb13ac  jne      0x181bb1451
+  0x0181bb13b2  mov      rcx, qword ptr [rip + 0x374a35f]
+  0x0181bb13b9  mov      rbx, qword ptr [rbp + 0x40]
+  0x0181bb13bd  cmp      dword ptr [rcx + 0xe0], 0
+  0x0181bb13c4  jne      0x181bb13cb
+  0x0181bb13c6  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bb13cb  xor      r8d, r8d
+  0x0181bb13ce  mov      rdx, rdi
+  0x0181bb13d1  mov      rcx, rbx
+  0x0181bb13d4  call     0x183e22e90      ; -> Fp::FastSub
+  0x0181bb13d9  mov      qword ptr [rbp + 0x40], rax
+  0x0181bb13dd  xor      r8d, r8d
+  0x0181bb13e0  mov      rcx, qword ptr [rip + 0x374a331]
+  0x0181bb13e7  mov      rdx, qword ptr [rcx + 0xb8]
+  0x0181bb13ee  mov      rcx, rax
+  0x0181bb13f1  mov      rdx, qword ptr [rdx + 0x54]
+  0x0181bb13f5  call     0x183e25760      ; -> Fp::op_LessThanOrEqual
+  0x0181bb13fa  test     al, al
+  0x0181bb13fc  je       0x181bb1451
+  0x0181bb13fe  mov      rax, qword ptr [rip + 0x374a313]
+  0x0181bb1405  cmp      dword ptr [rax + 0xe0], 0
+  0x0181bb140c  jne      0x181bb141d
+  0x0181bb140e  mov      rcx, rax
+  0x0181bb1411  call     0x18046fe50      ; -> sub_46FE50
+  0x0181bb1416  mov      rax, qword ptr [rip + 0x374a2fb]
+  0x0181bb141d  mov      rax, qword ptr [rax + 0xb8]
+  0x0181bb1424  xor      r8d, r8d
+  0x0181bb1427  xor      edx, edx
+  0x0181bb1429  mov      rcx, qword ptr [rax + 0x54]
+  0x0181bb142d  mov      qword ptr [rbp + 0x40], rcx
+  0x0181bb1431  mov      rcx, rbp
+  0x0181bb1434  call     0x181bb2960      ; -> PlayerSkillChain::SetStatus
+  0x0181bb1439  mov      rcx, qword ptr [rbp + 0x10]
+  0x0181bb143d  test     rcx, rcx
+  0x0181bb1440  je       0x181bb162b
+  0x0181bb1446  xor      r8d, r8d
+  0x0181bb1449  mov      rdx, rbp
+  0x0181bb144c  call     0x181bdb640      ; -> PlayerSkillMgr::NotifySkillCDZero
+  0x0181bb1451  mov      rbx, qword ptr [rsp + 0x30]
+  0x0181bb1456  mov      rbp, qword ptr [rsp + 0x38]
+  0x0181bb145b  mov      rsi, qword ptr [rsp + 0x40]
+  0x0181bb1460  add      rsp, 0x20
+  0x0181bb1464  pop      rdi
+  0x0181bb1465  ret      

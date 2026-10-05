@@ -1,0 +1,198 @@
+
+################ es.ab ################
+
+@133960  CreateBulletIfTriggerChange
+   after: .q...trigger:56271,bullet_id:10340101,bullet_action:"DAA",pos_x:1.2,pos_y:1.5,dir_x:1,dir_y:0,bullet_action_new:"DAA2"................................
+
+@173344  CreateBulletIfTriggerChange
+   after: .y...trigger:56271,bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"........................
+
+@321648  CreateBulletIfTriggerChange
+   after: .y...trigger:56271,bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2"........................
+
+@492208  CreateBulletIfTriggerChange
+   after: .m...trigger:56271,bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"....................................
+
+@504992  CreateBulletIfTriggerChange
+   after: .m...trigger:56271,bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32"....................................
+
+@528444  CreateBulletIfTriggerChange
+   after: .o...trigger:56271,bullet_id:10340101,bullet_action:"aup",pos_x:1,pos_y:1.6,dir_x:1,dir_y:0,bullet_action_new:"aup2"..................................
+
+@534464  CreateBulletIfTriggerChange
+   after: .u...trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"...........c................
+
+@535940  CreateBulletIfTriggerChange
+   after: .u...trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"...........c................
+
+@540832  CreateBulletIfTriggerChange
+   after: .m...trigger:56271,bullet_id:10340101,bullet_action:"x3",pos_x:0.5,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x32"....................................
+
+@551656  CreateBulletIfTriggerChange
+   after: .{...trigger:56271,bullet_id:10340101,bullet_action:"xup",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"xup2",tag:"es_rush"......................
+
+@39628  CreateBulletX
+   after: ...trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0............................................p.-$....SetActi
+
+@47532  CreateBulletX
+   after: ...trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0............................................p.-$....SetActi
+
+@55436  CreateBulletX
+   after: ...trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0........................................~...p.-$....SetActi
+
+@60196  CreateBulletX
+   after: ...trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0............................................SkillSetCD.....
+
+@63384  CreateBulletX
+   after: ...trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0............................................SkillSetCD.....
+
+@66168  CreateBulletX
+   after: ...trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0............................................SkillSetCD.....
+
+@84176  CreateBulletX
+   after: ...trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0.............................'.............................
+
+@251272  CreateBulletU
+   after: ...trigger:11481,bullet_id:800002,bullet_action:"leibao",pos_x:0,pos_y:0,dir_x:1,dir_y:0..............................................................
+
+@448228  CreateBulletm
+   after: ...bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1....................'.................
+
+@453296  CreateBulletm
+   after: ...bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1....................'.................
+
+@573580  CreateBullet_summon
+   after: ..................................'..........................................................................es......summon......es_summon............
+
+@574324  CreateBullet_summon
+   after: ..................................'..........................................................................es......paid_show.......es_paid_show.....
+
+@573580  CreateBullet_
+   after: summon..................................'..........................................................................es......summon......es_summon......
+
+@574324  CreateBullet_
+   after: summon..................................'..........................................................................es......paid_show.......es_paid_sho
+
+@39628  CreateBullet
+   after: X...trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0............................................p.-$....SetAct
+
+@47532  CreateBullet
+   after: X...trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0............................................p.-$....SetAct
+
+@55436  CreateBullet
+   after: X...trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0........................................~...p.-$....SetAct
+
+@60196  CreateBullet
+   after: X...trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0............................................SkillSetCD....
+
+@63384  CreateBullet
+   after: X...trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0............................................SkillSetCD....
+
+@66168  CreateBullet
+   after: X...trigger:56161,bullet_id:10340101,bullet_action:"dash",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0............................................SkillSetCD....
+
+@84176  CreateBullet
+   after: X...trigger:56161,bullet_id:10340101,bullet_action:"dashAir",pos_x:1,pos_y:0,dir_x:1,dir_y:0.............................'............................
+
+@133960  CreateBullet
+   after: IfTriggerChange.q...trigger:56271,bullet_id:10340101,bullet_action:"DAA",pos_x:1.2,pos_y:1.5,dir_x:1,dir_y:0,bullet_action_new:"DAA2".................
+
+@173344  CreateBullet
+   after: IfTriggerChange.y...trigger:56271,bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2".........
+
+@241536  CreateBullet
+   after: ]...trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0...............................................SetAct
+
+@245200  CreateBullet
+   after: ]...trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0...............................................SetAct
+
+@248900  CreateBullet
+   after: ]...trigger:11481,bullet_id:10340101,bullet_action:"fallmdownend",pos_x:0,pos_y:0,dir_x:1,dir_y:0...............................................SetAct
+
+@251272  CreateBullet
+   after: U...trigger:11481,bullet_id:800002,bullet_action:"leibao",pos_x:0,pos_y:0,dir_x:1,dir_y:0.............................................................
+
+@321648  CreateBullet
+   after: IfTriggerChange.y...trigger:56271,bullet_id:10340101,bullet_action:"attackAir",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"attackAir2".........
+
+@423168  CreateBullet
+   after: ]...trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0........33s................................8.4..rog..
+
+@431584  CreateBullet
+   after: ]...trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0........33s....................................SetAct
+
+@440136  CreateBullet
+   after: ]...trigger:56161,bullet_id:10340101,bullet_action:"dashSkill",pos_x:0,pos_y:-0.5,dir_x:1,dir_y:0........33s.....................................rog..
+
+@448228  CreateBullet
+   after: m...bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1....................'................
+
+@453296  CreateBullet
+   after: m...bullet_id:10340101,bullet_action: "AD_hit", targpos: 1, pos_x: -0.2, pos_y: 0.8, dir_x: 1, dir_y: 0, scale: 1....................'................
+
+@492208  CreateBullet
+   after: IfTriggerChange.m...trigger:56271,bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32".....................
+
+@504992  CreateBullet
+   after: IfTriggerChange.m...trigger:56271,bullet_id:10340101,bullet_action:"a3",pos_x:0.9,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"a32".....................
+
+@528444  CreateBullet
+   after: IfTriggerChange.o...trigger:56271,bullet_id:10340101,bullet_action:"aup",pos_x:1,pos_y:1.6,dir_x:1,dir_y:0,bullet_action_new:"aup2"...................
+
+@534464  CreateBullet
+   after: IfTriggerChange.u...trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"...........c.
+
+@535940  CreateBullet
+   after: IfTriggerChange.u...trigger:56061,bullet_id:10340101,bullet_action:"x1",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x2",tag:"es_x"...........c.
+
+@540832  CreateBullet
+   after: IfTriggerChange.m...trigger:56271,bullet_id:10340101,bullet_action:"x3",pos_x:0.5,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"x32".....................
+
+@551656  CreateBullet
+   after: IfTriggerChange.{...trigger:56271,bullet_id:10340101,bullet_action:"xup",pos_x:0,pos_y:0,dir_x:1,dir_y:0,bullet_action_new:"xup2",tag:"es_rush".......
+
+@573580  CreateBullet
+   after: _summon..................................'..........................................................................es......summon......es_summon.....
+
+@574324  CreateBullet
+   after: _summon..................................'..........................................................................es......paid_show.......es_paid_sh
+
+################ esbullet.ab ################
+
+@28208  CreateBullet_
+   after: ...bullet_id:10340101,bullet_action: "DAA2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271....................................................
+
+@68996  CreateBullet_
+   after: ...bullet_id:10340101,bullet_action: "aup2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271....................................................
+
+@28208  CreateBullet
+   after: _...bullet_id:10340101,bullet_action: "DAA2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271...................................................
+
+@68996  CreateBullet
+   after: _...bullet_id:10340101,bullet_action: "aup2", pos_x: 0, pos_y: 0, dir_x: 1, dir_y:0, trigger: 56271...................................................
+
+marker#0 @28  nextlen=0  nextbytes=............................................esbu
+
+marker#1 @80  nextlen=0  nextbytes=........................................R.......
+
+marker#2 @140  nextlen=4  nextbytes=....jump........................................
+
+marker#3 @1672  nextlen=1  nextbytes=....q...........................................
+
+marker#4 @2896  nextlen=12  nextbytes=....fallmdownend................................
+
+marker#5 @4404  nextlen=13  nextbytes=....attackAir2old..........................@....
+
+marker#6 @6416  nextlen=10  nextbytes=....attackAir2..................................
+
+marker#7 @8756  nextlen=9  nextbytes=....attackAir...................................
+
+marker#8 @10628  nextlen=12  nextbytes=....talentBullet................................
+
+marker#9 @12516  nextlen=8  nextbytes=....dashAir3....................................
+
+marker#10 @14012  nextlen=8  nextbytes=....dashAir2....................................
+
+marker#11 @15756  nextlen=7  nextbytes=....dashAir.....................................
+
+marker#12 @17856  nextlen=10  nextbytes=....dashSkill2..................................

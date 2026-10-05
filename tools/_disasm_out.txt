@@ -1,0 +1,208 @@
+
+==============================================================================
+=== Context.IncreaseReferenceCounter   RVA 0x4387b80
+==============================================================================
+  0x0184387b80  mov      qword ptr [rsp + 0x10], rbx
+  0x0184387b85  push     rbp
+  0x0184387b86  push     rsi
+  0x0184387b87  push     r14
+  0x0184387b89  mov      rbp, rsp
+  0x0184387b8c  sub      rsp, 0x80
+  0x0184387b93  cmp      byte ptr [rip + 0x12969df], 0
+  0x0184387b9a  mov      rsi, rcx
+  0x0184387b9d  jne      0x184387bee
+  0x0184387b9f  lea      rcx, [rip + 0xf4ee62]
+  0x0184387ba6  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0184387bab  lea      rcx, [rip + 0xf4f2be]
+  0x0184387bb2  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0184387bb7  lea      rcx, [rip + 0xff3252]
+  0x0184387bbe  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0184387bc3  lea      rcx, [rip + 0xff0e2e]
+  0x0184387bca  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0184387bcf  lea      rcx, [rip + 0x1019a52]
+  0x0184387bd6  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0184387bdb  lea      rcx, [rip + 0xf92d2e]
+  0x0184387be2  call     0x1804ff9e0      ; -> sub_4FF9E0
+  0x0184387be7  mov      byte ptr [rip + 0x129698b], 1
+  0x0184387bee  xor      r14d, r14d
+  0x0184387bf1  xor      edx, edx
+  0x0184387bf3  mov      rcx, rsi
+  0x0184387bf6  mov      qword ptr [rbp + 0x30], r14
+  0x0184387bfa  call     0x1843959c0      ; -> MaterialColorInterpolator.MaterialColorReferenceCounter::get_target
+  0x0184387bff  mov      rcx, qword ptr [rip + 0x1019a22]
+  0x0184387c06  mov      rbx, rax
+  0x0184387c09  cmp      dword ptr [rcx + 0xe0], r14d
+  0x0184387c10  jne      0x184387c17
+  0x0184387c12  call     0x18046fe50      ; -> sub_46FE50
+  0x0184387c17  xor      r8d, r8d
+  0x0184387c1a  xor      edx, edx
+  0x0184387c1c  mov      rcx, rbx
+  0x0184387c1f  call     0x1840db5f0      ; -> Object::op_Equality
+  0x0184387c24  test     al, al
+  0x0184387c26  jne      0x184387ec3
+  0x0184387c2c  movaps   xmmword ptr [rsp + 0x70], xmm6
+  0x0184387c31  xor      r8d, r8d
+  0x0184387c34  lea      rcx, [rbp - 0x50]
+  0x0184387c38  mov      rdx, rsi
+  0x0184387c3b  call     0x184387310      ; -> MaterialColorInterpolator.MaterialColorReferenceCounter::GetTargetCurrentValue
+  0x0184387c40  mov      rdx, qword ptr [rip + 0xff31c9]
+  0x0184387c47  movups   xmm6, xmmword ptr [rax]
+  0x0184387c4a  cmp      dword ptr [rdx + 0xe0], r14d
+  0x0184387c51  jne      0x184387c62
+  0x0184387c53  mov      rcx, rdx
+  0x0184387c56  call     0x18046fe50      ; -> sub_46FE50
+  0x0184387c5b  mov      rdx, qword ptr [rip + 0xff31ae]
+  0x0184387c62  mov      rax, qword ptr [rdx + 0xb8]
+  0x0184387c69  mov      rbx, qword ptr [rax]
+  0x0184387c6c  mov      rax, qword ptr [rsi + 0x28]
+  0x0184387c70  test     rax, rax
+  0x0184387c73  je       0x184387ed7
+  0x0184387c79  mov      rcx, qword ptr [rsi + 0x20]
+  0x0184387c7d  mov      r10d, dword ptr [rax + 0x28]
+  0x0184387c81  test     rcx, rcx
+  0x0184387c84  je       0x184387ed7
+  0x0184387c8a  cmp      qword ptr [rcx], rdx
+  0x0184387c8d  mov      rax, r14
+  0x0184387c90  cmove    rax, rcx
+  0x0184387c94  test     rax, rax
+  0x0184387c97  je       0x184387eef
+  0x0184387c9d  cmp      qword ptr [rcx], rdx
+  0x0184387ca0  xorps    xmm0, xmm0
+  0x0184387ca3  mov      r9, qword ptr [rip + 0xf92c66]
+  0x0184387caa  mov      r8, r14
+  0x0184387cad  cmove    r8, rcx
+  0x0184387cb1  mov      edx, r10d
+  0x0184387cb4  lea      rcx, [rbp - 0x60]
+  0x0184387cb8  mov      r8, qword ptr [r8 + 0x78]
+  0x0184387cbc  movups   xmmword ptr [rbp - 0x60], xmm0
+  0x0184387cc0  call     0x181f2ffc0      ; -> ParameterizedStrings.FormatParam::.ctor
+  0x0184387cc5  test     rbx, rbx
+  0x0184387cc8  je       0x184387ed7
+  0x0184387cce  movaps   xmm0, xmmword ptr [rbp - 0x60]
+  0x0184387cd2  lea      r8, [rbp + 0x30]
+  0x0184387cd6  mov      r9, qword ptr [rip + 0xf4f193]
+  0x0184387cdd  lea      rdx, [rbp - 0x50]
+  0x0184387ce1  mov      rcx, rbx
+  0x0184387ce4  movdqa   xmmword ptr [rbp - 0x50], xmm0
+  0x0184387ce9  call     0x182bfb180      ; -> sub_2BFB180
+  0x0184387cee  test     al, al
+  0x0184387cf0  jne      0x184387e02
+  0x0184387cf6  mov      qword ptr [rsp + 0xa0], rdi
+  0x0184387cfe  xor      edx, edx
+  0x0184387d00  mov      rcx, rsi
+  0x0184387d03  call     0x1843959c0      ; -> MaterialColorInterpolator.MaterialColorReferenceCounter::get_target
+  0x0184387d08  mov      rcx, qword ptr [rip + 0xff0ce9]
+  0x0184387d0f  mov      rbx, rax
+  0x0184387d12  call     0x1804b3780      ; -> sub_4B3780
+  0x0184387d17  xor      edx, edx
+  0x0184387d19  mov      rcx, rax
+  0x0184387d1c  mov      rdi, rax
+  0x0184387d1f  call     0x18056d4a0      ; -> ButtonWithImagesChildren::System.IDisposable.Dispose
+  0x0184387d24  xor      r8d, r8d
+  0x0184387d27  xor      edx, edx
+  0x0184387d29  mov      rcx, rbx
+  0x0184387d2c  call     0x183292ed0      ; -> GCHandle::Alloc
+  0x0184387d31  mov      qword ptr [rdi + 0x38], rax
+  0x0184387d35  mov      qword ptr [rbp + 0x30], rdi
+  0x0184387d39  movups   xmmword ptr [rdi + 0x10], xmm6
+  0x0184387d3d  mov      rcx, qword ptr [rbp + 0x30]
+  0x0184387d41  mov      rdi, qword ptr [rsp + 0xa0]
+  0x0184387d49  test     rcx, rcx
+  0x0184387d4c  je       0x184387ee3
+  0x0184387d52  inc      dword ptr [rcx + 0x30]
+  0x0184387d55  mov      rdx, qword ptr [rip + 0xff30b4]
+  0x0184387d5c  cmp      dword ptr [rdx + 0xe0], r14d
+  0x0184387d63  jne      0x184387d74
+  0x0184387d65  mov      rcx, rdx
+  0x0184387d68  call     0x18046fe50      ; -> sub_46FE50
+  0x0184387d6d  mov      rdx, qword ptr [rip + 0xff309c]
+  0x0184387d74  mov      rax, qword ptr [rdx + 0xb8]
+  0x0184387d7b  mov      rbx, qword ptr [rax]
+  0x0184387d7e  mov      rax, qword ptr [rsi + 0x28]
+  0x0184387d82  test     rax, rax
+  0x0184387d85  je       0x184387ee3
+  0x0184387d8b  mov      rcx, qword ptr [rsi + 0x20]
+  0x0184387d8f  mov      r10d, dword ptr [rax + 0x28]
+  0x0184387d93  test     rcx, rcx
+  0x0184387d96  je       0x184387ee3
+  0x0184387d9c  cmp      qword ptr [rcx], rdx
+  0x0184387d9f  mov      rax, r14
+  0x0184387da2  cmove    rax, rcx
+  0x0184387da6  test     rax, rax
+  0x0184387da9  je       0x184387edd
+  0x0184387daf  cmp      qword ptr [rcx], rdx
+  0x0184387db2  xorps    xmm0, xmm0
+  0x0184387db5  mov      r9, qword ptr [rip + 0xf92b54]
+  0x0184387dbc  mov      edx, r10d
+  0x0184387dbf  cmove    r14, rcx
+  0x0184387dc3  lea      rcx, [rbp - 0x60]
+  0x0184387dc7  mov      r8, qword ptr [r14 + 0x78]
+  0x0184387dcb  movups   xmmword ptr [rbp - 0x60], xmm0
+  0x0184387dcf  call     0x181f2ffc0      ; -> ParameterizedStrings.FormatParam::.ctor
+  0x0184387dd4  test     rbx, rbx
+  0x0184387dd7  je       0x184387ee3
+  0x0184387ddd  movaps   xmm0, xmmword ptr [rbp - 0x60]
+  0x0184387de1  lea      rdx, [rbp - 0x50]
+  0x0184387de5  mov      r9, qword ptr [rip + 0xf4ec1c]
+  0x0184387dec  mov      rcx, rbx
+  0x0184387def  mov      r8, qword ptr [rbp + 0x30]
+  0x0184387df3  movdqa   xmmword ptr [rbp - 0x50], xmm0
+  0x0184387df8  call     0x182becad0      ; -> sub_2BECAD0
+  0x0184387dfd  jmp      0x184387ebe
+  0x0184387e02  mov      rcx, qword ptr [rbp + 0x30]
+  0x0184387e06  movaps   xmmword ptr [rsp + 0x60], xmm7
+  0x0184387e0b  movaps   xmmword ptr [rsp + 0x50], xmm8
+  0x0184387e11  movaps   xmmword ptr [rsp + 0x40], xmm9
+  0x0184387e17  test     rcx, rcx
+  0x0184387e1a  je       0x184387ee9
+  0x0184387e20  cmp      dword ptr [rcx + 0x30], r14d
+  0x0184387e24  jne      0x184387ea5
+  0x0184387e26  movups   xmm1, xmmword ptr [rcx + 0x20]
+  0x0184387e2a  xor      r8d, r8d
+  0x0184387e2d  movaps   xmm7, xmm6
+  0x0184387e30  movaps   xmm8, xmm6
+  0x0184387e34  movaps   xmm9, xmm6
+  0x0184387e38  movaps   xmmword ptr [rbp - 0x60], xmm1
+  0x0184387e3c  movaps   xmm0, xmm6
+  0x0184387e3f  shufps   xmm7, xmm6, 0x55
+  0x0184387e43  shufps   xmm8, xmm6, 0xaa
+  0x0184387e48  shufps   xmm9, xmm6, 0xff
+  0x0184387e4d  call     0x1805a57f0      ; -> sub_5A57F0
+  0x0184387e52  test     al, al
+  0x0184387e54  je       0x184387e94
+  0x0184387e56  movss    xmm1, dword ptr [rbp - 0x5c]
+  0x0184387e5b  xor      r8d, r8d
+  0x0184387e5e  movaps   xmm0, xmm7
+  0x0184387e61  call     0x1805a57f0      ; -> sub_5A57F0
+  0x0184387e66  test     al, al
+  0x0184387e68  je       0x184387e94
+  0x0184387e6a  movss    xmm1, dword ptr [rbp - 0x58]
+  0x0184387e6f  xor      r8d, r8d
+  0x0184387e72  movaps   xmm0, xmm8
+  0x0184387e76  call     0x1805a57f0      ; -> sub_5A57F0
+  0x0184387e7b  test     al, al
+  0x0184387e7d  je       0x184387e94
+  0x0184387e7f  movss    xmm1, dword ptr [rbp - 0x54]
+  0x0184387e84  xor      r8d, r8d
+  0x0184387e87  movaps   xmm0, xmm9
+  0x0184387e8b  call     0x1805a57f0      ; -> sub_5A57F0
+  0x0184387e90  test     al, al
+  0x0184387e92  jne      0x184387ea1
+  0x0184387e94  mov      rax, qword ptr [rbp + 0x30]
+  0x0184387e98  test     rax, rax
+  0x0184387e9b  je       0x184387ee9
+  0x0184387e9d  movups   xmmword ptr [rax + 0x10], xmm6
+  0x0184387ea1  mov      rcx, qword ptr [rbp + 0x30]
+  0x0184387ea5  test     rcx, rcx
+  0x0184387ea8  je       0x184387ee9
+  0x0184387eaa  inc      dword ptr [rcx + 0x30]
+  0x0184387ead  movaps   xmm8, xmmword ptr [rsp + 0x50]
+  0x0184387eb3  movaps   xmm7, xmmword ptr [rsp + 0x60]
+  0x0184387eb8  movaps   xmm9, xmmword ptr [rsp + 0x40]
+  0x0184387ebe  movaps   xmm6, xmmword ptr [rsp + 0x70]
+  0x0184387ec3  mov      rbx, qword ptr [rsp + 0xa8]
+  0x0184387ecb  add      rsp, 0x80
+  0x0184387ed2  pop      r14
+  0x0184387ed4  pop      rsi
+  0x0184387ed5  pop      rbp
+  0x0184387ed6  ret      

@@ -1,0 +1,65 @@
+本地化条目 51635
+
+=== 含「高文」 (8) ===
+  5111553A  Type:Slasher「高文」
+  F476E422  Type:Slasher「高文」
+  8C2CB86A  Type:Slasher「高文」
+  F8EEC7BD  Type:Slasher「高文」
+  7D209DC8  Type:Slasher「高文」
+  2FF88D2B  Type:Slasher「高文」
+  9F05E80A  Type:Slasher「高文」
+  63353D9B  Type:Slasher「高文」
+
+=== 含「崔斯坦」 (7) ===
+  F8D1EB2E  Type:Assaulter「崔斯坦」
+  9C377A16  Type:Assaulter「崔斯坦」
+  54A87AB4  Type:Assaulter「崔斯坦」
+  B9A188AC  Type:Assaulter「崔斯坦」
+  266397FF  Type:Assaulter「崔斯坦」
+  738BA89C  Type:Assaulter「崔斯坦」
+  44E62EC7  Type:Assaulter「崔斯坦」  改
+
+=== 含「布鲁诺」 (4) ===
+  32A8826C  Type:Shooter「布鲁诺」
+  D60E1154  Type:Shooter「布鲁诺」
+  44CC6ACD  Type:Shooter「布鲁诺」
+  D80A5B7A  Type:Shooter「布鲁诺」
+
+=== 含「莫德雷德」 (10) ===
+  653C0063  Type:Slasher「莫德雷德」
+  150AB2DB  Type:Slasher「莫德雷德」
+  82E860C8  Type:Slasher「莫德雷德」
+  C8FE40D8  Type:Slasher「莫德雷德」
+  CB3D6B71  Type:Slasher「莫德雷德」
+  7CD0003E  Type:Slasher「莫德雷德」
+  DA85F4EF  Type:Slasher「莫德雷德」
+  6DC3E59C  Type:Slasher「莫德雷德」
+  FB412145  Type:Slasher「莫德雷德」
+  EA1590AD  发动时可重置<color=#3AFDFFFF>泛空中普攻类招式</color>的段数限制记数，且动作结束时可衔接<color=#3AFDFFFF> Type:Slasher「莫德雷
+
+=== 含「贝德维尔」 (4) ===
+  46D34AC3  Type:Slasher「贝德维尔」
+  E49AD43B  Type:Slasher「贝德维尔」
+  AA958B38  Type:Slasher「贝德维尔」
+  9651332E  Type:Slasher「贝德维尔」
+
+=== 含「剑气」 (39) ===
+  CD10DB23  挥砍时额外发出剑气。
+  5D53DAA0  挥砍时额外发出剑气。
+  7F3924E2  剑气伤害提升。
+  32111445  剑气伤害进一步提升。
+  0F23DE08  蓄力横劈时，会额外发出剑气。
+  718E239C  蓄力劈出剑气，攻击前方大范围内的敌人。
+  246612FF  蓄力向下劈出剑气，命中地面会产生剑波攻击前方敌人。
+  DBD4997A  可免去蓄力，瞬间劈出剑气。
+  867BC086  普攻的第三段将快速挥砍，第五段将进行强力劈砍并发射剑气。
+  71C3FB5A  斩出剑气。共3段，第3段可破霸体。
+  ADECEC20  剑气攻击范围扩大，伤害提升。
+  D35F22FC  <color=#3AFDFFFF>拔剑</color>向前方发出剑气，附带<color=#3AFDFFFF>减速</color>效果。
+  B1FB5EFE  <color=#3AFDFFFF>拔剑</color>斩击发出剑气。剑气有<color=#3AFDFFFF>减速</color>效果。
+  BA439AE6  施放<color=#3AFDFFFF>冻牙冰刃</color>后立即施放，将在剑气命中的敌人处生成冰棱。
+
+=== 含「上挑」 (3) ===
+  F2425ACB  狂暴之刃以及派生攻击中，<action=MoveY+>+长按<action=Attack>，起跳上挑斩击，攻击时进入无敌状态。
+  68EA7A77  冲刺时保持长按<action=Dash>同时按<action=MoveY+>+长按<action=Attack>将起跳上挑斩击，攻击时进入无敌状态。
+  08C6416A  使用法杖进行上挑，出招时具有短暂无敌。
